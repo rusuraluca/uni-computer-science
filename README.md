@@ -9,4 +9,4 @@
 * Algebra 1
 * Calculus 1
 * Analytic Geometry
-* Math Logic & Set Theory
+* Math Logic and Set Theory
