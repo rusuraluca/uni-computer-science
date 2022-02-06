@@ -1,8 +1,5 @@
 
-# Courses from the Computer Science and Mathematics bachelors's
-# at Faculty of Mathematics and Computer Science, Babes-Bolyai University**
-
-~~
+** Courses from the Computer Science and Mathematics bachelors's at Faculty of Mathematics and Computer Science, Babes-Bolyai University **
 
 ## 1st semester
 
@@ -11,5 +8,3 @@
 * Calculus 1
 * Analytic Geometry
 * Math Logic & Set Theory
-
-~~
