@@ -1,7 +1,5 @@
-
-### Courses from the 
-### Computer Science and Mathematics bachelors's 
-### at Faculty of Mathematics and Computer Science, Babes-Bolyai University
+### Computer Science and Mathematics Bachelors's 
+### Faculty of Mathematics and Computer Science, Babes-Bolyai University
 
 ## 1st semester
 
