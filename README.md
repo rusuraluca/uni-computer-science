@@ -1,4 +1,4 @@
-### Computer Science and Mathematics Bachelors's 
+### Computer Science and Mathematics Bachelor's 
 ### Faculty of Mathematics and Computer Science, Babes-Bolyai University
 
 ## 1st semester
