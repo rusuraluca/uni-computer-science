@@ -89,42 +89,48 @@ TElem Matrix::element(int i, int j) const {
     return temp->value;
 }
 
-// Complexity of the algorithm
-// I used the element() method
-// ⇒ O(n) +
+// Complexity of the algorithm:
 // CASE 1:  DO NOTHING
     // BC:      Θ(1)
-    //          - if the DLL list is Empty [element(i,j) takes Θ(1) + modify(i,j) takes Θ(1)]
-    // WC:      O(n), n is the number of elements in the DLL
-    //          - if the DLL list is not Empty [element(i,j) takes O(n) + modify(i,j) takes Θ(1)]
-    // AC:      O(n), n is the number of elements in the DLL
+    //          - if the DLL list is Empty
+    // WC:      Θ(n), n is the number of elements in the DLL
+    //          - if the DLL list is not Empty
+    // AC:      Θ(n), n is the number of elements in the DLL
     // TOTAL:   O(n), n is the number of elements in the DLL
 
 // CASE 2:  INSERT
     // BC:      Θ(1)
     //          -  If we insert before the head node
     //          -  If we insert after the tail node
-    // WC:      O(n), n is the number of elements in the DLL
+    // WC:      Θ(n), n is the number of elements in the DLL
     //          -  If we insert before the tail node
-    // AC:      O(n), n is the number of elements in the DLL
+    // AC:      Θ(n), n is the number of elements in the DLL
     // TOTAL:   O(n), n is the number of elements in the DLL
 
 // CASE 3:  REMOVE
     // BC:      Θ(1)
     //          -  If we delete the head node
     //          -  If we delete the tail node
-    // WC:      O(n), n is the number of elements in the DLL
+    // WC:      Θ(n), n is the number of elements in the DLL
     //          -  If we delete before the tail node
-    // AC:      O(n), n is the number of elements in the DLL
+    // AC:      Θ(n), n is the number of elements in the DLL
     // TOTAL:   O(n), n is the number of elements in the DLL
 
 // CASE 4:  CHANGE VALUE
     // BC:      Θ(1)
     //          -  If we delete the head node
     //          -  If we delete the tail node
-    // WC:      O(n), n is the number of elements in the DLL
+    // WC:      Θ(n), n is the number of elements in the DLL
     //          -  If we delete before the tail node
-    // AC:      O(n), n is the number of elements in the DLL
+    // AC:      Θ(n), n is the number of elements in the DLL
+    // TOTAL:   O(n), n is the number of elements in the DLL
+
+
+// In the algorithm I also use once the element() method,
+// therefore the complexity of the algorithm:
+    // BC:      Θ(1) + Θ(1) ⇒ Θ(1)
+    // WC:      Θ(n) + Θ(n) ⇒ Θ(n), n is the number of elements in the DLL
+    // AC:      Θ(n) + Θ(n) ⇒ Θ(n), n is the number of elements in the DLL
     // TOTAL:   O(n), n is the number of elements in the DLL
 
 TElem Matrix::modify(int i, int j, TElem new_value) {
