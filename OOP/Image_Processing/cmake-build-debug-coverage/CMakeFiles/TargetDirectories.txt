@@ -1,0 +1,3 @@
+/Users/raluca/Desktop/image_processing/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
+/Users/raluca/Desktop/image_processing/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+/Users/raluca/Desktop/image_processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir

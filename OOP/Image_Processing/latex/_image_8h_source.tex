@@ -1,0 +1,97 @@
+\hypertarget{_image_8h_source}{}\doxysection{Image.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by Raluca on 28.03.2022.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#ifndef IMAGE\_PROCESSING\_IMAGE\_H}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#define IMAGE\_PROCESSING\_IMAGE\_H}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}Utils.h"{}}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <fstream>}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <sstream>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <iomanip>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <regex>}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include <stdexcept>}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#define valid\_char(val) (unsigned char)(val <= 0 ? 0 : val >= 255 ? 255 : val)}}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 \textcolor{keyword}{using} std::cout;}
+\DoxyCodeLine{23 \textcolor{keyword}{using} std::endl;}
+\DoxyCodeLine{24 \textcolor{keyword}{using} std::string;}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{keyword}{class }\mbox{\hyperlink{class_image}{Image}} \{}
+\DoxyCodeLine{27 \textcolor{keyword}{public}:}
+\DoxyCodeLine{28     \textcolor{comment}{// Default constructor}}
+\DoxyCodeLine{29     \mbox{\hyperlink{class_image}{Image}}();}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31     \mbox{\hyperlink{class_image}{Image}}(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int});}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33     \mbox{\hyperlink{class_image}{Image}}(\textcolor{keyword}{const} Size\&);}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35     \textcolor{comment}{// Copy constructor}}
+\DoxyCodeLine{36     \mbox{\hyperlink{class_image}{Image}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_image}{Image}}\&);}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38     \textcolor{comment}{// Destructor}}
+\DoxyCodeLine{39     \mbox{\hyperlink{class_image}{\string~Image}}();}
+\DoxyCodeLine{40 }
+\DoxyCodeLine{41     \textcolor{comment}{// Copy assignment operator}}
+\DoxyCodeLine{42     \mbox{\hyperlink{class_image}{Image}}\& operator=(\textcolor{keyword}{const} \mbox{\hyperlink{class_image}{Image}}\&);}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44     \textcolor{comment}{// Getters}}
+\DoxyCodeLine{45     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} getWidth() \textcolor{keyword}{const};}
+\DoxyCodeLine{46     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} getHeight() \textcolor{keyword}{const};}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48     \textcolor{keywordtype}{bool} load(\textcolor{keyword}{const} std::string\&);}
+\DoxyCodeLine{49     \textcolor{keywordtype}{bool} save(\textcolor{keyword}{const} std::string\&);}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51     Size size() \textcolor{keyword}{const};}
+\DoxyCodeLine{52     \textcolor{keywordtype}{bool} isEmpty() \textcolor{keyword}{const};}
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} release();}
+\DoxyCodeLine{54     \textcolor{keywordtype}{void} updateMax();}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char} \&at(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int});}
+\DoxyCodeLine{57     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char} atConst(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}) \textcolor{keyword}{const};}
+\DoxyCodeLine{58     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char} \&at(Point\&);}
+\DoxyCodeLine{59     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char} *row(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61     \textcolor{comment}{// Ostream operators}}
+\DoxyCodeLine{62     \textcolor{keyword}{friend} std::ostream\& operator<<(std::ostream\&, \textcolor{keyword}{const} \mbox{\hyperlink{class_image}{Image}}\&);}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64     \textcolor{comment}{// Arithmetic operators}}
+\DoxyCodeLine{65     \mbox{\hyperlink{class_image}{Image}} operator+(\textcolor{keyword}{const} \mbox{\hyperlink{class_image}{Image}}\&);}
+\DoxyCodeLine{66     \mbox{\hyperlink{class_image}{Image}} operator-\/(\textcolor{keyword}{const} \mbox{\hyperlink{class_image}{Image}}\&);}
+\DoxyCodeLine{67     \mbox{\hyperlink{class_image}{Image}} operator*(\textcolor{keyword}{const} \mbox{\hyperlink{class_image}{Image}}\&);}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69     \mbox{\hyperlink{class_image}{Image}} operator+(\textcolor{keyword}{const} \textcolor{keywordtype}{int}\&);}
+\DoxyCodeLine{70     \mbox{\hyperlink{class_image}{Image}} operator-\/(\textcolor{keyword}{const} \textcolor{keywordtype}{int}\&);}
+\DoxyCodeLine{71     \mbox{\hyperlink{class_image}{Image}} operator*(\textcolor{keyword}{const} \textcolor{keywordtype}{int}\&);}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{73     \textcolor{comment}{// Relational operators}}
+\DoxyCodeLine{74     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator==(\textcolor{keyword}{const} \mbox{\hyperlink{class_image}{Image}}\&, \textcolor{keyword}{const} \mbox{\hyperlink{class_image}{Image}}\&);}
+\DoxyCodeLine{75     \textcolor{keyword}{friend} \textcolor{keywordtype}{bool} operator!=(\textcolor{keyword}{const} \mbox{\hyperlink{class_image}{Image}}\&, \textcolor{keyword}{const} \mbox{\hyperlink{class_image}{Image}}\&);}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77     \textcolor{keyword}{static} \mbox{\hyperlink{class_image}{Image}} zeros(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int});}
+\DoxyCodeLine{78     \textcolor{keyword}{static} \mbox{\hyperlink{class_image}{Image}} ones(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int});}
+\DoxyCodeLine{79     \textcolor{keyword}{static} \mbox{\hyperlink{class_image}{Image}} max(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int});}
+\DoxyCodeLine{80     \textcolor{keyword}{static} \mbox{\hyperlink{class_image}{Image}} generateFilled(\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int});}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82     \textcolor{keywordtype}{bool} getROI(\mbox{\hyperlink{class_image}{Image}}\&, \textcolor{keyword}{const} Rectangle\&);}
+\DoxyCodeLine{83     \textcolor{keywordtype}{bool} getROI(\mbox{\hyperlink{class_image}{Image}}\&, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int}, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int});}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85 \textcolor{keyword}{private}:}
+\DoxyCodeLine{86     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char}** i\_data; \textcolor{comment}{// 2D array containing pixel values}}
+\DoxyCodeLine{87     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} i\_width; \textcolor{comment}{// columns}}
+\DoxyCodeLine{88     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} i\_height; \textcolor{comment}{// rows}}
+\DoxyCodeLine{89     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} i\_max; \textcolor{comment}{// maximum color value}}
+\DoxyCodeLine{90 \};}
+\DoxyCodeLine{91 }
+\DoxyCodeLine{92 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// IMAGE\_PROCESSING\_IMAGE\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,11 @@
+# ninja log v5
+1	90	1650231397437649134	build.ninja	48bf1980f7cf255d
+7	1669	1649782409693325719	CMakeFiles/laboratory8_rusuraluca.dir/Domain/Date.cpp.o	271d42c4dbb1c7bb
+7	2484	1650228418712057776	CMakeFiles/laboratory8_rusuraluca.dir/main.cpp.o	6a085796f850143c
+10	2462	1650228418676443150	CMakeFiles/laboratory8_rusuraluca.dir/Interface/FilteringCriteriaAnd.cpp.o	30b697b178a0de1d
+11	2470	1650228418694401982	CMakeFiles/laboratory8_rusuraluca.dir/Interface/FilteringPrice.cpp.o	93c10faabc54d744
+11	2475	1650228418700089770	CMakeFiles/laboratory8_rusuraluca.dir/Interface/FilteringDeparture.cpp.o	5eac39985f221c59
+12	2519	1650228418748895290	CMakeFiles/laboratory8_rusuraluca.dir/Domain/Offer.cpp.o	1dc2587a0fb8e1c1
+12	2463	1650228418684801603	CMakeFiles/laboratory8_rusuraluca.dir/Interface/FilteringType.cpp.o	618c4ac9e8d0ad49
+2519	2708	1650228418941898236	laboratory8_rusuraluca	16f03f4d45f52581
+10	2468	1650228418692038650	CMakeFiles/laboratory8_rusuraluca.dir/Interface/FilteringCriteriaOr.cpp.o	fe81d15d68d127f1
