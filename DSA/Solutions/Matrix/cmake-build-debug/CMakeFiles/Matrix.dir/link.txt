@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Matrix.dir/App.cpp.o CMakeFiles/Matrix.dir/ExtendedTest.cpp.o CMakeFiles/Matrix.dir/Matrix.cpp.o CMakeFiles/Matrix.dir/ShortTest.cpp.o -o Matrix 
