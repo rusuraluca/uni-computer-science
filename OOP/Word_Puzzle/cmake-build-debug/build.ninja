@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/raluca/Desktop/WordPuzzle/cmake-build-debug/
+cmake_ninja_workdir = /Users/raluca/Desktop/university_compsci_math/OOP/Word_Puzzle/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/raluca/Desktop/WordPuzzle/cmake-build-debug && "/Users/raluca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/raluca/Desktop/WordPuzzle -B/Users/raluca/Desktop/WordPuzzle/cmake-build-debug
+  COMMAND = cd /Users/raluca/Desktop/university_compsci_math/OOP/Word_Puzzle/cmake-build-debug && "/Users/raluca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/raluca/Desktop/university_compsci_math/OOP/Word_Puzzle -B/Users/raluca/Desktop/university_compsci_math/OOP/Word_Puzzle/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/raluca/Desktop/WordPuzzle/cmake-build-debug && "/Users/raluca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/raluca/Desktop/university_compsci_math/OOP/Word_Puzzle/cmake-build-debug && "/Users/raluca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -72,7 +72,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_WordPuzzle: phony || CMakeFiles/WordPuzzle.dir
 
-build CMakeFiles/WordPuzzle.dir/main.cpp.o: CXX_COMPILER__WordPuzzle_Debug /Users/raluca/Desktop/WordPuzzle/main.cpp || cmake_object_order_depends_target_WordPuzzle
+build CMakeFiles/WordPuzzle.dir/main.cpp.o: CXX_COMPILER__WordPuzzle_Debug /Users/raluca/Desktop/university_compsci_math/OOP/Word_Puzzle/main.cpp || cmake_object_order_depends_target_WordPuzzle
   DEP_FILE = CMakeFiles/WordPuzzle.dir/main.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/WordPuzzle.dir
@@ -106,7 +106,7 @@ build WordPuzzle: CXX_EXECUTABLE_LINKER__WordPuzzle_Debug CMakeFiles/WordPuzzle.
 # =============================================================================
 
 #############################################
-# Folder: /Users/raluca/Desktop/WordPuzzle/cmake-build-debug
+# Folder: /Users/raluca/Desktop/university_compsci_math/OOP/Word_Puzzle/cmake-build-debug
 
 build all: phony WordPuzzle
 

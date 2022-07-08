@@ -8,18 +8,17 @@ using namespace std;
 
 
 void testCreate() {
-	cout << "Test Create" << endl;
+	cout << "Test create" << endl;
 	Matrix m(10, 10);
 	assert(m.nrLines() == 10);
 	assert(m.nrColumns() == 10);
 	for (int i = 0; i < m.nrLines(); i++)
-		for (int j = 0; j < m.nrColumns(); j++) {
-            assert(m.element(i, j) == NULL_TELEM);
-        }
+		for (int j = 0; j < m.nrColumns(); j++)
+			assert(m.element(i, j) == NULL_TELEM);
 }
 
 void testModify() {
-	cout << "Test Modify" << endl;
+	cout << "Test modify" << endl;
 	Matrix m(10, 10);
 	for (int j = 0; j < m.nrColumns(); j++)
 		m.modify(4, j, 3);
@@ -32,7 +31,7 @@ void testModify() {
 }
 
 void testQuantity() {
-	cout << "Test Quantity" << endl;
+	cout << "Test quantity" << endl;
 	Matrix m(200, 300);
 	for (int i = m.nrLines() / 2; i < m.nrLines(); i++) {
 		for (int j = 0; j <= m.nrColumns() / 2; j++)
@@ -79,7 +78,7 @@ void testQuantity() {
 }
 
 void testExceptions() {
-	cout << "Test Exceptions" << endl;
+	cout << "Test exceptions" << endl;
 	Matrix m(10, 10);
 	try {
 		m.element(-10, 0);
@@ -104,7 +103,7 @@ void testExceptions() {
 }
 
 void testMix() {
-	cout << "Test Mix" << endl;
+	cout << "Test mix" << endl;
 	int size = 2000;
 	Matrix m(size/2, size);
 	for (int i = 0; i < size/2; i++) {
@@ -161,7 +160,7 @@ void testMix() {
 void testAllExtended() {
 	testCreate();
 	testModify();
-    testQuantity();
+	testQuantity();
 	testMix();
 	testExceptions();
 }

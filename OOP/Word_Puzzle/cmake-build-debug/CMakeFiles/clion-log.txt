@@ -1,4 +1,4 @@
-"/Users/raluca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/raluca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/ninja/mac/ninja" -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja /Users/raluca/Desktop/WordPuzzle
+"/Users/raluca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/raluca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/ninja/mac/ninja" -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja /Users/raluca/Desktop/university_compsci_math/OOP/Word_Puzzle
 -- The C compiler identification is AppleClang 13.1.6.13160021
 -- The CXX compiler identification is AppleClang 13.1.6.13160021
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/raluca/Desktop/WordPuzzle/cmake-build-debug
+-- Build files have been written to: /Users/raluca/Desktop/university_compsci_math/OOP/Word_Puzzle/cmake-build-debug

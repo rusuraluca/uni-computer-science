@@ -35,7 +35,7 @@ typedef int TElem;
 class Matrix {
 
 private:
-    // Node of the doubly linked list
+    // Node of the DLL
     struct Node {
         // The position of the node
         int line, column;
@@ -43,7 +43,7 @@ private:
         TElem value;
         // Pointer to next node in DLL
         Node *next;
-        // Pointer to next node in DLL
+        // Pointer to prev node in DLL
         Node *prev;
     };
 
@@ -80,7 +80,7 @@ public:
     int nrColumns() const;
 
     /*
-        DESCRIPTION:    returns the value of the element from line i and column j (indexing starts from 0)
+        DESCRIPTION:    returns the value of the non-zero element from line i and column j (indexing starts from 0)
         @PRE: 	        mat ∈ MAT, 1 ≤ i ≤ nrOfLines, 1 ≤ j ≤ nrOfColumns
         @POST: 	        element ← the element from line i and column j
         THROWS:         an exception if (i,j) is not a valid position in the Matrix
@@ -89,7 +89,7 @@ public:
 	TElem element(int i, int j) const;
 
     /*
-        DESCRIPTION:    modifies the value from line i and column j
+        DESCRIPTION:    modifies the value at line i and column j
                         returns the previous value from the position
         @PRE: 	        mat ∈ MAT, 1 ≤ i ≤ nrOfLines, 1 ≤ j ≤ nrOfColumns, val ∈ TElem
         @POST: 	        the value from position (i, j) is set to val

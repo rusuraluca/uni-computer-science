@@ -1,0 +1,6 @@
+# ninja log v5
+10	1137	1653982870952123801	CMakeFiles/CrazyTaxiClasses.dir/main.cpp.o	efab5595d4cdacb4
+1	123	1653983101117948288	build.ninja	bb6c6dd8cfe77610
+3	1111	1653982946160695809	CMakeFiles/CrazyTaxiClasses.dir/Persistency/RepoTaxi.cpp.o	a58708cab35c3e30
+2	1073	1653983037090052850	CMakeFiles/CrazyTaxiClasses.dir/Domain/Taxi.cpp.o	fdffea53b27c8c21
+1073	1154	1653983037175834219	CrazyTaxiClasses	9f48ba8497f59d1

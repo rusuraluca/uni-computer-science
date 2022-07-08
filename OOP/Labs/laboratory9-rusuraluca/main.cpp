@@ -76,7 +76,7 @@ int main() {
     std::array<char, 1000> v5 = {'a', 't', 'c', 'e', 'r'};
 
     std::sort(v5.begin(), v5.end());
-    if (std::binary_search (v5.begin(), v5.end(), 'r'))
+    if (std::binary_search(v5.begin(), v5.end(), 'r'))
         std::cout << "Found!\n";
     else std::cout << "Not found.\n";
 

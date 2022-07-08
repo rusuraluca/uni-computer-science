@@ -1,0 +1,6 @@
+# ninja log v5
+2	2166	1654016792062440063	CMakeFiles/UserSubscrption.dir/Domain/Token.cpp.o	9ba8000907e27fb6
+1	2237	1654016792136044626	CMakeFiles/UserSubscrption.dir/Domain/Subscription.cpp.o	2061be86ab3878d5
+1	2256	1654016792153404565	CMakeFiles/UserSubscrption.dir/Persistency/Repo.cpp.o	662455615d12fe93
+0	2502	1654016792396689163	CMakeFiles/UserSubscrption.dir/main.cpp.o	d26e430275527e3c
+2502	2604	1654016792506668613	UserSubscrption	5b5111c85ce368d2

@@ -12,9 +12,9 @@ Matrix::Matrix(int nrLines, int nrColumns) {
     this->nrOfLines = nrLines;
     // Assign the number of columns
     this->nrOfColumns = nrColumns;
-    // Pointer to the head of the DLL (initially pointing to NIL)
+    // Pointer to the Head of the DLL (initially pointing to NIL)
     this->head = nullptr;
-    // Pointer to the tail of the DLL (initially pointing to NIL)
+    // Pointer to the Tail of the DLL (initially pointing to NIL)
     this->tail = nullptr;
 }
 
@@ -319,4 +319,3 @@ TElem Matrix::modify(int i, int j, TElem new_value) {
         return current_value;
     }
 }
-

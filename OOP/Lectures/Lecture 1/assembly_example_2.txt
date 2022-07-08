@@ -1,0 +1,63 @@
+org 100h
+
+;First, copy string_to_sort to destination (sorted_string)
+  XOR CX, CX
+  LEA SI, string_to_sort  
+  LEA DI, sorted_string  
+  MOV CL, length
+  CLD ; clear direction flag 
+
+copy_loop:
+
+  MOVSB  
+  loop copy_loop
+
+; Now we work on the copy of the initial string, because we will modify it  
+  CLD ; clear direction flag
+
+  ; Bubble sort outer loop is from 1 to length-1 
+  MOV DL, length  
+
+bubble_sort_outer_loop:
+  LEA SI, sorted_string
+  MOV CL, length  
+  DEC CL       
+
+  ; Bubble sort inner loop is from 1 to length-1 
+
+bubble_sort_inner_loop:
+
+  LODSB; bring byte in AL. SI is automatically incremented
+  MOV AH, AL
+  LODSB; bring next byte in AL. SI is automatically incremented  
+  CMP AH, AL
+  JA continue
+
+  ;If AH<AL, we must swap them
+
+  DEC SI; SI was incremented twice
+  DEC SI
+  MOV DI, SI
+  STOSB; write AL into the memory
+  MOV AL, AH           
+  STOSB; write AL into the memory  
+  INC SI 
+  INC SI
+
+continue:  
+  DEC SI
+
+  loop bubble_sort_inner_loop
+
+  DEC DL
+  CMP DL,0
+
+  JE end_loop
+  JMP bubble_sort_outer_loop
+  
+end_loop:
+  ret
+
+string_to_sort db 053h, 010h, 024h, 012h, 0ACh, 0ABh, 001h, 002h, 0F4h
+length equ $-string_to_sort
+sorted_string db 0

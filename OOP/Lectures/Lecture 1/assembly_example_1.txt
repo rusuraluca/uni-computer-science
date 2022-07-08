@@ -1,0 +1,39 @@
+; (c) E3 = (7 + 55) * (6 / 2)
+
+org 100h
+
+
+MOV AL, [c]
+MOV AH, 0 ; prepare register AX to store a BYTE.
+; The upper rank bits of AX (register AH) must be 0
+; The number to divide (6) must be on 16 bits,
+; the divider (3) must be on 8 bits
+
+
+DIV [d] ; The result of the division is on 8 bits:
+; AL stores the Quotient of the division
+; AH stores the Remainder of the division
+; We ignore the Remainder
+
+; So now we have in AL the number (6 / 2)
+
+MOV BH, [a]
+MOV BL, [b]
+
+ADD BL, BH ; Now we have in BL (7 + 55)
+
+
+MUL BL ; AL is multiplied by BL. The result of the multiplication will be in AX
+; So now we have in AX (7 + 55) * (6/2)
+
+
+; Now the final result is in AX
+
+hlt
+
+
+
+a db 7
+b db 55
+c db 6
+d db 2

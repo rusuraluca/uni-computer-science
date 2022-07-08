@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__WordPuzzle_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "/Users/raluca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/raluca/Desktop/WordPuzzle -B/Users/raluca/Desktop/WordPuzzle/cmake-build-debug
+  command = "/Users/raluca/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/raluca/Desktop/university_compsci_math/OOP/Word_Puzzle -B/Users/raluca/Desktop/university_compsci_math/OOP/Word_Puzzle/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
