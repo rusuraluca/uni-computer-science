@@ -1,0 +1,191 @@
+\hypertarget{class_vlog}{}\doxysection{Vlog Class Reference}
+\label{class_vlog}\index{Vlog@{Vlog}}
+
+
+A vlog is a recording with a certain quality of video.  
+
+
+
+
+{\ttfamily \#include $<$Vlog.\+h$>$}
+
+Inheritance diagram for Vlog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_vlog}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_vlog_a9355686a789007e41f7b02c931fa0c2a}{Vlog}} ()
+\item 
+\mbox{\hyperlink{class_vlog_ac64affcbaad7160860efc0d6faad4aca}{Vlog}} (int, const string \&, const string \&, double, const string \&, int)
+\item 
+\mbox{\hyperlink{class_vlog_aa39e02fb5a5d60e84e39d2f0d93b07c2}{Vlog}} (const \mbox{\hyperlink{class_vlog}{Vlog}} \&)
+\item 
+void \mbox{\hyperlink{class_vlog_a5388dc401fa0e236da88ae46bbb9f65d}{display}} (ostream \&os) const override
+\item 
+int \mbox{\hyperlink{class_vlog_a331e70729803b3e484ed323d4371c925}{get\+Quality}} () const
+\item 
+void \mbox{\hyperlink{class_vlog_a77c85ccca963ec06b0e805a9b4e6fd9d}{set\+Quality}} (int)
+\item 
+\mbox{\hyperlink{class_vlog_a8e53364a638c643b66f039df89af81b2}{$\sim$\+Vlog}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_vlog_a97a0bdf784fcbae58e19311f2c1d2b59}\label{class_vlog_a97a0bdf784fcbae58e19311f2c1d2b59}} 
+class {\bfseries Validator\+Vlog}
+\item 
+istream \& \mbox{\hyperlink{class_vlog_a4c52f1b3e433cb211d51651f7f204777}{operator$>$$>$}} (istream \&, \mbox{\hyperlink{class_vlog}{Vlog}} \&)
+\item 
+ostream \& \mbox{\hyperlink{class_vlog_a689e341e163e262677cf776dad484a51}{operator$<$$<$}} (ostream \&, const \mbox{\hyperlink{class_vlog}{Vlog}} \&)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A vlog is a recording with a certain quality of video. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_vlog_a9355686a789007e41f7b02c931fa0c2a}\label{class_vlog_a9355686a789007e41f7b02c931fa0c2a}} 
+\index{Vlog@{Vlog}!Vlog@{Vlog}}
+\index{Vlog@{Vlog}!Vlog@{Vlog}}
+\doxysubsubsection{\texorpdfstring{Vlog()}{Vlog()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Vlog\+::\+Vlog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor.
+
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_vlog_ac64affcbaad7160860efc0d6faad4aca}\label{class_vlog_ac64affcbaad7160860efc0d6faad4aca}} 
+\index{Vlog@{Vlog}!Vlog@{Vlog}}
+\index{Vlog@{Vlog}!Vlog@{Vlog}}
+\doxysubsubsection{\texorpdfstring{Vlog()}{Vlog()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Vlog\+::\+Vlog (\begin{DoxyParamCaption}\item[{int}]{\+\_\+id,  }\item[{const string \&}]{\+\_\+title,  }\item[{const string \&}]{\+\_\+author,  }\item[{double}]{\+\_\+length,  }\item[{const string \&}]{\+\_\+type,  }\item[{int}]{\+\_\+quality }\end{DoxyParamCaption})}
+
+Constructor with parameters. 
+\begin{DoxyParams}{Parameters}
+{\em int} & the unique id of the recording (inherited) \\
+\hline
+{\em string} & the title of the recording (inherited) \\
+\hline
+{\em string} & the author of the recording (inherited) \\
+\hline
+{\em double} & the length of the recording (inherited) \\
+\hline
+{\em string} & the type of the recording (inherited) \\
+\hline
+{\em int} & the quality of the recording \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_vlog_aa39e02fb5a5d60e84e39d2f0d93b07c2}\label{class_vlog_aa39e02fb5a5d60e84e39d2f0d93b07c2}} 
+\index{Vlog@{Vlog}!Vlog@{Vlog}}
+\index{Vlog@{Vlog}!Vlog@{Vlog}}
+\doxysubsubsection{\texorpdfstring{Vlog()}{Vlog()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Vlog\+::\+Vlog (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vlog}{Vlog}} \&}]{other }\end{DoxyParamCaption})}
+
+Copy Constructor. 
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_vlog}{Vlog}}} & another \mbox{\hyperlink{class_vlog}{Vlog}} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_vlog_a8e53364a638c643b66f039df89af81b2}\label{class_vlog_a8e53364a638c643b66f039df89af81b2}} 
+\index{Vlog@{Vlog}!````~Vlog@{$\sim$Vlog}}
+\index{````~Vlog@{$\sim$Vlog}!Vlog@{Vlog}}
+\doxysubsubsection{\texorpdfstring{$\sim$Vlog()}{~Vlog()}}
+{\footnotesize\ttfamily Vlog\+::$\sim$\+Vlog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor. \begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_vlog_a5388dc401fa0e236da88ae46bbb9f65d}\label{class_vlog_a5388dc401fa0e236da88ae46bbb9f65d}} 
+\index{Vlog@{Vlog}!display@{display}}
+\index{display@{display}!Vlog@{Vlog}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void Vlog\+::display (\begin{DoxyParamCaption}\item[{ostream \&}]{os }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Display method. 
+\begin{DoxyParams}{Parameters}
+{\em ostream} & output stream \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_recording_ad89a08102c69b11bb610711e921e6a68}{Recording}}.
+
+\mbox{\Hypertarget{class_vlog_a331e70729803b3e484ed323d4371c925}\label{class_vlog_a331e70729803b3e484ed323d4371c925}} 
+\index{Vlog@{Vlog}!getQuality@{getQuality}}
+\index{getQuality@{getQuality}!Vlog@{Vlog}}
+\doxysubsubsection{\texorpdfstring{getQuality()}{getQuality()}}
+{\footnotesize\ttfamily int Vlog\+::get\+Quality (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter for quality. \begin{DoxyReturn}{Returns}
+int\+: quality of podcast 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_vlog_a77c85ccca963ec06b0e805a9b4e6fd9d}\label{class_vlog_a77c85ccca963ec06b0e805a9b4e6fd9d}} 
+\index{Vlog@{Vlog}!setQuality@{setQuality}}
+\index{setQuality@{setQuality}!Vlog@{Vlog}}
+\doxysubsubsection{\texorpdfstring{setQuality()}{setQuality()}}
+{\footnotesize\ttfamily void Vlog\+::set\+Quality (\begin{DoxyParamCaption}\item[{int}]{\+\_\+quality }\end{DoxyParamCaption})}
+
+Setter for quality. 
+\begin{DoxyParams}{Parameters}
+{\em int} & quality of podcast \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_vlog_a689e341e163e262677cf776dad484a51}\label{class_vlog_a689e341e163e262677cf776dad484a51}} 
+\index{Vlog@{Vlog}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Vlog@{Vlog}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_vlog}{Vlog}} \&}]{vlog }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Overloading the \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} operator. 
+\begin{DoxyParams}{Parameters}
+{\em ostream} & \+: the output stream \\
+\hline
+{\em \mbox{\hyperlink{class_vlog}{Vlog}}} & \+: the vlog \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the output stream 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_vlog_a4c52f1b3e433cb211d51651f7f204777}\label{class_vlog_a4c52f1b3e433cb211d51651f7f204777}} 
+\index{Vlog@{Vlog}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Vlog@{Vlog}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{,  }\item[{\mbox{\hyperlink{class_vlog}{Vlog}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Overloading the \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>} operator. 
+\begin{DoxyParams}{Parameters}
+{\em istream} & \+: the input stream \\
+\hline
+{\em \mbox{\hyperlink{class_vlog}{Vlog}}} & \+: the vlog \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the input stream 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Domain/Vlog.\+h\item 
+Domain/Vlog.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,39 @@
+\hypertarget{_exceptions_8h_source}{}\doxysection{Exceptions.\+h}
+\label{_exceptions_8h_source}\index{Exceptions/Exceptions.h@{Exceptions/Exceptions.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{3 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }\mbox{\hyperlink{class_file_exception}{FileException}} \{}
+\DoxyCodeLine{10 \textcolor{keyword}{private}:}
+\DoxyCodeLine{11     \textcolor{keywordtype}{string} msg;}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{keyword}{public}:}
+\DoxyCodeLine{19     \mbox{\hyperlink{class_file_exception_a6ac9a888be487ac82ded1a8ba5e7fc7f}{FileException}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\& msg) :msg\{ msg \} \{\}}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{25     \textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_file_exception_a2a87f7577e63e8fc928907e0fb16e6ee}{getMsg}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{26 \};}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{32 \textcolor{keyword}{class }\mbox{\hyperlink{class_validation_exception}{ValidationException}} \{}
+\DoxyCodeLine{33 \textcolor{keyword}{private}:}
+\DoxyCodeLine{34     \textcolor{keywordtype}{string} msg;}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 \textcolor{keyword}{public}:}
+\DoxyCodeLine{42     \mbox{\hyperlink{class_validation_exception_a6acc5a332d21ffce416cc133c5cb8b5a}{ValidationException}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\& msg) :msg\{ msg \} \{\}}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{48     \textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_validation_exception_a26cfc4c7d31eeab2c7fbf190de7256e2}{getMsg}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{49 \};}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{55 \textcolor{keyword}{class }\mbox{\hyperlink{class_repo_exception}{RepoException}} \{}
+\DoxyCodeLine{56 \textcolor{keyword}{private}:}
+\DoxyCodeLine{57     \textcolor{keywordtype}{string} msg;}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \textcolor{keyword}{public}:}
+\DoxyCodeLine{65     \mbox{\hyperlink{class_repo_exception_a77ab81860d2f3ce64f300156388869fb}{RepoException}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\& msg) :msg\{ msg \} \{\}}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{71     \textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_repo_exception_a621e184eacbf5108a779d698ac9be5e3}{getMsg}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{72 \};}
+
+\end{DoxyCode}

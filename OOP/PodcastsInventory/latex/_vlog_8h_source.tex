@@ -1,0 +1,41 @@
+\hypertarget{_vlog_8h_source}{}\doxysection{Vlog.\+h}
+\label{_vlog_8h_source}\index{Domain/Vlog.h@{Domain/Vlog.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by Raluca on 08.05.2022.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}Recording.h"{}}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }\mbox{\hyperlink{class_vlog}{Vlog}}:\textcolor{keyword}{public} \mbox{\hyperlink{class_recording}{Recording}} \{}
+\DoxyCodeLine{12 \textcolor{keyword}{private}:}
+\DoxyCodeLine{13     \textcolor{keywordtype}{int} quality;}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{21     \mbox{\hyperlink{class_vlog_a9355686a789007e41f7b02c931fa0c2a}{Vlog}}();}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{33     \mbox{\hyperlink{class_vlog_a9355686a789007e41f7b02c931fa0c2a}{Vlog}}(\textcolor{keywordtype}{int}, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&, \textcolor{keywordtype}{double}, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&, \textcolor{keywordtype}{int});}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{40     \mbox{\hyperlink{class_vlog_a9355686a789007e41f7b02c931fa0c2a}{Vlog}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_vlog}{Vlog}}\&);}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_vlog_a5388dc401fa0e236da88ae46bbb9f65d}{display}}(ostream\& os) \textcolor{keyword}{const override};}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{53     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_vlog_a331e70729803b3e484ed323d4371c925}{getQuality}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{58     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_vlog_a77c85ccca963ec06b0e805a9b4e6fd9d}{setQuality}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{66     \textcolor{keyword}{friend} istream\& \mbox{\hyperlink{class_vlog_a4c52f1b3e433cb211d51651f7f204777}{operator>>}}(istream\&, \mbox{\hyperlink{class_vlog}{Vlog}}\&);}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{74     \textcolor{keyword}{friend} ostream\& \mbox{\hyperlink{class_vlog_a689e341e163e262677cf776dad484a51}{operator<<}}(ostream\&, \textcolor{keyword}{const} \mbox{\hyperlink{class_vlog}{Vlog}}\&);}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{80     \mbox{\hyperlink{class_vlog_a8e53364a638c643b66f039df89af81b2}{\string~Vlog}}();}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82     \textcolor{keyword}{friend} \textcolor{keyword}{class }\mbox{\hyperlink{class_validator_vlog}{ValidatorVlog}};}
+\DoxyCodeLine{83 \};}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{89 \textcolor{keyword}{class }\mbox{\hyperlink{class_validator_vlog}{ValidatorVlog}} \{}
+\DoxyCodeLine{90 \textcolor{keyword}{public}:}
+\DoxyCodeLine{96     \textcolor{keyword}{static} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_validator_vlog_aa960730285d3d16da412ed137bb9a74e}{validateVlog}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_vlog}{Vlog}}\&);}
+\DoxyCodeLine{97 \};}
+
+\end{DoxyCode}

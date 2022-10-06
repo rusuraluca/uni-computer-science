@@ -1,0 +1,24 @@
+\hypertarget{_service_8h_source}{}\doxysection{Service.\+h}
+\label{_service_8h_source}\index{Business/Service.h@{Business/Service.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by Raluca on 10.05.2022.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}../Domain/Recording.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}../Persistency/Repo.h"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{9 \textcolor{keyword}{using} std::vector;}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }\mbox{\hyperlink{class_service}{Service}} \{}
+\DoxyCodeLine{12 \textcolor{keyword}{private}:}
+\DoxyCodeLine{13     \mbox{\hyperlink{class_repo}{Repo<Recording>}}\& repo;}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{16     vector<Recording> getRecordingsSortedByTitle();}
+\DoxyCodeLine{17 \};}
+\DoxyCodeLine{18 }
+
+\end{DoxyCode}

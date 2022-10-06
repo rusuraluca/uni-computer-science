@@ -1,0 +1,185 @@
+\hypertarget{class_repo}{}\doxysection{Repo\texorpdfstring{$<$}{<} TElem \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_repo}\index{Repo$<$ TElem $>$@{Repo$<$ TElem $>$}}
+
+
+This is the recording repository.  
+
+
+
+
+{\ttfamily \#include $<$Repo.\+h$>$}
+
+Inheritance diagram for Repo\texorpdfstring{$<$}{<} TElem \texorpdfstring{$>$}{>}\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_repo}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_repo_ab31bb8ba6587dc14cf0cb81150bd6188}{Repo}} ()
+\item 
+virtual void \mbox{\hyperlink{class_repo_a2d5cbf7a8c2dc87cf00e6c776c81e418}{add}} (const TElem \&)
+\item 
+virtual void \mbox{\hyperlink{class_repo_a94ce5411599b5219fa5d0ed0884894b3}{remove}} (const TElem \&)
+\item 
+virtual void \mbox{\hyperlink{class_repo_ada7c18a069dce8eeba5ed002af50a033}{update}} (const TElem \&)
+\item 
+virtual const vector$<$ TElem $>$ \& \mbox{\hyperlink{class_repo_a3d06b4d25e95b72dca12974c643551c3}{get\+All}} ()
+\item 
+virtual int \mbox{\hyperlink{class_repo_af068be68e0393cf55cb9e91f6d095e2e}{size}} ()
+\item 
+ostream \& \mbox{\hyperlink{class_repo_a176a4efbec50fa9b73b7d5bd1eca6560}{display}} (ostream \&os, bool($\ast$function)(TElem))
+\item 
+void \mbox{\hyperlink{class_repo_a7167fbc9c087178dfc2a5ae93e7da3a9}{display\+By\+Length\+Lower\+Than}} (double)
+\item 
+\mbox{\hyperlink{class_repo_a2a63a36695afba28684235dafef70b01}{$\sim$\+Repo}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_repo_aa1e2c7ea0480d769ea19601329a41881}\label{class_repo_aa1e2c7ea0480d769ea19601329a41881}} 
+vector$<$ TElem $>$ {\bfseries elems}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename TElem$>$\newline
+class Repo$<$ TElem $>$}
+This is the recording repository. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_repo_ab31bb8ba6587dc14cf0cb81150bd6188}\label{class_repo_ab31bb8ba6587dc14cf0cb81150bd6188}} 
+\index{Repo$<$ TElem $>$@{Repo$<$ TElem $>$}!Repo@{Repo}}
+\index{Repo@{Repo}!Repo$<$ TElem $>$@{Repo$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{Repo()}{Repo()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+\mbox{\hyperlink{class_repo}{Repo}}$<$ TElem $>$\mbox{\hyperlink{class_repo}{\+::\+Repo}}}
+
+Default Constructor. \begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_repo_a2a63a36695afba28684235dafef70b01}\label{class_repo_a2a63a36695afba28684235dafef70b01}} 
+\index{Repo$<$ TElem $>$@{Repo$<$ TElem $>$}!````~Repo@{$\sim$Repo}}
+\index{````~Repo@{$\sim$Repo}!Repo$<$ TElem $>$@{Repo$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Repo()}{~Repo()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+\mbox{\hyperlink{class_repo}{Repo}}$<$ TElem $>$\+::$\sim$\mbox{\hyperlink{class_repo}{Repo}}}
+
+Destructor. \begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_repo_a2d5cbf7a8c2dc87cf00e6c776c81e418}\label{class_repo_a2d5cbf7a8c2dc87cf00e6c776c81e418}} 
+\index{Repo$<$ TElem $>$@{Repo$<$ TElem $>$}!add@{add}}
+\index{add@{add}!Repo$<$ TElem $>$@{Repo$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+void \mbox{\hyperlink{class_repo}{Repo}}$<$ TElem $>$\+::add (\begin{DoxyParamCaption}\item[{const TElem \&}]{elem }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Add a recording to the repository. 
+\begin{DoxyParams}{Parameters}
+{\em TElem} & \+: the element we want to add to the repository \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_file_repo_a42ab6139721f60fb119d409303f9f442}{File\+Repo$<$ Recording $>$}}, and \mbox{\hyperlink{class_file_repo_a42ab6139721f60fb119d409303f9f442}{File\+Repo$<$ TElem $>$}}.
+
+\mbox{\Hypertarget{class_repo_a176a4efbec50fa9b73b7d5bd1eca6560}\label{class_repo_a176a4efbec50fa9b73b7d5bd1eca6560}} 
+\index{Repo$<$ TElem $>$@{Repo$<$ TElem $>$}!display@{display}}
+\index{display@{display}!Repo$<$ TElem $>$@{Repo$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+ostream \& \mbox{\hyperlink{class_repo}{Repo}}$<$ TElem $>$\+::display (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{bool($\ast$)(TElem)}]{function }\end{DoxyParamCaption})}
+
+Display method -\/ displays repo recordings based on a property. 
+\begin{DoxyParams}{Parameters}
+{\em os} & \+: the ostream operator we will use to display the recording oject \\
+\hline
+{\em function} & \+: the property the recording shall fulfill in order to be eligible for display \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the recording in the way described in the function 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_repo_a7167fbc9c087178dfc2a5ae93e7da3a9}\label{class_repo_a7167fbc9c087178dfc2a5ae93e7da3a9}} 
+\index{Repo$<$ TElem $>$@{Repo$<$ TElem $>$}!displayByLengthLowerThan@{displayByLengthLowerThan}}
+\index{displayByLengthLowerThan@{displayByLengthLowerThan}!Repo$<$ TElem $>$@{Repo$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{displayByLengthLowerThan()}{displayByLengthLowerThan()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+void \mbox{\hyperlink{class_repo}{Repo}}$<$ TElem $>$\+::display\+By\+Length\+Lower\+Than (\begin{DoxyParamCaption}\item[{double}]{length }\end{DoxyParamCaption})}
+
+Displays all recordings which have the length lower than a given value. 
+\begin{DoxyParams}{Parameters}
+{\em length} & \+: the value we compare the lengths to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_repo_a3d06b4d25e95b72dca12974c643551c3}\label{class_repo_a3d06b4d25e95b72dca12974c643551c3}} 
+\index{Repo$<$ TElem $>$@{Repo$<$ TElem $>$}!getAll@{getAll}}
+\index{getAll@{getAll}!Repo$<$ TElem $>$@{Repo$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{getAll()}{getAll()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+const vector$<$ TElem $>$ \& \mbox{\hyperlink{class_repo}{Repo}}$<$ TElem $>$\+::get\+All\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Get method -\/ gets all repo recordings. \begin{DoxyReturn}{Returns}
+all repo recordings 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_file_repo_a524739addf42fb96b8ef4aaafac63114}{File\+Repo$<$ TElem $>$}}, and \mbox{\hyperlink{class_file_repo_a524739addf42fb96b8ef4aaafac63114}{File\+Repo$<$ Recording $>$}}.
+
+\mbox{\Hypertarget{class_repo_a94ce5411599b5219fa5d0ed0884894b3}\label{class_repo_a94ce5411599b5219fa5d0ed0884894b3}} 
+\index{Repo$<$ TElem $>$@{Repo$<$ TElem $>$}!remove@{remove}}
+\index{remove@{remove}!Repo$<$ TElem $>$@{Repo$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+void \mbox{\hyperlink{class_repo}{Repo}}$<$ TElem $>$\+::remove (\begin{DoxyParamCaption}\item[{const TElem \&}]{elem }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Remove a recording to the repository. 
+\begin{DoxyParams}{Parameters}
+{\em TElem} & \+: the element we want to remove to the repository \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_file_repo_a2504bbb926e9b535c5e54708a5e1ef44}{File\+Repo$<$ Recording $>$}}, and \mbox{\hyperlink{class_file_repo_a2504bbb926e9b535c5e54708a5e1ef44}{File\+Repo$<$ TElem $>$}}.
+
+\mbox{\Hypertarget{class_repo_af068be68e0393cf55cb9e91f6d095e2e}\label{class_repo_af068be68e0393cf55cb9e91f6d095e2e}} 
+\index{Repo$<$ TElem $>$@{Repo$<$ TElem $>$}!size@{size}}
+\index{size@{size}!Repo$<$ TElem $>$@{Repo$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+int \mbox{\hyperlink{class_repo}{Repo}}$<$ TElem $>$\+::size\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Computes the size of the repository. \begin{DoxyReturn}{Returns}
+the number of recordings in the repository 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_file_repo_ae63dbc2b40b54bc2e8ec8af488b143b2}{File\+Repo$<$ TElem $>$}}, and \mbox{\hyperlink{class_file_repo_ae63dbc2b40b54bc2e8ec8af488b143b2}{File\+Repo$<$ Recording $>$}}.
+
+\mbox{\Hypertarget{class_repo_ada7c18a069dce8eeba5ed002af50a033}\label{class_repo_ada7c18a069dce8eeba5ed002af50a033}} 
+\index{Repo$<$ TElem $>$@{Repo$<$ TElem $>$}!update@{update}}
+\index{update@{update}!Repo$<$ TElem $>$@{Repo$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+void \mbox{\hyperlink{class_repo}{Repo}}$<$ TElem $>$\+::update (\begin{DoxyParamCaption}\item[{const TElem \&}]{elem }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Update a recording in the repository. 
+\begin{DoxyParams}{Parameters}
+{\em TElem} & \+: the element we want to update in the repository \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_file_repo_a6253e5140f62842ce7ebf9eae3754aa9}{File\+Repo$<$ Recording $>$}}, and \mbox{\hyperlink{class_file_repo_a6253e5140f62842ce7ebf9eae3754aa9}{File\+Repo$<$ TElem $>$}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Persistency/Repo.\+h\end{DoxyCompactItemize}

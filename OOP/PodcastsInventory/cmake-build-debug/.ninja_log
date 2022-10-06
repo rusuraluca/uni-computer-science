@@ -1,0 +1,24 @@
+# ninja log v5
+2	1660	1651995904551780611	CMakeFiles/PodcastsInventory.dir/UI/UI.cpp.o	8993394debaf64d2
+3	3114	1651993772317341822	CMakeFiles/PodcastsInventory.dir/main.cpp.o	c1ec09912e0315d8
+978	1067	1651963413228733964	untitled	bfd99ece043c9d5c
+4	2644	1651993771852196802	CMakeFiles/PodcastsInventory.dir/Domain/Recording.cpp.o	84e7a1950811adb
+1661	1785	1651995904681125513	PodcastsInventory	7f379071f11e7883
+4	1721	1651953177906538709	CMakeFiles/untitled.dir/Domain/Recording.cpp.o	8aebefb531e1da9f
+11	153	1652002441069462886	build.ninja	ceba319f0e104180
+7	6293	1651946009803182700	CMakeFiles/untitled.dir/Controller/RepoController.cpp.o	5ae5b3610f7ff21d
+5	2513	1651993771718426561	CMakeFiles/PodcastsInventory.dir/Domain/Vlog.cpp.o	1071fe2e881a0dae
+6	2684	1651993771893112075	CMakeFiles/PodcastsInventory.dir/Controller/Controller.cpp.o	90bfffa72fe58e8c
+4	2623	1651963148157872028	CMakeFiles/untitled.dir/main.cpp.o	f5dd64694461edc9
+0	804	1651989137365194609	CMakeFiles/PodcastsInventory.dir/Exceptions/Exceptions.cpp.o	91d99bb6824c8c41
+6	2657	1651993771862302043	CMakeFiles/PodcastsInventory.dir/Persistency/FileRepo.cpp.o	7d4b7cf77272e75
+5	3760	1651946007270316534	CMakeFiles/untitled.dir/Exceptions/Exceptions.cpp.o	97e3d8dd8a846c7a
+6	2131	1651963147657167626	CMakeFiles/untitled.dir/Controller/Controller.cpp.o	496d366c96a260c0
+4	3169	1651993772378587471	CMakeFiles/PodcastsInventory.dir/Tests/Tests.cpp.o	54ea419bcfc812a8
+0	886	1651989137447310597	CMakeFiles/PodcastsInventory.dir/Persistency/Repo.cpp.o	91f3092187e5f93f
+5	2162	1651963147686863460	CMakeFiles/untitled.dir/Persistency/FileRepo.cpp.o	139245fc5781e99d
+5	1214	1651963146748594357	CMakeFiles/untitled.dir/Persistency/Repo.cpp.o	1ba76b6000a35ed2
+9	1531	1651957512486014842	CMakeFiles/untitled.dir/Controller/Service.cpp.o	bd25b738556723cb
+2	978	1651963413135991712	CMakeFiles/untitled.dir/Tests/Tests.cpp.o	9b44ab6f65d1e008
+2	1326	1651963197467755209	CMakeFiles/untitled.dir/UI/UI.cpp.o	73c6d74d62deb710
+5	2477	1651993771674105096	CMakeFiles/PodcastsInventory.dir/Domain/Podcast.cpp.o	ae2a43ffc2292427

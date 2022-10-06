@@ -1,0 +1,116 @@
+\hypertarget{_file_repo_8h_source}{}\doxysection{File\+Repo.\+h}
+\label{_file_repo_8h_source}\index{Persistency/FileRepo.h@{Persistency/FileRepo.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}Repo.h"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}../Domain/Recording.h"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <fstream>}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{using} std::string;}
+\DoxyCodeLine{8 \textcolor{keyword}{using} std::ifstream;}
+\DoxyCodeLine{9 \textcolor{keyword}{using} std::ofstream;}
+\DoxyCodeLine{10 \textcolor{keyword}{template} <\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{16 \textcolor{keyword}{class }\mbox{\hyperlink{class_file_repo}{FileRepo}}:\textcolor{keyword}{public} \mbox{\hyperlink{class_repo}{Repo}}<TElem> \{}
+\DoxyCodeLine{17 \textcolor{keyword}{private}:}
+\DoxyCodeLine{18     \textcolor{keywordtype}{string} filepath;}
+\DoxyCodeLine{22     \textcolor{keywordtype}{void} read();}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} save();}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{keyword}{public}:}
+\DoxyCodeLine{34     \mbox{\hyperlink{class_file_repo_a1f738490bfe220cd5570a4efbec5efd2}{FileRepo}}()\{\};}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{41     \mbox{\hyperlink{class_file_repo_aae2ebbe627a73113b4c59846aa18f727}{FileRepo}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\&);}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_file_repo_a42ab6139721f60fb119d409303f9f442}{add}}(\textcolor{keyword}{const} TElem\&) \textcolor{keyword}{override};}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_file_repo_a2504bbb926e9b535c5e54708a5e1ef44}{remove}}(\textcolor{keyword}{const} TElem\&) \textcolor{keyword}{override};}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{59     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_file_repo_a6253e5140f62842ce7ebf9eae3754aa9}{update}}(\textcolor{keyword}{const} TElem\&) \textcolor{keyword}{override};}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{65     \textcolor{keyword}{const} vector<TElem>\& \mbox{\hyperlink{class_file_repo_a524739addf42fb96b8ef4aaafac63114}{getAll}}() \textcolor{keyword}{override};}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{71     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_file_repo_ae63dbc2b40b54bc2e8ec8af488b143b2}{size}}() \textcolor{keyword}{override};}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{77     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_file_repo_a6eee5047ba378f725e04331e50cc6a56}{displayByLengthLowerThan}}(\textcolor{keywordtype}{double});}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{83     \mbox{\hyperlink{class_file_repo_a0ac51badfb7698e38a96498e2ed66d8f}{\string~FileRepo}}();}
+\DoxyCodeLine{84 \};}
+\DoxyCodeLine{85 }
+\DoxyCodeLine{86 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{87 \mbox{\hyperlink{class_file_repo_a1f738490bfe220cd5570a4efbec5efd2}{FileRepo<TElem>::FileRepo}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string} \&\_filepath):\mbox{\hyperlink{class_repo}{Repo}}<TElem>(),filepath\{\_filepath\} \{\}}
+\DoxyCodeLine{88 }
+\DoxyCodeLine{89 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{90 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_file_repo_a42ab6139721f60fb119d409303f9f442}{FileRepo<TElem>::add}}(\textcolor{keyword}{const} TElem \&elem) \{}
+\DoxyCodeLine{91     this-\/>read();}
+\DoxyCodeLine{92     \mbox{\hyperlink{class_repo_a2d5cbf7a8c2dc87cf00e6c776c81e418}{Repo<TElem>::add}}(elem);}
+\DoxyCodeLine{93     this-\/>save();}
+\DoxyCodeLine{94 \}}
+\DoxyCodeLine{95 }
+\DoxyCodeLine{96 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{97 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_file_repo}{FileRepo<TElem>::read}}() \{}
+\DoxyCodeLine{98     ifstream ifs\{this-\/>filepath\};}
+\DoxyCodeLine{99     this-\/>elems.clear();}
+\DoxyCodeLine{100 }
+\DoxyCodeLine{101     \textcolor{keywordflow}{if} (!ifs.is\_open())}
+\DoxyCodeLine{102         \textcolor{keywordflow}{throw} \mbox{\hyperlink{class_file_exception}{FileException}}(\textcolor{stringliteral}{"{}File can't be opened!\(\backslash\)n"{}});}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{104     TElem r;}
+\DoxyCodeLine{105     \textcolor{keywordflow}{while}(ifs >> r)\{}
+\DoxyCodeLine{106         this-\/>elems.push\_back(r);}
+\DoxyCodeLine{107     \}}
+\DoxyCodeLine{108 }
+\DoxyCodeLine{109     ifs.close();}
+\DoxyCodeLine{110 \}}
+\DoxyCodeLine{111 }
+\DoxyCodeLine{112 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{113 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_file_repo}{FileRepo<TElem>::save}}() \{}
+\DoxyCodeLine{114     ofstream ofs\{this-\/>filepath\};}
+\DoxyCodeLine{115 }
+\DoxyCodeLine{116     std::for\_each(this-\/>elems.begin(),this-\/>elems.end(),[\&](\textcolor{keyword}{const} \textcolor{keyword}{auto}\& x)\{}
+\DoxyCodeLine{117         ofs << x << endl;}
+\DoxyCodeLine{118     \});}
+\DoxyCodeLine{119 }
+\DoxyCodeLine{120     ofs.close();}
+\DoxyCodeLine{121 \}}
+\DoxyCodeLine{122 }
+\DoxyCodeLine{123 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{124 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_file_repo_a6253e5140f62842ce7ebf9eae3754aa9}{FileRepo<TElem>::update}}(\textcolor{keyword}{const} TElem \&elem) \{}
+\DoxyCodeLine{125     this-\/>read();}
+\DoxyCodeLine{126     \mbox{\hyperlink{class_repo_ada7c18a069dce8eeba5ed002af50a033}{Repo<TElem>::update}}(elem);}
+\DoxyCodeLine{127     this-\/>save();}
+\DoxyCodeLine{128 \}}
+\DoxyCodeLine{129 }
+\DoxyCodeLine{130 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{131 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_file_repo_a2504bbb926e9b535c5e54708a5e1ef44}{FileRepo<TElem>::remove}}(\textcolor{keyword}{const} TElem \&elem) \{}
+\DoxyCodeLine{132     this-\/>read();}
+\DoxyCodeLine{133     \mbox{\hyperlink{class_repo_a94ce5411599b5219fa5d0ed0884894b3}{Repo<TElem>::remove}}(elem);}
+\DoxyCodeLine{134     this-\/>save();}
+\DoxyCodeLine{135 \}}
+\DoxyCodeLine{136 }
+\DoxyCodeLine{137 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{138 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_file_repo_a6eee5047ba378f725e04331e50cc6a56}{FileRepo<TElem>::displayByLengthLowerThan}}(\textcolor{keywordtype}{double} length) \{}
+\DoxyCodeLine{139     this-\/>read();}
+\DoxyCodeLine{140     \mbox{\hyperlink{class_repo_a7167fbc9c087178dfc2a5ae93e7da3a9}{Repo<TElem>::displayByLengthLowerThan}}(length);}
+\DoxyCodeLine{141 \}}
+\DoxyCodeLine{142 }
+\DoxyCodeLine{143 }
+\DoxyCodeLine{144 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{145 \textcolor{keyword}{const} vector<TElem> \&\mbox{\hyperlink{class_file_repo_a524739addf42fb96b8ef4aaafac63114}{FileRepo<TElem>::getAll}}() \{}
+\DoxyCodeLine{146     this-\/>read();}
+\DoxyCodeLine{147     \textcolor{keywordflow}{return} \mbox{\hyperlink{class_repo_a3d06b4d25e95b72dca12974c643551c3}{Repo<TElem>::getAll}}();}
+\DoxyCodeLine{148 \}}
+\DoxyCodeLine{149 }
+\DoxyCodeLine{150 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{151 \textcolor{keywordtype}{int} \mbox{\hyperlink{class_file_repo_ae63dbc2b40b54bc2e8ec8af488b143b2}{FileRepo<TElem>::size}}() \{}
+\DoxyCodeLine{152     this-\/>read();}
+\DoxyCodeLine{153     \textcolor{keywordflow}{return} \mbox{\hyperlink{class_repo_af068be68e0393cf55cb9e91f6d095e2e}{Repo<TElem>::size}}();}
+\DoxyCodeLine{154 \}}
+\DoxyCodeLine{155 }
+\DoxyCodeLine{156 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{157 \mbox{\hyperlink{class_file_repo_a0ac51badfb7698e38a96498e2ed66d8f}{FileRepo<TElem>::\string~FileRepo}}() \{\}}
+
+\end{DoxyCode}

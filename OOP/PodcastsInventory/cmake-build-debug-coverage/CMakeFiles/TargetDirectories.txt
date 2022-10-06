@@ -1,0 +1,3 @@
+/Users/raluca/Desktop/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
+/Users/raluca/Desktop/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+/Users/raluca/Desktop/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventory.dir

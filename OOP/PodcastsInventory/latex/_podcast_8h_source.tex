@@ -1,0 +1,41 @@
+\hypertarget{_podcast_8h_source}{}\doxysection{Podcast.\+h}
+\label{_podcast_8h_source}\index{Domain/Podcast.h@{Domain/Podcast.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by Raluca on 08.05.2022.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}Recording.h"{}}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{11 \textcolor{keyword}{class }\mbox{\hyperlink{class_podcast}{Podcast}}:\textcolor{keyword}{public} \mbox{\hyperlink{class_recording}{Recording}} \{}
+\DoxyCodeLine{12 \textcolor{keyword}{private}:}
+\DoxyCodeLine{13     \textcolor{keywordtype}{int} maxSpeed;}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{21     \mbox{\hyperlink{class_podcast_a3fab2bb2964bb44edcd62a155dff018e}{Podcast}}();}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{33     \mbox{\hyperlink{class_podcast_a3fab2bb2964bb44edcd62a155dff018e}{Podcast}}(\textcolor{keywordtype}{int}, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&, \textcolor{keywordtype}{double}, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&, \textcolor{keywordtype}{int});}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{40     \mbox{\hyperlink{class_podcast_a3fab2bb2964bb44edcd62a155dff018e}{Podcast}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_podcast}{Podcast}}\&);}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_podcast_ac3f576f478a6a2e4a0fd609a59e05817}{display}}(ostream\& os) \textcolor{keyword}{const override};}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{53     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_podcast_a9a3457fc7411df1700d32ed90dab97b6}{getMaxSpeed}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{58     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_podcast_a741f2d0c4391451a58f8ee32c4304dc6}{setMaxSpeed}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{66     \textcolor{keyword}{friend} istream\& \mbox{\hyperlink{class_podcast_a17c3dad580a775d427acded7b5eff72c}{operator>>}}(istream\&, \mbox{\hyperlink{class_podcast}{Podcast}}\&);}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{74     \textcolor{keyword}{friend} ostream\& \mbox{\hyperlink{class_podcast_a0f7f431f451b40e7d7daaa7872573730}{operator<<}}(ostream\&, \textcolor{keyword}{const} \mbox{\hyperlink{class_podcast}{Podcast}}\&);}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{80     \mbox{\hyperlink{class_podcast_ac847543ab37f90ef288bf19431ec0bf4}{\string~Podcast}}();}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82     \textcolor{keyword}{friend} \textcolor{keyword}{class }\mbox{\hyperlink{class_validator_podcast}{ValidatorPodcast}};}
+\DoxyCodeLine{83 \};}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{89 \textcolor{keyword}{class }\mbox{\hyperlink{class_validator_podcast}{ValidatorPodcast}} \{}
+\DoxyCodeLine{90 \textcolor{keyword}{public}:}
+\DoxyCodeLine{96     \textcolor{keyword}{static} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_validator_podcast_a8d4988321ef4a2f772106fc9eb5b0ddc}{validatePodcast}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_podcast}{Podcast}}\&);}
+\DoxyCodeLine{97 \};}
+
+\end{DoxyCode}

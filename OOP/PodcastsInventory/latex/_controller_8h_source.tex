@@ -1,0 +1,121 @@
+\hypertarget{_controller_8h_source}{}\doxysection{Controller.\+h}
+\label{_controller_8h_source}\index{Controller/Controller.h@{Controller/Controller.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by Raluca on 07.05.2022.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}../Persistency/FileRepo.h"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <stack>}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{enum class} ActionType \{}
+\DoxyCodeLine{9     ADD,}
+\DoxyCodeLine{10     REMOVE}
+\DoxyCodeLine{11 \};}
+\DoxyCodeLine{12 \textcolor{keyword}{template} <\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{18 \textcolor{keyword}{class }\mbox{\hyperlink{class_controller}{Controller}}\{}
+\DoxyCodeLine{19 \textcolor{keyword}{private}:}
+\DoxyCodeLine{20     \mbox{\hyperlink{class_file_repo}{FileRepo<TElem>}} ctrl;}
+\DoxyCodeLine{21     std::stack<std::pair<ActionType, TElem>> undoStack;}
+\DoxyCodeLine{22     std::stack<std::pair<ActionType, TElem>> redoStack;}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24 \textcolor{keyword}{public}:}
+\DoxyCodeLine{30     \mbox{\hyperlink{class_controller_a3e089f20f2bae883f619c7f90a357eec}{Controller}}(\mbox{\hyperlink{class_file_repo}{FileRepo<TElem>}}\&);}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{36     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_a062f1c75b04064c8a924b314c65d1a7f}{add}}(\textcolor{keyword}{const} TElem\&);}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{42     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_ad1200a1f2e3814f5f81193d0b63c66c3}{remove}}(\textcolor{keyword}{const} TElem\&);}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{48     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_a561681e57233f90e222fcf4fbff77830}{update}}(\textcolor{keyword}{const} TElem\&);}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{54     \textcolor{keyword}{virtual} \textcolor{keyword}{const} vector<TElem>\& \mbox{\hyperlink{class_controller_af206422db156e80e8945a48606fbb389}{getAll}}();}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{60     \textcolor{keyword}{virtual} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_controller_a4c7e917a9eee0dca094926ec66673431}{size}}();}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{66     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_a1aae892911a668e88177c1cc5ec2b321}{displayByLengthLowerThan}}(\textcolor{keywordtype}{double});}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{73     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_a45a8d2d707e89adeff269448feb8583f}{undo}}();}
+\DoxyCodeLine{74 }
+\DoxyCodeLine{80     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_adaba73af77816d63f1f96ec0a67cb57c}{redo}}();}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{86     \mbox{\hyperlink{class_controller_a5ff2a1daf4c980a9101e29dbc95d08e0}{\string~Controller}}();}
+\DoxyCodeLine{87 \};}
+\DoxyCodeLine{88 }
+\DoxyCodeLine{89 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{90 \mbox{\hyperlink{class_controller_a3e089f20f2bae883f619c7f90a357eec}{Controller<TElem>::Controller}}(\mbox{\hyperlink{class_file_repo}{FileRepo<TElem>}}\& repo) \{}
+\DoxyCodeLine{91     this-\/>ctrl = repo;}
+\DoxyCodeLine{92 \}}
+\DoxyCodeLine{93 }
+\DoxyCodeLine{94 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{95 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_a062f1c75b04064c8a924b314c65d1a7f}{Controller<TElem>::add}}(\textcolor{keyword}{const} TElem\& elem) \{}
+\DoxyCodeLine{96     \mbox{\hyperlink{class_validator_recording_a6f668e34194228103c11a142da409bc6}{ValidatorRecording::validateRecording}}(elem);}
+\DoxyCodeLine{97     this-\/>ctrl.add(elem);}
+\DoxyCodeLine{98     undoStack.push(std::make\_pair(ActionType::ADD, elem));}
+\DoxyCodeLine{99 \}}
+\DoxyCodeLine{100 }
+\DoxyCodeLine{101 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{102 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_a561681e57233f90e222fcf4fbff77830}{Controller<TElem>::update}}(\textcolor{keyword}{const} TElem\& elem) \{}
+\DoxyCodeLine{103     \mbox{\hyperlink{class_validator_recording_a6f668e34194228103c11a142da409bc6}{ValidatorRecording::validateRecording}}(elem);}
+\DoxyCodeLine{104     this-\/>ctrl.update(elem);}
+\DoxyCodeLine{105     undoStack.push(std::make\_pair(ActionType::ADD, elem));}
+\DoxyCodeLine{106 \}}
+\DoxyCodeLine{107 }
+\DoxyCodeLine{108 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{109 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_ad1200a1f2e3814f5f81193d0b63c66c3}{Controller<TElem>::remove}}(\textcolor{keyword}{const} TElem \&elem) \{}
+\DoxyCodeLine{110     \mbox{\hyperlink{class_validator_recording_a6f668e34194228103c11a142da409bc6}{ValidatorRecording::validateRecording}}(elem);}
+\DoxyCodeLine{111     \textcolor{keywordtype}{int} size = this-\/>ctrl.size();}
+\DoxyCodeLine{112     this-\/>ctrl.remove(elem);}
+\DoxyCodeLine{113     \textcolor{keywordflow}{if}(this-\/>ctrl.size() == size-\/1)\{}
+\DoxyCodeLine{114         undoStack.push(std::make\_pair(ActionType::REMOVE, elem));}
+\DoxyCodeLine{115     \}}
+\DoxyCodeLine{116 \}}
+\DoxyCodeLine{117 }
+\DoxyCodeLine{118 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{119 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_a1aae892911a668e88177c1cc5ec2b321}{Controller<TElem>::displayByLengthLowerThan}}(\textcolor{keywordtype}{double} length) \{}
+\DoxyCodeLine{120     \textcolor{keywordflow}{return} this-\/>ctrl.displayByLengthLowerThan(length);}
+\DoxyCodeLine{121 \}}
+\DoxyCodeLine{122 }
+\DoxyCodeLine{123 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{124 \textcolor{keyword}{const} vector<TElem> \&\mbox{\hyperlink{class_controller_af206422db156e80e8945a48606fbb389}{Controller<TElem>::getAll}}() \{}
+\DoxyCodeLine{125     \textcolor{keywordflow}{return} this-\/>ctrl.getAll();}
+\DoxyCodeLine{126 \}}
+\DoxyCodeLine{127 }
+\DoxyCodeLine{128 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{129 \textcolor{keywordtype}{int} \mbox{\hyperlink{class_controller_a4c7e917a9eee0dca094926ec66673431}{Controller<TElem>::size}}() \{}
+\DoxyCodeLine{130     \textcolor{keywordflow}{return} this-\/>ctrl.size();}
+\DoxyCodeLine{131 \}}
+\DoxyCodeLine{132 }
+\DoxyCodeLine{133 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{134 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_a45a8d2d707e89adeff269448feb8583f}{Controller<TElem>::undo}}() \{}
+\DoxyCodeLine{148     \textcolor{keywordflow}{if} (this-\/>undoStack.top().first == ActionType::ADD) \{}
+\DoxyCodeLine{150         this-\/>redoStack.push(std::make\_pair(ActionType::ADD, this-\/>undoStack.top().second));}
+\DoxyCodeLine{152         this-\/>undoStack.pop();}
+\DoxyCodeLine{154         this-\/>ctrl.remove(this-\/>redoStack.top().second);}
+\DoxyCodeLine{155     \}}
+\DoxyCodeLine{157     \textcolor{keywordflow}{if} (this-\/>undoStack.top().first == ActionType::REMOVE) \{}
+\DoxyCodeLine{159         this-\/>redoStack.push(std::make\_pair(ActionType::REMOVE, this-\/>undoStack.top().second));}
+\DoxyCodeLine{161         this-\/>undoStack.pop();}
+\DoxyCodeLine{163         this-\/>ctrl.add(this-\/>redoStack.top().second);}
+\DoxyCodeLine{164     \}}
+\DoxyCodeLine{165 \}}
+\DoxyCodeLine{166 }
+\DoxyCodeLine{167 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{168 \textcolor{keywordtype}{void} \mbox{\hyperlink{class_controller_adaba73af77816d63f1f96ec0a67cb57c}{Controller<TElem>::redo}}() \{}
+\DoxyCodeLine{182     \textcolor{keywordflow}{if} (this-\/>redoStack.top().first == ActionType::ADD) \{}
+\DoxyCodeLine{184         this-\/>undoStack.push(std::make\_pair(ActionType::ADD, this-\/>redoStack.top().second));}
+\DoxyCodeLine{186         this-\/>redoStack.pop();}
+\DoxyCodeLine{188         this-\/>ctrl.add(this-\/>undoStack.top().second);}
+\DoxyCodeLine{189     \}}
+\DoxyCodeLine{191     \textcolor{keywordflow}{if} (this-\/>redoStack.top().first == ActionType::REMOVE) \{}
+\DoxyCodeLine{193         this-\/>undoStack.push(std::make\_pair(ActionType::REMOVE, this-\/>redoStack.top().second));}
+\DoxyCodeLine{195         this-\/>redoStack.pop();}
+\DoxyCodeLine{197         this-\/>ctrl.remove(this-\/>undoStack.top().second);}
+\DoxyCodeLine{198     \}}
+\DoxyCodeLine{199 \}}
+\DoxyCodeLine{200 }
+\DoxyCodeLine{201 \textcolor{keyword}{template}<\textcolor{keyword}{typename} TElem>}
+\DoxyCodeLine{202 \mbox{\hyperlink{class_controller_a5ff2a1daf4c980a9101e29dbc95d08e0}{Controller<TElem>::\string~Controller}}() \{\}}
+
+\end{DoxyCode}

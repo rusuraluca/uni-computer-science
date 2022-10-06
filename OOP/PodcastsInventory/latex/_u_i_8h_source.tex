@@ -1,0 +1,40 @@
+\hypertarget{_u_i_8h_source}{}\doxysection{UI.\+h}
+\label{_u_i_8h_source}\index{UI/UI.h@{UI/UI.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by Raluca on 07.05.2022.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}../Controller/Controller.h"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <exception>}}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{14 \textcolor{keyword}{class }\mbox{\hyperlink{class_u_i}{UI}} \{}
+\DoxyCodeLine{15 \textcolor{keyword}{private}:}
+\DoxyCodeLine{16     \mbox{\hyperlink{class_controller}{Controller<Recording>}} ctrl;}
+\DoxyCodeLine{17 \textcolor{keyword}{public}:}
+\DoxyCodeLine{18     \mbox{\hyperlink{class_u_i}{UI}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_controller}{Controller<Recording>}} \&ctrl) : ctrl\{ctrl\} \{\};}
+\DoxyCodeLine{19     \mbox{\hyperlink{class_u_i}{\string~UI}}()\{\};}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     \textcolor{keywordtype}{void} runApplication();}
+\DoxyCodeLine{22     \textcolor{keywordtype}{void} runAdminMode();}
+\DoxyCodeLine{23     \textcolor{keywordtype}{void} runUserMode();}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{keyword}{private}:}
+\DoxyCodeLine{26     \textcolor{keyword}{static} \textcolor{keywordtype}{void} printMenu();}
+\DoxyCodeLine{27     \textcolor{keyword}{static} \textcolor{keywordtype}{void} printMenuAdmin();}
+\DoxyCodeLine{28     \textcolor{keyword}{static} \textcolor{keywordtype}{void} printMenuUser();}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30     \textcolor{keywordtype}{void} add();}
+\DoxyCodeLine{31     \textcolor{keywordtype}{void} remove();}
+\DoxyCodeLine{32     \textcolor{keywordtype}{void} update();}
+\DoxyCodeLine{33     \textcolor{keywordtype}{void} getAll();}
+\DoxyCodeLine{34     \textcolor{keywordtype}{void} size();}
+\DoxyCodeLine{35     \textcolor{keywordtype}{void} displayByLengthLowerThan();}
+\DoxyCodeLine{36     \textcolor{keywordtype}{void} undo();}
+\DoxyCodeLine{37     \textcolor{keywordtype}{void} redo();}
+\DoxyCodeLine{38 \};}
+
+\end{DoxyCode}

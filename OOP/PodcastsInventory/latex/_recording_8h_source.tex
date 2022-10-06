@@ -1,0 +1,68 @@
+\hypertarget{_recording_8h_source}{}\doxysection{Recording.\+h}
+\label{_recording_8h_source}\index{Domain/Recording.h@{Domain/Recording.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}../Exceptions/Exceptions.h"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <ostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <istream>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <iomanip>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <cctype>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <sstream>}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{keyword}{using} std::string;}
+\DoxyCodeLine{14 \textcolor{keyword}{using} std::ostream;}
+\DoxyCodeLine{15 \textcolor{keyword}{using} std::istream;}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{21 \textcolor{keyword}{class }\mbox{\hyperlink{class_recording}{Recording}} \{}
+\DoxyCodeLine{22 \textcolor{keyword}{private}:}
+\DoxyCodeLine{23     \textcolor{keywordtype}{int} id;}
+\DoxyCodeLine{24     \textcolor{keywordtype}{string} title;}
+\DoxyCodeLine{25     \textcolor{keywordtype}{string} author;}
+\DoxyCodeLine{26     \textcolor{keywordtype}{double} length;}
+\DoxyCodeLine{27     \textcolor{keywordtype}{string} type;}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{keyword}{public}:}
+\DoxyCodeLine{34     \mbox{\hyperlink{class_recording_a270f855f9547078427135d75854cd7c6}{Recording}}();}
+\DoxyCodeLine{44     \mbox{\hyperlink{class_recording_a270f855f9547078427135d75854cd7c6}{Recording}}(\textcolor{keywordtype}{int}, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&, \textcolor{keywordtype}{double}, \textcolor{keyword}{const} \textcolor{keywordtype}{string}\&);}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{51     \mbox{\hyperlink{class_recording_a270f855f9547078427135d75854cd7c6}{Recording}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_recording}{Recording}}\&);}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{58     \mbox{\hyperlink{class_recording}{Recording}}\& \mbox{\hyperlink{class_recording_a87f9abd25d012b8016e1734ce757a6c3}{operator=}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_recording}{Recording}}\&);}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{65     \textcolor{keywordtype}{void} \textcolor{keyword}{virtual} \mbox{\hyperlink{class_recording_ad89a08102c69b11bb610711e921e6a68}{display}}(ostream\&) \textcolor{keyword}{const};}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{71     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_recording_a9d8616c022bbc5a92ef495ecfced95ce}{getId}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{76     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_recording_aad167924d7272aa097742c34ff3882a6}{setId}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{81     \textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_recording_a00a74a546197c03bcd55b160a8a00165}{getTitle}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{86     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_recording_a357640a8ca1b283275bd357307044125}{setTitle}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\&);}
+\DoxyCodeLine{91     \textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_recording_a636c1d79624c4fdcb2b71fffe72e45be}{getAuthor}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{96     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_recording_a8b4595a6cbd4f6c424f3d2d110cd427e}{setAuthor}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\&);}
+\DoxyCodeLine{101     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_recording_a97609823745070df9c482aa64cc6755c}{getLength}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{106     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_recording_a42ae3d4e988b6a20f767ede5407b3bff}{setLength}}(\textcolor{keywordtype}{double});}
+\DoxyCodeLine{111     \textcolor{keyword}{const} \textcolor{keywordtype}{string}\& \mbox{\hyperlink{class_recording_aaadbfeddcedb8a8871078983c19edf38}{getType}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{116     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_recording_abd41a03f09efae308462902d1fcffd9e}{setType}}(\textcolor{keyword}{const} \textcolor{keywordtype}{string}\&);}
+\DoxyCodeLine{117 }
+\DoxyCodeLine{118     \textcolor{keyword}{static} std::vector<std::string> tokenize(std::string, \textcolor{keywordtype}{char});}
+\DoxyCodeLine{119 }
+\DoxyCodeLine{126     \textcolor{keyword}{friend} istream\& \mbox{\hyperlink{class_recording_abfb4c847bfe4d419dd39503175c515c8}{operator>>}}(istream\&, \mbox{\hyperlink{class_recording}{Recording}}\&);}
+\DoxyCodeLine{127 }
+\DoxyCodeLine{134     \textcolor{keyword}{friend} ostream\& \mbox{\hyperlink{class_recording_a92a20c08f6dca8eac293c4ce317c3041}{operator<<}}(ostream\&, \textcolor{keyword}{const} \mbox{\hyperlink{class_recording}{Recording}}\&);}
+\DoxyCodeLine{135 }
+\DoxyCodeLine{142     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_recording_a3cec6fdcb5162b9b3221e09d84ba10d6}{operator==}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_recording}{Recording}}\&) \textcolor{keyword}{const};}
+\DoxyCodeLine{143 }
+\DoxyCodeLine{148     \mbox{\hyperlink{class_recording_a193bfe4e47869bec27433899dbe30543}{\string~Recording}}();}
+\DoxyCodeLine{149 }
+\DoxyCodeLine{150     \textcolor{keyword}{friend} \textcolor{keyword}{class }\mbox{\hyperlink{class_validator_recording}{ValidatorRecording}};}
+\DoxyCodeLine{151 \};}
+\DoxyCodeLine{152 }
+\DoxyCodeLine{157 \textcolor{keyword}{class }\mbox{\hyperlink{class_validator_recording}{ValidatorRecording}} \{}
+\DoxyCodeLine{158 \textcolor{keyword}{public}:}
+\DoxyCodeLine{164     \textcolor{keyword}{static} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_validator_recording_a6f668e34194228103c11a142da409bc6}{validateRecording}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_recording}{Recording}}\&);}
+\DoxyCodeLine{165 \};}
+
+\end{DoxyCode}

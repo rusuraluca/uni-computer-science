@@ -1,0 +1,191 @@
+\hypertarget{class_podcast}{}\doxysection{Podcast Class Reference}
+\label{class_podcast}\index{Podcast@{Podcast}}
+
+
+A podcast is a recording with a maximum speed limit.  
+
+
+
+
+{\ttfamily \#include $<$Podcast.\+h$>$}
+
+Inheritance diagram for Podcast\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_podcast}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_podcast_a3fab2bb2964bb44edcd62a155dff018e}{Podcast}} ()
+\item 
+\mbox{\hyperlink{class_podcast_a673d8a16330f649b96c93a9e77d9684c}{Podcast}} (int, const string \&, const string \&, double, const string \&, int)
+\item 
+\mbox{\hyperlink{class_podcast_a418d23bceb98fa1979aefa9506a5a429}{Podcast}} (const \mbox{\hyperlink{class_podcast}{Podcast}} \&)
+\item 
+void \mbox{\hyperlink{class_podcast_ac3f576f478a6a2e4a0fd609a59e05817}{display}} (ostream \&os) const override
+\item 
+int \mbox{\hyperlink{class_podcast_a9a3457fc7411df1700d32ed90dab97b6}{get\+Max\+Speed}} () const
+\item 
+void \mbox{\hyperlink{class_podcast_a741f2d0c4391451a58f8ee32c4304dc6}{set\+Max\+Speed}} (int)
+\item 
+\mbox{\hyperlink{class_podcast_ac847543ab37f90ef288bf19431ec0bf4}{$\sim$\+Podcast}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_podcast_a3b102d098f68da589fe74ca8f94cd7b7}\label{class_podcast_a3b102d098f68da589fe74ca8f94cd7b7}} 
+class {\bfseries Validator\+Podcast}
+\item 
+istream \& \mbox{\hyperlink{class_podcast_a17c3dad580a775d427acded7b5eff72c}{operator$>$$>$}} (istream \&, \mbox{\hyperlink{class_podcast}{Podcast}} \&)
+\item 
+ostream \& \mbox{\hyperlink{class_podcast_a0f7f431f451b40e7d7daaa7872573730}{operator$<$$<$}} (ostream \&, const \mbox{\hyperlink{class_podcast}{Podcast}} \&)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A podcast is a recording with a maximum speed limit. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_podcast_a3fab2bb2964bb44edcd62a155dff018e}\label{class_podcast_a3fab2bb2964bb44edcd62a155dff018e}} 
+\index{Podcast@{Podcast}!Podcast@{Podcast}}
+\index{Podcast@{Podcast}!Podcast@{Podcast}}
+\doxysubsubsection{\texorpdfstring{Podcast()}{Podcast()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Podcast\+::\+Podcast (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor.
+
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_podcast_a673d8a16330f649b96c93a9e77d9684c}\label{class_podcast_a673d8a16330f649b96c93a9e77d9684c}} 
+\index{Podcast@{Podcast}!Podcast@{Podcast}}
+\index{Podcast@{Podcast}!Podcast@{Podcast}}
+\doxysubsubsection{\texorpdfstring{Podcast()}{Podcast()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Podcast\+::\+Podcast (\begin{DoxyParamCaption}\item[{int}]{\+\_\+id,  }\item[{const string \&}]{\+\_\+title,  }\item[{const string \&}]{\+\_\+author,  }\item[{double}]{\+\_\+length,  }\item[{const string \&}]{\+\_\+type,  }\item[{int}]{\+\_\+max\+Speed }\end{DoxyParamCaption})}
+
+Constructor with parameters. 
+\begin{DoxyParams}{Parameters}
+{\em int} & the unique id of the recording (inherited) \\
+\hline
+{\em string} & the title of the recording (inherited) \\
+\hline
+{\em string} & the author of the recording (inherited) \\
+\hline
+{\em double} & the length of the recording (inherited) \\
+\hline
+{\em string} & the type of the recording (inherited) \\
+\hline
+{\em int} & the max speed of the recording \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_podcast_a418d23bceb98fa1979aefa9506a5a429}\label{class_podcast_a418d23bceb98fa1979aefa9506a5a429}} 
+\index{Podcast@{Podcast}!Podcast@{Podcast}}
+\index{Podcast@{Podcast}!Podcast@{Podcast}}
+\doxysubsubsection{\texorpdfstring{Podcast()}{Podcast()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Podcast\+::\+Podcast (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_podcast}{Podcast}} \&}]{other }\end{DoxyParamCaption})}
+
+Copy Constructor. 
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_podcast}{Podcast}}} & another \mbox{\hyperlink{class_podcast}{Podcast}} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_podcast_ac847543ab37f90ef288bf19431ec0bf4}\label{class_podcast_ac847543ab37f90ef288bf19431ec0bf4}} 
+\index{Podcast@{Podcast}!````~Podcast@{$\sim$Podcast}}
+\index{````~Podcast@{$\sim$Podcast}!Podcast@{Podcast}}
+\doxysubsubsection{\texorpdfstring{$\sim$Podcast()}{~Podcast()}}
+{\footnotesize\ttfamily Podcast\+::$\sim$\+Podcast (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor. \begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_podcast_ac3f576f478a6a2e4a0fd609a59e05817}\label{class_podcast_ac3f576f478a6a2e4a0fd609a59e05817}} 
+\index{Podcast@{Podcast}!display@{display}}
+\index{display@{display}!Podcast@{Podcast}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void Podcast\+::display (\begin{DoxyParamCaption}\item[{ostream \&}]{os }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Display method. 
+\begin{DoxyParams}{Parameters}
+{\em ostream} & output stream \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_recording_ad89a08102c69b11bb610711e921e6a68}{Recording}}.
+
+\mbox{\Hypertarget{class_podcast_a9a3457fc7411df1700d32ed90dab97b6}\label{class_podcast_a9a3457fc7411df1700d32ed90dab97b6}} 
+\index{Podcast@{Podcast}!getMaxSpeed@{getMaxSpeed}}
+\index{getMaxSpeed@{getMaxSpeed}!Podcast@{Podcast}}
+\doxysubsubsection{\texorpdfstring{getMaxSpeed()}{getMaxSpeed()}}
+{\footnotesize\ttfamily int Podcast\+::get\+Max\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter for max\+Speed. \begin{DoxyReturn}{Returns}
+int\+: max\+Speed of podcast 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_podcast_a741f2d0c4391451a58f8ee32c4304dc6}\label{class_podcast_a741f2d0c4391451a58f8ee32c4304dc6}} 
+\index{Podcast@{Podcast}!setMaxSpeed@{setMaxSpeed}}
+\index{setMaxSpeed@{setMaxSpeed}!Podcast@{Podcast}}
+\doxysubsubsection{\texorpdfstring{setMaxSpeed()}{setMaxSpeed()}}
+{\footnotesize\ttfamily void Podcast\+::set\+Max\+Speed (\begin{DoxyParamCaption}\item[{int}]{\+\_\+max\+Speed }\end{DoxyParamCaption})}
+
+Setter for max\+Speed. 
+\begin{DoxyParams}{Parameters}
+{\em int} & max\+Speed of podcast \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_podcast_a0f7f431f451b40e7d7daaa7872573730}\label{class_podcast_a0f7f431f451b40e7d7daaa7872573730}} 
+\index{Podcast@{Podcast}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Podcast@{Podcast}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_podcast}{Podcast}} \&}]{podcast }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Overloading the \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} operator. 
+\begin{DoxyParams}{Parameters}
+{\em ostream} & \+: the output stream \\
+\hline
+{\em \mbox{\hyperlink{class_podcast}{Podcast}}} & \+: the podcast \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the output stream 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_podcast_a17c3dad580a775d427acded7b5eff72c}\label{class_podcast_a17c3dad580a775d427acded7b5eff72c}} 
+\index{Podcast@{Podcast}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Podcast@{Podcast}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{,  }\item[{\mbox{\hyperlink{class_podcast}{Podcast}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Overloading the \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>} operator. 
+\begin{DoxyParams}{Parameters}
+{\em istream} & \+: the input stream \\
+\hline
+{\em \mbox{\hyperlink{class_podcast}{Podcast}}} & \+: the podcast \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the input stream 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Domain/Podcast.\+h\item 
+Domain/Podcast.\+cpp\end{DoxyCompactItemize}

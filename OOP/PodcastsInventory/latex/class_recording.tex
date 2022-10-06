@@ -1,0 +1,320 @@
+\hypertarget{class_recording}{}\doxysection{Recording Class Reference}
+\label{class_recording}\index{Recording@{Recording}}
+
+
+A recording is characterised by its id, title, auhtor, length and type.  
+
+
+
+
+{\ttfamily \#include $<$Recording.\+h$>$}
+
+Inheritance diagram for Recording\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_recording}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_recording_a270f855f9547078427135d75854cd7c6}{Recording}} ()
+\item 
+\mbox{\hyperlink{class_recording_a879ae740ef052ae4efafbdc1ea1246e2}{Recording}} (int, const string \&, const string \&, double, const string \&)
+\item 
+\mbox{\hyperlink{class_recording_ab2d7c8801ac2c7230a5949441849a701}{Recording}} (const \mbox{\hyperlink{class_recording}{Recording}} \&)
+\item 
+\mbox{\hyperlink{class_recording}{Recording}} \& \mbox{\hyperlink{class_recording_a87f9abd25d012b8016e1734ce757a6c3}{operator=}} (const \mbox{\hyperlink{class_recording}{Recording}} \&)
+\item 
+virtual void \mbox{\hyperlink{class_recording_ad89a08102c69b11bb610711e921e6a68}{display}} (ostream \&) const
+\item 
+int \mbox{\hyperlink{class_recording_a9d8616c022bbc5a92ef495ecfced95ce}{get\+Id}} () const
+\item 
+void \mbox{\hyperlink{class_recording_aad167924d7272aa097742c34ff3882a6}{set\+Id}} (int)
+\item 
+const string \& \mbox{\hyperlink{class_recording_a00a74a546197c03bcd55b160a8a00165}{get\+Title}} () const
+\item 
+void \mbox{\hyperlink{class_recording_a357640a8ca1b283275bd357307044125}{set\+Title}} (const string \&)
+\item 
+const string \& \mbox{\hyperlink{class_recording_a636c1d79624c4fdcb2b71fffe72e45be}{get\+Author}} () const
+\item 
+void \mbox{\hyperlink{class_recording_a8b4595a6cbd4f6c424f3d2d110cd427e}{set\+Author}} (const string \&)
+\item 
+double \mbox{\hyperlink{class_recording_a97609823745070df9c482aa64cc6755c}{get\+Length}} () const
+\item 
+void \mbox{\hyperlink{class_recording_a42ae3d4e988b6a20f767ede5407b3bff}{set\+Length}} (double)
+\item 
+const string \& \mbox{\hyperlink{class_recording_aaadbfeddcedb8a8871078983c19edf38}{get\+Type}} () const
+\item 
+void \mbox{\hyperlink{class_recording_abd41a03f09efae308462902d1fcffd9e}{set\+Type}} (const string \&)
+\item 
+bool \mbox{\hyperlink{class_recording_a3cec6fdcb5162b9b3221e09d84ba10d6}{operator==}} (const \mbox{\hyperlink{class_recording}{Recording}} \&) const
+\item 
+\mbox{\hyperlink{class_recording_a193bfe4e47869bec27433899dbe30543}{$\sim$\+Recording}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_recording_abcde2081900ca4027e0e1a446aaa1713}\label{class_recording_abcde2081900ca4027e0e1a446aaa1713}} 
+static std\+::vector$<$ std\+::string $>$ {\bfseries tokenize} (std\+::string, char)
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_recording_a0d7c9d4c651ae3fce94c116fd1a0dff3}\label{class_recording_a0d7c9d4c651ae3fce94c116fd1a0dff3}} 
+class {\bfseries Validator\+Recording}
+\item 
+istream \& \mbox{\hyperlink{class_recording_abfb4c847bfe4d419dd39503175c515c8}{operator$>$$>$}} (istream \&, \mbox{\hyperlink{class_recording}{Recording}} \&)
+\item 
+ostream \& \mbox{\hyperlink{class_recording_a92a20c08f6dca8eac293c4ce317c3041}{operator$<$$<$}} (ostream \&, const \mbox{\hyperlink{class_recording}{Recording}} \&)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A recording is characterised by its id, title, auhtor, length and type. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_recording_a270f855f9547078427135d75854cd7c6}\label{class_recording_a270f855f9547078427135d75854cd7c6}} 
+\index{Recording@{Recording}!Recording@{Recording}}
+\index{Recording@{Recording}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{Recording()}{Recording()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Recording\+::\+Recording (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default Constructor. \begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_recording_a879ae740ef052ae4efafbdc1ea1246e2}\label{class_recording_a879ae740ef052ae4efafbdc1ea1246e2}} 
+\index{Recording@{Recording}!Recording@{Recording}}
+\index{Recording@{Recording}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{Recording()}{Recording()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Recording\+::\+Recording (\begin{DoxyParamCaption}\item[{int}]{\+\_\+id,  }\item[{const string \&}]{\+\_\+title,  }\item[{const string \&}]{\+\_\+author,  }\item[{double}]{\+\_\+length,  }\item[{const string \&}]{\+\_\+type }\end{DoxyParamCaption})}
+
+Constructor with parameters. 
+\begin{DoxyParams}{Parameters}
+{\em int} & the unique id of the recording \\
+\hline
+{\em string} & the title of the recording \\
+\hline
+{\em string} & the author of the recording \\
+\hline
+{\em double} & the length of the recording \\
+\hline
+{\em string} & the type of the recording \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_recording_ab2d7c8801ac2c7230a5949441849a701}\label{class_recording_ab2d7c8801ac2c7230a5949441849a701}} 
+\index{Recording@{Recording}!Recording@{Recording}}
+\index{Recording@{Recording}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{Recording()}{Recording()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Recording\+::\+Recording (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_recording}{Recording}} \&}]{other }\end{DoxyParamCaption})}
+
+Copy Constructor. 
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_recording}{Recording}}} & another \mbox{\hyperlink{class_recording}{Recording}} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_recording_a193bfe4e47869bec27433899dbe30543}\label{class_recording_a193bfe4e47869bec27433899dbe30543}} 
+\index{Recording@{Recording}!````~Recording@{$\sim$Recording}}
+\index{````~Recording@{$\sim$Recording}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{$\sim$Recording()}{~Recording()}}
+{\footnotesize\ttfamily Recording\+::$\sim$\+Recording (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor. \begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_recording_ad89a08102c69b11bb610711e921e6a68}\label{class_recording_ad89a08102c69b11bb610711e921e6a68}} 
+\index{Recording@{Recording}!display@{display}}
+\index{display@{display}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void Recording\+::display (\begin{DoxyParamCaption}\item[{ostream \&}]{os }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Display method. 
+\begin{DoxyParams}{Parameters}
+{\em ostream} & output stream \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_podcast_ac3f576f478a6a2e4a0fd609a59e05817}{Podcast}}, and \mbox{\hyperlink{class_vlog_a5388dc401fa0e236da88ae46bbb9f65d}{Vlog}}.
+
+\mbox{\Hypertarget{class_recording_a636c1d79624c4fdcb2b71fffe72e45be}\label{class_recording_a636c1d79624c4fdcb2b71fffe72e45be}} 
+\index{Recording@{Recording}!getAuthor@{getAuthor}}
+\index{getAuthor@{getAuthor}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{getAuthor()}{getAuthor()}}
+{\footnotesize\ttfamily const string \& Recording\+::get\+Author (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter for author. \begin{DoxyReturn}{Returns}
+string\+: author of recording 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_recording_a9d8616c022bbc5a92ef495ecfced95ce}\label{class_recording_a9d8616c022bbc5a92ef495ecfced95ce}} 
+\index{Recording@{Recording}!getId@{getId}}
+\index{getId@{getId}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily int Recording\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter for id. \begin{DoxyReturn}{Returns}
+int\+: id of recording 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_recording_a97609823745070df9c482aa64cc6755c}\label{class_recording_a97609823745070df9c482aa64cc6755c}} 
+\index{Recording@{Recording}!getLength@{getLength}}
+\index{getLength@{getLength}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{getLength()}{getLength()}}
+{\footnotesize\ttfamily double Recording\+::get\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter for length. \begin{DoxyReturn}{Returns}
+double\+: length of recording 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_recording_a00a74a546197c03bcd55b160a8a00165}\label{class_recording_a00a74a546197c03bcd55b160a8a00165}} 
+\index{Recording@{Recording}!getTitle@{getTitle}}
+\index{getTitle@{getTitle}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{getTitle()}{getTitle()}}
+{\footnotesize\ttfamily const string \& Recording\+::get\+Title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter for title. \begin{DoxyReturn}{Returns}
+string\+: title of recording 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_recording_aaadbfeddcedb8a8871078983c19edf38}\label{class_recording_aaadbfeddcedb8a8871078983c19edf38}} 
+\index{Recording@{Recording}!getType@{getType}}
+\index{getType@{getType}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily const string \& Recording\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter for type. \begin{DoxyReturn}{Returns}
+string\+: type of recording 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_recording_a87f9abd25d012b8016e1734ce757a6c3}\label{class_recording_a87f9abd25d012b8016e1734ce757a6c3}} 
+\index{Recording@{Recording}!operator=@{operator=}}
+\index{operator=@{operator=}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_recording}{Recording}} \& Recording\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_recording}{Recording}} \&}]{other }\end{DoxyParamCaption})}
+
+Copy Assignment. 
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_recording}{Recording}}} & another \mbox{\hyperlink{class_recording}{Recording}} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_recording_a3cec6fdcb5162b9b3221e09d84ba10d6}\label{class_recording_a3cec6fdcb5162b9b3221e09d84ba10d6}} 
+\index{Recording@{Recording}!operator==@{operator==}}
+\index{operator==@{operator==}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Recording\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_recording}{Recording}} \&}]{recording }\end{DoxyParamCaption}) const}
+
+Overloading the == operator. 
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_recording}{Recording}}} & \+: other recording \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, if their id is equal false, otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_recording_a8b4595a6cbd4f6c424f3d2d110cd427e}\label{class_recording_a8b4595a6cbd4f6c424f3d2d110cd427e}} 
+\index{Recording@{Recording}!setAuthor@{setAuthor}}
+\index{setAuthor@{setAuthor}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{setAuthor()}{setAuthor()}}
+{\footnotesize\ttfamily void Recording\+::set\+Author (\begin{DoxyParamCaption}\item[{const string \&}]{\+\_\+author }\end{DoxyParamCaption})}
+
+Setter for author. 
+\begin{DoxyParams}{Parameters}
+{\em string} & author of recording \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_recording_aad167924d7272aa097742c34ff3882a6}\label{class_recording_aad167924d7272aa097742c34ff3882a6}} 
+\index{Recording@{Recording}!setId@{setId}}
+\index{setId@{setId}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{setId()}{setId()}}
+{\footnotesize\ttfamily void Recording\+::set\+Id (\begin{DoxyParamCaption}\item[{int}]{\+\_\+id }\end{DoxyParamCaption})}
+
+Setter for id. 
+\begin{DoxyParams}{Parameters}
+{\em int} & id of recording \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_recording_a42ae3d4e988b6a20f767ede5407b3bff}\label{class_recording_a42ae3d4e988b6a20f767ede5407b3bff}} 
+\index{Recording@{Recording}!setLength@{setLength}}
+\index{setLength@{setLength}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{setLength()}{setLength()}}
+{\footnotesize\ttfamily void Recording\+::set\+Length (\begin{DoxyParamCaption}\item[{double}]{\+\_\+length }\end{DoxyParamCaption})}
+
+Setter for length. 
+\begin{DoxyParams}{Parameters}
+{\em double} & length of recording \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_recording_a357640a8ca1b283275bd357307044125}\label{class_recording_a357640a8ca1b283275bd357307044125}} 
+\index{Recording@{Recording}!setTitle@{setTitle}}
+\index{setTitle@{setTitle}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{setTitle()}{setTitle()}}
+{\footnotesize\ttfamily void Recording\+::set\+Title (\begin{DoxyParamCaption}\item[{const string \&}]{\+\_\+title }\end{DoxyParamCaption})}
+
+Setter for title. 
+\begin{DoxyParams}{Parameters}
+{\em string} & title of recording \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_recording_abd41a03f09efae308462902d1fcffd9e}\label{class_recording_abd41a03f09efae308462902d1fcffd9e}} 
+\index{Recording@{Recording}!setType@{setType}}
+\index{setType@{setType}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{setType()}{setType()}}
+{\footnotesize\ttfamily void Recording\+::set\+Type (\begin{DoxyParamCaption}\item[{const string \&}]{\+\_\+type }\end{DoxyParamCaption})}
+
+Setter for type. 
+\begin{DoxyParams}{Parameters}
+{\em string} & type of recording \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_recording_a92a20c08f6dca8eac293c4ce317c3041}\label{class_recording_a92a20c08f6dca8eac293c4ce317c3041}} 
+\index{Recording@{Recording}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_recording}{Recording}} \&}]{recording }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Overloading the \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} operator. 
+\begin{DoxyParams}{Parameters}
+{\em ostream} & \+: the output stream \\
+\hline
+{\em \mbox{\hyperlink{class_recording}{Recording}}} & \+: the recording \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the output stream 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_recording_abfb4c847bfe4d419dd39503175c515c8}\label{class_recording_abfb4c847bfe4d419dd39503175c515c8}} 
+\index{Recording@{Recording}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Recording@{Recording}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily istream \& operator$>$$>$ (\begin{DoxyParamCaption}\item[{istream \&}]{,  }\item[{\mbox{\hyperlink{class_recording}{Recording}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Overloading the \texorpdfstring{$>$}{>}\texorpdfstring{$>$}{>} operator. 
+\begin{DoxyParams}{Parameters}
+{\em istream} & \+: the input stream \\
+\hline
+{\em \mbox{\hyperlink{class_recording}{Recording}}} & \+: the recording \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the input stream 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Domain/Recording.\+h\item 
+Domain/Recording.\+cpp\end{DoxyCompactItemize}

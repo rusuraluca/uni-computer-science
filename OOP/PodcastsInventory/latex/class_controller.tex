@@ -1,0 +1,193 @@
+\hypertarget{class_controller}{}\doxysection{Controller\texorpdfstring{$<$}{<} TElem \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_controller}\index{Controller$<$ TElem $>$@{Controller$<$ TElem $>$}}
+
+
+This is the controller.  
+
+
+
+
+{\ttfamily \#include $<$Controller.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_controller_a3e089f20f2bae883f619c7f90a357eec}{Controller}} (\mbox{\hyperlink{class_file_repo}{File\+Repo}}$<$ TElem $>$ \&)
+\item 
+virtual void \mbox{\hyperlink{class_controller_a062f1c75b04064c8a924b314c65d1a7f}{add}} (const TElem \&)
+\item 
+virtual void \mbox{\hyperlink{class_controller_ad1200a1f2e3814f5f81193d0b63c66c3}{remove}} (const TElem \&)
+\item 
+virtual void \mbox{\hyperlink{class_controller_a561681e57233f90e222fcf4fbff77830}{update}} (const TElem \&)
+\item 
+virtual const vector$<$ TElem $>$ \& \mbox{\hyperlink{class_controller_af206422db156e80e8945a48606fbb389}{get\+All}} ()
+\item 
+virtual int \mbox{\hyperlink{class_controller_a4c7e917a9eee0dca094926ec66673431}{size}} ()
+\item 
+virtual void \mbox{\hyperlink{class_controller_a1aae892911a668e88177c1cc5ec2b321}{display\+By\+Length\+Lower\+Than}} (double)
+\item 
+void \mbox{\hyperlink{class_controller_a45a8d2d707e89adeff269448feb8583f}{undo}} ()
+\item 
+void \mbox{\hyperlink{class_controller_adaba73af77816d63f1f96ec0a67cb57c}{redo}} ()
+\item 
+\mbox{\hyperlink{class_controller_a5ff2a1daf4c980a9101e29dbc95d08e0}{$\sim$\+Controller}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$typename TElem$>$\newline
+class Controller$<$ TElem $>$}
+This is the controller. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_controller_a3e089f20f2bae883f619c7f90a357eec}\label{class_controller_a3e089f20f2bae883f619c7f90a357eec}} 
+\index{Controller$<$ TElem $>$@{Controller$<$ TElem $>$}!Controller@{Controller}}
+\index{Controller@{Controller}!Controller$<$ TElem $>$@{Controller$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{Controller()}{Controller()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+\mbox{\hyperlink{class_controller}{Controller}}$<$ TElem $>$\mbox{\hyperlink{class_controller}{\+::\+Controller}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_file_repo}{File\+Repo}}$<$ TElem $>$ \&}]{repo }\end{DoxyParamCaption})}
+
+Constructor with parameters. 
+\begin{DoxyParams}{Parameters}
+{\em repository} & \+: the repository we store our objects in \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_controller_a5ff2a1daf4c980a9101e29dbc95d08e0}\label{class_controller_a5ff2a1daf4c980a9101e29dbc95d08e0}} 
+\index{Controller$<$ TElem $>$@{Controller$<$ TElem $>$}!````~Controller@{$\sim$Controller}}
+\index{````~Controller@{$\sim$Controller}!Controller$<$ TElem $>$@{Controller$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{$\sim$Controller()}{~Controller()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+\mbox{\hyperlink{class_controller}{Controller}}$<$ TElem $>$\+::$\sim$\mbox{\hyperlink{class_controller}{Controller}}}
+
+Destructor. \begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_controller_a062f1c75b04064c8a924b314c65d1a7f}\label{class_controller_a062f1c75b04064c8a924b314c65d1a7f}} 
+\index{Controller$<$ TElem $>$@{Controller$<$ TElem $>$}!add@{add}}
+\index{add@{add}!Controller$<$ TElem $>$@{Controller$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+void \mbox{\hyperlink{class_controller}{Controller}}$<$ TElem $>$\+::add (\begin{DoxyParamCaption}\item[{const TElem \&}]{elem }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Add a recording to the repository. 
+\begin{DoxyParams}{Parameters}
+{\em TElem} & \+: the element we want to add to the repository \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_controller_a1aae892911a668e88177c1cc5ec2b321}\label{class_controller_a1aae892911a668e88177c1cc5ec2b321}} 
+\index{Controller$<$ TElem $>$@{Controller$<$ TElem $>$}!displayByLengthLowerThan@{displayByLengthLowerThan}}
+\index{displayByLengthLowerThan@{displayByLengthLowerThan}!Controller$<$ TElem $>$@{Controller$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{displayByLengthLowerThan()}{displayByLengthLowerThan()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+void \mbox{\hyperlink{class_controller}{Controller}}$<$ TElem $>$\+::display\+By\+Length\+Lower\+Than (\begin{DoxyParamCaption}\item[{double}]{length }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Displays all recordings which have the length lower than a given value. 
+\begin{DoxyParams}{Parameters}
+{\em length} & \+: the value we compare the lengths to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_controller_af206422db156e80e8945a48606fbb389}\label{class_controller_af206422db156e80e8945a48606fbb389}} 
+\index{Controller$<$ TElem $>$@{Controller$<$ TElem $>$}!getAll@{getAll}}
+\index{getAll@{getAll}!Controller$<$ TElem $>$@{Controller$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{getAll()}{getAll()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+const vector$<$ TElem $>$ \& \mbox{\hyperlink{class_controller}{Controller}}$<$ TElem $>$\+::get\+All\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Get method -\/ gets all repo recordings. \begin{DoxyReturn}{Returns}
+all repo recordings 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_controller_adaba73af77816d63f1f96ec0a67cb57c}\label{class_controller_adaba73af77816d63f1f96ec0a67cb57c}} 
+\index{Controller$<$ TElem $>$@{Controller$<$ TElem $>$}!redo@{redo}}
+\index{redo@{redo}!Controller$<$ TElem $>$@{Controller$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{redo()}{redo()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+void \mbox{\hyperlink{class_controller}{Controller}}$<$ TElem $>$\+::redo}
+
+Redo the last action that was previously undone. if the action was REMOVE, the recording which was added after the \mbox{\hyperlink{class_controller_a45a8d2d707e89adeff269448feb8583f}{undo()}} will be removed once again into the repository if the last action was ADD, the recording which was removed by the \mbox{\hyperlink{class_controller_a45a8d2d707e89adeff269448feb8583f}{undo()}} will be added once again into the repository Possible operations to redo\+: 1) ADD\+: (i) move the pair (ADD, recording) to the UNDO STACK (ii) delete it from the REDO STACK (iii) add recording
+
+2) REMOVE \+: (i) move the pair (REMOVE, recording) to the UNDO STACK (ii) delete it from the REDO STACK (iii) remove recording.
+
+ADD\+:
+
+(i)
+
+(ii)
+
+(iii)
+
+REMOVE\+:
+
+(i)
+
+(ii)
+
+(iii)\mbox{\Hypertarget{class_controller_ad1200a1f2e3814f5f81193d0b63c66c3}\label{class_controller_ad1200a1f2e3814f5f81193d0b63c66c3}} 
+\index{Controller$<$ TElem $>$@{Controller$<$ TElem $>$}!remove@{remove}}
+\index{remove@{remove}!Controller$<$ TElem $>$@{Controller$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+void \mbox{\hyperlink{class_controller}{Controller}}$<$ TElem $>$\+::remove (\begin{DoxyParamCaption}\item[{const TElem \&}]{elem }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Remove a recording to the repository. 
+\begin{DoxyParams}{Parameters}
+{\em TElem} & \+: the element we want to remove to the repository \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_controller_a4c7e917a9eee0dca094926ec66673431}\label{class_controller_a4c7e917a9eee0dca094926ec66673431}} 
+\index{Controller$<$ TElem $>$@{Controller$<$ TElem $>$}!size@{size}}
+\index{size@{size}!Controller$<$ TElem $>$@{Controller$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+int \mbox{\hyperlink{class_controller}{Controller}}$<$ TElem $>$\+::size\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Computes the size of the repository. \begin{DoxyReturn}{Returns}
+the number of recordings in the repository 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_controller_a45a8d2d707e89adeff269448feb8583f}\label{class_controller_a45a8d2d707e89adeff269448feb8583f}} 
+\index{Controller$<$ TElem $>$@{Controller$<$ TElem $>$}!undo@{undo}}
+\index{undo@{undo}!Controller$<$ TElem $>$@{Controller$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+void \mbox{\hyperlink{class_controller}{Controller}}$<$ TElem $>$\+::undo}
+
+Undo the last action performed. if the last action was ADD, the recording added will be removed if the last action was REMOVE, the recording removed will be added back into the repository Possible operations to undo\+: 1) ADD \+: (i) move the pair (ADD, recording) to the REDO STACK (ii) delete it from the UNDO STACK (iii) remove recording
+
+2) REMOVE \+: (i) move the pair (REMOVE, recording) to the REDO STACK (ii) delete it from the UNDO STACK (iii) add recording.
+
+ADD\+:
+
+(i)
+
+(ii)
+
+(iii)
+
+REMOVE\+:
+
+(i)
+
+(ii)
+
+(iii)\mbox{\Hypertarget{class_controller_a561681e57233f90e222fcf4fbff77830}\label{class_controller_a561681e57233f90e222fcf4fbff77830}} 
+\index{Controller$<$ TElem $>$@{Controller$<$ TElem $>$}!update@{update}}
+\index{update@{update}!Controller$<$ TElem $>$@{Controller$<$ TElem $>$}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily template$<$typename TElem $>$ \\
+void \mbox{\hyperlink{class_controller}{Controller}}$<$ TElem $>$\+::update (\begin{DoxyParamCaption}\item[{const TElem \&}]{elem }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Update a recording in the repository. 
+\begin{DoxyParams}{Parameters}
+{\em TElem} & \+: the element we want to update in the repository \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Controller/Controller.\+h\end{DoxyCompactItemize}
