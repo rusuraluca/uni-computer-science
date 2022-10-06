@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db24cef8-9cb5-4283-b1d4-0365d721961a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 11 (supplement).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 11-line-integrals.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 12 (supplement).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 12-line-integrals.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Course/Course 9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2020/(d)Grupa_811_24_iunie.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2020/(d)Grupa_812_23_iunie.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2020/(d)Grupa_813_23_iunie.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2020/(d)Grupa_814_24_iunie.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2020/(d)Grupele_811-814_9_iulie.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/e1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/e1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/e2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/e3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/e3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/e4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/e4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/e5 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2021/e5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2022/619036b9-e792-4aff-9c9d-fe6099b2c9ef.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2022/6546fcf4-3e68-423f-a180-7c84f160d6c8.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2022/75b7b5e7-5f1b-4745-bdd6-e581f869e46f.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Exams/2022/f793d7a2-ecdc-40e7-9065-22c6ad253773.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Seminars/Seminar 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Seminars/Seminar 10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Seminars/Seminar 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Seminars/Seminar 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ Calculus 2/Seminars/Seminar 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L1-Introduction.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L10-Backtracking.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L11-Greedy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L12-Recap.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L2-Procedural Programming.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L3-Modular Programming.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L4-Design Files.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L5-Classes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L6-Classes UML.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L7-Testing GRASP.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L8-Recursion.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Courses/AP-L9-SortSearch.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab1/Lab 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/Lab11-13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/application/airport_controller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/data_examples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/domain/passenger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/domain/plane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/infrastructure/airport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/run_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/tests/test_airport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/tests/test_passenger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/tests/test_plane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/ui/console.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab11-13/utils/functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab2/10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab2/14.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab2/18.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab2/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab2/6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab2/Lab 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/Lab 5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/Lab3-5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/domain/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/domain/controler_participants_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/domain/file_controler_participants_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/tests/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/ui/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/ui/menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab3-5/utils/statistics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/Lab 6-8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/data_examples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/domain/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/domain/pointcontroller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/domain/test_controler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/repository/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/repository/pointrepository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/repository/test_repo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/tests/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/ui/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab6-8/ui/menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/Lab8-10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/application/vector_controller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/data_examples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/domain/vector_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/infrastructure/vector_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/rrmie322_A4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/run_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/tests/test_vector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/tests/test_vector_controller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/tests/test_vector_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Labs/Lab8-10/ui/console.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Practical Exam - 10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Practical Exam - 10/.idea/Practical Exam.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Practical Exam - 10/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Practical Exam - 10/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Practical Exam - 10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Practical Exam - 10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Practical Exam - 10/domain/book.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Practical Exam - 10/infrastructure/book_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Practical Exam - 10/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Practical Exam - 10/utils/functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/.idea/Seminar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 1/.idea/Lab 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 1/AP - Seminar 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 1/AP - Seminar 1/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 1/AP - Seminar 1/S1-2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 1/AP - Seminar 1/S1-4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 1/AP - Seminar 1/S1-5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 1/AP - Seminar 1/S1-6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2/ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2/ex2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2/ex3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2/ex4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2/ex5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2/ex6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 2/AP - Seminar 2/ex7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 3/AP - Seminar 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 3/AP - Seminar 3/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 4/AP - Seminar 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 4/Seminar 4/domain/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 4/Seminar 4/domain/student_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 4/Seminar 4/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 4/Seminar 4/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 4/Seminar 4/tests/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 4/Seminar 4/ui/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 4/Seminar 4/ui/menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 4/Seminar 4/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 4/Seminar 4/utils/general_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 5/AP - Seminar 5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 5/Seminar 5/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 5/Seminar 5/point_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 5/Seminar 5/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AP/Seminar/Seminar 5/Seminar 5/ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/0.course_info.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week01_seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week01_seminar_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week01_theory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week01_theory_proofs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week02_seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week02_seminar_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week02_theory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week02_theory_proofs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week03_seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week03_seminar_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week03_theory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week03_theory_proofs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week04_seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week04_seminar_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week04_theory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week04_theory_proofs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week05_seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week05_seminar_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week05_theory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week06_theory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week07_seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week07_seminar_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week07_theory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week07_theory_proofs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week08_theory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week08_theory_proofs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week09_seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week09_seminar_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week09_theory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week09_theory_proofs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week10_seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week10_seminar_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week10_theory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week11_seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week11_seminar_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week11_theory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week12_seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week12_seminar_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week13_seminar 812-813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week13_seminar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Affine Geometry/week13_seminar_sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Algebra Handbook.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course10completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course11completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course12completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course13completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course1completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course2completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course3completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course4completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course5completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course6completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course7completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course8completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Lectures/Course9completed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar10solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar10statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar11solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar11statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar12solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar12statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar13+14solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar13+14statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar3solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar3statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar4solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar4statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar5_6solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar5_6statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar7solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar7statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar8solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar8statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar9solutions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Seminars/Seminar9statements.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 1/Syllabus.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course02.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course03.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course05.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course06.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course07.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course08.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course09.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Course/Algebra2-Course12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/(d)Bilet 13_LI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/(d)Bilet 15_LI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/(d)Bilet 17_LI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/(d)Bilet 23_LI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/(d)Bilet 24_LI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/(d)Bilet 9_LI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/Bilet 13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/Bilet 15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/Bilet 17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/Bilet 23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/Bilet 24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/Bilet 9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/algebra2-exam-simulation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/pisi3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/ticket03.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Exam/ticket26.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Projects/algebra2-projects.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminar 9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algebra 2/Seminar/seminars.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 1/PSet1(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 1/PSet1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 1/lecture1(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 1/lecture1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 10/No lectures or seminar.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 11/PSet10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 11/Seminar10 811.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 11/Seminar10 812,813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 11/lecture9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 12/PSet11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 12/Seminar 12 - 811.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 12/Seminar12 812, 813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 12/lecture11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 13/PSet12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 13/Seminar 13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 13/Seminar13 812,813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 13/lecture12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 14/PSet13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 14/Seminar14 812,813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 14/lecture13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 2/PSet2 - Informal seminar notes - 811(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 2/PSet2 - Informal seminar notes - 811.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 2/PSet2(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 2/PSet2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 2/Seminar2 812(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 2/Seminar2 812.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 2/Seminar2 813(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 2/Seminar2 813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 2/lecture 2(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 2/lecture 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 3/PSetWeek 3 - Informal notes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 3/PSetWeek3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 3/Seminar3 812.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 3/Seminar3 813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 3/lecture3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 4/PSet4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 4/Seminar4  811.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 4/Seminar4 812.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 4/Seminar4 813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 4/lecture4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 5/PSet5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 5/Seminar5 811.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 5/Seminar5 812.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 5/Seminar5 813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 5/lecture5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 6/PSet6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 6/Semiar 6 811.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 6/Seminar6_7 812.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 6/Seminar6_7 813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 6/lecture6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 8/PSet8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 8/Seminar 8 - 811.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 8/Seminar8 812, 813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 8/lecture 7 (week 8).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 9/PSet9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 9/Seminar 9 - 811.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 9/Seminar9 812,813.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Lectures + Seminars/week 9/lecture8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytic Geometry/Textbook.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Homeworks/CL - Homework 9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/1. Sets.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/11. Power Series .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/11. Sequences and series of functions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/12. Integrals.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/13. Antiderivatives of a function, Leibniz.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/14. Improper Integrals.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/15. The Riemann Integral.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/2. Sequences of real numbers .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/3. Series of real numbers .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/4. Sums of Telescopic and Geometric Series  .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/5. Series with positive terms.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/6. Series with random terms.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/7. Limits of functions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/8. Continuous functions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculus 1/Lectures + Seminars/9. Differentiable functions _ Taylor’s.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/Bag.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/FixedCapBiMap.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/IndexedList.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/IteratedList.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/Map.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/Matrix.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/MultiMap.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/PriorityQueue.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/Queue.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/Set.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/SortedBag.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/SortedIndexedList.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/SortedIteratedList.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/SortedMap.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/SortedMultiMap.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/SortedSet.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Interfaces/Stack.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Labs/Lab1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Labs/Lab2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Labs/Lab3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Labs/Lab4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Labs/Lab5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture 1/Example1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture 1/Example2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture 1/Lecture01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture 1/Lecture01___Extra_reading.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture02.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture03.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture05.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture06.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture07.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture08.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture09.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Lectures/Lecture13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/DS_Seminar2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/DS_Seminar3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/DS_Seminar4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/DS_Seminar5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/DS_Seminar6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/DS_Seminar7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/Seminar 1/Bag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/Seminar 1/BagOnDict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/Seminar 1/BagWithFr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/Seminar 1/BagWithPythonIterator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/Seminar 1/DS_Seminar1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/Seminar 1/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Seminars/Seminar 1/main2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/.idea/Solutions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/.idea/Matrix.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/App.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/ExtendedTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/ExtendedTest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/Matrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/Matrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/ShortTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/ShortTest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/.cmake/api/v1/reply/cache-v2-799e5d02896a88a261cc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-95b1b17a3a872b79110b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6296a186a63917eb7491.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-04T13-18-13-0811.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/.cmake/api/v1/reply/target-Matrix-Debug-8323fe201fe860bd7378.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-95aecfa588226bd7be4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/App.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/App.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/ExtendedTest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/ExtendedTest.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/Matrix.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/Matrix.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/ShortTest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/ShortTest.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/Matrix.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/Matrix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/Matrix.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Solutions/Matrix/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAP/Lectures/Lecture 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAP/Seminars/Seminar 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Book/Curs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Book/Notebook.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Exams/logica_matematica_examene1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Exams/logica_matematica_examene2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Exams/logica_matematica_model_test_1-barem-RO-EN.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Exams/logica_matematica_model_test_2-barem-RO-EN.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Seminars/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Seminars/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Seminars/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Seminars/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Seminars/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Seminars/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Seminars/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Seminars/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Seminars/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Math Logic and Set Theory/Seminars/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/Business/Service.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/Business/Service.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/CrazyTaxi.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/Domain/Taxi.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/Domain/Taxi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/Persistency/RepoTaxi.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/Persistency/RepoTaxi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/file.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/gui.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/gui.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/mainwindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/mainwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/mainwindow.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxi/taxi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/.idea/CrazyTaxiClasses.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/Business/Service.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/Business/Service.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/Domain/Taxi.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/Domain/Taxi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/Persistency/RepoTaxi.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/Persistency/RepoTaxi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f5a2e48d0078ab25be6c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d8ba30b92c77ae891ea0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7e9f7aea675e61c77690.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-31T07-45-01-0141.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.cmake/api/v1/reply/target-CrazyTaxiClasses-Debug-e464c96368e5a81082da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-95aecfa588226bd7be4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/CrazyTaxiClasses.dir/Domain/Taxi.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/CrazyTaxiClasses.dir/Persistency/RepoTaxi.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/CrazyTaxiClasses.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/CrazyTaxiClasses" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/CrazyTaxiClasses/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Frequency_Analysis_Cracking_Caesar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Genetic-Algorithm/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/.idea/image_processing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Doxyfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Doxyfile.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/DrawingShapes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/DrawingShapes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Image.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Image.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/ImageProcesses.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/ImageProcessing/BrightnessContrastAdjustmentProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/ImageProcessing/BrightnessContrastAdjustmentProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/ImageProcessing/ConvolutionProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/ImageProcessing/ConvolutionProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/ImageProcessing/GammaCorrectionProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/ImageProcessing/GammaCorrectionProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/ImageProcessing/ImageProcessing.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Tests.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Tests.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Utils/Point.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Utils/Point.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Utils/Rectangle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Utils/Rectangle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Utils/Size.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Utils/Size.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Utils/Vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/Utils/Vector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.cmake/api/v1/reply/cache-v2-4fd03958d3070a81ed8d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.cmake/api/v1/reply/cmakeFiles-v1-220f5db196fe8a7bb890.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.cmake/api/v1/reply/codemodel-v2-9408181868c4c577befd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.cmake/api/v1/reply/index-2022-04-05T13-07-46-0770.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.cmake/api/v1/reply/target-image_processing-Debug-550f28fcea6a0b0f2288.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.cmake/api/v1/reply/toolchains-v1-95aecfa588226bd7be4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir/DrawingShapes.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir/Image.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir/ImageProcessing/BrightnessContrastAdjustmentProcessor.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir/ImageProcessing/ConvolutionProcessor.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir/ImageProcessing/GammaCorrectionProcessor.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir/Tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir/Utils/Point.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir/Utils/Rectangle.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir/Utils/Size.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir/Utils/Vector.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/image_processing.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/coverage-image_processing.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/feep_conv_gauss.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/feep_conv_horiz.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/feep_conv_ident.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/feep_conv_meanblur.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/feep_conv_vert.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/feep_draw_circle.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/feep_draw_line.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/feep_draw_rectangle1.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/image_processing" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/mona_lisa_bcap.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/mona_lisa_conv_gauss.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/mona_lisa_conv_horiz.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/mona_lisa_conv_ident.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/mona_lisa_conv_meanblur.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/mona_lisa_conv_vert.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/mona_lisa_draw_circle.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/mona_lisa_draw_line.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/mona_lisa_draw_rectangle1.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/mona_lisa_gc_minus.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug-coverage/mona_lisa_gc_plus.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.cmake/api/v1/reply/cache-v2-721639140f2b1cb42631.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-ca2d107da6e9a3416216.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-83d48822c1504281a8e0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.cmake/api/v1/reply/index-2022-04-05T13-07-46-0733.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.cmake/api/v1/reply/target-image_processing-Debug-efe66de407b88a74b808.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-95aecfa588226bd7be4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/image_processing.dir/DrawingShapes.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/image_processing.dir/Image.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/image_processing.dir/ImageProcessing/BrightnessContrastAdjustmentProcessor.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/image_processing.dir/ImageProcessing/ConvolutionProcessor.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/image_processing.dir/ImageProcessing/GammaCorrectionProcessor.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/image_processing.dir/Tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/image_processing.dir/Utils/Point.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/image_processing.dir/Utils/Rectangle.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/image_processing.dir/Utils/Size.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/image_processing.dir/Utils/Vector.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/image_processing.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/feep.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/feep_conv_gauss.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/feep_conv_horiz.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/feep_conv_ident.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/feep_conv_meanblur.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/feep_conv_vert.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/feep_draw_circle.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/feep_draw_line.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/feep_draw_rectangle1.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/image_processing" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_bcap.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_conv_gauss.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_conv_horiz.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_conv_ident.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_conv_meanblur.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_conv_vert.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_draw_circle.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_draw_line.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_draw_rectangle1.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_gc_minus.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_gc_plus.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/cmake-build-debug/mona_lisa_saved.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/feep.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/feep_conv_gauss.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/feep_conv_horiz.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/feep_conv_ident.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/feep_conv_meanblur.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/feep_conv_vert.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/feep_draw_circle.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/feep_draw_line.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/feep_draw_rectangle1.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/_drawing_shapes_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/_image_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/_image_processes_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/_tests_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/_utils_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/annotated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/bc_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/bdwn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/class_drawing_shapes-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/class_drawing_shapes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/class_image-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/class_image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/class_tests-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/class_tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/doxygen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/doxygen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/dynsections.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/files.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/folderclosed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/folderopen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/menudata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/nav_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/nav_g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/nav_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/all_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/all_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/all_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/all_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/all_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/all_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/classes_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/classes_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/classes_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/classes_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/classes_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/classes_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/mag_sel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/nomatches.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/search_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/search_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/search_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/search/searchdata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/splitbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/sync_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/sync_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/tab_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/tab_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/tab_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/tab_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/html/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/_drawing_shapes_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/_image_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/_image_processes_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/_tests_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/_utils_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/annotated.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/class_drawing_shapes.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/class_image.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/class_tests.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/doxygen.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/files.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/longtable_doxygen.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/refman.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/latex/tabu_doxygen.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_bcap.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_conv_gauss.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_conv_horiz.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_conv_ident.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_conv_meanblur.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_conv_vert.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_draw_circle.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_draw_line.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_draw_rectangle1.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_draw_rectangle2.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_gc_minus.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Image_Processing/mona_lisa_gc_plus.ascii.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/.idea/Labs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory1-rusuraluca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory2-rusuraluca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory4-rusuraluca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/Date.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/Date.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/DynamicArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/DynamicArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/FilteringCriteria.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/FilteringCriteria.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/FilteringCriteriaTypeAndPrice.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/FilteringCriteriaTypeAndPrice.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/FilteringPrice.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/FilteringPrice.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/FilteringType.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/FilteringType.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/Offer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/Offer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/Tests/DynamicArrayTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/Tests/DynamicArrayTest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/Tests/FilteringTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/Tests/FilteringTest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/Tests/OfferTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/Tests/OfferTest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory6-rusuraluca/Laboratory6/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/.idea/laboratory8-rusuraluca.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Domain/Cruise.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Domain/Cruise.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Domain/Date.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Domain/Date.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Domain/Offer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Domain/Offer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Interface/FilteringCriteria.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Interface/FilteringCriteriaAnd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Interface/FilteringCriteriaAnd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Interface/FilteringCriteriaOr.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Interface/FilteringCriteriaOr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Interface/FilteringDeparture.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Interface/FilteringDeparture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Interface/FilteringPrice.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Interface/FilteringPrice.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Interface/FilteringType.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Interface/FilteringType.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/Repo/DynamicArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory8-rusuraluca/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory9-rusuraluca/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory9-rusuraluca/.idea/laboratory9_rusuraluca.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory9-rusuraluca/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory9-rusuraluca/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory9-rusuraluca/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Labs/laboratory9-rusuraluca/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 1/Lecture1Examples.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 1/OOP_Lecture_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 1/assembly_example_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 1/assembly_example_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 1/programming-languages-evolution.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 10-11/Lecture 9 demo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 10-11/OOP_Lecture_9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 12/Lecture 12.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 12/OOP_Lecture_12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 13/OOP_Lecture_12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 13/OOP_Lecture_13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 13/composite/composite.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 13/composite/composite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 13/observer/observer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 13/observer/observer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 13/singleton/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 14/Recording.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 14/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 2/Lecture2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 2/OOP_Lecture_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 3/Lecture3Demo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 3/OOP_Lecture_3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 4/Lecture4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 4/OOP_Lecture_4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 4/Seminar2_lecture.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 5/Lecture5.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 5/OOP_Lecture_5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 6/Lecture6.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 6/OOP_Lecture_6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 7-8-9/Exceptions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 7-8-9/Lecture7.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Lectures/Lecture 7-8-9/OOP_Lecture_7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Business/Service.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Business/Service.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Controller/Controller.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Controller/Controller.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Domain/Podcast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Domain/Podcast.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Domain/Recording.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Domain/Recording.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Domain/Vlog.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Domain/Vlog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Exceptions/Exceptions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Exceptions/Exceptions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Persistency/FileRepo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Persistency/FileRepo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Persistency/Repo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Persistency/Repo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Tests/Tests.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/Tests/Tests.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/UI/UI.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/UI/UI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.cmake/api/v1/reply/cache-v2-29d7a9f6b0e588945ee2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.cmake/api/v1/reply/cmakeFiles-v1-5bc5dc69551bce456271.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.cmake/api/v1/reply/codemodel-v2-d01e91fed13abfb55125.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.cmake/api/v1/reply/index-2022-05-08T09-34-02-0980.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.cmake/api/v1/reply/target-PodcastsInventory-Debug-bcc7e2d8e2ebb6007f80.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.cmake/api/v1/reply/toolchains-v1-95aecfa588226bd7be4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventory.dir/Controller/Controller.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventory.dir/Domain/Podcast.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventory.dir/Domain/Recording.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventory.dir/Domain/Vlog.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventory.dir/Exceptions/Exceptions.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventory.dir/Persistency/FileRepo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventory.dir/Persistency/Repo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventory.dir/Tests/Tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventory.dir/UI/UI.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventory.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventoryCoverage.dir/Controller/Controller.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventoryCoverage.dir/Domain/Podcast.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventoryCoverage.dir/Domain/Recording.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventoryCoverage.dir/Domain/Vlog.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventoryCoverage.dir/Exceptions/Exceptions.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventoryCoverage.dir/Persistency/FileRepo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventoryCoverage.dir/Persistency/Repo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventoryCoverage.dir/Tests/Tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/PodcastsInventoryCoverage.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/PodcastsInventory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/coverage-PodcastsInventory.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/default.profraw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/inventory.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug-coverage/test-inventory.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.cmake/api/v1/reply/cache-v2-29e9117a5e5d6cb6f5d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-bdbc082804a12cb57651.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-4b1b3cd51e62f806e4ec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-08T09-34-01-0087.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.cmake/api/v1/reply/target-PodcastsInventory-Debug-ed861a076da562e5395b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-95aecfa588226bd7be4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/PodcastsInventory.dir/Controller/Controller.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/PodcastsInventory.dir/Domain/Podcast.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/PodcastsInventory.dir/Domain/Recording.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/PodcastsInventory.dir/Domain/Vlog.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/PodcastsInventory.dir/Exceptions/Exceptions.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/PodcastsInventory.dir/Persistency/FileRepo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/PodcastsInventory.dir/Persistency/Repo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/PodcastsInventory.dir/Tests/Tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/PodcastsInventory.dir/UI/UI.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/PodcastsInventory.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/untitled.dir/Controller/Controller.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/untitled.dir/Controller/RepoController.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/untitled.dir/Controller/Service.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/untitled.dir/Domain/Recording.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/untitled.dir/Exceptions/Exceptions.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/untitled.dir/Persistency/FileRepo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/untitled.dir/Persistency/Repo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/untitled.dir/Tests/Tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/untitled.dir/UI/UI.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/PodcastsInventory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/inventory.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/test-inventory.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/cmake-build-debug/untitled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/config-file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/_controller_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/_exceptions_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/_file_repo_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/_podcast_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/_recording_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/_repo_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/_service_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/_tests_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/_u_i_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/_vlog_8h_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/annotated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/bc_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/bdwn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_controller-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_controller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_file.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_file_exception-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_file_exception.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_file_repo-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_file_repo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_file_repo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_podcast-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_podcast.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_podcast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_recording-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_recording.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_recording.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_repo-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_repo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_repo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_repo_exception-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_repo_exception.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_service-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_tests-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_u_i-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_u_i.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_validation_exception-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_validation_exception.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_validator_podcast-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_validator_podcast.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_validator_recording-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_validator_recording.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_validator_vlog-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_validator_vlog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_vlog-members.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_vlog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/class_vlog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_33c78a012c8d08979f57a54a07694c46.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_35ed2a791fa12b8c227229aa91691b9a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_53ff6e473d46d4e442ba5a7ce9f895e3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_69a2b56fe9b1d17137f99d842c45dbf8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_86ea83e10c9e29ac9f040568ccd01ac9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_8c888e3f1190d8e08b273c29d1443e32.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_92783a7f0bdbd695c15c971f7f535748.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_95e29a8b8ee7c54052c171a88bb95675.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_9bb06a24f5d0965d47d184d3d53f5a56.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_9fb077707694d20b7a13b312a4d64457.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_a01faf43ded2a923d8b8bf78a3a592d8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_b006a78b48644dec974b8158d0da2bc7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_b500f500d6f9b315c95ab1cd4a3b5c0d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_bd36a8115b9e41621e8e7d4447019e35.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_d403198d2aa38de87971f2789d60a3dd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_e6e80317bfa5abd5b00042c81b9d5717.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dir_f89abcb304c928c7d889aa5625570de5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/doxygen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/doxygen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/dynsections.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/files.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/folderclosed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/folderopen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/functions_func.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/functions_rela.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/hierarchy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/menudata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/nav_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/nav_g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/nav_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/all_c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/classes_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/functions_b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/mag_sel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/nomatches.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/related_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/related_0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/search_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/search_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/search_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/search/searchdata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/splitbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/sync_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/sync_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/tab_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/tab_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/tab_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/tab_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/html/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/_controller_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/_exceptions_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/_file_repo_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/_podcast_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/_recording_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/_repo_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/_service_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/_tests_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/_u_i_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/_vlog_8h_source.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/annotated.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_controller.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_file.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_file_exception.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_file_repo.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_file_repo.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_podcast.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_podcast.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_recording.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_recording.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_repo.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_repo.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_repo_exception.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_service.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_tests.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_u_i.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_validation_exception.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_validator_podcast.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_validator_recording.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_validator_vlog.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_vlog.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/class_vlog.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/doxygen.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/files.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/hierarchy.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/longtable_doxygen.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/refman.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/latex/tabu_doxygen.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventory/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/CMakeLists.txt.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/Controller.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/Controller.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/FileRepo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/FileRepo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/PodcastsInventoryQt_en_US.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/Recording.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/Recording.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/Repo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/Repo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/mainwindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/mainwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/PodcastsInventoryQt/mainwindow.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Controller/Controller.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Controller/Controller.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Domain/Podcast.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Domain/Podcast.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Domain/Recording.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Domain/Recording.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Domain/Vlog.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Domain/Vlog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Exceptions/Exceptions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Exceptions/Exceptions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Persistency/FileRepo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Persistency/FileRepo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Persistency/Repo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Persistency/Repo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/QtRecordingInventory.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Tests/Tests.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/Tests/Tests.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/inventory.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/keypress.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/keypress.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/mainwindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/mainwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/mainwindow.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/QtRecordingInventory/test-inventory.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/Domain/Subscription.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/Domain/Subscription.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/Domain/Token.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/Domain/Token.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/Persistency/Repo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/Persistency/Repo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a32a79bb8784026c5cbb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-ccdfd2d21dd5658e3bc0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7e25e18a2f460f6e569a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-31T17-06-27-0022.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.cmake/api/v1/reply/target-UserSubscrption-Debug-d123c207f77f8765cb68.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-95aecfa588226bd7be4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/UserSubscrption.dir/Domain/Subscription.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/UserSubscrption.dir/Domain/Token.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/UserSubscrption.dir/Persistency/Repo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/UserSubscrption.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/UserSubscrption" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/UserSubscrption/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/.idea/WordPuzzle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b93da8b64b0def9ebd76.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-3b092e64226e1c886137.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7bdb1be5fc23111b9703.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-10T16-11-41-0679.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.cmake/api/v1/reply/target-WordPuzzle-Debug-cb5c3bcbfccd4796253d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-95aecfa588226bd7be4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/WordPuzzle.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/WordPuzzle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/cmake-build-debug/words_alpha.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/Word_Puzzle/words_alpha.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/.idea/laboratoryproject_rusuraluca.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Controller/Controller.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Controller/Controller.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Domain/Recording.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Domain/Recording.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Exceptions/Exceptions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Exceptions/Exceptions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Persistency/FileRepo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Persistency/FileRepo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Persistency/Repo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Persistency/Repo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Tests/Tests.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/Tests/Tests.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/UI/UI.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/UI/UI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.cmake/api/v1/reply/cache-v2-e08666fbf70799ec4ac7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.cmake/api/v1/reply/cmakeFiles-v1-481e1d1d18af2c387be5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.cmake/api/v1/reply/codemodel-v2-86add7decab513a17340.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.cmake/api/v1/reply/index-2022-05-07T22-53-25-0601.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.cmake/api/v1/reply/target-untitled-Debug-ad12321effa96cd8e3c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.cmake/api/v1/reply/toolchains-v1-95aecfa588226bd7be4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/untitled.dir/Controller/Controller.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/untitled.dir/Domain/Recording.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/untitled.dir/Exceptions/Exceptions.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/untitled.dir/Persistency/FileRepo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/untitled.dir/Persistency/Repo.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/untitled.dir/Tests/Tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/untitled.dir/UI/UI.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/CMakeFiles/untitled.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/coverage-untitled.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/default.profraw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug-coverage/untitled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/.cmake/api/v1/reply/cache-v2-9764f1e22bd5cb9b7f33.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-2ea3e6a3f6ab5a135fb7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-42bc825cdfbb183c0880.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-30T10-43-11-0533.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/.cmake/api/v1/reply/target-untitled-Debug-a895d3fb4bda0005b092.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-95aecfa588226bd7be4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/laboratoryproject_rusuraluca/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Fl65RIUN6eWmDC1hti7y7wylzR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db24cef8-9cb5-4283-b1d4-0365d721961a" name="Default Changelist" comment="" />
+      <created>1665054140555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665054140555</updated>
+      <workItem from="1665054142501" duration="629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
