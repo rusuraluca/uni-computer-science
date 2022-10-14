@@ -13,7 +13,7 @@
 
 ## 2nd semester
 * Data Structures & Algorithms
-* Object-Oriented Programming 
+* Object-Oriented Programming
 * Graph Theory
 * Operating Systems
 * Dynamical Systems
@@ -28,5 +28,3 @@
 * Advanced Programming Methods
 * PLF
 * Probability & Statistics
-
-## 4th semester
