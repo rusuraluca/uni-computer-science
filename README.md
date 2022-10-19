@@ -25,8 +25,8 @@
 
 # Second Year
 ## 3rd semester
-* [Databases]()
-* [Computer Networks]()
-* [Advanced Programming Methods]()
-* [Functional and Logic Programming]()
-* [Probability & Statistics]()
+* [Databases](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/Databases)
+* [Computer Networks](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/Computer%20Networks)
+* [Advanced Programming Methods](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/Advanced%20Programming%20Methods)
+* [Functional and Logic Programming](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/PLF)
+* [Probability & Statistics](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/Probability%20%26%20Statistics)
