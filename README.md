@@ -1,9 +1,9 @@
-## Bachelor's Computer Science
-## Faculty of Mathematics and Computer Science, Babes-Bolyai University (UBB)
+# Bachelor's Computer Science
+# Faculty of Mathematics and Computer Science, Babes-Bolyai University (UBB)
 
 ---------
 
-# [Notion Notebook](https://invented-oviraptor-ff0.notion.site/Academics-31d1380a10204a3fb054fab4480c45b9)
+# [Notebook](https://invented-oviraptor-ff0.notion.site/Academics-31d1380a10204a3fb054fab4480c45b9)
 
 ---------
 
