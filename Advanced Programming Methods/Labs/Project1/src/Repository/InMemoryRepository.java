@@ -28,19 +28,6 @@ public class InMemoryRepository implements Repository {
         }
         parking[size] = v;
         ++size;
-
-        /* dynamic way
-        parking[size] = v;
-        ++size;
-        if (size == capacity) {
-            capacity *= 2;
-            Vehicle[] newArr = new Vehicle[capacity];
-            for (int i = 0; i < size; ++i) {
-                newArr[i] = parking[i];
-            }
-            parking = newArr;
-        }
-        */
     }
 
     @Override
@@ -54,15 +41,15 @@ public class InMemoryRepository implements Repository {
     @Override
     public void remove(Vehicle v) throws InnexistentVehicleException {
         Vehicle[] filter = new Vehicle[capacity];
-        int currSize = 0;
+        int filterSize = 0;
         for (int i = 0; i < size; ++i)
             if (!parking[i].equals(v)) {
-                filter[currSize++] = parking[i];
+                filter[filterSize++] = parking[i];
             }
-        if(currSize == size) {
+        if(filterSize == size) {
             throw new InnexistentVehicleException();
         }
-        size = currSize;
+        size = filterSize;
         parking = filter;
     }
 
