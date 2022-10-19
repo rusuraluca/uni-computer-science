@@ -1,11 +1,7 @@
 # Bachelor's Computer Science
 # Faculty of Mathematics and Computer Science, Babes-Bolyai University (UBB)
 
----------
-
 # [Notebook](https://invented-oviraptor-ff0.notion.site/Academics-31d1380a10204a3fb054fab4480c45b9)
-
----------
 
 # First Year
 ## 1st semester
@@ -26,8 +22,6 @@
 * [Calculus 2](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/%20Calculus%202)
 * [Affine Geometry](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Affine%20Geometry)
 * [Dynamical Systems]()
-
----------
 
 # Second Year
 ## 3rd semester
