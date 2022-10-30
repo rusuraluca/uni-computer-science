@@ -1,11 +1,7 @@
-## Bachelor's Computer Science
-## Faculty of Mathematics and Computer Science, Babes-Bolyai University (UBB)
+# Bachelor's Computer Science
+# Babes-Bolyai University (UBB)
 
----------
-
-# [Notion Notebook](https://invented-oviraptor-ff0.notion.site/Academics-31d1380a10204a3fb054fab4480c45b9)
-
----------
+# [Notebook](https://invented-oviraptor-ff0.notion.site/Academics-31d1380a10204a3fb054fab4480c45b9)
 
 # First Year
 ## 1st semester
@@ -27,12 +23,10 @@
 * [Affine Geometry](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Affine%20Geometry)
 * [Dynamical Systems]()
 
----------
-
 # Second Year
 ## 3rd semester
-* [Databases]()
-* [Computer Networks]()
-* [Advanced Programming Methods]()
-* [Functional and Logic Programming]()
-* [Probability & Statistics]()
+* [Databases](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/Databases)
+* [Computer Networks](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/Computer%20Networks)
+* [Advanced Programming Methods](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/Advanced%20Programming%20Methods)
+* [Functional and Logic Programming](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/PLF)
+* [Probability & Statistics](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/Probability%20%26%20Statistics)
