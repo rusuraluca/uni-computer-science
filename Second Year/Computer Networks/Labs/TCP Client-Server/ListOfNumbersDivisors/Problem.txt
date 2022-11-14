@@ -1,0 +1,2 @@
+The client sends to the server an integer.
+The server returns the list of divisors for the specified number.
