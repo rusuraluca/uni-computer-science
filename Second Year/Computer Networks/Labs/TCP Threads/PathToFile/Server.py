@@ -1,7 +1,6 @@
 import socket
 import struct
 import threading
-
 e = threading.Event()
 e.clear()
 my_lock = threading.Lock()

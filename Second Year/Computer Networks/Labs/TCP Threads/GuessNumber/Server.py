@@ -7,7 +7,7 @@ import time
 
 random.seed()
 start = 1
-stop = 2**17-1
+stop = 100
 my_num = random.randint(start, stop)
 print('Server number: ', my_num)
 mylock = threading.Lock()
@@ -23,14 +23,14 @@ def worker(cs):
     global mylock, client_guessed, my_num, winner_thread, client_count, e
 
     my_idcount = client_count
-    print('client #', client_count, 'from: ', cs.getpeername(), cs)
-    message = 'Hello client #' + str(client_count) + ' ! You are entering the number guess competion now !'
+    print('Client # ', client_count, ' from: ', cs.getpeername(), cs)
+    message = 'Hello client #' + str(client_count) + '! You are entering the number guess competition now!'
     cs.sendall(bytes(message, 'ascii'))
 
     while not client_guessed:
         try:
-            cnumber=cs.recv(4)
-            cnumber=struct.unpack('!I', cnumber)[0]
+            cnumber = cs.recv(4)
+            cnumber = struct.unpack('!I', cnumber)[0]
             if cnumber > my_num:
                 cs.sendall(b'S')
             if cnumber < my_num:
@@ -40,6 +40,9 @@ def worker(cs):
                 client_guessed = True
                 winner_thread = threading.get_ident()
                 mylock.release()
+
+            cs.sendall(struct.pack('!i',client_count))
+
 
         except socket.error as msg:
             print('Error:', msg.strerror)
@@ -65,7 +68,7 @@ def resetSrv():
         e.wait()
         for t in threads:
             t.join()
-        print("all threads are finished now")
+        print("All threads are finished now.")
         e.clear()
         mylock.acquire()
         threads = []
@@ -90,7 +93,7 @@ if __name__ == '__main__':
     t.start()
 
     while True:
-        client_socket, addrc = rs.accept()
+        client_socket, client_address = rs.accept()
         t = threading.Thread(target=worker, args=(client_socket,) )
         threads.append(t)
         client_count += 1
