@@ -1,0 +1,2 @@
+Server generates a random float.
+Clients guess the number and the first client to get up to 0.1 close to the answer wins.

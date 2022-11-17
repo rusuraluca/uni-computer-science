@@ -8,7 +8,7 @@ if __name__ == '__main__':
         exit(-1)
 
     finished = False
-    sr = 1;
+    sr = 1
     er = 2 ** 17 - 1
     random.seed()
 
