@@ -18,6 +18,17 @@ def tcp_recv_int(sock):
     return x
 
 
+def tcp_send_float(sock, x):
+    print("Sending: {data}".format(data=x))
+    sock.send(struct.pack("!f", x))
+
+
+def tcp_recv_float(sock):
+	x = struct.unpack("!f", sock.recv(4))[0]
+	print("Received: {data}".format(data=x))
+	return x
+
+
 def tcp_send_string(sock, string):
     print("Sending: {data}".format(data=string))
     sock.send(string.encode('ascii'))
@@ -48,7 +59,7 @@ def tcp_server_init(ip_address, port):
     return server_socket
 
 
-def tcp_client_init(ip_address, port):
+def tcp_client_connect(ip_address, port):
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((ip_address, port))
     print("You are CONNECTED")
@@ -56,55 +67,36 @@ def tcp_client_init(ip_address, port):
     return client_socket
 
 
-def tcp_connect_client(peer, socket_list):
-    (peer_socket, peer_address) = peer.accept()
-    socket_list.append(peer_socket)
-    print("CONNECTED client: ", peer_address)
-
-
-def tcp_disconnect_client(peer, socket_list):
-    print("DISCONNECTED client: ", peer.getpeername())
-    socket_list.remove(peer)
-
-
-def server_program():
+def client_program():
     # as both code is running on same pc
     host = socket.gethostname()
     # socket server port number
     port = 5555
 
-    # init rendezvous socket
-    rndvus_socket = tcp_server_init(host, port)
+    try:
+        # init & connect client socket
+        client_socket = tcp_client_connect(host, port)
 
-    # list of sockets
-    sockets = [rndvus_socket]
+    except socket.error as msg:
+        print('Error: ', msg.strerror)
+        client_socket.close()
+        exit(-1)
 
     while True:
-        (read, write, err) = select.select(sockets, [], [])
-        for peer in read:
-            if peer == rndvus_socket:
-                tcp_connect_client(peer, sockets)
+        # input data or random data
 
-            else:
-                # receive data from client only if data is available
-                arr = []
-                len = tcp_recv_int(peer)
-                if len != 0:
+        # send data to server
 
-                    for i in range(len):
-                        x = tcp_recv_int(peer)
-                        arr.append(x)
+        if data is ok:
 
-                    s = 0
-                    for i in range(len):
-                        s += arr[i]
+        # receive data from server
 
-                    tcp_send_int(peer, s)
-
-                else:
-                    # no message to read => client disconnected
-                    tcp_disconnect_client(peer, sockets)
+        else:
+            print("You are DISCONNECTED")
+            client_socket.close()
+            exit(0)
 
 
 if __name__ == '__main__':
-    server_program()
+    client_program()
+

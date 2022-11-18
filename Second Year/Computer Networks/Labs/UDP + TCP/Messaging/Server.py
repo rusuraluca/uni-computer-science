@@ -48,21 +48,6 @@ if __name__ == '__main__':
 				master.remove(fd)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 """
 ! - (from or to) network
 c - char

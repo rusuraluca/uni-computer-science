@@ -92,12 +92,15 @@ except socket.error as msg:
     print('Error: ', msg.strerror)
     client_socket.close()
     exit(-2)
-"""
 
+"""
 import socket
 import struct
 import random
 import time
+import time
+import sys
+import select
 
 
 #
@@ -153,7 +156,6 @@ def tcp_client_init(ip_address, port):
     # client_socket = socket.create_connection(ip_address, port)
     return client_socket
 
-
 #
 # UDP
 #
@@ -198,10 +200,12 @@ def udp_recv_char(sock):
 
 
 def udp_server_init(ip_address, port):
-    server_socket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
-    server_socket.bind((ip_address, port))
+    # create socket
+    udp_socket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
+    # bind
+    udp_socket.bind((ip_address, port))
     print("UDP Server RUNNING...")
-    return server_socket
+    return udp_socket
 
 
 def udp_client_init():

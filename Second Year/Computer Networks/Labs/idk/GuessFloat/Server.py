@@ -19,7 +19,7 @@ e = threading.Event()
 e.clear()
 threads = []
 client_count = 0
-response_dic = {} #response dictionary
+response_dic = {} # response dictionary
 
 def notify():
     min = float('inf')
