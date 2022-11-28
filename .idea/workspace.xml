@@ -1,137 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db24cef8-9cb5-4283-b1d4-0365d721961a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Advanced Programming Methods/Labs/Lab2/src/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Programming Methods/Labs/Lab2/src/Model/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Programming Methods/Labs/Lab2/src/Model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Programming Methods/Labs/Lab2/src/Model/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Programming Methods/Labs/Lab2/src/Model/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Programming Methods/Labs/Lab2/src/Repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Programming Methods/Labs/Lab2/src/View/VehicleView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PLF/Labs/Lab2/lab2.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/CMakeFiles/Frequency_Analysis_Cracking_Caesar.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/CMakeFiles/Frequency_Analysis_Cracking_Caesar.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/Frequency_Analysis_Cracking_Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/Frequency_Analysis_Cracking_Caesar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/cache-v2-74a09dc431fb27eec829.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-110d9e058787c3ba543f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c2c88c613437da8f8899.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-01T16-41-29-0545.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/target-laboratory1_rusuraluca-Debug-f5bea589bd7905caa9a0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-380ed6ab85707eb8e999.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/laboratory1_rusuraluca.dir/Problem2/main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/laboratory1_rusuraluca.dir/Problem3/main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/laboratory1_rusuraluca.dir/Problem4/main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory1-rusuraluca/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/Laboratory3/complex_number.h" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/Laboratory3/complex_number.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/cache-v2-a1144470859d3ba131d4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-58414365a45b1168143a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9c1cd69f8fb25688809c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-11T12-18-46-0445.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/target-laboratory3_rusuraluca-Debug-6f91b010dcaba8a88ddb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7c734c62946c5e4e4fc3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/laboratory3_rusuraluca.dir/Laboratory3/complex_number.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/laboratory3_rusuraluca.dir/Laboratory3/complex_test.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/laboratory3_rusuraluca.dir/Laboratory3/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/laboratory3_rusuraluca.dir/Laboratory3/test.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/laboratory3_rusuraluca.dir/Laboratory3/tester.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/in1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/in2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/in3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/in4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/in5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory3-rusuraluca/cmake-build-debug/laboratory3_rusuraluca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8c009d05f0c12edc6b09.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-e151972b159fa130b218.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ed0a6d690949afdeba8d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-27T19-11-33-0800.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/target-laboratory4_rusuraluca-Debug-4544d0f4f8fa43a62854.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7c734c62946c5e4e4fc3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/laboratory4_rusuraluca" beforeDir="false" />
-    </list>
+    <list default="true" id="db24cef8-9cb5-4283-b1d4-0365d721961a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,6 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="58df9d90-9c99-4b46-be39-7cefdb1322d2" />
   <component name="ProjectId" id="2Fl65RIUN6eWmDC1hti7y7wylzR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -162,6 +33,7 @@
       <updated>1665054140555</updated>
       <workItem from="1665054142501" duration="885000" />
       <workItem from="1665579794420" duration="176000" />
+      <workItem from="1669647381645" duration="830000" />
     </task>
     <servers />
   </component>

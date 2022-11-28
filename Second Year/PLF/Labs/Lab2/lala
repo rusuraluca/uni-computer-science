@@ -1,0 +1,521 @@
+% 1. Write a predicate to determine the lowest common multiple of a list formed from integer numbers.
+
+% mathematical model:
+% instead of the Euclidean algorithm by substraction, we continuously divide the bigger number by the smaller number
+% gcd(a, b) = { b, a = 0
+% 			  { gcd(b%a, a), otherwise
+% domain:
+% gcd(A:number, B:number, R:number)
+% flow model:
+% gcd(i, i, o)
+gcd(0, B, B).
+gcd(A, B, R):- B1 is B mod A,
+    		   gcd(B1, A, R).
+
+% mathematical model:
+% lcm(a, b) = a * b / gcd(a, b)
+% domain:
+% lcm(A:number, B:number, R:number)
+% flow model:
+% lcm(i, i, o)
+lcm(A, B, R):- gcd(A, B, RGCD),
+			   R is A * B / RGCD.
+
+% mathematical model:
+% lcm_list(L) = { 1, L is empty
+% 		        { lcm(l1, lcm_list(T)), otherwise
+% domain:
+% lcm_list(L:list, R:number)
+% flow model:
+% lcm(i, o)
+lcm_list([], 1):-!.
+lcm_list([H|T], LCM) :- lcm_list(T, LCM2),
+                        lcm(H, LCM2, LCM).
+
+
+% 1. b. Write a predicate to add a value v after 1-st, 2-nd, 4-th, 8-th, … element in a list.
+
+% mathematical model:
+% pow2add(l1...ln, v, pos, index) = { [], n = 0
+%									{ l1 U v U insert_pow(l2...ln, v, pos * 2, index + 1), index = pos
+%	                                { l1 U insert_pow(l2...ln, v, pos, index + 1), pos != index
+% domain:
+% pow2add(L:list, V:number, P:number, I:number, R:list)
+% flow model:
+% pow2add(i, i, i, i, o)
+pow2add([], _, _, _, []).
+pow2add([H|T], V, P, I, [H,V|R]):- P =:= I,
+                                   NEWP is P*2,
+                                   NEWI is I+1,
+                                   pow2add(T, V, NEWP, NEWI, R).
+pow2add([H|T], V, P, I, [H|R]):- P =\= I,
+                                 NEWI is I+1,
+                                 pow2add(T, V, P, NEWI, R).
+
+
+% 2. a. Write a predicate to remove all occurrences of a certain atom from a list.
+
+% mathematical model:
+% remove_occurences(l1...ln, v) = { [], n = 0
+%						     { l1 U insert_pow(l2...ln, v), l1 = v
+%	                         { insert_pow(l2...ln, v), otherwise
+% domain:
+% remove_occurences(L:list, V:number, R:list)
+% flow model:
+% pow2add(i, i, o)
+remove_occurences([],_,[]).
+remove_occurences([H|T], V, R):- H =:= V,
+    							 remove_occurences(T, V, R).
+remove_occurences([H|T], V, [H|R]):- H =\= V,
+    							     remove_occurences(T, V, R).
+
+
+% 2. b. Define a predicate to produce a list of pairs (atom n) from an initial list of atoms. In this initial list atom has n occurrences.
+% e.g. numberatom([1, 2, 1, 2, 1, 3, 1], X) => X = [[1, 4], [2, 2], [3, 1]].
+
+
+% mathematical model:
+% count_occurences(l1...ln, v) = { 0, n = 0
+%						         { 1 + count_occurences(l2...ln, v), l1 = v
+%	                             { count_occurences(l2...ln, v), otherwise
+% domain:
+% count_occurences(L:list, V:number, R:number)
+% flow model:
+% pow2add(i, i, o)
+count_occurences([],_,0).
+count_occurences([H|T], V, R):- H =:= V,
+                                count_occurences(T, V, R1),
+   								R is R1+1, !.
+count_occurences([H|T], V, R):- H =\= V,
+                                count_occurences(T, V, R).
+
+% mathematical model:
+% numberatom(l1...ln) = { [], n = 0
+%					    { [l1, count_occurences(l1...ln, l1)] U numberatom(remove_occurences(l2...ln, l1))
+% domain:
+% numberatom(L:list, R:list)
+% flow model:
+% numberatom(i, o)
+numberatom([], []).
+numberatom([H|T], [[H, RC]|R]) :- count_occurences([H|T], H, RC),
+    							  remove_occurences(T, H, RR),
+    							  numberatom(RR, R),!.
+
+
+% 3. a. Define a predicate to remove from a list all repetitive elements.
+% e.g.: l=[1,2,1,4,1,3,4] => l=[2,3])
+
+% mathematical model:
+% remove_repetitve(l1...ln) = { [], n = 0
+%					          { remove_repetitve(remove_occurences(l2...ln, l1)), if count_occurences(l1...ln, l1) > 1
+%					          { l1 U remove_repetitve(l2...ln, l1), otherwise
+% domain:
+% remove_repetitve(L:list, R:list)
+% flow model:
+% remove_repetitve(i, o)
+remove_repetitve([], []).
+remove_repetitve([H|T], R):- count_occurences([H|T], H, RC),
+    						 RC > 1, !,
+    					     remove_occurences([H|T], H, RR),
+                             remove_repetitve(RR, R), !.
+remove_repetitve([H|T], [H|R]):- remove_repetitve(T, R).
+
+
+% 3. b. Remove all occurrence of a maximum value from a list on integer numbers
+
+% mathematical model:
+% max_number(a, b) = { a, a >= b
+% 	                 { b, a < b
+% domain:
+% max_number(A:number, B:number, R:number)
+% flow model:
+% max_number(i, i, o)
+max_number(A, B, A) :- A >= B.
+max_number(A, B, B) :- A < B.
+
+% mathematical model:
+% max_list(l1...ln) = { l1, n = 1
+% 	                  { maxim_number(l1, maxim_list(l2...ln)), otherwise
+% domain:
+% max_list(L:list, R:number)
+% flow model:
+% max_list(i, o)
+max_list([H], H).
+max_list([H|T], R):- max_list(T, RM),
+  					 max_number(H, RM, R).
+
+% mathematical model:
+% remove_max(l1...ln) = remove_occurences(l1...ln, maxim_list(l1...ln))
+% domain:
+% remove_max(L:list, R:list)
+% flow model:
+% remove_max(i, o)
+remove_max(L, R) :- max_list(L, RM),
+    				remove_occurences(L, RM, R), !.
+
+
+% 4. a. Write a predicate to determine the difference of two sets.
+
+% mathematical model:
+% contains(a1...an, e) = { false, if n = 0
+%  						 { true, if a1 = e
+% 					     { contains(a2...an, e), otherwise
+% domain:
+% contains(A:set, E:integer)
+% flow model:
+% remove_max(i, i)
+contains([V|_], V):- !.
+contains([_|T], V):- contains(T, V).
+
+% mathematical model:
+% set_diff(a1...an, b1...bn) = { [], n = 0
+% 							   { set_diff(a2...an, b1...bn), if contains(b1...bn, a1) = true
+% 							   { a1 U set_diff(a2...an, b1...bn), otherwise
+% domain:
+% remove_max(A:set, B:set, R:set)
+% flow model:
+% remove_max(i, i, o)
+set_diff([], _, []).
+set_diff([H|T], B, R):- contains(B, H),
+    					set_diff(T, B, R), !.
+set_diff([H|T], B, [H|R]):- set_diff(T, B, R).
+
+
+% 4. b. Write a predicate to add value 1 after every even element from a list.
+
+% mathematical model:
+% insert_after_even(a1...an) = { [], n = 0
+% 							   { l1 U 1 U insert_after_even(a2...an), if l1 % 2 = 0
+% 							   { l1 U insert_after_even(a2...an), otherwise
+% domain:
+% insert_after_even(L:list, R:list)
+% flow model:
+% insert_after_even(i, o)
+insert_after_even([], []).
+insert_after_even([H|T], [H,1|R]):- H mod 2 =:= 0,!,
+    								insert_after_even(T, R).
+insert_after_even([H|T], [H|R]):- H mod 2 =\= 0,
+    						  insert_after_even(T, R).
+
+
+% 5. a. Write a predicate to compute the union of two sets.
+
+% mathematical model:
+% union(a1...an, b1...bm) = { [], n = 0 and m = 0
+% 							{ union(b1...bm, []), n = 0
+% 							{ a1 U union(remove_occurences(a1...an, a1), remove_occurences(b1...bm, a1)), n > 1
+% domain:
+% union(A:list, B:list, R:list)
+% flow model:
+% insert_after_even(i, i, o)
+union([], [], []).
+union([H|T], B, [H|R]):- remove_occurences([H|T], H, R1),
+    					 remove_occurences(B, H, R2),
+    					 union(R1, R2, R), !.
+union([], B, R):- union(B, [], R).
+
+
+
+% 5. b. Write a predicate to determine the set of all the pairs of elements in a list.
+% e.g.: L = [a b c d] => [[a b] [a c] [a d] [b c] [b d] [c d]].
+
+% mathematical model:
+% pairs(a1...an, k) = { [], k = 0
+% 					  { a1 U pairs(a2...an, k-1), k > 0
+% 					  { pairs(a2...an, k), otherwise
+% domain:
+% pairs(A:list, K:integer, R:list)
+% flow model:
+% pairs(i, i, o)
+pairs(_, 0, []):- !.
+pairs([H|T], K, [H|R]):-
+    K1 is K - 1,
+    pairs(T, K1, R).
+pairs([_|T], K, R):-
+    pairs(T, K, R).
+
+% mathematical model:
+% set_pairs(l1..ln) = { [], n = 0
+% 					  { findall(sets(l1...ln, 2))
+% domain:
+% set_pairs(L:list, R:list)
+% flow model:
+% set_pairs(i, o)
+set_pairs([], []).
+set_pairs(L, R):-
+    findall(RS, pairs(L, 2, RS), R).
+
+
+% 6. a. Write a predicate to test if a list is a set.
+
+% mathematical model:
+% is_set(l1..ln) = { true, n = 0
+%                  { false, if count_occurences(l1)!=1
+%                  { is_set(l2..ln), if count_occurences(l1)=1
+% domain:
+% is_set(L:list)
+% flow model:
+% is_set(i)
+is_set([]).
+is_set([H|T]) :-
+    count_occurences([H|T], H, R),
+    R =:= 1,
+    is_set(T), !.
+
+
+% 6. b. Write a predicate to remove the first three occurrences of an element in a list. If the element occurs less than three times, all occurrences will be removed.
+
+% mathematical model:
+% remove_k_occurences(l1...ln, e, k) = { [], n=0
+% 									   { [], k=0
+%                                      { l1...ln, k = 0
+%									   { remove_k_occurences(l2...ln, e, k - 1), if l1 = e
+%									   { remove_k_occurences(l2...ln, e, k), otherwise
+% domain:
+% remove_k_occurences(L:list, E:number, K:number, R:list)
+% flow model:
+% remove_k_occurences(i, i, i, o)
+remove_k_occurences([], _, _, []) :- !.
+remove_k_occurences(L, _, 0, L) :- !.
+remove_k_occurences([H|T], E, K, R) :-
+    H =:= E,
+    K1 is K-1,
+    remove_k_occurences(T, E, K1, R).
+remove_k_occurences([H|T], E, K, [H|R]) :-
+    H =\= E,
+    remove_k_occurences(T, E, K, R).
+
+% domain:
+% remove_3_occurences(L:list, E:number, R:list)
+% flow model:
+% remove_3_occurences(i, i, o)
+
+remove_3_occurences(L, E, R) :-
+    remove_k_occurences(L, E, 3, R), !.
+
+
+% 7. a. Write a predicate to compute the intersection of two sets.
+
+% mathematical model:
+% intersection(a1...an, b1...bm) = { [], if n=0 or m=0
+% 								   { a1 U intersection(a2...an, b1...bm), if contains(b1...bm, a1) is true
+% 								   { intersection(a2...an, b1...bm), otherwise
+% domain:
+% intersection(A:list, B:list, R:list)
+% flow model:
+% intersection(i, i, o)
+intersection([], _, []).
+intersection([H|T], B, [H|R]):-
+    contains(B, H),
+    intersection(T, B, R), !.
+intersection([_|T], B, R):-
+    intersection(T, B, R).
+
+
+% 7. b. Write a predicate to create a list (m, ..., n) of all integer numbers from the interval [m, n].
+
+% mathematical model:
+% interval(m, n) = { [], m=n
+%                  { m U interval(m+1, n), otherwise
+% domain:
+% intersection(M:number, N:number, R:list)
+% flow model:
+% intersection(i, i, o)
+interval(N, N, [N]).
+interval(M, N, [M|R]):-
+    NM is M+1,
+    interval(NM, N, R),!.
+
+
+% 8. a. Write a predicate to determine if a list has even numbers of elements without counting the elements from the list.
+
+% mathematical model:
+% even_list(l1...ln) = { true, n=0
+%                      { false, n=1
+%                      { even_list(l3...ln), otherwise
+% domain:
+% intersection(L:list)
+% flow model:
+% intersection(i)
+even_list([]).
+even_list([_, _|T]):-
+         even_list(T).
+
+
+% 8. b. Write a predicate to delete first occurrence of the minimum number from a list.
+
+% mathematical model:
+% min_number(a, b) = { a, a <= b
+% 	                 { b, a > b
+% domain:
+% min_number(A:number, B:number, R:number)
+% flow model:
+% min_number(i, i, o)
+min_number(A, B, A):- A =< B.
+min_number(A, B, B):- A > B.
+
+% mathematical model:
+% min_list(l1...ln) = { l1, n = 1
+% 	                  { min_number(l1, min_list(l2...ln)), otherwise
+% domain:
+% min_list(L:list, R:number)
+% flow model:
+% min_list(i, o)
+min_list([H], H).
+min_list([H|T], R):- min_list(T, RM),
+  					 min_number(H, RM, R).
+
+% mathematical model:
+% remove_first_occurence(l1...ln, e) = { [], if n=0
+% 							           { l2...ln, if l1 = e
+% 					                   { l1 u remove_min(l2...ln, e), otherwise
+% domain:
+% remove_first_occurence(L:list, E:number, R:list)
+% flow model:
+% remove_first_occurence(i, i, o)
+remove_first_occurence([H|T], H, T) :- !.
+remove_first_occurence([H|T], M, [H|R]) :-
+    remove_first_occurence(T, M, R).
+
+
+% domain:
+% remove_first_min(L:list, R:list)
+% flow model:
+% remove_first_min(i, o)
+remove_first_min(L, R) :-
+    min_list(L, RM),
+    remove_first_occurence(L, RM, R).
+
+
+% 9. a. Insert an element on the position m in a list.
+
+% mathematical model:
+% insert(l1...ln, e, m) = { [], n = 0
+%                         { l1 U l2...ln, m = 0
+%                         { insert(l2...ln, e, m-1), otherwise
+% domain:
+% insert(L:list, E:number, M:number, R:list)
+% flow model:
+% insert(i, i, i, o)
+insert(L, E, 0, [E|L]):-!.
+insert([H|T], E, M, [H|R]):-
+    M1 is M-1,
+    insert(T, E, M1, R), !.
+
+
+% 9. b. Define a predicate to determine the greatest common divisor of all numbers from a list.
+
+% mathematical model:
+% gcd_list(l1...ln) = { l1, n=1
+% 			          { gcd(l1, gcd_list(l2...ln)), otherwise
+% domain:
+% gcd_list(L:list, G:number)
+% flow model:
+% gcd_list(i, o)
+gcd_list([H], H).
+gcd_list([H|T], R):-
+    gcd_list(T, R1),
+    gcd(R1, H, R), !.
+
+
+% 10. a. Define a predicate to test if a list of an integer elements has a "valley" aspect (a set has a "valley" aspect if elements decreases up to a certain point, and then increases.
+% e.g. 10 8 6 9 11 13 – has a “valley” aspect
+
+% mathematical model:
+% valley(l1...ln, f) = { true, n = 1 and f = 0
+% 	                   { valley(l2...ln, 0), l1 > l2
+% 	                   { valley(l2...ln, 1), l1 < l2
+% 	                   { false, otherwise
+% f = 1 -> increasing
+% f = 0 -> decreasing
+% domain:
+% valley(L:list, G:number)
+% flow model:
+% valley(i, i)
+
+valley([_], 1):-!.
+valley([H1, H2|T], F):-
+    H1 > H2,
+    F =:= 0,
+    valley([H2|T], 0).
+valley([H1, H2|T], _):-
+    H1 < H2,
+    valley([H2|T], 1).
+
+is_valley([H1, H2|T]):-
+    H1 > H2,
+    valley([H1, H2|T], 0), !.
+
+
+% 10. b. Calculate the alternate sum of list’s elements (l1 - l2 + l3 ...).
+
+% mathematical model:
+% alternate_sum(l1...ln, i) = { 0, n = 0
+% 	                          { l1, n = 1
+% 	                          { l1 - l2 + alternative_sum(l3...ln), otherwise
+% domain:
+% alternate_sum(L:list, S:number)
+% flow model:
+% alternate_sum(i, o)
+alternate_sum([], 0).
+alternate_sum([H], H).
+alternate_sum([H1,H2|T], R):-
+    alternate_sum(T, R1),!,
+    R is H1 - H2 + R1.
+
+
+% 11. a. Write a predicate to substitute an element from a list with another element in the list.
+
+% mathematical model:
+% substitute_elem(l1...ln, e1, e2) = { [], n = 0
+% 	                                 { e2 U substitute_elem(l2...ln, e1, e2), if l1 = e1
+% 	                                 { l1 U substitute_elem(l2...ln, e1, e2), l1 != e1
+% domain:
+% substitute_elem(L:list, E1:number, E2:number, R:list)
+% flow model:
+% substitute_elem(i, i, i, o)
+substitute_elem([],_,_,[]).
+substitute_elem([H|T], H, E2, [E2|R]):-
+    substitute_elem(T, H, E2, R), !.
+substitute_elem([H|T], E1, E2,[H|R]):-
+    substitute_elem(T, E1, E2, R).
+
+
+% 11. b. Write a predicate to create the sublist (lm, …, ln) from the list (l1,…, lk).
+% mathematical model:
+% sublist(l1...lk, m, n, pos) = { [], pos > n
+% 	                            { l1 U sublist(l2...lk, m, n, pos + 1), if m < pos and pos < n
+% 	                            { sublist(l2...lk, m, n, pos + 1), otherwise
+% domain:
+% sublist(L:list, M:number, N:number, P:number, R:list)
+% flow model:
+% sublist(i, i, i, i, o)
+sublist(_, _, N, P, []):- P > N.
+sublist([H|T], M, N, P, []):- P > N.
+
+
+% 12.a. Write a predicate to substitute in a list a value with all the elements of another list.
+
+
+% 12. b. Remove the n-th element of a list.
+
+
+% 13. a. Transform a list in a set, in the order of the last occurrences of elements. Eg.: [1,2,3,1,2] is transformed in [3,1,2].
+
+
+% 13. b. Define a predicate to determine the greatest common divisor of all numbers in a list.
+
+
+% 14. a. Write a predicate to test equality of two sets without using the set difference.
+
+
+% 14. b. Write a predicate to select the n-th element of a given list.
+
+
+% 15. a. Write a predicate to transform a list in a set, considering the first occurrence.
+% e.g: [1,2,3,1,2] is transform in [1,2,3].
+
+
+% 15. b. Write a predicate to decompose a list in a list respecting the following: [list of even numbers list of odd numbers] and also return the number of even numbers and the numbers of odd numbers.
+
+

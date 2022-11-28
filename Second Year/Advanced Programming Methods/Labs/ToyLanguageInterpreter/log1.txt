@@ -1,0 +1,65 @@
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{}
+Execution Stack
+[(v=2;print(v)), v int]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{v=0}
+Execution Stack
+[(v=2;print(v))]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{v=0}
+Execution Stack
+[print(v), v=2]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{v=2}
+Execution Stack
+[print(v)]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[2]
+Symbol Table
+{v=2}
+Execution Stack
+[]
+File Table
+{}
+------------------------------------------------------

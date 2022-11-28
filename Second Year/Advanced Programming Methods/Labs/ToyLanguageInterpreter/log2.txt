@@ -1,0 +1,117 @@
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{}
+Execution Stack
+[(b int;(a=(2+(3*5));(b=(a+1);print(b)))), a int]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{a=0}
+Execution Stack
+[(b int;(a=(2+(3*5));(b=(a+1);print(b))))]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{a=0}
+Execution Stack
+[(a=(2+(3*5));(b=(a+1);print(b))), b int]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{a=0, b=0}
+Execution Stack
+[(a=(2+(3*5));(b=(a+1);print(b)))]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{a=0, b=0}
+Execution Stack
+[(b=(a+1);print(b)), a=(2+(3*5))]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{a=17, b=0}
+Execution Stack
+[(b=(a+1);print(b))]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{a=17, b=0}
+Execution Stack
+[print(b), b=(a+1)]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[]
+Symbol Table
+{a=17, b=18}
+Execution Stack
+[print(b)]
+File Table
+{}
+------------------------------------------------------
+
+
+Program State
+------------------------------------------------------
+Output List
+[18]
+Symbol Table
+{a=17, b=18}
+Execution Stack
+[]
+File Table
+{}
+------------------------------------------------------
