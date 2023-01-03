@@ -1,37 +1,59 @@
 package Repository;
 
-import Model.Collections.List.MyList;
-import Model.ProgramState;
-import Model.Values.StringValue;
+import Exceptions.CollectionsException;
+import Model.ProgramState.ProgramState;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
 
+/**
+ * Class for the repository
+ **/
 public class Repository implements IRepository {
-    private MyList<ProgramState> programStateList;
-    private final StringValue logFilePath;
+    List<ProgramState> programStates;
+    String logFilePath;
 
-    public Repository(StringValue logFilePath) {
-        this.programStateList = new MyList<>();
+    public Repository(ProgramState programState, String logFilePath) throws IOException {
         this.logFilePath = logFilePath;
-    }
-
-    public Repository(MyList<ProgramState> programStateList, StringValue logFilePath){
-        this.programStateList = programStateList;
-        this.logFilePath = logFilePath;
+        this.programStates = new ArrayList<>();
+        this.addProgram(programState);
+        this.emptyLogFile();
     }
 
     @Override
-    public ProgramState getCurrentProgram() { return programStateList.get(programStateList.size()-1); }
+    public void addProgram(ProgramState programState) {
+        this.programStates.add(programState);
+    }
 
     @Override
-    public void logProgramStateExecution(ProgramState programState) throws IOException {
-        PrintWriter logFile;
-        logFile = new PrintWriter(new BufferedWriter(new FileWriter(logFilePath.toString(), true)));
-        logFile.println("\n\nProgram State");
-        logFile.println(programState.toString());
+    public List<ProgramState> getProgramList() {
+        return this.programStates;
+    }
+
+    @Override
+    public List<ProgramState> getProgramStates() {
+        return this.programStates;
+    }
+
+    @Override
+    public void setProgramStates(List<ProgramState> programStates) {
+        this.programStates = programStates;
+    }
+
+    @Override
+    public void logProgramStateExecution(ProgramState programState) throws CollectionsException, IOException {
+        PrintWriter logFile = new PrintWriter((new BufferedWriter(new FileWriter(this.logFilePath, true))));
+        logFile.println(programState.programStateToString());
+        logFile.close();
+    }
+
+    @Override
+    public void emptyLogFile() throws IOException {
+        PrintWriter logFile = new PrintWriter(new BufferedWriter(new FileWriter(this.logFilePath, false)));
         logFile.close();
     }
 }

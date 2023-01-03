@@ -1,33 +1,39 @@
 package Model.Values;
 
-import Model.Types.Type;
 import Model.Types.IntType;
 
-public class IntValue implements Value {
-    private int value;
+import Model.Types.IType;
 
-    public IntValue(int value){ this.value = value; }
+/**
+ * Class for Int values
+ */
+public class IntValue implements IValue {
+    private final int val;
 
-    public int getValue() { return value; }
+    public IntValue(int v) {
+        this.val = v;
+    }
 
-    public void setValue(int value) { this.value = value; }
-
-    @Override
-    public Value deepCopy(){
-        return new IntValue(value);
+    public int getValue() {
+        return this.val;
     }
 
     @Override
-    public Type getType() { return new IntType(); }
+    public IType getType() {
+        return new IntType();
+    }
 
     @Override
-    public String toString() { return String.format("%d", value); }
+    public boolean equals(Object another) {
+        if (another instanceof IntValue) {
+            IntValue anotherInt = (IntValue) another;
+            return this.val == anotherInt.getValue();
+        }
+        return false;
+    }
 
     @Override
-    public boolean equals(Object obj){
-        if (!(obj instanceof IntValue castObj))
-            return false;
-
-        return this.value == castObj.value;
+    public String toString() {
+        return String.format("%d", this.val);
     }
 }

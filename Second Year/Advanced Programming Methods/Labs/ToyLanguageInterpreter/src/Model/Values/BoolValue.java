@@ -1,33 +1,40 @@
 package Model.Values;
 
-import Model.Types.Type;
 import Model.Types.BoolType;
 
-public class BoolValue implements Value {
-    private boolean value;
+import Model.Types.IType;
 
-    public BoolValue(boolean value){ this.value = value; }
+/**
+ * Class for Boolean values
+ */
+public class BoolValue implements IValue {
+    private final boolean val;
 
-    public boolean getValue() { return this.value; }
+    public BoolValue(boolean v) {
+        this.val = v;
+    }
 
-    public void setValue(boolean value) { this.value = value; }
-
-    @Override
-    public Value deepCopy(){
-        return new BoolValue(value);
+    public boolean getVal() {
+        return this.val;
     }
 
     @Override
-    public Type getType() { return new BoolType(); }
+    public IType getType() {
+        return new BoolType();
+    }
 
     @Override
-    public String toString() { return this.value ? "true" : "false"; }
+    public boolean equals(Object another) {
+        if (another instanceof BoolValue) {
+            BoolValue anotherBool = (BoolValue) another;
+            return this.val == anotherBool.getVal();
+        }
+
+        return false;
+    }
 
     @Override
-    public boolean equals(Object obj){
-        if (!(obj instanceof BoolValue castObj))
-            return false;
-
-        return this.value == castObj.value;
+    public String toString() {
+        return this.val ? "true" : "false";
     }
 }

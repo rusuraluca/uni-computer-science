@@ -1,101 +1,89 @@
 package Model.Expressions;
 
-import Model.Collections.Dictionary.IDictionary;
-import Exceptions.IncompatibleTypesExceptions;
-import Exceptions.IncompatibleValuesExceptions;
-import Exceptions.InvalidOperatorException;
-import Exceptions.ToyLanguageInterpreterException;
-import Model.Types.Type;
+import Exceptions.ExpressionEvaluationException;
+import Exceptions.CollectionsException;
+
+import Model.Collections.IDictionary;
+import Model.Collections.IHeap;
+import Model.Collections.MyDictionary;
+import Model.Enums.Operation;
+import Model.Enums.Operator;
+import Model.Statements.File.OpenReadFile;
+import Model.Types.IType;
+import Model.Types.IntType;
+import Model.Values.IValue;
+
 import Model.Types.BoolType;
-import Model.Values.Value;
 import Model.Values.BoolValue;
-import Model.Expressions.Enums.Operator;
 
-public class LogicExpression implements Expression {
-    private Operator operator;
-    private Expression expr1;
-    private Expression expr2;
+import java.util.Objects;
 
-    public LogicExpression(Operator operator, Expression expr1, Expression expr2) {
-        this.operator = operator;
-        this.expr1 = expr1;
-        this.expr2 = expr2;
-    }
+/**
+ * Class for the Logic expression
+ */
+public class LogicExpression implements IExpression {
+    IExpression e1;
+    IExpression e2;
+    Operator op;
 
-    public Operator getOperator() {
-        return operator;
-    }
-    public void setOperator(Operator operator) {
-        this.operator = operator;
-    }
-
-    public Expression getExpr1() {
-        return expr1;
-    }
-    public void setExpr1(Expression expr1) {
-        this.expr1 = expr1;
-    }
-
-    public Expression getExpr2() {
-        return expr2;
-    }
-    public void setExpr2(Expression expr2) {
-        this.expr2 = expr2;
+    public LogicExpression(IExpression e1, IExpression e2, Operator op) {
+        this.e1 = e1;
+        this.e2 = e2;
+        this.op = op;
     }
 
     @Override
-    public Expression deepCopy(){
-        return new LogicExpression(operator, expr1.deepCopy(), expr2.deepCopy());
-    }
+    public IValue eval(IDictionary<String, IValue> tbl, IHeap heap) throws CollectionsException, ExpressionEvaluationException {
+        IValue v1, v2;
+        v1 = this.e1.eval(tbl, heap);
 
-    @Override
-    public Type typeCheck(IDictionary<String, Type> typeTable) throws ToyLanguageInterpreterException {
-        Type type1, type2;
-        type1 = expr1.typeCheck(typeTable);
-        type2 = expr2.typeCheck(typeTable);
-        if (type1.equals(new BoolType())) {
-            if (type2.equals(new BoolType()))
-                return new BoolType();
-            else
-                throw new IncompatibleTypesExceptions("The second operand is not a bool!");
-        }else
-            throw new IncompatibleTypesExceptions("The first operand is not a bool!");
-    }
+        if (v1.getType().equals(new BoolType())) {
+            v2 = this.e2.eval(tbl, heap);
 
-    private BoolValue getValue(Expression expression, IDictionary<String, Value> symTable) throws ToyLanguageInterpreterException {
-        Value value = expression.evaluate(symTable);
+            if (v2.getType().equals(new BoolType())) {
+                BoolValue i1 = (BoolValue) v1;
+                BoolValue i2 = (BoolValue) v2;
+                boolean n1, n2;
+                n1 = i1.getVal();
+                n2 = i2.getVal();
 
-        if (value instanceof BoolValue)
-            return (BoolValue) value;
-
-        throw new IncompatibleValuesExceptions(String.format("%s is not of type BoolType!", value.toString()));
-    }
-
-    @Override
-    public Value evaluate(IDictionary<String, Value> symbolTable) throws ToyLanguageInterpreterException {
-        BoolValue expr1Value = getValue(expr1, symbolTable);
-        BoolValue expr2Value = getValue(expr2, symbolTable);
-
-        boolean evalResult;
-
-        return switch (this.operator) {
-            case AND -> new BoolValue(expr1Value.getValue() && expr2Value.getValue());
-            case OR -> new BoolValue(expr1Value.getValue() || expr2Value.getValue());
-            default -> throw new InvalidOperatorException(String.format("Invalid operator %s between %s and %s!",  operator,  expr1Value.toString(), expr2Value.toString()));
-        };
-    }
-
-    @Override
-    public String toString(){
-        String result = "(" + this.expr1.toString();
-
-        switch (this.operator) {
-            case AND -> result += " & ";
-            case OR -> result += " || ";
+                switch (this.op) {
+                    case AND -> new BoolValue(n1 && n2);
+                    case OR -> new BoolValue(n1 || n2);
+                    default -> throw new ExpressionEvaluationException(String.format("Invalid operator %s between %s and %s!",  op,  i1.toString(), i2.toString()));
+                }
+            } else
+                throw new ExpressionEvaluationException("Second operand is not a boolean.");
         }
+        else
+            throw new ExpressionEvaluationException("First operand is not a boolean.");
 
-        result += this.expr2.toString() + ")";
+        return null;
+    }
 
-        return result;
+    public IType typecheck(MyDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        IType type1, type2;
+        type1 = e1.typecheck(typeEnv);
+        type2 = e2.typecheck(typeEnv);
+
+        if(type1.equals(new BoolType())) {
+            if (type2.equals(new BoolType())) {
+                return new BoolType();
+            } else {
+                throw new ExpressionEvaluationException("Second operand is not a boolean");
+            }
+        } else {
+            throw new ExpressionEvaluationException("First operand is not a boolean");
+        }
+    }
+
+    @Override
+    public String toString() {
+        String result = "";
+        switch (this.op) {
+            case AND -> result = " & ";
+            case OR -> result = " || ";
+        }
+        return this.e1.toString() + result + this.e2.toString();
     }
 }

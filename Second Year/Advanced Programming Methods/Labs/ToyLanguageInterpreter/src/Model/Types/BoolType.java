@@ -1,20 +1,27 @@
 package Model.Types;
 
-import Model.Values.Value;
 import Model.Values.BoolValue;
+import Model.Values.IValue;
 
-public class BoolType implements Type{
+/**
+ * Class for Boolean types
+ */
+public class BoolType implements IType {
     @Override
-    public Type deepCopy(){
-        return new BoolType();
+    public IValue defaultValue() {
+        return new BoolValue(false);
     }
 
     @Override
-    public boolean equals(Object o){ return o instanceof BoolType; }
+    public boolean equals(IType another) {
+        if (another instanceof BoolType)
+            return true;
+
+        return false;
+    }
 
     @Override
-    public Value getDefault() { return new BoolValue(false); }
-
-    @Override
-    public String toString(){ return "bool"; }
+    public String toString() {
+        return "boolean";
+    }
 }

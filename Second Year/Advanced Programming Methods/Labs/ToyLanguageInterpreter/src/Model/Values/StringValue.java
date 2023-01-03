@@ -1,33 +1,40 @@
 package Model.Values;
 
-import Model.Types.Type;
+import Model.Types.IType;
 import Model.Types.StringType;
 
-public class StringValue implements Value {
-    private String string;
+/**
+ * Class for String values
+ */
+public class StringValue implements IValue {
+    private final String value;
 
-    public StringValue(String string){ this.string = string; }
+    public StringValue(String value) {
+        this.value = value;
+    }
 
-    public String getValue() { return string; }
-
-    public void setValue(String string) { this.string = string; }
-
-    @Override
-    public Value deepCopy(){
-        return new StringValue(string);
+    public String getValue() {
+        return this.value;
     }
 
     @Override
-    public Type getType() { return new StringType(); }
-
-    @Override
-    public String toString() { return String.format("%s", string); }
-
-    @Override
-    public boolean equals(Object obj){
-        if (!(obj instanceof StringValue castObj))
-            return false;
-
-        return this.string.equals(castObj.string);
+    public IType getType() {
+        return new StringType();
     }
+
+    @Override
+    public boolean equals(Object another) {
+        if (another instanceof StringValue) {
+            StringValue anotherStringValue = (StringValue) another;
+            return this.value.equals(anotherStringValue.value);
+        }
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        return "\"" + this.value + "\"";
+    }
+
 }
+

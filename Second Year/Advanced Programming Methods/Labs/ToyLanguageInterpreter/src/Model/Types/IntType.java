@@ -1,21 +1,28 @@
 package Model.Types;
 
-import Model.Values.Value;
 import Model.Values.IntValue;
 
-public class IntType implements Type{
-    @Override
-    public Type deepCopy(){
-        return new IntType();
-    }
+import Model.Values.IValue;
 
+/**
+ * Class for Int types
+ */
+public class IntType implements IType {
     @Override
-    public boolean equals(Object o){ return o instanceof IntType; }
-    @Override
-    public Value getDefault() {
+    public IValue defaultValue() {
         return new IntValue(0);
     }
 
     @Override
-    public String toString(){ return "int"; }
+    public boolean equals(IType another) {
+        if (another instanceof IntType)
+            return true;
+
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        return "int";
+    }
 }

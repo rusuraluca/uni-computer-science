@@ -1,113 +1,87 @@
 package Model.Expressions;
 
-import Model.Collections.Dictionary.IDictionary;
-import Exceptions.IncompatibleTypesExceptions;
-import Exceptions.IncompatibleValuesExceptions;
-import Exceptions.InvalidOperatorException;
-import Exceptions.ToyLanguageInterpreterException;
+import Exceptions.ExpressionEvaluationException;
+import Exceptions.CollectionsException;
+import Model.Collections.MyDictionary;
+import Model.Types.IType;
 import Model.Types.IntType;
-import Model.Types.Type;
-import Model.Values.IntValue;
-import Model.Values.Value;
+import Model.Collections.IDictionary;
+import Model.Collections.IHeap;
 import Model.Values.BoolValue;
-import Model.Expressions.Enums.Operator;
+import Model.Values.IntValue;
+import Model.Values.IValue;
 
-public class RelationalExpression implements Expression {
-    private Operator operator;
-    private Expression expr1;
-    private Expression expr2;
+import java.util.Objects;
 
-    public RelationalExpression(Operator operator, Expression expr1, Expression expr2) {
-        this.operator = operator;
-        this.expr1 = expr1;
-        this.expr2 = expr2;
-    }
+/**
+ * Class for the Relational expression
+ */
+public class RelationalExpression implements IExpression {
+    IExpression exp1;
+    IExpression exp2;
+    String op;
 
-    public Operator getOperator() {
-        return operator;
-    }
-    public void setOperator(Operator operator) {
-        this.operator = operator;
-    }
-
-    public Expression getExpr1() {
-        return expr1;
-    }
-    public void setExpr1(Expression expr1) {
-        this.expr1 = expr1;
-    }
-
-    public Expression getExpr2() {
-        return expr2;
-    }
-    public void setExpr2(Expression expr2) {
-        this.expr2 = expr2;
+    public RelationalExpression(String op, IExpression exp1, IExpression exp2) {
+        this.exp1 = exp1;
+        this.exp2 = exp2;
+        this.op = op;
     }
 
     @Override
-    public Expression deepCopy(){
-        return new RelationalExpression(operator, expr1.deepCopy(), expr2.deepCopy());
-    }
+    public IValue eval(IDictionary<String, IValue> tbl, IHeap heap) throws CollectionsException, ExpressionEvaluationException {
+        IValue v1, v2;
+        v1 = this.exp1.eval(tbl, heap);
 
-    @Override
-    public Type typeCheck(IDictionary<String, Type> typeTable) throws ToyLanguageInterpreterException {
-        Type type1, type2;
-        type1 = expr1.typeCheck(typeTable);
-        type2 = expr2.typeCheck(typeTable);
-        if (type1.equals(new IntType())) {
-            if (type2.equals(new IntType()))
-                return new IntType();
-            else
-                throw new IncompatibleTypesExceptions("The second operand is not an int!");
-        }else
-            throw new IncompatibleTypesExceptions("The first operand is not an int!");
-    }
+        if (v1.getType().equals(new IntType())) {
+            v2 = this.exp2.eval(tbl, heap);
 
-    private IntValue getValue(Expression expression, IDictionary<String, Value> symTable) throws ToyLanguageInterpreterException {
-        Value value = expression.evaluate(symTable);
+            if (v2.getType().equals(new IntType())) {
+                IntValue i1 = (IntValue) v1;
+                IntValue i2 = (IntValue) v2;
+                int n1, n2;
+                n1 = i1.getValue();
+                n2 = i2.getValue();
 
-        if (value instanceof IntValue)
-            return (IntValue) value;
-
-        throw new IncompatibleValuesExceptions(String.format("%s is not of type BoolType!", value.toString()));
-    }
-
-    @Override
-    public Value evaluate(IDictionary<String, Value> symbolTable) throws ToyLanguageInterpreterException {
-        IntValue expr1Value = getValue(expr1, symbolTable);
-        IntValue expr2Value = getValue(expr2, symbolTable);
-
-        boolean evalResult;
-
-        return switch (this.operator) {
-            case SMALLER -> new BoolValue(expr1Value.getValue() < expr2Value.getValue());
-            case SMALLER_EQUAL -> new BoolValue(expr1Value.getValue() <= expr2Value.getValue());
-
-            case EQUAL -> new BoolValue(expr1Value.getValue() == expr2Value.getValue());
-            case NOT_EQUAL -> new BoolValue(expr1Value.getValue() != expr2Value.getValue());
-
-            case GREATER -> new BoolValue(expr1Value.getValue() > expr2Value.getValue());
-            case GREATER_EQUAL -> new BoolValue(expr1Value.getValue() >= expr2Value.getValue());
-
-            default -> throw new InvalidOperatorException(String.format("Invalid operator %s between %s and %s!",  operator,  expr1Value.toString(), expr2Value.toString()));
-        };
-    }
-
-    @Override
-    public String toString(){
-        String result = "(" + this.expr1.toString();
-
-        switch (this.operator) {
-            case SMALLER -> result += " < ";
-            case SMALLER_EQUAL -> result += " <= ";
-            case EQUAL -> result += " == ";
-            case NOT_EQUAL -> result += " != ";
-            case GREATER -> result += " > ";
-            case GREATER_EQUAL -> result += " >= ";
+                if (Objects.equals(this.op, "<"))
+                    return new BoolValue(n1 < n2);
+                else if (Objects.equals(this.op, "<="))
+                    return new BoolValue(n1 <= n2);
+                else if (Objects.equals(this.op, "=="))
+                    return new BoolValue(n1 == n2);
+                else if (Objects.equals(this.op, "!="))
+                    return new BoolValue(n1 != n2);
+                else if (Objects.equals(this.op, ">="))
+                    return new BoolValue(n1 >= n2);
+                else if (Objects.equals(this.op, ">"))
+                    return new BoolValue(n1 > n2);
+            } else
+                throw new ExpressionEvaluationException("Second operand is not an integer.");
         }
+        else
+            throw new ExpressionEvaluationException("First operand is not an integer.");
 
-        result += this.expr2.toString() + ")";
+        return null;
+    }
 
-        return result;
+    public IType typecheck(MyDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        IType type1, type2;
+        type1 = exp1.typecheck(typeEnv);
+        type2 = exp2.typecheck(typeEnv);
+
+        if(type1.equals(new IntType())) {
+            if (type2.equals(new IntType())) {
+                return new IntType();
+            } else {
+                throw new ExpressionEvaluationException("Second operand is not an integer");
+            }
+        } else {
+            throw new ExpressionEvaluationException("First operand is not an integer");
+        }
+    }
+
+    @Override
+    public String toString() {
+        return exp1.toString() + " " + op + " " + exp2.toString();
     }
 }
+

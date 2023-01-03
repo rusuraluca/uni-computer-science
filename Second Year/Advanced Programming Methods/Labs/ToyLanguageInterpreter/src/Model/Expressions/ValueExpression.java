@@ -1,28 +1,35 @@
 package Model.Expressions;
 
-import Model.Collections.Dictionary.IDictionary;
-import Model.Types.Type;
-import Model.Values.Value;
+import Exceptions.CollectionsException;
+import Exceptions.ExpressionEvaluationException;
+import Model.Collections.IDictionary;
+import Model.Collections.IHeap;
+import Model.Collections.MyDictionary;
+import Model.Types.IType;
+import Model.Values.IValue;
 
-public class ValueExpression implements Expression {
-    private Value value;
+/**
+ * Class for the Value expression, aka giving a value to a variable
+ */
+public class ValueExpression implements IExpression {
+    IValue e;
 
-    public ValueExpression(Value value){ this.value = value; }
-
-    public Value getValue() { return value; }
-    public void setValue(Value value) { this.value = value; }
-
-    @Override
-    public Expression deepCopy(){
-        return new ValueExpression(value);
+    public ValueExpression(IValue e) {
+        this.e = e;
     }
 
     @Override
-    public Type typeCheck(IDictionary<String, Type> typeTable) { return value.getType(); }
+    public IValue eval(IDictionary<String, IValue> tbl, IHeap heap) {
+        return this.e;
+    }
 
     @Override
-    public Value evaluate(IDictionary<String, Value> symbolTable) { return value; }
+    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        return e.getType();
+    }
 
     @Override
-    public String toString(){ return value.toString(); }
+    public String toString() {
+        return this.e.toString();
+    }
 }

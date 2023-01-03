@@ -1,20 +1,27 @@
 package Model.Types;
 
-import Model.Values.Value;
 import Model.Values.StringValue;
+import Model.Values.IValue;
 
-public class StringType implements Type{
+/**
+ * Class for String types
+ */
+public class StringType implements IType {
     @Override
-    public Type deepCopy(){
-        return new StringType();
+    public IValue defaultValue() {
+        return new StringValue("");
     }
 
     @Override
-    public boolean equals(Object o){ return o instanceof StringType; }
+    public boolean equals(IType another) {
+        if (another instanceof StringType)
+            return true;
+
+        return false;
+    }
 
     @Override
-    public Value getDefault() { return new StringValue(""); }
-
-    @Override
-    public String toString(){ return "string"; }
+    public String toString() {
+        return "string";
+    }
 }

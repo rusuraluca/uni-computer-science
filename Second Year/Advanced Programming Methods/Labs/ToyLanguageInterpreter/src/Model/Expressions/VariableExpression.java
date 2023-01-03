@@ -1,28 +1,36 @@
 package Model.Expressions;
 
-import Model.Collections.Dictionary.IDictionary;
-import Model.Types.Type;
-import Model.Values.Value;
+import Exceptions.ExpressionEvaluationException;
+import Exceptions.CollectionsException;
 
-public class VariableExpression implements Expression {
-    private String key;
+import Model.Collections.IDictionary;
+import Model.Collections.IHeap;
+import Model.Collections.MyDictionary;
+import Model.Types.IType;
+import Model.Values.IValue;
 
-    public VariableExpression(String key){ this.key = key; }
+/**
+ * Class for Variable expression
+ */
+public class VariableExpression implements IExpression {
+    String id;
 
-    public String getKey() { return key; }
-    public void setKey(String key) { this.key = key; }
-
-    @Override
-    public Expression deepCopy(){
-        return new VariableExpression(key);
+    public VariableExpression(String id) {
+        this.id = id;
     }
 
     @Override
-    public Type typeCheck(IDictionary<String, Type> typeTable) { return typeTable.get(key); }
+    public IValue eval(IDictionary<String, IValue> tbl, IHeap heap) throws CollectionsException, ExpressionEvaluationException {
+        return tbl.lookUp(id);
+    }
 
     @Override
-    public Value evaluate(IDictionary<String, Value> symbolTable) { return symbolTable.get(key); }
+    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        return typeEnv.lookUp(id);
+    }
 
     @Override
-    public String toString() { return key; }
+    public String toString() {
+        return this.id;
+    }
 }
