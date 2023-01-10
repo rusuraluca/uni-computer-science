@@ -6,6 +6,7 @@ import Exceptions.CollectionsException;
 import Model.Expressions.IExpression;
 import Model.ProgramState.ProgramState;
 import Model.Statements.IStatement;
+import Model.Types.IType;
 import Model.Types.IntType;
 import Model.Types.StringType;
 import Model.Collections.IDictionary;
@@ -27,6 +28,16 @@ public class ReadFile implements IStatement {
         this.expression = expression;
         this.varName = varName;
     }
+
+    @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        if (!expression.typecheck(typeEnv).equals(new StringType()))
+            throw new ExpressionEvaluationException("ReadFile requires a string as expression parameter");
+        if (!typeEnv.get(varName).equals(new IntType()))
+            throw new ExpressionEvaluationException("ReadFile requires an int as variable parameter");
+        return typeEnv;
+    }
+
     @Override
     public ProgramState execute(ProgramState state) throws StatementExecutionException, ExpressionEvaluationException, CollectionsException {
         IDictionary<String, IValue> symbolTable = state.getSymbolTable();

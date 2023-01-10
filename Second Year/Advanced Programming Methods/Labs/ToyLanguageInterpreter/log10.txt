@@ -1,0 +1,624 @@
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(int v; (v = 4; (while(v > 0){(print(v); v = v - 1)}; print(v))))
+
+Symbol Table:
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+int v
+(v = 4; (while(v > 0){(print(v); v = v - 1)}; print(v)))
+
+Symbol Table:
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+int v
+(v = 4; (while(v > 0){(print(v); v = v - 1)}; print(v)))
+
+Symbol Table:
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+int v
+(v = 4; (while(v > 0){(print(v); v = v - 1)}; print(v)))
+
+Symbol Table:
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+int v
+(v = 4; (while(v > 0){(print(v); v = v - 1)}; print(v)))
+
+Symbol Table:
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+v = 4
+(while(v > 0){(print(v); v = v - 1)}; print(v))
+
+Symbol Table:
+v -> 0
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+v = 4
+(while(v > 0){(print(v); v = v - 1)}; print(v))
+
+Symbol Table:
+v -> 0
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+v = 4
+(while(v > 0){(print(v); v = v - 1)}; print(v))
+
+Symbol Table:
+v -> 0
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+v = 4
+(while(v > 0){(print(v); v = v - 1)}; print(v))
+
+Symbol Table:
+v -> 0
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+v = 4
+(while(v > 0){(print(v); v = v - 1)}; print(v))
+
+Symbol Table:
+v -> 0
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+v = 4
+(while(v > 0){(print(v); v = v - 1)}; print(v))
+
+Symbol Table:
+v -> 0
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+v = 4
+(while(v > 0){(print(v); v = v - 1)}; print(v))
+
+Symbol Table:
+v -> 0
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+v = 4
+(while(v > 0){(print(v); v = v - 1)}; print(v))
+
+Symbol Table:
+v -> 0
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+(print(v); v = v - 1)
+print(v)
+
+Symbol Table:
+v -> 4
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+
+Symbol Table:
+v -> 3
+
+Output List:
+4
+4
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+
+Symbol Table:
+v -> 3
+
+Output List:
+4
+4
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+
+Symbol Table:
+v -> 3
+
+Output List:
+4
+4
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+
+Symbol Table:
+v -> 3
+
+Output List:
+4
+4
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+
+Symbol Table:
+v -> 3
+
+Output List:
+4
+4
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+
+Symbol Table:
+v -> 3
+
+Output List:
+4
+4
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+
+Symbol Table:
+v -> 3
+
+Output List:
+4
+4
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+
+Symbol Table:
+v -> 3
+
+Output List:
+4
+4
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+
+Symbol Table:
+v -> 3
+
+Output List:
+4
+4
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+10
+Execution Stack:
+
+Symbol Table:
+v -> 3
+
+Output List:
+4
+4
+
+File Table:
+
+Heap:
+
+
+

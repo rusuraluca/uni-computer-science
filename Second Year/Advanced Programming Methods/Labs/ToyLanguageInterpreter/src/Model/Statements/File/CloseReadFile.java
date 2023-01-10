@@ -6,6 +6,7 @@ import Exceptions.CollectionsException;
 import Model.Expressions.IExpression;
 import Model.ProgramState.ProgramState;
 import Model.Statements.IStatement;
+import Model.Types.IType;
 import Model.Types.StringType;
 import Model.Collections.IDictionary;
 import Model.Values.IValue;
@@ -49,6 +50,13 @@ public class CloseReadFile implements IStatement {
         state.setFileTable(fileTable);
 
         return null;
+    }
+
+    @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        if (!expression.typecheck(typeEnv).equals(new StringType()))
+            throw new ExpressionEvaluationException("CloseReadFile requires a string expression");
+        return typeEnv;
     }
 
     @Override

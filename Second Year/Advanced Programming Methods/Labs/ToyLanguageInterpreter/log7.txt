@@ -1,0 +1,708 @@
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+(ref(int) v; (new(v, 20); (ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5))))))
+
+Symbol Table:
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+ref(int) v
+(new(v, 20); (ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5)))))
+
+Symbol Table:
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+ref(int) v
+(new(v, 20); (ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5)))))
+
+Symbol Table:
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+ref(int) v
+(new(v, 20); (ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5)))))
+
+Symbol Table:
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+ref(int) v
+(new(v, 20); (ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5)))))
+
+Symbol Table:
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(v, 20)
+(ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5))))
+
+Symbol Table:
+v -> ref(0, int)
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(v, 20)
+(ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5))))
+
+Symbol Table:
+v -> ref(0, int)
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(v, 20)
+(ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5))))
+
+Symbol Table:
+v -> ref(0, int)
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(v, 20)
+(ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5))))
+
+Symbol Table:
+v -> ref(0, int)
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(v, 20)
+(ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5))))
+
+Symbol Table:
+v -> ref(0, int)
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(v, 20)
+(ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5))))
+
+Symbol Table:
+v -> ref(0, int)
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(v, 20)
+(ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5))))
+
+Symbol Table:
+v -> ref(0, int)
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(v, 20)
+(ref(ref(int)) a; (new(a, v); (print(rH(v)); print(rH(rH(a)) + 5))))
+
+Symbol Table:
+v -> ref(0, int)
+
+Output List:
+
+File Table:
+
+Heap:
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+new(a, v)
+(print(rH(v)); print(rH(rH(a)) + 5))
+
+Symbol Table:
+a -> ref(0, ref(int))
+v -> ref(1, int)
+
+Output List:
+
+File Table:
+
+Heap:
+1 -> 20
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+
+Symbol Table:
+a -> ref(2, ref(int))
+v -> ref(1, int)
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+2 -> ref(1, int)
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+
+Symbol Table:
+a -> ref(2, ref(int))
+v -> ref(1, int)
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+2 -> ref(1, int)
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+
+Symbol Table:
+a -> ref(2, ref(int))
+v -> ref(1, int)
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+2 -> ref(1, int)
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+
+Symbol Table:
+a -> ref(2, ref(int))
+v -> ref(1, int)
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+2 -> ref(1, int)
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+
+Symbol Table:
+a -> ref(2, ref(int))
+v -> ref(1, int)
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+2 -> ref(1, int)
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+
+Symbol Table:
+a -> ref(2, ref(int))
+v -> ref(1, int)
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+2 -> ref(1, int)
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+
+Symbol Table:
+a -> ref(2, ref(int))
+v -> ref(1, int)
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+2 -> ref(1, int)
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+
+Symbol Table:
+a -> ref(2, ref(int))
+v -> ref(1, int)
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+2 -> ref(1, int)
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+
+Symbol Table:
+a -> ref(2, ref(int))
+v -> ref(1, int)
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+2 -> ref(1, int)
+
+
+
+------------------------------------------------------
+Id:
+7
+Execution Stack:
+
+Symbol Table:
+a -> ref(2, ref(int))
+v -> ref(1, int)
+
+Output List:
+20
+
+File Table:
+
+Heap:
+1 -> 20
+2 -> ref(1, int)
+
+
+

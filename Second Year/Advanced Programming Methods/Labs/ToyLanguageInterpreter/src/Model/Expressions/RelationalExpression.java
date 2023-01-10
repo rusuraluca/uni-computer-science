@@ -3,6 +3,7 @@ package Model.Expressions;
 import Exceptions.ExpressionEvaluationException;
 import Exceptions.CollectionsException;
 import Model.Collections.MyDictionary;
+import Model.Types.BoolType;
 import Model.Types.IType;
 import Model.Types.IntType;
 import Model.Collections.IDictionary;
@@ -63,14 +64,15 @@ public class RelationalExpression implements IExpression {
         return null;
     }
 
-    public IType typecheck(MyDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+    @Override
+    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
         IType type1, type2;
         type1 = exp1.typecheck(typeEnv);
         type2 = exp2.typecheck(typeEnv);
 
         if(type1.equals(new IntType())) {
             if (type2.equals(new IntType())) {
-                return new IntType();
+                return new BoolType();
             } else {
                 throw new ExpressionEvaluationException("Second operand is not an integer");
             }

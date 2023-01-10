@@ -61,7 +61,7 @@ public class LogicExpression implements IExpression {
         return null;
     }
 
-    public IType typecheck(MyDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
         IType type1, type2;
         type1 = e1.typecheck(typeEnv);
         type2 = e2.typecheck(typeEnv);
