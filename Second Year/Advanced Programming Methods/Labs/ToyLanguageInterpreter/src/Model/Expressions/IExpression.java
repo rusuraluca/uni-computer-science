@@ -7,7 +7,7 @@ import Model.Collections.IDictionary;
 import Model.Collections.IHeap;
 import Model.Collections.MyDictionary;
 import Model.Values.IValue;
-import Model.Types.IType
+import Model.Types.IType;
 
 /**
  * Interface for all expressions
