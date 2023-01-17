@@ -25,6 +25,14 @@ public class WriteHeapStatement implements IStatement {
     }
 
     @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
+        if (typeEnv.get(varName).equals(new ReferenceType(expression.typecheck(typeEnv))))
+            return typeEnv;
+        else
+            throw new StatementExecutionException("Right hand side and left hand side of wH statement have different types");
+    }
+
+    @Override
     public ProgramState execute(ProgramState state) throws StatementExecutionException, ExpressionEvaluationException, CollectionsException {
         IDictionary<String, IValue> symbolTable = state.getSymbolTable();
         IHeap heap = state.getHeap();
@@ -50,15 +58,6 @@ public class WriteHeapStatement implements IStatement {
         } else
             throw new StatementExecutionException(String.format("%s not present in the SymbolTable", varName));
         return null;
-    }
-
-    @Override
-    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
-        if (typeEnv.get(varName).equals(new ReferenceType(expression.typecheck(typeEnv))))
-            return typeEnv;
-        else
-            throw new StatementExecutionException("Right hand side and left hand side of wH statement have different types");
-
     }
 
     @Override

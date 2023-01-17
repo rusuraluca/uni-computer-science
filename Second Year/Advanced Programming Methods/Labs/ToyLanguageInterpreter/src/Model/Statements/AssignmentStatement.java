@@ -24,6 +24,17 @@ public class AssignmentStatement implements IStatement {
     }
 
     @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
+        IType typevar = typeEnv.lookUp(id);
+        IType typeexp = exp.typecheck(typeEnv);
+        if(typevar.equals(typeexp))
+            return typeEnv;
+        else
+            throw new StatementExecutionException("Right hand side and left hand side of assignment have different types");
+    }
+
+
+    @Override
     public ProgramState execute(ProgramState state) throws StatementExecutionException, CollectionsException, ExpressionEvaluationException {
         IDictionary<String, IValue> symbolTable = state.getSymbolTable();
 
@@ -39,16 +50,6 @@ public class AssignmentStatement implements IStatement {
 
         state.setSymbolTable(symbolTable);
         return state;
-    }
-
-    @Override
-    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
-        IType typevar = typeEnv.lookUp(id);
-        IType typeexp = exp.typecheck(typeEnv);
-        if(typevar.equals(typeexp))
-            return typeEnv;
-        else
-            throw new StatementExecutionException("Right hand side and left hand side of assignment have different types");
     }
 
     @Override

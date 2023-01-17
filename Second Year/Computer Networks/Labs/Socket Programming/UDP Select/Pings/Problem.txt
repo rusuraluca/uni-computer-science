@@ -1,0 +1,4 @@
+The client sends periodical PING datagrams with random content to a <server> and <port> specified in the command line.
+The server returns back (echoes) the same packets (content).
+The client checks the content of the received packets to match what was sent
+and computes the round trip time and displays it to the user – for each sent packet.

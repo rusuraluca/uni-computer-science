@@ -26,6 +26,13 @@ public class CloseReadFile implements IStatement {
     }
 
     @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        if (!expression.typecheck(typeEnv).equals(new StringType()))
+            throw new ExpressionEvaluationException("CloseReadFile requires a string expression");
+        return typeEnv;
+    }
+
+    @Override
     public ProgramState execute(ProgramState state) throws StatementExecutionException, ExpressionEvaluationException, CollectionsException {
         IValue value = expression.eval(state.getSymbolTable(), state.getHeap());
 
@@ -50,13 +57,6 @@ public class CloseReadFile implements IStatement {
         state.setFileTable(fileTable);
 
         return null;
-    }
-
-    @Override
-    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
-        if (!expression.typecheck(typeEnv).equals(new StringType()))
-            throw new ExpressionEvaluationException("CloseReadFile requires a string expression");
-        return typeEnv;
     }
 
     @Override

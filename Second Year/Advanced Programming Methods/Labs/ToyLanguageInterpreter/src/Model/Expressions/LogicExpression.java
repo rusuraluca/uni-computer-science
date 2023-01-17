@@ -32,6 +32,22 @@ public class LogicExpression implements IExpression {
         this.op = op;
     }
 
+    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        IType type1, type2;
+        type1 = e1.typecheck(typeEnv);
+        type2 = e2.typecheck(typeEnv);
+
+        if(type1.equals(new BoolType())) {
+            if (type2.equals(new BoolType())) {
+                return new BoolType();
+            } else {
+                throw new ExpressionEvaluationException("Second operand is not a boolean");
+            }
+        } else {
+            throw new ExpressionEvaluationException("First operand is not a boolean");
+        }
+    }
+
     @Override
     public IValue eval(IDictionary<String, IValue> tbl, IHeap heap) throws CollectionsException, ExpressionEvaluationException {
         IValue v1, v2;
@@ -59,22 +75,6 @@ public class LogicExpression implements IExpression {
             throw new ExpressionEvaluationException("First operand is not a boolean.");
 
         return null;
-    }
-
-    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
-        IType type1, type2;
-        type1 = e1.typecheck(typeEnv);
-        type2 = e2.typecheck(typeEnv);
-
-        if(type1.equals(new BoolType())) {
-            if (type2.equals(new BoolType())) {
-                return new BoolType();
-            } else {
-                throw new ExpressionEvaluationException("Second operand is not a boolean");
-            }
-        } else {
-            throw new ExpressionEvaluationException("First operand is not a boolean");
-        }
     }
 
     @Override

@@ -23,6 +23,12 @@ public class DeclarationStatement implements IStatement {
     }
 
     @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
+        typeEnv.put(name, type);
+        return typeEnv;
+    }
+
+    @Override
     public ProgramState execute(ProgramState state) throws StatementExecutionException {
         IDictionary<String, IValue> symbolTable = state.getSymbolTable();
 
@@ -32,12 +38,6 @@ public class DeclarationStatement implements IStatement {
         symbolTable.put(name, type.defaultValue());
         state.setSymbolTable(symbolTable);
         return state;
-    }
-
-    @Override
-    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
-        typeEnv.put(name, type);
-        return typeEnv;
     }
 
     @Override

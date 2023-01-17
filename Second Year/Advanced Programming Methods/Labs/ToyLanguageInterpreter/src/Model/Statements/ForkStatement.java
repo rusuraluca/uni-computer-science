@@ -25,6 +25,12 @@ public class ForkStatement implements IStatement {
     }
 
     @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
+        statement.typecheck(typeEnv.copy());
+        return typeEnv;
+    }
+
+    @Override
     public ProgramState execute(ProgramState state) throws StatementExecutionException, ExpressionEvaluationException, CollectionsException {
         // create a new stack and a new symbol table for the new thread
         IStack<IStatement> newStack = new MyStack<>();
@@ -37,13 +43,6 @@ public class ForkStatement implements IStatement {
 
         return new ProgramState(newStack, newSymbolTable, state.getOutputList(), state.getFileTable(), state.getHeap());
     }
-
-    @Override
-    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
-        statement.typecheck(typeEnv.copy());
-        return typeEnv;
-    }
-
 
     @Override
     public String toString() {

@@ -1,3 +1,0 @@
-The client sends to the server two strings.
-The server sends back the character with the largest number of occurrences on the same positions
-in both strings together with its count.

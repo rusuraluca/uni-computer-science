@@ -29,6 +29,23 @@ public class RelationalExpression implements IExpression {
     }
 
     @Override
+    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        IType type1, type2;
+        type1 = exp1.typecheck(typeEnv);
+        type2 = exp2.typecheck(typeEnv);
+
+        if(type1.equals(new IntType())) {
+            if (type2.equals(new IntType())) {
+                return new BoolType();
+            } else {
+                throw new ExpressionEvaluationException("Second operand is not an integer");
+            }
+        } else {
+            throw new ExpressionEvaluationException("First operand is not an integer");
+        }
+    }
+
+    @Override
     public IValue eval(IDictionary<String, IValue> tbl, IHeap heap) throws CollectionsException, ExpressionEvaluationException {
         IValue v1, v2;
         v1 = this.exp1.eval(tbl, heap);
@@ -62,23 +79,6 @@ public class RelationalExpression implements IExpression {
             throw new ExpressionEvaluationException("First operand is not an integer.");
 
         return null;
-    }
-
-    @Override
-    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
-        IType type1, type2;
-        type1 = exp1.typecheck(typeEnv);
-        type2 = exp2.typecheck(typeEnv);
-
-        if(type1.equals(new IntType())) {
-            if (type2.equals(new IntType())) {
-                return new BoolType();
-            } else {
-                throw new ExpressionEvaluationException("Second operand is not an integer");
-            }
-        } else {
-            throw new ExpressionEvaluationException("First operand is not an integer");
-        }
     }
 
     @Override

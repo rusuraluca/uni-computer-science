@@ -23,17 +23,17 @@ public class PrintStatement implements IStatement {
     }
 
     @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
+        expression.typecheck(typeEnv);
+        return typeEnv;
+    }
+
+    @Override
     public ProgramState execute(ProgramState state) throws ExpressionEvaluationException, CollectionsException {
         IList<IValue> outputList = state.getOutputList();
         outputList.add(expression.eval(state.getSymbolTable(), state.getHeap()));
         state.setOutputList(outputList);
         return state;
-    }
-
-    @Override
-    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
-        expression.typecheck(typeEnv);
-        return typeEnv;
     }
 
     @Override

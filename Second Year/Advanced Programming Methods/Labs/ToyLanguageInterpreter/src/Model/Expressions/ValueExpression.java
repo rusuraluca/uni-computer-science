@@ -19,13 +19,13 @@ public class ValueExpression implements IExpression {
     }
 
     @Override
-    public IValue eval(IDictionary<String, IValue> tbl, IHeap heap) {
-        return this.e;
+    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        return e.getType();
     }
 
     @Override
-    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
-        return e.getType();
+    public IValue eval(IDictionary<String, IValue> tbl, IHeap heap) {
+        return this.e;
     }
 
     @Override

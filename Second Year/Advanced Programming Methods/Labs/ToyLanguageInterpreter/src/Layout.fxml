@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="View.gui.programRunController"
+            prefHeight="500.0" prefWidth="1310.0">
+    <children>
+        <Label fx:id="noProgramStates" layoutX="35.0" layoutY="14.0" text="The number of Program States: ">
+            <font>
+                <Font name="Segoe UI Italic" size="14.0" />
+            </font>
+        </Label>
+        <TableView fx:id="heapTable" focusTraversable="false" layoutX="35.0" layoutY="83.0" prefHeight="397.0" prefWidth="200.0">
+            <columns>
+                <TableColumn fx:id="heapTableAddress" prefWidth="75.0" text="Address" />
+                <TableColumn fx:id="heapTableValue" prefWidth="75.0" text="Value" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+        <Text layoutX="96.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Heap Table">
+            <font>
+                <Font name="Segoe UI Semibold" size="16.0" />
+            </font>
+        </Text>
+        <ListView fx:id="outList" focusTraversable="false" layoutX="274.0" layoutY="83.0" prefHeight="397.0" prefWidth="200.0" />
+        <Text layoutX="360.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Out">
+            <font>
+                <Font name="Segoe UI Semibold" size="16.0" />
+            </font>
+        </Text>
+        <TableView fx:id="fileTable" focusTraversable="false" layoutX="513.0" layoutY="83.0" prefHeight="397.0" prefWidth="200.0">
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+            <columns>
+                <TableColumn fx:id="fileTableIdentifier" prefWidth="75.0" text="Identifier" />
+                <TableColumn fx:id="fileTableFileName" prefWidth="75.0" text="File name" />
+            </columns>
+        </TableView>
+        <Text layoutX="581.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FileTable">
+            <font>
+                <Font name="Segoe UI Semibold" size="16.0" />
+            </font>
+        </Text>
+        <ListView fx:id="prgStateList" focusTraversable="false" layoutX="752.0" layoutY="83.0" prefHeight="397.0" prefWidth="48.0" />
+        <Text layoutX="755.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PrgID">
+            <font>
+                <Font name="Segoe UI Semibold" size="16.0" />
+            </font>
+        </Text>
+        <TableView fx:id="symTable" focusTraversable="false" layoutX="839.0" layoutY="83.0" prefHeight="397.0" prefWidth="200.0">
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+            <columns>
+                <TableColumn fx:id="symTableVariable" prefWidth="75.0" text="Variable name" />
+                <TableColumn fx:id="symTableValue" prefWidth="75.0" text="Value" />
+            </columns>
+        </TableView>
+        <Text layoutX="904.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SymTable">
+            <font>
+                <Font name="Segoe UI Semibold" size="16.0" />
+            </font>
+        </Text>
+        <ListView fx:id="exeStackList" focusTraversable="false" layoutX="1078.0" layoutY="83.0" prefHeight="397.0" prefWidth="200.0" />
+        <Text layoutX="1146.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ExeStack">
+            <font>
+                <Font name="Segoe UI Semibold" size="16.0" />
+            </font>
+        </Text>
+        <Button fx:id="runButton" focusTraversable="false" layoutX="1176.0" layoutY="14.0" mnemonicParsing="false" text="Run one step">
+            <font>
+                <Font name="Segoe UI" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

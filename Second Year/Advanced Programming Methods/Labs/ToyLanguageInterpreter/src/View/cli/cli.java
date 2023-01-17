@@ -19,8 +19,6 @@ import View.cli.Menu.ExitCommand;
 import View.cli.Menu.RunCommand;
 import View.cli.Menu.TextMenu;
 
-import java.io.IOException;
-
 /**
  * Class that interprets the program
  */

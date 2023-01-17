@@ -1,0 +1,2 @@
+Client sends a list of floats, server gets them and sorts them.
+Server sends back to client the sorted list.

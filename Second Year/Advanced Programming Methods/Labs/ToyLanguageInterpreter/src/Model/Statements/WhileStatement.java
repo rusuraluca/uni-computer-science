@@ -25,6 +25,16 @@ public class WhileStatement implements IStatement {
     }
 
     @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
+        IType type = expression.typecheck(typeEnv);
+        if (type.equals(new BoolType())) {
+            statement.typecheck(typeEnv.copy());
+            return typeEnv;
+        } else
+            throw new StatementExecutionException("The condition of While statement has not the type bool");
+    }
+
+    @Override
     public ProgramState execute(ProgramState state) throws StatementExecutionException, ExpressionEvaluationException, CollectionsException {
         IValue value = expression.eval(state.getSymbolTable(), state.getHeap());
         IStack<IStatement> stack = state.getExecutionStack();
@@ -41,16 +51,6 @@ public class WhileStatement implements IStatement {
             stack.push(statement);
         }
         return null;
-    }
-
-    @Override
-    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
-        IType type = expression.typecheck(typeEnv);
-        if (type.equals(new BoolType())) {
-            statement.typecheck(typeEnv.copy());
-            return typeEnv;
-        } else
-            throw new StatementExecutionException("The condition of While statement has not the type bool");
     }
 
     @Override

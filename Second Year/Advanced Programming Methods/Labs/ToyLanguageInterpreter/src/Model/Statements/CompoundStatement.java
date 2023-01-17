@@ -21,17 +21,17 @@ public class CompoundStatement implements IStatement {
     }
 
     @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException{
+        return second.typecheck(first.typecheck(typeEnv));
+    }
+
+    @Override
     public ProgramState execute(ProgramState state) {
         IStack<IStatement> stack = state.getExecutionStack();
         stack.push(second);
         stack.push(first);
         state.setExecutionStack(stack);
         return state;
-    }
-
-    @Override
-    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException{
-        return second.typecheck(first.typecheck(typeEnv));
     }
 
     @Override

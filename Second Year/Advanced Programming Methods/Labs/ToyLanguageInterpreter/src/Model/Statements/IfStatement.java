@@ -30,6 +30,17 @@ public class IfStatement implements IStatement {
     }
 
     @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
+        IType typeExpression = expression.typecheck(typeEnv);
+        if (typeExpression.equals(new BoolType())){
+            thenS.typecheck(typeEnv.copy());
+            elseS.typecheck(typeEnv.copy());
+            return typeEnv;
+        } else
+            throw new StatementExecutionException("The condition of if statement is not of type bool");
+    }
+
+    @Override
     public ProgramState execute(ProgramState state) throws StatementExecutionException, ExpressionEvaluationException, CollectionsException {
         IValue res = this.expression.eval(state.getSymbolTable(), state.getHeap());
 
@@ -49,17 +60,6 @@ public class IfStatement implements IStatement {
 
         } else
             throw new StatementExecutionException("The condition of if has not the type bool");
-    }
-
-    @Override
-    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
-        IType typeExpression = expression.typecheck(typeEnv);
-        if (typeExpression.equals(new BoolType())){
-            thenS.typecheck(typeEnv.copy());
-            elseS.typecheck(typeEnv.copy());
-            return typeEnv;
-        } else
-            throw new StatementExecutionException("The condition of if statement is not of type bool");
     }
 
     @Override

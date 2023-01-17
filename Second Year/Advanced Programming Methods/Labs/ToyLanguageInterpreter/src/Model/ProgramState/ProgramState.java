@@ -20,9 +20,9 @@ public class ProgramState {
     IList<IValue> outputList;
     IDictionary<String, BufferedReader> fileTable;
     IStatement originalProgram;
-    private IHeap heap;
-    private final int id; // id of the program state
-    private static int lastId = 0; // last id given to a program state
+    IHeap heap;
+    int id; // id of the program state
+    public static int lastId = 0; // last id given to a program state
 
     public ProgramState(IStack<IStatement> executionStack, IDictionary<String, IValue> symbolTable, IList<IValue> outputList, IDictionary<String, BufferedReader> fileTable, IHeap heap, IStatement originalProgram) {
         this.executionStack = executionStack;
@@ -47,6 +47,10 @@ public class ProgramState {
     public synchronized int setId() {
         // set the id of the program state
         lastId++;
+        return lastId;
+    }
+
+    public int getId() {
         return lastId;
     }
 

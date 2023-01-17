@@ -19,6 +19,17 @@ public class ReadHeapExpression implements IExpression {
     public ReadHeapExpression(IExpression expression) {
         this.expression = expression;
     }
+
+    @Override
+    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        IType type = expression.typecheck(typeEnv);
+        if (type instanceof ReferenceType){
+            ReferenceType reftype = (ReferenceType) type;
+            return reftype.getInner();
+        } else
+            throw new ExpressionEvaluationException("The rH argument is not of ReferenceType");
+    }
+
     @Override
     public IValue eval(IDictionary<String, IValue> symTable, IHeap heap) throws ExpressionEvaluationException, CollectionsException {
         IValue value = expression.eval(symTable, heap);
@@ -32,16 +43,6 @@ public class ReadHeapExpression implements IExpression {
                 throw new ExpressionEvaluationException("The address is not defined on the heap");
         } else
             throw new ExpressionEvaluationException(String.format("%s not of ReferenceType", value));
-    }
-
-    @Override
-    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
-        IType type = expression.typecheck(typeEnv);
-        if (type instanceof ReferenceType){
-            ReferenceType reftype = (ReferenceType) type;
-            return reftype.getInner();
-        } else
-            throw new ExpressionEvaluationException("The rH argument is not of ReferenceType");
     }
 
     @Override

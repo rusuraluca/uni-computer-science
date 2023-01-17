@@ -20,13 +20,13 @@ public class VariableExpression implements IExpression {
     }
 
     @Override
-    public IValue eval(IDictionary<String, IValue> tbl, IHeap heap) throws CollectionsException, ExpressionEvaluationException {
-        return tbl.lookUp(id);
+    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        return typeEnv.lookUp(id);
     }
 
     @Override
-    public IType typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
-        return typeEnv.lookUp(id);
+    public IValue eval(IDictionary<String, IValue> tbl, IHeap heap) throws CollectionsException, ExpressionEvaluationException {
+        return tbl.lookUp(id);
     }
 
     @Override

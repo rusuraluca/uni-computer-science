@@ -1,2 +1,0 @@
-A client sends to the server a message.
-Server returns another message.

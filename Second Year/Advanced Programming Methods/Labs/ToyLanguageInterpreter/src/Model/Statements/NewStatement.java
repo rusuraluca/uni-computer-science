@@ -26,6 +26,17 @@ public class NewStatement implements IStatement {
     }
 
     @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
+        IType typeVar = typeEnv.lookUp(varName);
+        IType typeExpression = expression.typecheck(typeEnv);
+        if (typeVar.equals(new ReferenceType(typeExpression)))
+            return typeEnv;
+        else
+            throw new StatementExecutionException("Right hand side and left hand side of new statement have different types");
+    }
+
+
+    @Override
     public ProgramState execute(ProgramState state) throws StatementExecutionException, ExpressionEvaluationException, CollectionsException {
         IDictionary<String, IValue> symbolTable = state.getSymbolTable();
         IHeap heap = state.getHeap();
@@ -51,16 +62,6 @@ public class NewStatement implements IStatement {
             throw new StatementExecutionException(String.format("%s not in symTable", varName));
         }
         return null;
-    }
-
-    @Override
-    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException, StatementExecutionException {
-        IType typeVar = typeEnv.lookUp(varName);
-        IType typeExpression = expression.typecheck(typeEnv);
-        if (typeVar.equals(new ReferenceType(typeExpression)))
-            return typeEnv;
-        else
-            throw new StatementExecutionException("Right hand side and left hand side of new statement have different types");
     }
 
     @Override

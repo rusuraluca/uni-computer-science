@@ -28,6 +28,13 @@ public class OpenReadFile implements IStatement {
     }
 
     @Override
+    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
+        if (!expression.typecheck(typeEnv).equals(new StringType()))
+            throw new ExpressionEvaluationException("OpenReadFile requires a string expression");
+        return typeEnv;
+    }
+
+    @Override
     public ProgramState execute(ProgramState state) throws StatementExecutionException, ExpressionEvaluationException, CollectionsException {
         IValue value = this.expression.eval(state.getSymbolTable(), state.getHeap());
 
@@ -52,13 +59,6 @@ public class OpenReadFile implements IStatement {
             throw new StatementExecutionException(String.format("%s does not evaluate to StringType", expression.toString()));
         }
         return state;
-    }
-
-    @Override
-    public IDictionary<String, IType> typecheck(IDictionary<String, IType> typeEnv) throws CollectionsException, ExpressionEvaluationException{
-        if (!expression.typecheck(typeEnv).equals(new StringType()))
-            throw new ExpressionEvaluationException("OpenReadFile requires a string expression");
-        return typeEnv;
     }
 
     @Override

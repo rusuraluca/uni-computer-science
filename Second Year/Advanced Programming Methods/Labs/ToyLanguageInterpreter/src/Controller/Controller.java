@@ -20,10 +20,11 @@ import java.util.stream.Stream;
  * Class for the controller of the program
  */
 public class Controller {
-    IRepository repo;
+    IRepository stateRepo;
     ExecutorService executorService; // for the parallel execution
     public Controller(IRepository repo) {
-        this.repo = repo;
+        this.stateRepo = repo;
+        executorService = Executors.newFixedThreadPool(5);
     }
 
     /**
@@ -36,7 +37,7 @@ public class Controller {
     public void oneStepForAllPrograms(List<ProgramState> programStates) throws InterruptedException {
         programStates.forEach(programState -> {
             try {
-                repo.logProgramStateExecution(programState);
+                stateRepo.logProgramStateExecution(programState);
             } catch (IOException | CollectionsException e) {
                 System.out.println(e.getMessage());
             }
@@ -61,13 +62,13 @@ public class Controller {
 
         programStates.forEach(programState -> {
             try {
-                repo.logProgramStateExecution(programState);
+                stateRepo.logProgramStateExecution(programState);
             } catch (IOException | CollectionsException e) {
                 System.out.println(e.getMessage());
             }
         });
 
-        repo.setProgramStates(programStates);
+        stateRepo.setProgramStates(programStates);
     }
 
     public List<Integer> getAddressFromSymbolTable(Collection<IValue> symbolTableValues) {
@@ -115,6 +116,14 @@ public class Controller {
         programStates.forEach(p -> p.getHeap().setContent((HashMap<Integer, IValue>) safeGarbageCollector(symbolTableAddresses, getAddressFromHeap(p.getHeap().getContent().values()), p.getHeap().getContent())));
     }
 
+    public void allocateExecutor() {
+        executorService = Executors.newFixedThreadPool(5);
+    }
+
+    public void deallocateExecutor() {
+        executorService.shutdownNow();
+    }
+
     /**
      * Executes all the steps and displays the current state of the program:
      *  -> create a new executor service with 2 threads; get the list of program states from the repository
@@ -122,17 +131,33 @@ public class Controller {
      *  -> get the list of program states from the repository; shutdown the executor service
      */
     public void allSteps() throws CollectionsException, StatementExecutionException, ExpressionEvaluationException, IOException, InterruptedException {
-        executorService = Executors.newFixedThreadPool(2);
-        List<ProgramState> programStateList = removeCompletedPrograms(repo.getProgramList());
+        executorService = Executors.newFixedThreadPool(5);
+        List<ProgramState> programStateList = removeCompletedPrograms(stateRepo.getProgramList());
 
         while (programStateList.size() > 0) {
             conservativeGarbageCollector(programStateList);
             oneStepForAllPrograms(programStateList);
-            programStateList = removeCompletedPrograms(repo.getProgramList());
+            programStateList = removeCompletedPrograms(stateRepo.getProgramList());
         }
 
         executorService.shutdownNow();
-        repo.setProgramStates(programStateList);
+        stateRepo.setProgramStates(programStateList);
+    }
+
+    public IRepository getStateRepo() {
+        return stateRepo;
+    }
+
+    public void setStateRepo(IRepository stateRepo) {
+        this.stateRepo = stateRepo;
+    }
+
+    public ExecutorService getExecutorService() {
+        return executorService;
+    }
+
+    public void setExecutorService(ExecutorService executorService) {
+        this.executorService = executorService;
     }
 }
 
