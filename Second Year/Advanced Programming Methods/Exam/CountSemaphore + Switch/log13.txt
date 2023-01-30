@@ -1,0 +1,1082 @@
+Id: 4
+Execution stack: 
+(Ref(int) v1; (int cnt; (new(v1, 2); (newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+Ref(int) v1
+(int cnt; (new(v1, 2); (newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+Ref(int) v1
+(int cnt; (new(v1, 2); (newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(int cnt; (new(v1, 2); (newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))))))
+Symbol table: 
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(int cnt; (new(v1, 2); (newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))))))
+Symbol table: 
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+int cnt
+(new(v1, 2); (newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))))))
+Symbol table: 
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+int cnt
+(new(v1, 2); (newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))))))
+Symbol table: 
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(new(v1, 2); (newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))))))
+Symbol table: 
+cnt -> 0
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(new(v1, 2); (newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))))))
+Symbol table: 
+cnt -> 0
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+new(v1, 2)
+(newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))))
+Symbol table: 
+cnt -> 0
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+new(v1, 2)
+(newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))))
+Symbol table: 
+cnt -> 0
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))))
+Symbol table: 
+cnt -> 0
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(newSemaphore(cnt, ReadHeap(v1)); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))))
+Symbol table: 
+cnt -> 0
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+newSemaphore(cnt, ReadHeap(v1))
+(fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))))
+Symbol table: 
+cnt -> 0
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+newSemaphore(cnt, ReadHeap(v1))
+(fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))))
+Symbol table: 
+cnt -> 0
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 4
+Execution stack: 
+(fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))); (fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 4
+Execution stack: 
+fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))
+(fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 4
+Execution stack: 
+fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))
+(fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 4
+Execution stack: 
+(fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 5
+Execution stack: 
+(acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 4
+Execution stack: 
+(fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))); (acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 5
+Execution stack: 
+(acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 4
+Execution stack: 
+fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))))
+(acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 5
+Execution stack: 
+acquireSemaphore(cnt)
+(wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 4
+Execution stack: 
+fork((acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))))
+(acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 5
+Execution stack: 
+acquireSemaphore(cnt)
+(wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+
+Id: 4
+Execution stack: 
+(acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 5
+Execution stack: 
+(wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 6
+Execution stack: 
+(acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 4
+Execution stack: 
+(acquireSemaphore(cnt); (print(ReadHeap(v1) - 1); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 5
+Execution stack: 
+(wH(v1, ReadHeap(v1) * 10); (print(ReadHeap(v1)); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 6
+Execution stack: 
+(acquireSemaphore(cnt); (wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 4
+Execution stack: 
+acquireSemaphore(cnt)
+(print(ReadHeap(v1) - 1); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 5
+Execution stack: 
+wH(v1, ReadHeap(v1) * 10)
+(print(ReadHeap(v1)); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 6
+Execution stack: 
+acquireSemaphore(cnt)
+(wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 4
+Execution stack: 
+acquireSemaphore(cnt)
+(print(ReadHeap(v1) - 1); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 5
+Execution stack: 
+wH(v1, ReadHeap(v1) * 10)
+(print(ReadHeap(v1)); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 6
+Execution stack: 
+acquireSemaphore(cnt)
+(wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 2
+Lock Table:
+Semaphore Table:
+1 -> 2: [5]
+
+Id: 4
+Execution stack: 
+(print(ReadHeap(v1) - 1); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 5
+Execution stack: 
+(print(ReadHeap(v1)); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 6
+Execution stack: 
+acquireSemaphore(cnt)
+(wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 4
+Execution stack: 
+(print(ReadHeap(v1) - 1); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 5
+Execution stack: 
+(print(ReadHeap(v1)); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 6
+Execution stack: 
+acquireSemaphore(cnt)
+(wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 4
+Execution stack: 
+print(ReadHeap(v1) - 1)
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 5
+Execution stack: 
+print(ReadHeap(v1))
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 6
+Execution stack: 
+acquireSemaphore(cnt)
+(wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 4
+Execution stack: 
+print(ReadHeap(v1) - 1)
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 5
+Execution stack: 
+print(ReadHeap(v1))
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 6
+Execution stack: 
+acquireSemaphore(cnt)
+(wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 4
+Execution stack: 
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 5
+Execution stack: 
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 6
+Execution stack: 
+acquireSemaphore(cnt)
+(wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 4
+Execution stack: 
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 5
+Execution stack: 
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 6
+Execution stack: 
+acquireSemaphore(cnt)
+(wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [5, 4]
+
+Id: 4
+Execution stack: 
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 5
+Execution stack: 
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+(wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+(wH(v1, ReadHeap(v1) * 10); (wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt))))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+wH(v1, ReadHeap(v1) * 10)
+(wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+wH(v1, ReadHeap(v1) * 10)
+(wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+(wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 200
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+(wH(v1, ReadHeap(v1) * 2); (print(ReadHeap(v1)); releaseSemaphore(cnt)))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 200
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+wH(v1, ReadHeap(v1) * 2)
+(print(ReadHeap(v1)); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 200
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+wH(v1, ReadHeap(v1) * 2)
+(print(ReadHeap(v1)); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 200
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+(print(ReadHeap(v1)); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 400
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+(print(ReadHeap(v1)); releaseSemaphore(cnt))
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 400
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+print(ReadHeap(v1))
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 400
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+print(ReadHeap(v1))
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+File table:
+Heap memory:
+1 -> 400
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+400
+File table:
+Heap memory:
+1 -> 400
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+releaseSemaphore(cnt)
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+400
+File table:
+Heap memory:
+1 -> 400
+Lock Table:
+Semaphore Table:
+1 -> 2: [6]
+
+Id: 6
+Execution stack: 
+Symbol table: 
+cnt -> 1
+v1 -> ref(1, int)
+Output list: 
+19
+20
+400
+File table:
+Heap memory:
+1 -> 400
+Lock Table:
+Semaphore Table:
+1 -> 2: []
+

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8327bc80-eddd-4edf-af1e-75547b31649c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Exam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDownLatch + ConditionalAssignment/.idea/CountDownLatch + ConditionalAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDownLatch + ConditionalAssignment/A7/src/main/java/Model/Collections/ILatchTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDownLatch + ConditionalAssignment/A7/src/main/java/Model/Collections/MyLatchTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDownLatch + ConditionalAssignment/A7/src/main/java/Model/Statements/ConditionalAssignmentStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDownLatch + ConditionalAssignment/A7/src/main/java/Model/Statements/CountDownStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDownLatch + ConditionalAssignment/A7/src/main/java/Model/Statements/LatchAwaitStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDownLatch + ConditionalAssignment/A7/src/main/java/Model/Statements/NewLatchStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDownLatch + RepeatUntil/.idea/CountDownLatch + RepeatUntil.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDownLatch + RepeatUntil/A7/src/main/java/Model/Expressions/NotExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountDownLatch + RepeatUntil/A7/src/main/java/Model/Statements/RepeatUntilStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountSemaphore + Switch/A7/src/main/java/Model/Statements/SwitchStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/CyclicBarrierMechanism + SwitchStatement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__com_dlsc_formsfx_formsfx_core_11_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_openjfx_javafx_base_18_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_openjfx_javafx_base_mac_18_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_openjfx_javafx_controls_18_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_18_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_openjfx_javafx_fxml_18_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_18_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_openjfx_javafx_graphics_18_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_18_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/A7/src/main/java/Exceptions/TypeCheckerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/A7/src/main/java/Model/Collections/IBarrierTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/A7/src/main/java/Model/Collections/MyBarrierTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/A7/src/main/java/Model/Statements/AwaitStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/A7/src/main/java/Model/Statements/NewBarrierStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/A7/src/main/java/Model/Statements/SwitchStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CyclicBarrierMechanism + SwitchStatement/log9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LockMechanism + ForStatement/.idea/LockMechanism + ForStatement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procedures + SleepStatement/A7/src/main/java/Model/Collections/MyIProcedureTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procedures + SleepStatement/A7/src/main/java/Model/Collections/MyProcedureTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procedures + SleepStatement/A7/src/main/java/Model/Collections/MySymbolTablesStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procedures + SleepStatement/A7/src/main/java/Model/Statements/FunctionCallStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procedures + SleepStatement/A7/src/main/java/Model/Statements/FunctionReturnStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procedures + SleepStatement/A7/src/main/java/Model/Statements/SleepStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor/src/main/java/Controller/ControllerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor/src/main/java/Exceptions/DivisionByZeroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor/src/main/java/Exceptions/InvalidIndexException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor/src/main/java/Exceptions/UndeclaredVariableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor/src/main/java/Repository/RepositoryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/log12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/log13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/log14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/src/main/java/Model/Collections/IBarrierTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/src/main/java/Model/Collections/ILockTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/src/main/java/Model/Collections/MyBarrierTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/src/main/java/Model/Collections/MyLockTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/src/main/java/Model/Statements/Barrier/BarrierAwaitStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/src/main/java/Model/Statements/Barrier/NewBarrierStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/Controller/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/Model/Collections/IBarrierTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/Model/Collections/ILockTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/Model/Collections/MyBarrierTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/Model/Collections/MyLockTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/Model/Statements/Barrier/BarrierAwaitStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/Model/Statements/Barrier/NewBarrierStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/View/gui/ProgramExecutorController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/View/gui/ProgramExecutorController$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/View/gui/ProgramExecutorController$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/View/gui/ProgramExecutorController$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/View/gui/ProgramExecutorController$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/View/gui/ProgramExecutorController$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/Interpretor_CyclicBarrierMechanism/target/classes/View/gui/ProgramExecutorController$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_openjfx_javafx_base_17_ea_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_openjfx_javafx_base_mac_17_ea_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_openjfx_javafx_controls_17_ea_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_17_ea_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_ea_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_17_ea_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_ea_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_17_ea_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/Exceptions/InterpreterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/Model/DataTransferObjects/HeapEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/Model/DataTransferObjects/SymbolTableEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/gui/gui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/gui/main/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/gui/main/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/gui/select/SelectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/gui/select/select.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../First Year/Computational Logic/Individual Homework/Project.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../First Year/Computational Logic/Optional Homework/Optional_homework_Implementation_Operations_Conversions.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../First Year/Computational Logic/Optional Homework/Optional_homework_Modelling_reasoning.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../First Year/OOP/Labs/laboratory1-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../First Year/OOP/Labs/laboratory1-rusuraluca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../First Year/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../First Year/OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../First Year/OOP/Labs/laboratory4-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../First Year/OOP/Labs/laboratory4-rusuraluca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/Toy-Language-Interpreter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/Labs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Exceptions/CollectionsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Exceptions/ExpressionEvaluationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Exceptions/StatementExecutionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Layout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/MainLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Collections/IDictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Collections/IHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Collections/IList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Collections/IStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Collections/MyDictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Collections/MyHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Collections/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Collections/MyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Enums/Operation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Enums/Operator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Expressions/ArithmeticExpression$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Expressions/ArithmeticExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Expressions/IExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Expressions/LogicExpression$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Expressions/LogicExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Expressions/ReadHeapExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Expressions/RelationalExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Expressions/ValueExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Expressions/VariableExpression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/ProgramState/ProgramState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/AssignmentStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/CompoundStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/DeclarationStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/File/CloseReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/File/OpenReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/File/ReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/ForkStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/IStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/IfStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/NewStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/NopStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/PrintStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/WhileStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Statements/WriteHeapStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Types/BoolType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Types/IType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Types/IntType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Types/ReferenceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Types/StringType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Values/BoolValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Values/IValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Values/IntValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Values/ReferenceValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Model/Values/StringValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Repository/IRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/Repository/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/View/cli/Menu/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/View/cli/Menu/ExitCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/View/cli/Menu/RunCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/View/cli/Menu/TextMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/out/production/Toy-Language-Interpreter/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/Layout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/MainLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/View/cli/Menu/RunCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/View/cli/Menu/RunCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/View/gui/gui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/View/gui/programListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/View/gui/programRunController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Labs/ToyLanguageInterpreter/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Lecture 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Lecture 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Lecture 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Lecture 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Lecture 5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Lecture 6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lectures/Lecture 7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Seminars/Seminar 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Seminars/Seminar 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Seminars/Seminar 3.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KvV1YnpfZsjWCrZcdqpKueXasW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/raluca/Desktop/uni/Second Year/Advanced Programming Methods/Exam&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/javafx-sdk-19/lib" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="VM_PARAMETERS" value="--add-modules=javafx.base,javafx.controls,javafx.graphics,javafx.media " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8327bc80-eddd-4edf-af1e-75547b31649c" name="Changes" comment="" />
+      <created>1674854828445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674854828445</updated>
+      <workItem from="1674854829956" duration="666000" />
+      <workItem from="1675061303703" duration="443000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

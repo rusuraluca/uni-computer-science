@@ -1,0 +1,2353 @@
+Id: 13
+Execution stack: 
+(Ref(int) v1; (Ref(int) v2; (int x; (int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+Ref(int) v1
+(Ref(int) v2; (int x; (int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+Ref(int) v1
+(Ref(int) v2; (int x; (int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+(Ref(int) v2; (int x; (int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))))))
+Symbol table: 
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+(Ref(int) v2; (int x; (int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))))))
+Symbol table: 
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+Ref(int) v2
+(int x; (int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))))))
+Symbol table: 
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+Ref(int) v2
+(int x; (int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))))))
+Symbol table: 
+v1 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+(int x; (int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))))))
+Symbol table: 
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+(int x; (int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))))))
+Symbol table: 
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+int x
+(int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))))
+Symbol table: 
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+int x
+(int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))))
+Symbol table: 
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+(int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))))
+Symbol table: 
+x -> 0
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+(int q; (new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))))
+Symbol table: 
+x -> 0
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+int q
+(new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))))
+Symbol table: 
+x -> 0
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+int q
+(new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))))
+Symbol table: 
+x -> 0
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+(new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+(new(v1, 20); (new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+new(v1, 20)
+(new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+new(v1, 20)
+(new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(0, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+
+Id: 13
+Execution stack: 
+(new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(1, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+
+Id: 13
+Execution stack: 
+(new(v2, 30); (newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(1, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+
+Id: 13
+Execution stack: 
+new(v2, 30)
+(newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(1, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+
+Id: 13
+Execution stack: 
+new(v2, 30)
+(newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(1, int)
+v2 -> ref(0, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+Lock Table:
+
+Id: 13
+Execution stack: 
+(newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+
+Id: 13
+Execution stack: 
+(newLock(x); (fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+
+Id: 13
+Execution stack: 
+newLock(x)
+(fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+
+Id: 13
+Execution stack: 
+newLock(x)
+(fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))
+Symbol table: 
+q -> 0
+x -> 0
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+
+Id: 13
+Execution stack: 
+(fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 13
+Execution stack: 
+(fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))); (newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 13
+Execution stack: 
+fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x)))))
+(newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 13
+Execution stack: 
+fork((fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x)))))
+(newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 13
+Execution stack: 
+(newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 17
+Execution stack: 
+(fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 13
+Execution stack: 
+(newLock(q); (fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 17
+Execution stack: 
+(fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))); (lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x))))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 13
+Execution stack: 
+newLock(q)
+(fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 17
+Execution stack: 
+fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x))))
+(lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x)))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 13
+Execution stack: 
+newLock(q)
+(fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 17
+Execution stack: 
+fork((lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x))))
+(lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x)))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+
+Id: 13
+Execution stack: 
+(fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 17
+Execution stack: 
+(lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x)))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 18
+Execution stack: 
+(lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 13
+Execution stack: 
+(fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))); (no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 17
+Execution stack: 
+(lock(x); (wH(v1, ReadHeap(v1) * 10); unlock(x)))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 18
+Execution stack: 
+(lock(x); (wH(v1, ReadHeap(v1) - 1); unlock(x)))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 13
+Execution stack: 
+fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q)))))
+(no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 17
+Execution stack: 
+lock(x)
+(wH(v1, ReadHeap(v1) * 10); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 18
+Execution stack: 
+lock(x)
+(wH(v1, ReadHeap(v1) - 1); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 13
+Execution stack: 
+fork((fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q)))))
+(no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 17
+Execution stack: 
+lock(x)
+(wH(v1, ReadHeap(v1) * 10); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 18
+Execution stack: 
+lock(x)
+(wH(v1, ReadHeap(v1) - 1); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 13
+Execution stack: 
+(no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 17
+Execution stack: 
+(wH(v1, ReadHeap(v1) * 10); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 18
+Execution stack: 
+lock(x)
+(wH(v1, ReadHeap(v1) - 1); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 19
+Execution stack: 
+(fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 13
+Execution stack: 
+(no operation; (no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 17
+Execution stack: 
+(wH(v1, ReadHeap(v1) * 10); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 18
+Execution stack: 
+lock(x)
+(wH(v1, ReadHeap(v1) - 1); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 19
+Execution stack: 
+(fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))); (lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 13
+Execution stack: 
+no operation
+(no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 17
+Execution stack: 
+wH(v1, ReadHeap(v1) * 10)
+unlock(x)
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 18
+Execution stack: 
+lock(x)
+(wH(v1, ReadHeap(v1) - 1); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 19
+Execution stack: 
+fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q))))
+(lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q)))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 13
+Execution stack: 
+no operation
+(no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 17
+Execution stack: 
+wH(v1, ReadHeap(v1) * 10)
+unlock(x)
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 18
+Execution stack: 
+lock(x)
+(wH(v1, ReadHeap(v1) - 1); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 19
+Execution stack: 
+fork((lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q))))
+(lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q)))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 20
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 13
+Execution stack: 
+(no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 17
+Execution stack: 
+unlock(x)
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 18
+Execution stack: 
+lock(x)
+(wH(v1, ReadHeap(v1) - 1); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 19
+Execution stack: 
+(lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q)))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 20
+Execution stack: 
+(lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 13
+Execution stack: 
+(no operation; (no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 17
+Execution stack: 
+unlock(x)
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 18
+Execution stack: 
+lock(x)
+(wH(v1, ReadHeap(v1) - 1); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 19
+Execution stack: 
+(lock(q); (wH(v2, ReadHeap(v2) * 10); unlock(q)))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 20
+Execution stack: 
+(lock(q); (wH(v2, ReadHeap(v2) + 5); unlock(q)))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 17
+2 -> -1
+
+Id: 13
+Execution stack: 
+no operation
+(no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> -1
+
+Id: 17
+Execution stack: 
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> -1
+
+Id: 18
+Execution stack: 
+(wH(v1, ReadHeap(v1) - 1); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> -1
+
+Id: 19
+Execution stack: 
+lock(q)
+(wH(v2, ReadHeap(v2) * 10); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> -1
+
+Id: 20
+Execution stack: 
+lock(q)
+(wH(v2, ReadHeap(v2) + 5); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> -1
+
+Id: 13
+Execution stack: 
+no operation
+(no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> -1
+
+Id: 18
+Execution stack: 
+(wH(v1, ReadHeap(v1) - 1); unlock(x))
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> -1
+
+Id: 19
+Execution stack: 
+lock(q)
+(wH(v2, ReadHeap(v2) * 10); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> -1
+
+Id: 20
+Execution stack: 
+lock(q)
+(wH(v2, ReadHeap(v2) + 5); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> -1
+
+Id: 13
+Execution stack: 
+(no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 18
+Execution stack: 
+wH(v1, ReadHeap(v1) - 1)
+unlock(x)
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 19
+Execution stack: 
+(wH(v2, ReadHeap(v2) * 10); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 20
+Execution stack: 
+lock(q)
+(wH(v2, ReadHeap(v2) + 5); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 13
+Execution stack: 
+(no operation; (no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 18
+Execution stack: 
+wH(v1, ReadHeap(v1) - 1)
+unlock(x)
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 19
+Execution stack: 
+(wH(v2, ReadHeap(v2) * 10); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 20
+Execution stack: 
+lock(q)
+(wH(v2, ReadHeap(v2) + 5); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 200
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 13
+Execution stack: 
+no operation
+(no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 18
+Execution stack: 
+unlock(x)
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 19
+Execution stack: 
+wH(v2, ReadHeap(v2) * 10)
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 20
+Execution stack: 
+lock(q)
+(wH(v2, ReadHeap(v2) + 5); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 13
+Execution stack: 
+no operation
+(no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 18
+Execution stack: 
+unlock(x)
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 19
+Execution stack: 
+wH(v2, ReadHeap(v2) * 10)
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 20
+Execution stack: 
+lock(q)
+(wH(v2, ReadHeap(v2) + 5); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 30
+Lock Table:
+1 -> 18
+2 -> 19
+
+Id: 13
+Execution stack: 
+(no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 19
+
+Id: 18
+Execution stack: 
+Symbol table: 
+q -> 0
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 19
+
+Id: 19
+Execution stack: 
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 19
+
+Id: 20
+Execution stack: 
+lock(q)
+(wH(v2, ReadHeap(v2) + 5); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 19
+
+Id: 13
+Execution stack: 
+(no operation; (lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 19
+
+Id: 19
+Execution stack: 
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 19
+
+Id: 20
+Execution stack: 
+lock(q)
+(wH(v2, ReadHeap(v2) + 5); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 19
+
+Id: 13
+Execution stack: 
+no operation
+(lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 19
+Execution stack: 
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 20
+Execution stack: 
+(wH(v2, ReadHeap(v2) + 5); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 13
+Execution stack: 
+no operation
+(lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 20
+Execution stack: 
+(wH(v2, ReadHeap(v2) + 5); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 13
+Execution stack: 
+(lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 20
+Execution stack: 
+wH(v2, ReadHeap(v2) + 5)
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 13
+Execution stack: 
+(lock(x); (print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 20
+Execution stack: 
+wH(v2, ReadHeap(v2) + 5)
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 300
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 13
+Execution stack: 
+lock(x)
+(print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 20
+Execution stack: 
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 13
+Execution stack: 
+lock(x)
+(print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 20
+Execution stack: 
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> 20
+
+Id: 13
+Execution stack: 
+(print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> 13
+2 -> -1
+
+Id: 20
+Execution stack: 
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> 13
+2 -> -1
+
+Id: 13
+Execution stack: 
+(print(ReadHeap(v1)); (unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q)))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> 13
+2 -> -1
+
+Id: 13
+Execution stack: 
+print(ReadHeap(v1))
+(unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> 13
+2 -> -1
+
+Id: 13
+Execution stack: 
+print(ReadHeap(v1))
+(unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> 13
+2 -> -1
+
+Id: 13
+Execution stack: 
+(unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> 13
+2 -> -1
+
+Id: 13
+Execution stack: 
+(unlock(x); (lock(q); (print(ReadHeap(v2)); unlock(q))))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> 13
+2 -> -1
+
+Id: 13
+Execution stack: 
+unlock(x)
+(lock(q); (print(ReadHeap(v2)); unlock(q)))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> 13
+2 -> -1
+
+Id: 13
+Execution stack: 
+unlock(x)
+(lock(q); (print(ReadHeap(v2)); unlock(q)))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> 13
+2 -> -1
+
+Id: 13
+Execution stack: 
+(lock(q); (print(ReadHeap(v2)); unlock(q)))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 13
+Execution stack: 
+(lock(q); (print(ReadHeap(v2)); unlock(q)))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 13
+Execution stack: 
+lock(q)
+(print(ReadHeap(v2)); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 13
+Execution stack: 
+lock(q)
+(print(ReadHeap(v2)); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> -1
+
+Id: 13
+Execution stack: 
+(print(ReadHeap(v2)); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> 13
+
+Id: 13
+Execution stack: 
+(print(ReadHeap(v2)); unlock(q))
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> 13
+
+Id: 13
+Execution stack: 
+print(ReadHeap(v2))
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> 13
+
+Id: 13
+Execution stack: 
+print(ReadHeap(v2))
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> 13
+
+Id: 13
+Execution stack: 
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+305
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> 13
+
+Id: 13
+Execution stack: 
+unlock(q)
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+305
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> 13
+
+Id: 13
+Execution stack: 
+Symbol table: 
+q -> 2
+x -> 1
+v1 -> ref(1, int)
+v2 -> ref(2, int)
+Output list: 
+199
+305
+File table:
+Heap memory:
+1 -> 199
+2 -> 305
+Lock Table:
+1 -> -1
+2 -> -1
+

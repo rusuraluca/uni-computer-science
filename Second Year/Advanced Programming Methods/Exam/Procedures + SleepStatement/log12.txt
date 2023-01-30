@@ -1,0 +1,1177 @@
+Id: 5
+Execution stack: 
+(int v; (v = 2; (int w; (w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w)))))))))
+Symbol tables: 
+{}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+int v
+(v = 2; (int w; (w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w))))))))
+Symbol tables: 
+{}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+int v
+(v = 2; (int w; (w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w))))))))
+Symbol tables: 
+{}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(v = 2; (int w; (w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w))))))))
+Symbol tables: 
+{v=0}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(v = 2; (int w; (w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w))))))))
+Symbol tables: 
+{v=0}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+v = 2
+(int w; (w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w)))))))
+Symbol tables: 
+{v=0}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+v = 2
+(int w; (w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w)))))))
+Symbol tables: 
+{v=0}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(int w; (w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w)))))))
+Symbol tables: 
+{v=2}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(int w; (w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w)))))))
+Symbol tables: 
+{v=2}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+int w
+(w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w))))))
+Symbol tables: 
+{v=2}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+int w
+(w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w))))))
+Symbol tables: 
+{v=2}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w))))))
+Symbol tables: 
+{v=2, w=0}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(w = 5; (call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w))))))
+Symbol tables: 
+{v=2, w=0}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+w = 5
+(call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w)))))
+Symbol tables: 
+{v=2, w=0}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+w = 5
+(call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w)))))
+Symbol tables: 
+{v=2, w=0}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w)))))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(call sum(v * 10, w); (print(v); (call product(v, w); fork(call sum(v, w)))))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+call sum(v * 10, w)
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+call sum(v * 10, w)
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(int v; (v = a + b; print(v)))
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5}
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(int v; (v = a + b; print(v)))
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5}
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+int v
+(v = a + b; print(v))
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5}
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+int v
+(v = a + b; print(v))
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5}
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(v = a + b; print(v))
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5, v=0}
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(v = a + b; print(v))
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5, v=0}
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+v = a + b
+print(v)
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5, v=0}
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+v = a + b
+print(v)
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5, v=0}
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+print(v)
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5, v=25}
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+print(v)
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5, v=25}
+{v=2, w=5}
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5, v=25}
+{v=2, w=5}
+Output list: 
+25
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+return
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{a=20, b=5, v=25}
+{v=2, w=5}
+Output list: 
+25
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(print(v); (call product(v, w); fork(call sum(v, w))))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+print(v)
+(call product(v, w); fork(call sum(v, w)))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+print(v)
+(call product(v, w); fork(call sum(v, w)))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(call product(v, w); fork(call sum(v, w)))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(call product(v, w); fork(call sum(v, w)))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+call product(v, w)
+fork(call sum(v, w))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+call product(v, w)
+fork(call sum(v, w))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(int v; (v = a * b; print(v)))
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5}
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(int v; (v = a * b; print(v)))
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5}
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+int v
+(v = a * b; print(v))
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5}
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+int v
+(v = a * b; print(v))
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5}
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(v = a * b; print(v))
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5, v=0}
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+(v = a * b; print(v))
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5, v=0}
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+v = a * b
+print(v)
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5, v=0}
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+v = a * b
+print(v)
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5, v=0}
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+print(v)
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5, v=10}
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+print(v)
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5, v=10}
+{v=2, w=5}
+Output list: 
+25
+2
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5, v=10}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+return
+fork(call sum(v, w))
+Symbol tables: 
+{a=2, b=5, v=10}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+fork(call sum(v, w))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+fork(call sum(v, w))
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 5
+Execution stack: 
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+call sum(v, w)
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+call sum(v, w)
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+(int v; (v = a + b; print(v)))
+return
+Symbol tables: 
+{a=2, b=5}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+(int v; (v = a + b; print(v)))
+return
+Symbol tables: 
+{a=2, b=5}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+int v
+(v = a + b; print(v))
+return
+Symbol tables: 
+{a=2, b=5}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+int v
+(v = a + b; print(v))
+return
+Symbol tables: 
+{a=2, b=5}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+(v = a + b; print(v))
+return
+Symbol tables: 
+{a=2, b=5, v=0}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+(v = a + b; print(v))
+return
+Symbol tables: 
+{a=2, b=5, v=0}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+v = a + b
+print(v)
+return
+Symbol tables: 
+{a=2, b=5, v=0}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+v = a + b
+print(v)
+return
+Symbol tables: 
+{a=2, b=5, v=0}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+print(v)
+return
+Symbol tables: 
+{a=2, b=5, v=7}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+print(v)
+return
+Symbol tables: 
+{a=2, b=5, v=7}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+return
+Symbol tables: 
+{a=2, b=5, v=7}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+7
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+return
+Symbol tables: 
+{a=2, b=5, v=7}
+{v=2, w=5}
+Output list: 
+25
+2
+10
+7
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+
+Id: 6
+Execution stack: 
+Symbol tables: 
+{v=2, w=5}
+Output list: 
+25
+2
+10
+7
+File table:
+Heap memory:
+Lock Table:
+Procedure Table:
+product - [a, b]: (int v; (v = a * b; print(v)))
+sum - [a, b]: (int v; (v = a + b; print(v)))
+
+

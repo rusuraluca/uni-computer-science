@@ -1,0 +1,640 @@
+Id: 4
+Execution stack: 
+(int a; (int b; (int c; (a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+int a
+(int b; (int c; (a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+int a
+(int b; (int c; (a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(int b; (int c; (a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))))))
+Symbol table: 
+a -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(int b; (int c; (a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))))))
+Symbol table: 
+a -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+int b
+(int c; (a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))))))
+Symbol table: 
+a -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+int b
+(int c; (a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))))))
+Symbol table: 
+a -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(int c; (a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))))))
+Symbol table: 
+a -> 0
+b -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(int c; (a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))))))
+Symbol table: 
+a -> 0
+b -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+int c
+(a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))))
+Symbol table: 
+a -> 0
+b -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+int c
+(a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))))
+Symbol table: 
+a -> 0
+b -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))))
+Symbol table: 
+a -> 0
+b -> 0
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(a = 1; (b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))))
+Symbol table: 
+a -> 0
+b -> 0
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+a = 1
+(b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))))
+Symbol table: 
+a -> 0
+b -> 0
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+a = 1
+(b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))))
+Symbol table: 
+a -> 0
+b -> 0
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))))
+Symbol table: 
+a -> 1
+b -> 0
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(b = 2; (c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))))
+Symbol table: 
+a -> 1
+b -> 0
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+b = 2
+(c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))
+Symbol table: 
+a -> 1
+b -> 0
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+b = 2
+(c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))
+Symbol table: 
+a -> 1
+b -> 0
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))
+Symbol table: 
+a -> 1
+b -> 2
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(c = 5; (
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300)))
+Symbol table: 
+a -> 1
+b -> 2
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+c = 5
+(
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))
+Symbol table: 
+a -> 1
+b -> 2
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+c = 5
+(
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))
+Symbol table: 
+a -> 1
+b -> 2
+c -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+; print(300))
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+
+(switch(a * 10)
+ (case(b * c): (print(a); print(b)))
+(case (10): (print(100); print(200)))
+ (default: print(300)));
+
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+if(a * 10 == b * c){(print(a); print(b))}else{if(a * 10 == 10){(print(100); print(200))}else{print(300)}}
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+if(a * 10 == b * c){(print(a); print(b))}else{if(a * 10 == 10){(print(100); print(200))}else{print(300)}}
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(print(a); print(b))
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+(print(a); print(b))
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+print(a)
+print(b)
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+print(a)
+print(b)
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+print(b)
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+1
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+print(b)
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+1
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+1
+2
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+print(300)
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+1
+2
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+
+Id: 4
+Execution stack: 
+Symbol table: 
+a -> 1
+b -> 2
+c -> 5
+Output list: 
+1
+2
+300
+File table:
+Heap memory:
+Lock Table:
+Semaphore Table:
+

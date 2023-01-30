@@ -1,0 +1,240 @@
+Id: 12
+Execution stack: 
+(int v; (v = 1; (fork(v = 2); fork(v = 3))))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+int v
+(v = 1; (fork(v = 2); fork(v = 3)))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+int v
+(v = 1; (fork(v = 2); fork(v = 3)))
+Symbol table: 
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+(v = 1; (fork(v = 2); fork(v = 3)))
+Symbol table: 
+v -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+(v = 1; (fork(v = 2); fork(v = 3)))
+Symbol table: 
+v -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+v = 1
+(fork(v = 2); fork(v = 3))
+Symbol table: 
+v -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+v = 1
+(fork(v = 2); fork(v = 3))
+Symbol table: 
+v -> 0
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+(fork(v = 2); fork(v = 3))
+Symbol table: 
+v -> 1
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+(fork(v = 2); fork(v = 3))
+Symbol table: 
+v -> 1
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+fork(v = 2)
+fork(v = 3)
+Symbol table: 
+v -> 1
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+fork(v = 2)
+fork(v = 3)
+Symbol table: 
+v -> 1
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+fork(v = 3)
+Symbol table: 
+v -> 1
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 15
+Execution stack: 
+v = 2
+Symbol table: 
+v -> 1
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+fork(v = 3)
+Symbol table: 
+v -> 1
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 15
+Execution stack: 
+v = 2
+Symbol table: 
+v -> 1
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 12
+Execution stack: 
+Symbol table: 
+v -> 1
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 15
+Execution stack: 
+Symbol table: 
+v -> 2
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 16
+Execution stack: 
+v = 3
+Symbol table: 
+v -> 1
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 16
+Execution stack: 
+v = 3
+Symbol table: 
+v -> 1
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
+Id: 16
+Execution stack: 
+Symbol table: 
+v -> 3
+Output list: 
+File table:
+Heap memory:
+Lock Table:
+Barrier Table:
+
+
