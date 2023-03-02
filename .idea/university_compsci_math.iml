@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/Second Year/MPP/stock-api" />
+      <excludeFolder url="file://$MODULE_DIR$/Second Year/MPP/stock-app" />
+      <excludeFolder url="file://$MODULE_DIR$/Second Year/MPP/stock_api" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>

@@ -1,0 +1,134 @@
+     1                                  ;se da un sir de qwords si un n de la tastatura
+     2                                  ;identifica al n+1 lea qword si stocheaza partrea superioada/inferioara daca n e par/impar
+     3                                  ;dupa descompui in bytes si vezi cati de 1 are fiecare byte in repr binara, afisezi sirul sortat descrescator
+     4                                  bits 32 ; assembling for the 32 bits architecture
+     5                                  
+     6                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     7                                  global start        
+     8                                  
+     9                                  ; declare external functions needed by our program
+    10                                  extern exit,scanf,printf               ; tell nasm that exit exists even if we won't be defining it
+    11                                  import exit msvcrt.dll
+    12                                  import scanf msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    13                                  import printf msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    14                                  
+    15                                  ; our data is declared here (the variables needed by our program)
+    16                                  segment data use32 class=data
+    17 00000000 FF<rept>                    rez1 times 100 db -1
+    18 00000064 5D0000000000000088-         s dq 1011101b,1122334455667788h,5566778811223344h,77788889h,12345678987654h,12345678h,9876543456789h
+    18 0000006D 776655443322114433-
+    18 00000076 221188776655898878-
+    18 0000007F 770000000054769878-
+    18 00000088 563412007856341200-
+    18 00000091 000000896745436587-
+    18 0000009A 0900               
+    19                                      lens equ $-s
+    20 0000009C FFFFFFFF                    n dd -1
+    21 000000A0 256400                      format_d db '%d',0
+    22 000000A3 257800                      format_x db '%x',0
+    23 000000A6 FFFFFFFF                    copie dd -1
+    24 000000AA 02                          doi db 2
+    25 000000AB FFFFFFFF                    aux1 dd -1
+    26 000000AF FFFFFFFF                    aux2 dd -1
+    27 000000B3 00                          cnt db 0
+    28 000000B4 00                          cnt_1 db 0
+    29 000000B5 FF<rept>                    rez times 100 db -1
+    30                                   
+    31                                  
+    32                                  ; our code starts here
+    33                                  segment code use32 class=code
+    34                                      start:
+    35                                          ;scanf(format,variabile)
+    36 00000000 68[9C000000]                    push dword n
+    37 00000005 68[A0000000]                    push dword format_d
+    38 0000000A FF15[00000000]                  call [scanf]
+    39 00000010 83C408                          add esp,4*2
+    40                                  
+    41                                          
+    42 00000013 8B1D[9C000000]                  mov ebx,[n]
+    43 00000019 BE[64000000]                    mov esi,s
+    44                                          
+    45 0000001E 8B54DE04                        mov edx, dword[esi+8*ebx+4]
+    46 00000022 8B04DE                          mov eax, dword[esi+8*ebx] ;in edx:eax avem qwordul pe care il vrem
+    47                                          
+    48 00000025 8915[AF000000]                  mov [aux2],edx
+    49 0000002B A3[AB000000]                    mov [aux1],eax ;in aux2:aux1 e qwordul
+    50                                          
+    51 00000030 89D8                            mov eax,ebx
+    52 00000032 F635[AA000000]                  div byte[doi]
+    53 00000038 80FC01                          cmp ah,1
+    54 0000003B 740D                            je impar
+    55                                          
+    56                                          ;aici inseamna ca e par/impar
+    57 0000003D 66A1[AD000000]                  mov ax,[aux1+2]
+    58 00000043 668B15[AB000000]                mov dx,[aux1] ;in dx:ax avem nr care ne trebuie
+    59                                          
+    60                                          impar:
+    61 0000004A 66A1[AF000000]                      mov ax,[aux2]
+    62 00000050 668B15[B1000000]                    mov dx,[aux2+2] ;in dx:ax avem nr care ne trebuie
+    63                                              
+    64                                          sari:
+    65                                          ;acum in eax avem partea care ne intereseaza
+    66 00000057 BE[B5000000]                    mov esi,rez
+    67 0000005C 8826                            mov byte[esi],ah
+    68 0000005E 46                              inc esi
+    69 0000005F 8806                            mov byte[esi],al
+    70 00000061 46                              inc esi
+    71 00000062 8836                            mov byte[esi],dh
+    72 00000064 46                              inc esi
+    73 00000065 8816                            mov byte[esi],dl
+    74                                          
+    75 00000067 B904000000                      mov ecx,4
+    76 0000006C BF[00000000]                    mov edi,rez1
+    77                                          repeta:
+    78 00000071 890D[A6000000]                      mov [copie],ecx
+    79 00000077 B904000000                          mov ecx,4
+    80 0000007C C605[B4000000]00                    mov byte[cnt_1],0
+    81                                              repeta1:
+    82 00000083 AC                                      lodsb
+    83 00000084 C605[B3000000]00                        mov byte[cnt],0
+    84 0000008B D0E8                                    shr al,1
+    85 0000008D 8015[B3000000]00                        adc byte[cnt],0
+    86 00000094 803D[B3000000]01                        cmp byte[cnt],1
+    87 0000009B 7402                                    je cnt_update
+    88 0000009D EB06                                    jmp sari1
+    89                                                  cnt_update:
+    90 0000009F FE05[B4000000]                              inc byte[cnt_1]
+    91                                                  sari1
+    91          ******************       warning: label alone on a line without a colon might be in error [-w+orphan-labels]
+    92                                                  
+    93 000000A5 E2DC                                loop repeta1
+    94 000000A7 A0[B4000000]                        mov al,byte[cnt_1]
+    95 000000AC AA                                  stosb
+    96                                              
+    97 000000AD 8B0D[A6000000]                      mov ecx,[copie]
+    98 000000B3 E2BC                            loop repeta
+    99                                          
+   100                                          ;in edi avem sirul de cnt de 1
+   101                                          repeta2:
+   102 000000B5 4F                                  dec edi
+   103 000000B6 81FF[FFFFFFFF]                      cmp edi,rez1-1
+   104 000000BC 7418                                je gata
+   105                                              
+   106                                              ;daca nu e gata, afisez nr de 1
+   107 000000BE B800000000                          mov eax,0
+   108 000000C3 8A07                                mov al,byte[edi]
+   109                                              
+   110 000000C5 50                                  push eax
+   111 000000C6 68[A0000000]                        push format_d
+   112 000000CB FF15[00000000]                      call [printf]
+   113 000000D1 83C408                              add esp,4*2
+   114 000000D4 EBDF                                jmp repeta2
+   115                                          
+   116                                          
+   117                                          gata:
+   118                                          
+   119                                          
+   120                                          
+   121                                          
+   122                                          ;vad daca am citit n bine
+   123                                          
+   124                                      
+   125                                          ; exit(0)
+   126 000000D6 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   127 000000D8 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

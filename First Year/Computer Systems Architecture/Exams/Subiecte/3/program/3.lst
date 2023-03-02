@@ -1,0 +1,74 @@
+     1                                  ;sir de dwords, gasesc byte-ul maxim unsigned, il afisez pe ecran alaturi de suma signed a toti bytii gasiti(la final)
+     2                                  bits 32 ; assembling for the 32 bits architecture
+     3                                  
+     4                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     5                                  global start        
+     6                                  
+     7                                  ; declare external functions needed by our program
+     8                                  extern exit,printf               ; tell nasm that exit exists even if we won't be defining it
+     9                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    10                                  import printf msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    11                                  
+    12                                  ; our data is declared here (the variables needed by our program)
+    13                                  segment data use32 class=data
+    14 00000000 78A63412785634127D-         s dd 1234A678h, 12345678h, 1AC3B47Dh, 0FEDC9876h
+    14 00000009 B4C31A7698DCFE     
+    15                                      lens equ $-s
+    16 00000010 00                          max db 0
+    17 00000011 25782000                    format_h db '%x ',0
+    18 00000015 256400                      format_d db '%d',0
+    19 00000018 00                          suma db 0
+    20 00000019 FFFFFFFF                    copie dd -1
+    21                                  
+    22                                  ; our code starts here
+    23                                  segment code use32 class=code
+    24                                      start:
+    25 00000000 B904000000                      mov ecx,lens/4
+    26 00000005 BE[00000000]                    mov esi,s
+    27                                          repeta:
+    28                                          
+    29 0000000A 890D[19000000]                      mov [copie],ecx
+    30                                              
+    31 00000010 B904000000                          mov ecx,4
+    32 00000015 C605[10000000]00                    mov byte[max],0
+    33                                              repeta_max:
+    34                                              
+    35 0000001C AC                                      lodsb ;in al byte ul de verificat
+    36 0000001D 3A05[10000000]                          cmp al,byte[max]
+    37 00000023 7605                                    jbe nu_schimba
+    38                                                  
+    39                                                  ;aici intra daca trebuie sa actualizeze max
+    40 00000025 A2[10000000]                            mov byte[max],al
+    41                                                  
+    42                                                  nu_schimba:
+    43                                              
+    44 0000002A E2F0                                loop repeta_max
+    45                                              
+    46                                              ;afisez byte-ul maxim si il adun la suma
+    47 0000002C B800000000                          mov eax,0
+    48 00000031 A0[10000000]                        mov al,byte[max]
+    49 00000036 50                                  push eax
+    50 00000037 68[11000000]                        push dword format_h
+    51 0000003C FF15[00000000]                      call [printf]
+    52 00000042 83C408                              add esp,4*2
+    53                                              
+    54 00000045 A0[10000000]                        mov al,byte[max]
+    55 0000004A 0005[18000000]                      add byte[suma],al
+    56                                              
+    57 00000050 8B0D[19000000]                      mov ecx,[copie]
+    58                                          
+    59 00000056 E2B2                            loop repeta
+    60                                          
+    61                                          ;afisez suma calculata
+    62 00000058 0FBE05[18000000]                movsx eax,byte[suma]
+    63                                          
+    64 0000005F 50                              push eax
+    65 00000060 68[15000000]                    push dword format_d
+    66 00000065 FF15[00000000]                  call [printf]
+    67 0000006B 83C408                          add esp,4*2
+    68                                          
+    69                                          
+    70                                      
+    71                                          ; exit(0)
+    72 0000006E 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    73 00000070 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

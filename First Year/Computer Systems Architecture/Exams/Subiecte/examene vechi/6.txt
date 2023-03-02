@@ -1,0 +1,31 @@
+1.what are the basic elements of the assembly language. definition+description. Source format of the assembly language(elements, description, properties) justify your answer with source code examples.
+which are the modes of operand addressing. Which are the operators of the assembly language. justify with an adequate source code example each category.
+2.memory representation of the following strings:
+a1 db 12,34,56,78
+a2 dw 12h,34h,56h,78h
+a3 dw 1234h, 5678h
+a4 dd 1234h,5678h
+a5 dd 12345678h
+a6 dw 12345678
+a7 db '12','34','56','78'
+a8 db '12,34,56,78'
+a9 dw '12','34','56','78'
+a10 dd a2
+3.
+a:niste linii de cod sursa si tre sa spui daca-i correct sau sintax error sa logical error(de ex: mov si,dword ptr [bx+6]
+b:replace the following code sequence with a single asm instruction:
+cmp ax,not -1
+js et1
+mov dx, -1 eq 255
+jmp go2
+et1: mov dl,3 or 4
+mov dh, 2 shl 2
+and dh,dl
+mov dl, -1
+xor dh, dl
+go2:
+4:A string of doubleword is given build a string of bite in the following way:
+take the most significant byte of the least least significant word of each doubleword and if it is strictly negative than put it into the string. After that write your string of bites on the screen in base 2.
+Ex: sir dd 12345678h,1234abcdh,FF00FE33h
+your string should look like: AB,FE
+You should print on the screen: 1010 1011 1111 1110(no space needed beetwen the number)

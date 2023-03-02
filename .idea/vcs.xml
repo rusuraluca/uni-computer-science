@@ -12,5 +12,8 @@
     <mapping directory="$PROJECT_DIR$/OOP/Labs/laboratory2-rusuraluca" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/OOP/Labs/laboratory3-rusuraluca" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/OOP/Labs/laboratory4-rusuraluca" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Second Year/MPP/stock-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Second Year/MPP/stock-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Second Year/MPP/stock_api" vcs="Git" />
   </component>
 </project>

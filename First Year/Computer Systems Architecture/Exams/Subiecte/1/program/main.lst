@@ -1,0 +1,62 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit,printf               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll
+     9                                  import printf msvcrt.dll
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13 00000000 78A63412345678122B-     sir dd 1234A678h,12785634h,1A4D3C2Bh
+    13 00000009 3C4D1A             
+    14                                  len_sir equ ($-sir)/4
+    15 0000000C 0000<rept>              sir2 times len_sir dw 0
+    16 00000012 00000000                cnt dd 0
+    17 00000016 256400                  format_afisare db '%d',0
+    18                                  ; our code starts here
+    19                                  segment code use32 class=code
+    20                                      start:
+    21                                          ;fiecare word din sir2 trebuie sa fie concatenarea octetului high din cuvantul high, si octetul high din cuvantul low
+    22 00000000 B903000000                      mov ecx,len_sir
+    23 00000005 BE[00000000]                    mov esi,sir
+    24 0000000A BF[0C000000]                    mov edi,sir2
+    25                                          repeta:
+    26                                                  ;mov byte[edi+0],byte[esi+2]
+    27                                                  ;[esi+1] adresa byte-ului high al cuvantului low
+    28 0000000F 8A4601                                  mov al,byte[esi+1]
+    29 00000012 8807                                    mov byte[edi+0],al
+    30                                                  ;mov byte[edi+1],byte[esi+3]
+    31                                                  ;[esi+3] adresa byte-ului high din cuvantul high
+    32 00000014 8A4603                                  mov al,byte[esi+3]
+    33 00000017 884701                                  mov byte[edi+1],al
+    34 0000001A 83C604                                  add esi,4
+    35 0000001D 83C702                                  add edi,2
+    36 00000020 E2ED                            loop repeta
+    37 00000022 B906000000                      mov ecx,len_sir*2
+    38 00000027 BE[0C000000]                    mov esi,sir2
+    39                                          
+    40                                          repeta2:
+    41 0000002C 8A06                                mov al,byte[esi]
+    42 0000002E 46                                  inc esi
+    43 0000002F 3C00                                cmp al,0
+    44 00000031 BB08000000                          mov ebx,8
+    45 00000036 740F                                je final_cat_timp
+    46                                                  cat_timp:
+    47 00000038 D0E0                                    shl al,1
+    48 0000003A 8315[12000000]00                        adc dword[cnt],0
+    49                                                  
+    50 00000041 4B                                      dec ebx
+    51 00000042 83FB00                                  cmp ebx,0
+    52 00000045 75F1                                    jne cat_timp
+    53                                              final_cat_timp:
+    54 00000047 E2E3                            loop repeta2
+    55                                          ;printf(format_afisare,cnt)
+    56 00000049 FF35[12000000]                  push dword [cnt]
+    57 0000004F 68[16000000]                    push dword format_afisare
+    58 00000054 FF15[00000000]                  call [printf]
+    59 0000005A 83C408                          add esp,4*2
+    60 0000005D 6A00                            push    dword 0
+    61 0000005F FF15[00000000]                  call    [exit]

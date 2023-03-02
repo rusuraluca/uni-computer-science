@@ -1,0 +1,121 @@
+     1                                  bits 32
+     2                                  global start        
+     3                                  
+     4                                  extern exit,printf
+     5                                  import exit msvcrt.dll
+     6                                  import printf msvcrt.dll
+     7                                  
+     8                                  segment data use32 class=data
+     9                                  extern functie
+    10                                  
+    11 00000000 FFFFFFFF40E20100FF-     sir dd -1,123456,0xabcdeff,0xabcdeff,0xcbcdeff,0xdbcdeff,0111010101b;sirul dublucuvintelor
+    11 00000009 DEBC0AFFDEBC0AFFDE-
+    11 00000012 BC0CFFDEBC0DD50100-
+    11 0000001B 00                 
+    12                                  len_sir equ ($  -sir)/4
+    13 0000001C 00<rept>                sir_sume times len_sir db 0
+    14 00000023 00000000                aux dd 0
+    15 00000027 25752000                format_afisare db '%u ',0
+    16 0000002B 0A0D00                  new_line db 10,13,0
+    17 0000002E 25782000                format_afisare_hex db '%x ',0
+    18 00000032 00000000                aux2 dd 0
+    19 00000036 00                      ok db 0
+    20 00000037 00000000                limita dd 0
+    21                                  segment code use32 class=code
+    22                                      start:
+    23                                          ;functie(sir,sir_sume,len_sir)
+    24 00000000 6A07                            push dword len_sir
+    25 00000002 68[1C000000]                    push dword sir_sume
+    26 00000007 68[00000000]                    push dword sir
+    27 0000000C E8(00000000)                    call functie
+    28 00000011 83C40C                          add esp,4*3;Curatare stiva
+    29                                          ;Afisam numerele din elemente pe ecran pentru a ne putea verifica
+    30 00000014 B907000000                      mov ecx,len_sir
+    31 00000019 BE[1C000000]                    mov esi,sir_sume
+    32                                  
+    33                                          repeta:
+    34 0000001E 890D[23000000]                      mov [aux],ecx
+    35 00000024 0FB606                              movzx eax,byte[ESI]
+    36 00000027 46                                  inc esi
+    37                                              ;printf(format_afisare,eax)
+    38 00000028 50                                  push eax
+    39 00000029 68[27000000]                        push dword format_afisare
+    40 0000002E FF15[00000000]                      call [printf]
+    41 00000034 83C408                              add esp,4*2
+    42 00000037 8B0D[23000000]                      mov ecx,[aux]
+    43 0000003D E2DF                            loop repeta
+    44                                          ;printf(new_line)
+    45 0000003F 68[2B000000]                    push dword new_line
+    46 00000044 FF15[00000000]                  call [printf]
+    47 0000004A 83C404                          add esp,4
+    48                                          ;AFISAREA TUTUROR SECVENTELOR STRICT CRESCATOARE
+    49 0000004D BE[1C000000]                    mov esi,sir_sume; Cu esi iteram pozitia de inceput
+    50 00000052 BF[1C000000]                    mov edi,sir_sume;Cu edi iteram pozitia de final a sumei
+    51 00000057 893D[37000000]                  mov [limita],edi
+    52 0000005D 8305[37000000]07                add dword[limita],len_sir;Aici o sa avem adresa ultimului element din sir
+    53 00000064 FF0D[37000000]                  dec dword[limita]
+    54                                          repeta2:
+    55                                              ;Verificam daca secventa ESI:EDI in lista este strict crescatoare
+    56 0000006A C605[36000000]01                    mov byte[ok],1;Presupunem ca este strict crescatoare
+    57 00000071 89F1                                mov ecx,esi;Cu ecx ne plimbam in sirul de sume ESI:EDI
+    58 00000073 41                                  inc ecx;Incepem de la al doilea element ca sa putem compara a[i-1]<a[i]
+    59 00000074 39F9                                cmp ecx,edi;Aici practic daca avem o secvente de un singur element, atunci ar trebui sarit
+    60 00000076 7455                                je sari2
+    61                                                  repeta3:
+    62                                                      ;cmp byte[ECX-1],byte[ECX]
+    63 00000078 8A41FF                                      mov al,[ECX-1]
+    64 0000007B 3A01                                        cmp al,byte[ECX]
+    65                                                      ;Daca e mai mic strict nu face nimic
+    66 0000007D 7209                                        jb sari
+    67 0000007F C605[36000000]00                            mov byte[ok],0;Nu avem secventa strict crescatoare
+    68 00000086 EB07                                        jmp final_repeta3
+    69                                                      sari:
+    70 00000088 41                                          inc ecx
+    71 00000089 39F9                                    cmp ecx,edi;Daca sunt egale atunci am ajuns la final
+    72 0000008B 7402                                    je final_repeta3
+    73 0000008D EBE9                                    jmp repeta3
+    74                                                  final_repeta3:
+    75                                                      ;Daca in ok a ramas 1 atunci avem o secventa crescatoare de la ESI, la EDI
+    76 0000008F 803D[36000000]00                            cmp byte[ok],0;Atunci nu afiseaza
+    77 00000096 7435                                        je sari4
+    78                                                      ;Afisam secventa de la ESI la EDI
+    79 00000098 89F1                                            mov ecx,esi
+    80                                                              repeta_4:
+    81 0000009A 890D[32000000]                                          mov [aux2],ecx
+    82                                                                  ;printf(format_afisare_hex,byte[ECX])
+    83 000000A0 0FB601                                                  movzx eax,byte[ECX]
+    84 000000A3 50                                                      push dword eax
+    85 000000A4 68[2E000000]                                            push dword format_afisare_hex
+    86 000000A9 FF15[00000000]                                          call [printf]
+    87 000000AF 83C408                                                  add esp,4*2
+    88                                                                  ;printf(new_line)
+    89 000000B2 68[2B000000]                                            push dword new_line
+    90 000000B7 FF15[00000000]                                          call [printf]
+    91 000000BD 83C404                                                  add esp,4
+    92                                                              
+    93 000000C0 8B0D[32000000]                                      mov ecx,[aux2]
+    94 000000C6 41                                                  inc ecx
+    95 000000C7 39F9                                                cmp ecx,edi
+    96 000000C9 7402                                                je final_repeta_4
+    97 000000CB EBCD                                                jmp repeta_4
+    98                                                              final_repeta_4
+    98          ******************       warning: label alone on a line without a colon might be in error [-w+orphan-labels]
+    99                                                      sari4:
+   100                                                  sari2:
+   101                                          ;CRESTEM IDEXII
+   102                                              ;Daca edi a ajuns la final atunci crestem esi, si in edi punem esi
+   103 000000CD 3B3D[37000000]                      cmp edi,[limita]
+   104 000000D3 7505                                jne nu_am_ajuns_final
+   105                                              ;Am ajuns la final cu edi
+   106 000000D5 46                                  inc esi
+   107 000000D6 89F7                                mov edi,esi
+   108 000000D8 EB01                                jmp sari5
+   109                                              nu_am_ajuns_final:
+   110                                              ;Crestem edi
+   111 000000DA 47                                  inc edi
+   112                                              sari5:
+   113 000000DB 7402                            je final_repeta2
+   114 000000DD EB8B                            jmp repeta2
+   115                                          final_repeta2:
+   116 000000DF 6A00                            push    dword 0
+   117 000000E1 FF15[00000000]                  call    [exit]

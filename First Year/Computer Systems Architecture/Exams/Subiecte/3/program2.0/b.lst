@@ -1,0 +1,47 @@
+     1                                  bits 32
+     2                                  global start        
+     3                                  
+     4                                  extern exit
+     5                                  import exit msvcrt.dll
+     6                                  
+     7                                  segment data use32 class=data
+     8                                  
+     9                                  global functie
+    10 00000000 00                      maxim db 0
+    11 00000001 00                      suma db 0
+    12                                  segment code use32 class=code
+    13                                      functie:
+    14                                          ;[ESP+0] - Adresa de revenire
+    15                                          ;[ESP+4] - Adresa sirului de dublucuvinte
+    16                                          ;[ESP+8] - Adresa sirului de octeti pe care trebuie sa il formam
+    17                                          ;[ESP+12] - Adresa sumei (in care trebuie sa punem suma obtinuta)
+    18                                          ;[ESP+16] - Lungimea sirului
+    19 00000000 8B742404                        mov esi,[ESP+4];Iteram prin sirul dat cu ESI
+    20 00000004 8B7C2408                        mov edi,[ESP+8];Iteram prin sirul destinatie cu EDI
+    21 00000008 8B4C2410                        mov ecx,[ESP+16]
+    22                                          repeta:
+    23                                              ;In fiecare dword avem 7 posibil octeti (4 principali si restul formati)
+    24 0000000C BB00000000                          mov ebx,0;De la 0 pana la 7
+    25 00000011 C605[00000000]00                    mov byte[maxim],0
+    26                                              repeta2
+    26          ******************       warning: label alone on a line without a colon might be in error [-w+orphan-labels]
+    27                                                  ;In [ESI+EBX] se afla adresa octetului pe care vrem sa il verificam
+    28 00000018 8A041E                                  mov al,[ESI+EBX]
+    29 0000001B 3A05[00000000]                          cmp al,[maxim]
+    30 00000021 7205                                    jb sari
+    31                                                      ;Avem un nou maxim
+    32 00000023 A2[00000000]                                mov [maxim],al
+    33                                                  sari:
+    34 00000028 83FB07                              cmp ebx,7
+    35 0000002B 75EB                                jne repeta2
+    36                                              ;Adaugam la suma maximul gasit
+    37 0000002D A0[00000000]                        mov al,[maxim]
+    38 00000032 0005[01000000]                      add [suma],al
+    39                                              ;Adaugam in memorie maximul gasit si incrementam edi
+    40 00000038 AA                                  stosb
+    41                                              ;Incrementam esi
+    42 00000039 83C604                              add esi,4
+    43 0000003C E2CE                            loop repeta
+    44                                          
+    45 0000003E 6A00                            push    dword 0
+    46 00000040 FF15[00000000]                  call    [exit]

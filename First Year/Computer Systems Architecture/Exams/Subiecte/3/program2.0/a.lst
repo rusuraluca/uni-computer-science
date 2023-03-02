@@ -1,0 +1,54 @@
+     1                                  bits 32
+     2                                  global start        
+     3                                  
+     4                                  extern exit,printf
+     5                                  import exit msvcrt.dll
+     6                                  import printf msvcrt.dll
+     7                                  
+     8                                  segment data use32 class=data
+     9                                  extern functie
+    10                                  ;Se da un sir de dublucuvinte de la tastatura. Se cere sa se afiseaze cel mai mare OCTET din fiecare numar, si suma tuturor octetiilor obtinutil
+    11 00000000 78A63412785634127D-     sir dd 1234A678h,12345678h,1AC3B47Dh,0FEDC9876h
+    11 00000009 B4C31A7698DCFE     
+    12                                  len_sir EQU ($-sir)/4
+    13 00000010 00<rept>                sir_mare times len_sir db 0
+    14 00000014 00                      suma db 0
+    15 00000015 257820                  format_afisare db '%x '
+    16 00000018 00000000                aux dd 0
+    17 0000001C 0A0D00                  new_line db 10,13,0
+    18 0000001F 256400                  format_afisare_signed db '%d',0
+    19                                  segment code use32 class=code
+    20                                      start:
+    21                                          ;functie(sir,sir_mare,suma,len_sir)
+    22 00000000 6A04                            push dword len_sir
+    23 00000002 68[14000000]                    push dword suma
+    24 00000007 68[10000000]                    push dword sir_mare
+    25 0000000C 68[00000000]                    push dword sir
+    26 00000011 E8(00000000)                    call functie
+    27 00000016 83C410                          add esp,4*4
+    28                                          ;Afisam pe ecran sirul
+    29 00000019 B904000000                      mov ecx,len_sir
+    30 0000001E BE[10000000]                    mov esi,sir_mare
+    31                                          repeta:
+    32 00000023 890D[18000000]                  mov [aux],ecx
+    33 00000029 0FB606                          movzx eax,byte[ESI]
+    34                                          ;printf(format_afisare,eax)
+    35 0000002C 50                              push dword eax
+    36 0000002D 68[15000000]                    push dword format_afisare
+    37 00000032 FF15[00000000]                  call [printf]
+    38 00000038 83C408                          add esp,4*2
+    39 0000003B 8B0D[18000000]                  mov ecx,[aux]
+    40 00000041 E2E0                            loop repeta
+    41                                          ;printf(new_line)
+    42 00000043 68[1C000000]                    push dword new_line
+    43 00000048 FF15[00000000]                  call [printf]
+    44 0000004E 83C404                          add esp,4
+    45                                          ;Afisam suma
+    46 00000051 0FBE05[14000000]                movsx eax,byte[suma]
+    47                                          ;printf(format_afisare_signed,eax)
+    48 00000058 50                              push dword eax
+    49 00000059 68[1F000000]                    push dword format_afisare_signed
+    50 0000005E FF15[00000000]                  call [printf]
+    51 00000064 83C408                          add esp,4*2
+    52 00000067 6A00                            push    dword 0
+    53 00000069 FF15[00000000]                  call    [exit]

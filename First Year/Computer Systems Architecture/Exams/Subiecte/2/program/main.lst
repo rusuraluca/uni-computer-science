@@ -1,0 +1,69 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start        
+     4                                  
+     5                                  extern exit,scanf
+     6                                  import exit msvcrt.dll
+     7                                  import scanf msvcrt.dll
+     8                                  
+     9                                  segment data use32 class=data
+    10                                  ; Citim un n de la tastatura, apoi n dublucuvinte, Se cere sa se stocheze in memorie toate n dublucuvintele, apoi sa se formeze un nou sir de octeti, in care
+    11                                  ; stocam suma cifrelor pare din fiecare dublucuvant citit
+    12 00000000 00<rept>                sir_octeti times 3 db 0
+    13 00000003 00000000<rept>          sir_numere times 3 dd 0
+    14                                  
+    15 0000000F 00000000<rept>          sir times 5 dd 0
+    16 00000023 00000000                n dd 0
+    17 00000027 00000000                aux dd 0
+    18 0000002B 256400                  format_citire db '%d',0
+    19 0000002E 00                      suma db 0
+    20 0000002F 00000000                copie dd 0
+    21                                  segment code use32 class=code
+    22                                      start:
+    23                                          ;scanf(format_citire,n)
+    24 00000000 68[23000000]                    push dword n
+    25 00000005 68[2B000000]                    push dword format_citire
+    26 0000000A FF15[00000000]                  call [scanf]
+    27 00000010 83C408                          add esp,4*2
+    28                                          
+    29 00000013 8B0D[23000000]                  mov ecx,[n]
+    30 00000019 83F900                          cmp ecx,0
+    31 0000001C BF[00000000]                    mov edi,sir_octeti
+    32 00000021 BE[03000000]                    mov esi,sir_numere
+    33 00000026 7458                            je final
+    34                                          repeta:
+    35 00000028 890D[2F000000]                      mov [copie],ecx
+    36                                               ;scanf(format_citire,aux)
+    37 0000002E 68[27000000]                         push dword aux
+    38 00000033 68[2B000000]                         push dword format_citire
+    39 00000038 FF15[00000000]                       call [scanf]
+    40 0000003E 83C408                               add esp,4*2
+    41 00000041 8B0D[2F000000]                       mov ecx,[copie]
+    42                                               ;Stocheaza numar
+    43 00000047 A1[27000000]                         mov eax,[aux]
+    44 0000004C 8906                                 mov [esi],eax
+    45 0000004E 83C604                               add esi,4
+    46                                               ;Calculare suma
+    47 00000051 C605[2E000000]00                     mov byte[suma],0
+    48                                               suma_repeta:
+    49 00000058 83F800                                  cmp eax,0
+    50 0000005B 7419                                    je final_suma
+    51 0000005D BA00000000                              mov edx,0
+    52 00000062 BB0A000000                              mov ebx,10
+    53 00000067 F7F3                                    div ebx
+    54                                                  ;In edx avem ultima cifra
+    55                                                  ;If edx%2==0 => suma=suma+dl
+    56 00000069 F6C201                                  test dl,1
+    57 0000006C 7506                                    jnz sari
+    58 0000006E 0015[2E000000]                              add [suma],dl
+    59                                                  sari:
+    60                                                  
+    61 00000074 EBE2                                 jmp suma_repeta
+    62                                               final_suma:
+    63 00000076 A0[2E000000]                         mov al,[suma]
+    64 0000007B 8807                                 mov [edi],al
+    65 0000007D 47                                   inc edi
+    66 0000007E E2A8                            loop repeta
+    67                                          final:
+    68 00000080 6A00                            push    dword 0
+    69 00000082 FF15[00000000]                  call    [exit]
