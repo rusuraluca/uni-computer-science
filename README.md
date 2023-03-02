@@ -28,3 +28,10 @@
 * [Advanced Programming Methods](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/Advanced%20Programming%20Methods)
 * [Functional and Logic Programming](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/PLF)
 * [Probability & Statistics](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/Probability%20%26%20Statistics)
+
+## 4️⃣ Semester
+* [Artificial intelligence](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/AI/)
+* [Web Programming](https://github.com/rusuraluca/uni-computer-science/tree/main/Second%20Year/WP)
+* [SDI]()
+* [Database Management Systems]()
+* [Software Engineering]()
