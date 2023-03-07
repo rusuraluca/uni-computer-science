@@ -122,6 +122,13 @@
       <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/build.ninja" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/laboratory4_rusuraluca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second Year/AI/Labs/Lab1/.ipynb_checkpoints/A1-Solution-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Second Year/AI/Labs/Lab1/.ipynb_checkpoints/A1-Solution-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second Year/AI/Labs/Lab1/A1-Solution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Second Year/AI/Labs/Lab1/A1-Solution.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second Year/AI/Labs/Lab2/.ipynb_checkpoints/A2-Solution-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Second Year/AI/Labs/Lab2/.ipynb_checkpoints/A2-Solution-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second Year/AI/Labs/Lab2/A2-Solution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Second Year/AI/Labs/Lab2/A2-Solution.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second Year/AI/Labs/Lab2/AI_lab2_2023.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Second Year/AI/Labs/Lab2/AI_lab2_2023.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second Year/WP/Labs/Lab1 - HTML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Second Year/WP/Labs/Lab1 - HTML/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second Year/WP/Labs/Lab2 - CSS simple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Second Year/WP/Labs/Lab2 - CSS simple/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +148,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -156,6 +169,7 @@
       <workItem from="1665579794420" duration="176000" />
       <workItem from="1669647381645" duration="1295000" />
       <workItem from="1677756027105" duration="558000" />
+      <workItem from="1678183567692" duration="156000" />
     </task>
     <servers />
   </component>
