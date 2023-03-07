@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+.button {
+    background: lightblue;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: dodgerblue;
+    color: white;
+    transform: translateY(-6px);
+}
+
+.front:hover {
+    transform: translateY(-2px);
+}
+
+.button1 {
+    background: lightblue;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.front1 {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: dodgerblue;
+    color: white;
+    transform: translateY(-6px);
+}
+
+.front1:hover {
+    transform: translateY(-2px);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.gallery {
+    display: flex;
+    margin: 10px auto;
+    max-width: 600px;
+    position: relative;
+    padding-top: 66.6666666667%;
+}
+@media screen and (min-width: 600px) {
+    .gallery {
+        padding-top: 400px;
+    }
+}
+.gallery__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.gallery__thumb {
+    padding-top: 6px;
+    margin: 6px;
+    display: block;
+}
+.gallery__selector {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.gallery__selector:hover + .gallery__img {
+    opacity: 1;
+}
+.gallery__selector:hover ~ .gallery__thumb > img {
+    box-shadow: 0 0 0 3px #0be2f6;
+}

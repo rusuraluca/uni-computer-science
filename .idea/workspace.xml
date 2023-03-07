@@ -2,71 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db24cef8-9cb5-4283-b1d4-0365d721961a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/.generators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/.idea/.rakeTasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/.idea/stock-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/app/controllers/stocks_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/app/helpers/stocks_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/app/models/stock.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/db/migrate/20230227123419_create_stocks.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/db/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/test/controllers/stocks_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/test/fixtures/stocks.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-api/test/models/stock_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-app/.generators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-app/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-app/.idea/.rakeTasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-app/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-app/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-app/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-app/.idea/stock-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-app/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Second Year/MPP/stock-app/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/university_compsci_math.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/university_compsci_math.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Exam Prep/Exam/Exam-Computational_Logic-Subjects_2020-2021.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Exam Prep/Exam/Exam_Information.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Exam Prep/Exam/Models_subjects_exam_Computational-Logic.doc" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/Computational Logic/Exam Prep/Exam/Models_subjects_exam_Computational-Logic.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Exam Prep/Exercises/Exercises_ Boolean_functions.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Exam Prep/Exercises/Exercises_Logic Circuits.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Exam Prep/Exercises/Exercises_Predicate_Logic_2020-2021.doc.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Exam Prep/Exercises/Exercises_Propositional_Logic_2020-2021.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Exam Prep/Exercises/Exercises_Resolution_predicate_2020-2021.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Exam Prep/Exercises/Exercises_Resolution_proposition_2020-2021.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Exam Prep/Exercises/Exercises_Semantic Tableaux_Method_2020-2021.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Seminars/Seminar 1.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Seminars/Seminar 2.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computational Logic/Seminars/Seminar 3.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/3.Whiteboard_15_octombrie.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 1 - 80x86_Structure_and_Flags.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 2 - Registers &amp; Flags.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 3 - 2's Complement/Example 2's Complement.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 3 - 2's Complement/Lecture 4 - 2's complement.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 4 - Address registers &amp; computation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 5 - Overflowing Concept Analysis.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 6/Addressing Method Codes.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 6/Coloana_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 6/Intel x86 Assembler Instruction Set Opcode Table.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 6/Machine_instr_representation_Offset_spec_formula.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 6/Rezumat_27_oct.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 6/SIB_Byte_values.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 6/modr_16bit_intel_addressing_form.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Basic_Elements_of_Assembly_Language.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Bitwise_operators.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Data_definition_directives.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Location_Counter.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Offset_prefixing_examples.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Part_I_II_Basic_Elements_of_Assembly_Language.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Pointer_arithmetic.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Type_operators&amp;operands_DT.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Lecture 9 - Assembly Instructions.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First Year/Computer Systems Architecture/Lectures/Summary.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/First Year/OOP/Frequency_Analysis_Cracking_Caesar/cmake-build-debug/.ninja_log" afterDir="false" />
@@ -186,10 +122,6 @@
       <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/build.ninja" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/First Year/OOP/Labs/laboratory4-rusuraluca/cmake-build-debug/laboratory4_rusuraluca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second Year/AI/Labs/Lab1/.ipynb_checkpoints/A1-Solution-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Second Year/AI/Labs/Lab1/.ipynb_checkpoints/A1-Solution-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second Year/AI/Labs/Lab1/A1-Solution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Second Year/AI/Labs/Lab1/A1-Solution.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Second Year/AI/Labs/Lab1/A1_additional_explications.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Second Year/AI/Labs/Lab1/A1_additional_explications.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +155,7 @@
       <workItem from="1665054142501" duration="885000" />
       <workItem from="1665579794420" duration="176000" />
       <workItem from="1669647381645" duration="1295000" />
-      <workItem from="1677756027105" duration="261000" />
+      <workItem from="1677756027105" duration="558000" />
     </task>
     <servers />
   </component>

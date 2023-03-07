@@ -20,57 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80367d3c-9362-4b65-a1ed-8ebedbad762a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/.idea/Lab1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/A1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/A1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Lab1 - HTML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Exam Prep/Exam/Exam-Computational_Logic-Subjects_2020-2021.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Exam Prep/Exam/Exam_Information.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Exam Prep/Exam/Models_subjects_exam_Computational-Logic.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Exam Prep/Exam/Models_subjects_exam_Computational-Logic.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Exam Prep/Exercises/Exercises_ Boolean_functions.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Exam Prep/Exercises/Exercises_Logic Circuits.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Exam Prep/Exercises/Exercises_Predicate_Logic_2020-2021.doc.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Exam Prep/Exercises/Exercises_Propositional_Logic_2020-2021.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Exam Prep/Exercises/Exercises_Resolution_predicate_2020-2021.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Exam Prep/Exercises/Exercises_Resolution_proposition_2020-2021.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Exam Prep/Exercises/Exercises_Semantic Tableaux_Method_2020-2021.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Seminars/Seminar 1.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Seminars/Seminar 2.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computational Logic/Seminars/Seminar 3.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/3.Whiteboard_15_octombrie.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 1 - 80x86_Structure_and_Flags.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 2 - Registers &amp; Flags.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 3 - 2's Complement/Example 2's Complement.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 3 - 2's Complement/Lecture 4 - 2's complement.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 4 - Address registers &amp; computation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 5 - Overflowing Concept Analysis.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 6/Addressing Method Codes.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 6/Coloana_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 6/Intel x86 Assembler Instruction Set Opcode Table.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 6/Machine_instr_representation_Offset_spec_formula.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 6/Rezumat_27_oct.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 6/SIB_Byte_values.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 6/modr_16bit_intel_addressing_form.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Basic_Elements_of_Assembly_Language.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Bitwise_operators.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Data_definition_directives.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Location_Counter.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Offset_prefixing_examples.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Part_I_II_Basic_Elements_of_Assembly_Language.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Pointer_arithmetic.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 7-8/Type_operators&amp;operands_DT.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Lecture 9 - Assembly Instructions.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Lectures/Summary.pdf" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Graph Algorithms/Labs/PW1/directed_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Graph Algorithms/Labs/PW1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SDI/Lab 1/stock-api" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/1+14/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/1+14/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/2+15/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/2+15/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/Problems.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2 - CSS simple/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AI/Labs/Lab1/.ipynb_checkpoints/A1-Solution-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/.ipynb_checkpoints/A1-Solution-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AI/Labs/Lab1/A1-Solution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/A1-Solution.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AI/Labs/Lab1/A1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab1/A1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/a1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Homework/images/a1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/a2.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Homework/images/a2.1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/a2.2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Homework/images/a2.2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Homework/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meditation_music.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Homework/meditation_music.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paintings.webm" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Homework/paintings.webm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +74,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lab Homework" />
       <recent name="$PROJECT_DIR$/Lab Work" />
     </key>
   </component>
@@ -112,6 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677564788805</updated>
       <workItem from="1677564790146" duration="9038000" />
+      <workItem from="1678169329803" duration="2451000" />
     </task>
     <servers />
   </component>
@@ -128,6 +104,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1677564826513">

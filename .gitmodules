@@ -1,0 +1,3 @@
+[submodule "Second"]
+	path = Second
+	url = https://github.com/rusuraluca/uni-computer-science.git

@@ -1,0 +1,64 @@
+<!--
+1.
+Write a web page in which display using style sheets the 3D button push effect when the mouse is over it.
+Develop two versions of this effect.
+14.
+Write a web page which should contain on a row several thumbnail images and above that row should contain a larger image.
+If the mouse is over a thumbnail image, the larger version of that image should appear above it.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A website about the art of painting.">
+    <meta name="author" content="Raluca Rusu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Title</title>
+</head>
+
+<body>
+<header>
+    <button type="button" class="button">
+        <span class="front">
+            Click Me!
+        </span>
+    </button>
+    <button type="button" class="button1">
+        <span class="front1">
+            Click Me!
+        </span>
+    </button>
+
+</header>
+<main>
+
+    <section class="gallery">
+        <div class="gallery__item">
+            <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src="images/img1.png" alt=""/>
+            <label for="img-1" class="gallery__thumb"><img src="images/img1.png" alt=""/></label>
+        </div>
+        <div class="gallery__item">
+            <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src="images/img2.png" alt=""/>
+            <label for="img-2" class="gallery__thumb"><img src="images/img2.png" alt=""/></label>
+        </div>
+        <div class="gallery__item">
+            <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src="images/img3.png" alt=""/>
+            <label for="img-3" class="gallery__thumb"><img src="images/img3.png" alt=""/></label>
+        </div>
+        <div class="gallery__item">
+            <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src="images/img4.png" alt=""/>
+            <label for="img-4" class="gallery__thumb"><img src="images/img4.png" alt=""/></label>
+        </div>
+    </section>
+</main>
+
+<footer>
+</footer>
+</body>
+</html>
+
