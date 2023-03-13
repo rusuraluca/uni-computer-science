@@ -24,8 +24,12 @@
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1 - HTML/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab Work/1+14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Work/1+14/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab Work/1+14/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Work/1+14/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab Work/2+15/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Work/11+24/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab Work/2+15/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Work/11+24/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +58,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lab Work/11+24" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Lab Work/2+15" />
     </key>
@@ -67,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678169534865</updated>
       <workItem from="1678169536228" duration="3432000" />
+      <workItem from="1678457849594" duration="2550000" />
     </task>
     <servers />
   </component>
@@ -83,5 +91,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
