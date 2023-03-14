@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue";
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar {
+    height: auto;
+    margin: 0px auto;
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: calc(100% - 32px);
+    background-color: black;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    list-style-type: none;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-right: 20px;
+    text-decoration: none;
+}

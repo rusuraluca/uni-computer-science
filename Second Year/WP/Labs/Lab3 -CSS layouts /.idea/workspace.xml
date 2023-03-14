@@ -19,14 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bd28d25-684d-4c56-bab6-1db38f341c16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab3 -CSS layouts /styles.css" afterDir="false" />
+    <list default="true" id="928b79b5-e935-421d-8791-8539c2e009ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab Work/11+24/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lab Work/11+24/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2 - CSS simple/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/11+24/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/11+24/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectId" id="2MfrZe2Nzj3G9JJZQFlmBxAvisL" />
+  <component name="ProjectId" id="2MzeOHg4I1kWA2RGkTrXaLIK6F3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab Work/2+15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,23 +56,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Lab Work/11+24" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Lab Work/2+15" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2bd28d25-684d-4c56-bab6-1db38f341c16" name="Default Changelist" comment="" />
-      <created>1678169534865</created>
+      <changelist id="928b79b5-e935-421d-8791-8539c2e009ba" name="Default Changelist" comment="" />
+      <created>1678774804783</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678169534865</updated>
-      <workItem from="1678169536228" duration="3432000" />
-      <workItem from="1678457849594" duration="2550000" />
-      <workItem from="1678774456545" duration="1814000" />
+      <updated>1678774804783</updated>
+      <workItem from="1678774806175" duration="2125000" />
     </task>
     <servers />
   </component>
@@ -89,6 +84,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

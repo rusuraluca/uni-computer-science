@@ -1,21 +1,24 @@
 #first-div {
+    top: 500px;
+    left: 0;
+    position: absolute;
     height: 400px;
-    width: 400px;
+    width: 800px;
     background: linear-gradient(to right, transparent, rgba(0,0,0,1), transparent);
 }
 
 #second-div {
     top: 0;
     left: 0;
+    position: absolute;
     height: 100px;
     width: 100px;
     background-color: blue;
     transition: all 5s ease;
 }
 
-
 #second-div:hover {
     background-color: red;
-    transform: translate(0px, 1000px);
+    transform: translate(1820px, 1000px);
 }
 
