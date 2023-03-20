@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CNN News</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            background-color: #f0f0f0;
+        }
+        .navbar {
+            background-color: #000;
+            height: 60px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .navbar .logo {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar .logo img {
+            height: 40px;
+        }
+        .navbar .nav {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            line-height: 24px;
+            list-style-type: none;
+        }
+        .navbar .nav li {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            margin-left: 20px;
+        }
+        .navbar .nav li:first-child {
+            margin-left: 0;
+        }
+        .navbar .nav li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .navbar .nav li a:hover {
+            color: #c00;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">
+        <img src="https://cdn.cnn.com/cnn/.e/img/3.0/global/misc/cnn-logo.png" alt="CNN Logo">
+    </div>
+    <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">World</a></li>
+        <li><a href="#">Politics</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Opinion</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">Entertainment</a></li>
+        <li><a href="#">Style</a></li>
+        <li><a href="#">Travel</a></li>
+        <li><a href="#">Sports</a></li>
+    </ul>
+</nav>
+</body>
+</html>

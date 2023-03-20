@@ -1,6 +1,6 @@
 from random import randint
 
-from directed_graph import DirectedGraph, write_graph_to_file, read_graph_from_file
+from graph import TripleDictGraph, write_graph_to_file, read_graph_from_file
 
 
 class UI:
@@ -11,7 +11,7 @@ class UI:
     def add_empty_graph(self):
         if self._current is None:
             self._current = 0
-        graph = DirectedGraph(0, 0)
+        graph = TripleDictGraph(0, 0)
         self._graphs.append(graph)
         self._current = len(self._graphs) - 1
 
@@ -24,11 +24,10 @@ class UI:
         self._graphs.append(graph)
         self._current = len(self._graphs) - 1
 
-    @staticmethod
-    def generate_random(vertices, edges):
+    def generate_random(self, vertices, edges):
         if edges > vertices * vertices:
             raise ValueError("Too many edges!")
-        graph = DirectedGraph(vertices, 0)
+        graph = TripleDictGraph(vertices, 0)
         i = 0
         while i < edges:
             x = randint(0, vertices - 1)
@@ -179,8 +178,7 @@ class UI:
         copy = self._graphs[self._current].make_copy()
         self._graphs.append(copy)
 
-    @staticmethod
-    def print_menu():
+    def print_menu(self):
         print("MENU:\n"
               "0. EXIT.\n" 
               "1. Create a random graph with specified number of vertices and edges.\n"

@@ -20,13 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928b79b5-e935-421d-8791-8539c2e009ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Exams/asc_practik.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/Computer Systems Architecture/Exams/asc_practik.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2 - CSS simple/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/11+24/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/11+24/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AI/Labs/Lab3/A3-Solution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab3/A3-Solution.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AI/Labs/Lab3/Lab3_AI_2023_unsolved.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AI/Labs/Lab3/Lab3_AI_2023_unsolved.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678774804783</updated>
       <workItem from="1678774806175" duration="2125000" />
+      <workItem from="1679209212436" duration="453000" />
     </task>
     <servers />
   </component>
@@ -84,5 +88,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
