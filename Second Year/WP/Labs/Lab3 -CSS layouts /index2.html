@@ -1,81 +1,455 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>CNN News</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            font-size: 16px;
-            color: #333;
-            background-color: #f0f0f0;
-        }
-        .navbar {
-            background-color: #000;
-            height: 60px;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 999;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 20px;
-        }
-        .navbar .logo {
-            display: inline-block;
-            margin: 0;
-            padding: 0;
-        }
-        .navbar .logo img {
-            height: 40px;
-        }
-        .navbar .nav {
-            display: inline-block;
-            margin: 0;
-            padding: 0;
-            font-size: 14px;
-            line-height: 24px;
-            list-style-type: none;
-        }
-        .navbar .nav li {
-            display: inline-block;
-            margin: 0;
-            padding: 0;
-            margin-left: 20px;
-        }
-        .navbar .nav li:first-child {
-            margin-left: 0;
-        }
-        .navbar .nav li a {
-            color: #fff;
-            text-decoration: none;
-        }
-        .navbar .nav li a:hover {
-            color: #c00;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style1.css">
 </head>
 <body>
-<nav class="navbar">
-    <div class="logo">
-        <img src="https://cdn.cnn.com/cnn/.e/img/3.0/global/misc/cnn-logo.png" alt="CNN Logo">
+<div class="wrapper">
+
+    <div class="nav">
+        <div class="nav-wrapper">
+            <div class="logo">
+            </div>
+            <div class="column-wrapper">
+                <div class="nav-top">
+                    <ul class="top-nav">
+                        <li class="active nav-item">News</li>
+                        <li class="nav-item">Video</li>
+                        <li class="nav-item">TV</li>
+                        <li class="nav-item">Opinions</li>
+                        <li class="nav-item">More...</li>
+                    </ul>
+                </div>
+                <div class="nav-top-right">
+                    <ul>
+                        <li class="nav-item-right search-field">
+                            <form>
+                                <input class="search-input" type="text" placeholder="Search CNN" name="text">
+                            </form>
+                        </li>
+                        <li class="nav-item-right edition">U.S. Edition <img src="images/downcarrot.png" class="down"> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-bottom">
+                <ul class="bottom-nav">
+                    <li class="nav-item-bot">U.S.</li>
+                    <li class="nav-item-bot">World</li>
+                    <li class="nav-item-bot">Politics</li>
+                    <li class="nav-item-bot">Tech</li>
+                    <li class="nav-item-bot">Health</li>
+                    <li class="nav-item-bot">Entertainment</li>
+                    <li class="nav-item-bot">Living</li>
+                    <li class="nav-item-bot">Travel</li>
+                    <li class="nav-item-bot section-money"><span class="money">Money</span></li>
+                    <li class="nav-item-bot">Sports</li>
+                    <li class="watch-tv">
+                        Watch Live TV <img src="images/greater.png" class="greater">
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <ul class="nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">World</a></li>
-        <li><a href="#">Politics</a></li>
-        <li><a href="#">Business</a></li>
-        <li><a href="#">Opinion</a></li>
-        <li><a href="#">Health</a></li>
-        <li><a href="#">Entertainment</a></li>
-        <li><a href="#">Style</a></li>
-        <li><a href="#">Travel</a></li>
-        <li><a href="#">Sports</a></li>
-    </ul>
-</nav>
+
+
+    <div class="containers">
+        <div class="content1">
+            <div class="list-left">
+                <ul class="list-left-ul">
+                    <li class="headline">Top stories</li>
+                    <li class="article">How Greece got into trouble</li>
+                    <li class="article">Suspect: I killed woman on pier</li>
+                    <li class="article">Pope says families need miracle</li>
+                    <li class="article">Obama: We'll starve ISIS of cash</li>
+                    <li class="article">Tour de France leader breaks back</li>
+                    <li class="article">S.C. Denate: Let's ditch that flag</li>
+                    <li class="article">China wars of travel to Turkey</li>
+                    <li class="article">Fans hurt in NASCAR crash</li>
+                    <li class="article">'Can't Buy Me Love' star dies</li>
+                    <li class="article">Man lights firework on head, dies</li>
+                    <li class="article">FSU QB booter after punch</li>
+                </ul>
+            </div>
+            <div class="content-right">
+                <img src="images/kitten.png">
+
+            </div>
+        </div>
+        <div class="content2">
+            <div class="list-left">
+                <ul class="list-left-ul">
+                    <li class="headline headlinehover">News and buzz</li>
+                    <li class="article">'Oceans's Eleven' producer dies</li>
+                    <li class="article">Same-sex kiss seals World Cup</li>
+                    <li class="article">Chicago: 2 nights, 7 killed</li>
+                    <li class="article">World's oldest woman turns 116</li>
+                    <li class="article">Mayweather stripped of WBO belt</li>
+                    <li class="article">Wimbledon stir over actor's hair</li>
+                    <li class="article">Baby drifts to sea, parents unaware</li>
+                    <li class="article">Fireworks injury costs NFL player</li>
+                    <li class="article">Refinancing, could you use an extra</li>
+                </ul>
+            </div>
+            <div class="mid2">
+                <ul class="list-mid2">
+                    <li class="headline2">Rewind: Where are they now?</li>
+                    <li class="image-mid-2"><img src="images/use.png"></li>
+                    <li class="article">See the 12-year-old headbanger in action</li>
+                    <li class="article">The girl whose picture helped end the Vietnam War</li>
+                </ul>
+            </div>
+            <div class="right2">
+                <img src="images/kitten1.png" class="right-side-2">
+                <img src="images/kitten2.png" class="right-side-2-2">
+            </div>
+        </div>
+        <div class="content3">
+            <div class="list-left">
+                <ul class="list-left-ul">
+                    <li class="headline">Recommended</li>
+                    <li class="article">Dozens die in Nigeria attacks</li>
+                    <li class="article">Burt of Burt's Bee dies at 80</li>
+                    <li class="article">Vanessa Williams marries a 3rd time</li>
+                    <li class="article">Injured Dave Grohl performs on a throne</li>
+                    <li class="article">Wimbledon stir over actor's hair</li>
+                    <li class="article">N. Korean space scientist: Trust us</li>
+                    <li class="article">The secret to aging gracefully</li>
+                    <li class="article">What's new on Netflix, Amazon, others</li>
+                    <li class="article">Homeless piano player wows passersby</li>
+                    <li class="article">He's the world's newest king</li>
+                    <li class="article"> Greece Crisis 101: No way out</li>
+                </ul>
+            </div>
+            <div class="mid2">
+                <ul class="list-left-ul">
+                    <li class="headline2">From the locker room</li>
+                </ul>
+                <div class="content3container">
+                    <div class="content3img">
+                        <img src="http://placekitten.com/g/225/127" class="mid3content mid3img">
+                        <div class="img3text">
+                            hello world!
+                        </div>
+                        <img src="http://placekitten.com/g/225/127" class="mid3img">
+                        <div class="img3text">
+                            hello world!
+                        </div>
+                    </div>
+                    <div class="content-3-img">
+                        <img src="http://placekitten.com/g/225/127" class="mid3content mid3bottom mid3img">
+                        <div class="img3text">
+                            hello world!
+                        </div>
+                        <img src="http://placekitten.com/g/225/127" class="mid3bottom mid3img">
+                        <div class="img3text">
+                            hello world!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right3">
+                <ul class="right-list-ul">
+                    <li class="headline3">MEOW!</li>
+                    <li class="image-right-3"><img src="images/kitten1.png"></li>
+                    <li class="article3">content</li>
+                    <li class="article3">content</li>
+                    <li class="article3">content</li>
+                </ul>
+            </div>
+        </div>
+        <div class="content4">
+            <div class="content4container">
+                <div class="content4left">
+                    <ul class="list-left-ul ul-4">
+                        <li class="headline headlinehover">Top stories</li>
+                        <li class="image4"><img src="images/kitten3.png"></li>
+                        <li class="article">How Greece got into trouble</li>
+                        <li class="article">Suspect: I killed woman on pier</li>
+                        <li class="article">Pope says families need miracle</li>
+                        <li class="article">Obama: We'll starve ISIS of cash</li>
+                        <li class="article">Tour de France leader breaks back</li>
+                        <li class="article">S.C. Denate: Let's ditch that flag</li>
+                        <li class="article">China wars of travel to Turkey</li>
+                    </ul>
+                    <ul class="list-left-ul ul-4">
+                        <li class="headline headlinehover">Top stories</li>
+                        <li class="image4"><img src="images/kitten3.png"></li>
+                        <li class="article">How Greece got into trouble</li>
+                        <li class="article">Suspect: I killed woman on pier</li>
+                        <li class="article">Pope says families need miracle</li>
+                        <li class="article">Obama: We'll starve ISIS of cash</li>
+                        <li class="article">Tour de France leader breaks back</li>
+                        <li class="article">S.C. Denate: Let's ditch that flag</li>
+                        <li class="article">China wars of travel to Turkey</li>
+                    </ul>
+                    <ul class="list-left-ul ul-4">
+                        <li class="headline headlinehover">Top stories</li>
+                        <li class="image4"><img src="images/kitten3.png"></li>
+                        <li class="article">How Greece got into trouble</li>
+                        <li class="article">Suspect: I killed woman on pier</li>
+                        <li class="article">Pope says families need miracle</li>
+                        <li class="article">Obama: We'll starve ISIS of cash</li>
+                        <li class="article">Tour de France leader breaks back</li>
+                        <li class="article">S.C. Denate: Let's ditch that flag</li>
+                        <li class="article">China wars of travel to Turkey</li>
+                    </ul>
+                </div>
+                <div class="content4mid">
+                    <ul class="list-left-ul ul-4">
+                        <li class="headline headlinehover">Top stories</li>
+                        <li class="image4 img4"><img src="images/kitten3.png"></li>
+                        <li class="article">How Greece got into trouble</li>
+                        <li class="article">Suspect: I killed woman on pier</li>
+                        <li class="article">Pope says families need miracle</li>
+                        <li class="article">Obama: We'll starve ISIS of cash</li>
+                        <li class="article">Tour de France leader breaks back</li>
+                        <li class="article">S.C. Denate: Let's ditch that flag</li>
+                        <li class="article">China wars of travel to Turkey</li>
+                    </ul>
+                    <ul class="list-left-ul ul-4">
+                        <li class="headline headlinehover">Top stories</li>
+                        <li class="image4 img4"><img src="images/kitten3.png"></li>
+                        <li class="article">How Greece got into trouble</li>
+                        <li class="article">Suspect: I killed woman on pier</li>
+                        <li class="article">Pope says families need miracle</li>
+                        <li class="article">Obama: We'll starve ISIS of cash</li>
+                        <li class="article">Tour de France leader breaks back</li>
+                        <li class="article">S.C. Denate: Let's ditch that flag</li>
+                        <li class="article">China wars of travel to Turkey</li>
+
+                    </ul>
+                    <ul class="list-left-ul ul-4">
+                        <li class="headline headlinehover">Top stories</li>
+                        <li class="image4 img4"><img src="images/kitten3.png"></li>
+                        <li class="article">How Greece got into trouble</li>
+                        <li class="article">Suspect: I killed woman on pier</li>
+                        <li class="article">Pope says families need miracle</li>
+                        <li class="article">Obama: We'll starve ISIS of cash</li>
+                        <li class="article">Tour de France leader breaks back</li>
+                        <li class="article">S.C. Denate: Let's ditch that flag</li>
+                        <li class="article">China wars of travel to Turkey</li>
+
+                    </ul>
+                </div>
+                <div class="content4right">
+                    <ul class="list-left-ul ul-4">
+                        <li class="headline headlinehover">Meow</li>
+                        <li class="image4"><img src="images/kitten3.png"></li>
+                        <li class="article">How Greece got into trouble</li>
+                        <li class="article">Suspect: I killed woman on pier</li>
+                        <li class="article">Pope says families need miracle</li>
+                        <li class="article">Obama: We'll starve ISIS of cash</li>
+                        <li class="article">Tour de France leader breaks back</li>
+                        <li class="article">S.C. Denate: Let's ditch that flag</li>
+                        <li class="article">China wars of travel to Turkey</li>
+                    </ul>
+                    <ul class="list-left-ul ul-4">
+                        <li class="headline">Top stories</li>
+                        <li class="image4"><img src="images/kitten3.png"></li>
+                        <li class="article">How Greece got into trouble</li>
+                        <li class="article">Suspect: I killed woman on pier</li>
+                        <li class="article">Pope says families need miracle</li>
+                        <li class="article">Obama: We'll starve ISIS of cash</li>
+                        <li class="article">Tour de France leader breaks back</li>
+                        <li class="article">S.C. Denate: Let's ditch that flag</li>
+                        <li class="article">China wars of travel to Turkey</li>
+                    </ul>
+                    <ul class="list-left-ul ul-4">
+                        <li class="headline headlinehover">Top stories</li>
+                        <li class="image4"><img src="images/kitten3.png"></li>
+                        <li class="article">How Greece got into trouble</li>
+                        <li class="article">Suspect: I killed woman on pier</li>
+                        <li class="article">Pope says families need miracle</li>
+                        <li class="article">Obama: We'll starve ISIS of cash</li>
+                        <li class="article">Tour de France leader breaks back</li>
+                        <li class="article">S.C. Denate: Let's ditch that flag</li>
+                        <li class="article">China wars of travel to Turkey</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="content5">
+            <div class="content5containter">
+                <div class="content5left">
+                    <div class="headline headlinehover">
+                        This is a headline -.-
+                    </div>
+                    <div class="leftcontent5 left5">
+                        <img src="images/kitten2.png">
+                        <span class="text5">This is text that will be under the picture -.-</span>
+                    </div>
+                    <div class="leftcontent5 middle5">
+                        <img src="images/kitten2.png">
+                        <span class="text5">This is text that will be under the picture -.-</span>
+                    </div>
+                    <div class="leftcontent5 right5">
+                        <img src="images/kitten2.png">
+                        <span class="text5">This is text that will be under the picture -.-</span>
+                    </div>
+                    <div class="leftcontent5 left5">
+                        <img src="images/kitten2.png">
+                        <span class="text5">This is text that will be under the picture -.-</span>
+                    </div>
+                    <div class="leftcontent5 middle5">
+                        <img src="images/kitten2.png">
+                        <span class="text5">This is text that will be under the picture -.-</span>
+                    </div>
+                    <div class="leftcontent5 right5">
+                        <img src="images/kitten2.png">
+                        <span class="text5">This is text that will be under the picture -.-</span>
+                    </div>
+                    <div class="leftcontent5 left5">
+                        <img src="images/kitten2.png">
+                        <span class="text5">This is text that will be under the picture -.-</span>
+                    </div>
+                    <div class="leftcontent5 middle5">
+                        <img src="images/kitten2.png">
+                        <span class="text5">This is text that will be under the picture -.-</span>
+                    </div>
+                    <div class="leftcontent5 right5">
+                        <img src="images/kitten2.png">
+                        <span class="text5">This is text that will be under the picture -.-</span>
+                    </div>
+                </div>
+                <div class="content5right">
+                    <div class="headline headline5">
+                        Watch Live TV
+                    </div>
+                    <div class="video5">
+                        <img src="images/sweety.png">
+                    </div>
+                    <div class="list5">
+                        <ul class="ul-5">
+                            <li class="headline-5">News Room</li>
+                            <li class="article article5"><div class="image5"><img src="images/cute1.png"></div>Homeless piano player wows passersby</li>
+                            <li class="article article5"><div class="image5"><img src="images/cute1.png"></div>He's the world's newest king</li>
+                            <li class="article article5"><div class="image5"><img src="images/cute1.png"></div>Greece Crisis 101: No way out</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content6">
+            <div class="content6left">
+                <ul class="ul-6">
+                    <li class="headline">Hey there!</li>
+                    <li class='li-img-6'><img src='images/sweety.png'></li>
+                    <li class="lil-head">Hey I am a smaller headline</li>
+                    <li class="article article6">Obama: We'll starve ISIS of cash</li>
+                    <li class="article article6">Tour de France leader breaks back</li>
+                    <li class="article article6">S.C. Denate: Let's ditch that flag</li>
+                    <li class="article article6">China wars of travel to Turkey</li>
+                </ul>
+            </div>
+            <div class="content6mid">
+                <ul class="ul-6">
+                    <li class="headline headlinehover headline6">Hey I'm another headline!</li>
+                    <li class='li-img-6'><img src='images/sweety.png'></li>
+                    <li class="lil-head">Hey I am a smaller headline</li>
+                    <li class="article article6">Obama: We'll starve ISIS of cash</li>
+                    <li class="article article6">Tour de France leader breaks back</li>
+                    <li class="article article6">S.C. Denate: Let's ditch that flag</li>
+                    <li class="article article6">China wars of travel to Turkey</li>
+                </ul>
+            </div>
+            <div class="content6right">
+                <div class="image6">
+                    <img src="images/mewmew.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="content7">
+            <div class="headline headlinehover headline7">
+                Hey I am another headline =]
+            </div>
+            <div class="box7 box7left">
+                <img src="images/popcorn.jpg"><br>
+                <div class="lil-head">Meow meow meow</div>
+            </div>
+            <div class="box7 box7mid1">
+                <img src="images/popcorn.jpg">
+                <div class="lil-head">Meow meow meow</div>
+            </div>
+            <div class="box7 box7mid2">
+                <img src="images/popcorn.jpg">
+                <div class="lil-head">Meow meow meow</div>
+            </div>
+            <div class="box7 box7right">
+                <img src="images/popcorn.jpg">
+                <div class="lil-head">Meow meow meow</div>
+            </div>
+        </div>
+        <div class="content8">
+            <div class="second-headline">
+                From our partners<span class="zip"></span>
+            </div>
+            <div class="content8left">
+                <ul class="ul-8">
+                    <li class="article">Pope says families need miracle</li>
+                    <li class="article">Obama: We'll starve ISIS of cash</li>
+                    <li class="article">Tour de France leader breaks back</li>
+                    <li class="article">S.C. Denate: Let's ditch that flag</li>
+                    <li class="article">China wars of travel to Turkey</li>
+                </ul>
+            </div>
+            <div class="content8mid">
+                <ul class="ul-8">
+                    <li class="article">Pope says families need miracle</li>
+                    <li class="article">Obama: We'll starve ISIS of cash</li>
+                    <li class="article">Tour de France leader breaks back</li>
+                    <li class="article">S.C. Denate: Let's ditch that flag</li>
+                    <li class="article">China wars of travel to Turkey</li>
+                </ul>
+            </div>
+            <div class="content8right">
+                <ul class="ul-8">
+                    <li class="article">Pope says families need miracle</li>
+                    <li class="article">Obama: We'll starve ISIS of cash</li>
+                    <li class="article">Tour de France leader breaks back</li>
+                    <li class="article">S.C. Denate: Let's ditch that flag</li>
+                    <li class="article">China wars of travel to Turkey</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="content-9">
+        <div class="content-9-container">
+            <div class="second-headline blackheadline">
+                In case you missed it
+            </div>
+            <div class="content9left">
+                <img src="images/cutekitty.png">
+            </div>
+            <div class="content9right">
+                <ul class="list-left-ul">
+                    <li class="article9">How Greece got into trouble</li>
+                    <li class="article9">Suspect: I killed woman on pier</li>
+                    <li class="article9">Pope says families need miracle</li>
+                    <li class="article9">Obama: We'll starve ISIS of cash</li>
+                    <li class="article9">Tour de France leader breaks back</li>
+                    <li class="article9">S.C. Denate: Let's ditch that flag</li>
+                    <li class="article9">China wars of travel to Turkey</li>
+                    <li class="article9">Fans hurt in NASCAR crash</li>
+                    <li class="article9">'Can't Buy Me Love' star dies</li>
+                </ul>
+            </div>
+            <div class="content9ad">
+                <img src="images/tmobilead.png">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="weather">
+                <span class="weather-hl">New York City, NY</span><img class="weather-icon" src="images/weather.png">
+            </div>
+            <div class="footercontent">
+                hello there i am a test!
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

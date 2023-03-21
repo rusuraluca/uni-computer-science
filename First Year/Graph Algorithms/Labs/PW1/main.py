@@ -52,7 +52,7 @@ class UI:
 
     def switch_graph_ui(self):
         print("You are on the graph number: {}".format(self._current))
-        print("Available graphs: 0 - {}".format(str(len(self._graphs) - 1)))
+        print("Available graphs: from 0 - {}".format(str(len(self._graphs) - 1)))
         number = int(input("Enter the graph number you want to switch to: "))
         if not 0 <= number < len(self._graphs):
             raise ValueError("Trying to switch to a non existing graph!")
@@ -74,6 +74,8 @@ class UI:
     def list_outbound(self):
         vertex = int(input("Enter the vertex: "))
         line = str(vertex) + " :"
+        if vertex not in self._graphs[self._current].parse_vertices():
+            raise ValueError("!")
         for y in self._graphs[self._current].parse_outbound(vertex):
             line = line + " " + "({}, {})".format(str(vertex), str(y))
         print(line)
@@ -179,8 +181,8 @@ class UI:
         self._graphs.append(copy)
 
     def print_menu(self):
-        print("MENU:\n"
-              "0. EXIT.\n" 
+        print("Menu:\n"
+              "0. Exit\n" 
               "1. Create a random graph with specified number of vertices and edges.\n"
               "2. Read the graph from a text file.\n"
               "3. Write the graph in a text file.\n"
@@ -209,17 +211,28 @@ class UI:
         done = False
         self.add_empty_graph()
         print("The current graph is an empty graph!")
-        command_dict = {"1": self.create_random_graph_ui, "2": self.read_graph_from_file_ui,
-                        "3": self.write_graph_to_file_ui, "4": self.switch_graph_ui,
-                        "5": self.get_number_of_vertices_ui, "6": self.get_number_of_edges_ui,
-                        "7": self.list_outbound, "8": self.list_all_outbound,
-                        "9": self.list_inbound, "10": self.list_all_inbound,
-                        "11": self.list_all_costs, "12": self.add_vertex_ui,
-                        "13": self.delete_vertex_ui, "14": self.add_edge_ui,
-                        "15": self.remove_edge_ui, "16": self.modify_cost_ui,
-                        "17": self.get_in_degree_ui, "18": self.get_out_degree_ui,
-                        "19": self.check_if_edge_ui, "20": self.copy_current_graph_ui,
-                        "21": self.add_empty_graph, "22": self.parse_all_vertices}
+        command_dict = {"1": self.create_random_graph_ui,
+                        "2": self.read_graph_from_file_ui,
+                        "3": self.write_graph_to_file_ui,
+                        "4": self.switch_graph_ui,
+                        "5": self.get_number_of_vertices_ui,
+                        "6": self.get_number_of_edges_ui,
+                        "7": self.list_outbound,
+                        "8": self.list_all_outbound,
+                        "9": self.list_inbound,
+                        "10": self.list_all_inbound,
+                        "11": self.list_all_costs,
+                        "12": self.add_vertex_ui,
+                        "13": self.delete_vertex_ui,
+                        "14": self.add_edge_ui,
+                        "15": self.remove_edge_ui,
+                        "16": self.modify_cost_ui,
+                        "17": self.get_in_degree_ui,
+                        "18": self.get_out_degree_ui,
+                        "19": self.check_if_edge_ui,
+                        "20": self.copy_current_graph_ui,
+                        "21": self.add_empty_graph,
+                        "22": self.parse_all_vertices}
         while not done:
             try:
                 self.print_menu()

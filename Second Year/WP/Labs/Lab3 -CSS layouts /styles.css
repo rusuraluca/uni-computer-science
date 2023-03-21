@@ -1,38 +1,69 @@
 * {
     box-sizing: border-box;
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica", sans-serif;
 }
 
-body {
+html, body {
     margin: 0;
+    padding: 0;
 }
 
-header {
-    overflow: hidden;
-    background-color: black;
+main {
+
 }
 
 .navbar {
-    height: auto;
-    margin: 0px auto;
-    z-index: 1;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    width: calc(100% - 32px);
     background-color: black;
+    color: #E6E6E6;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    overflow: hidden;
+    font-weight: lighter;
 }
 
-.navbar ul {
-    list-style-type: none;
-}
-
-.navbar a {
-    list-style-type: none;
+.left-side {
     float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding-right: 20px;
-    text-decoration: none;
+    padding: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-side {
+    float: right;
+    padding: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#icon-menu {
+    height: 30px;
+    cursor: pointer;
+    padding-right: 15px;
+}
+
+#icon-title {
+    height: 40px;
+    cursor: pointer;
+}
+
+.categories {
+    margin: 0 0 0 25px;
+    cursor: pointer;
+}
+
+.log-in-button {
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 7px;
+    font-weight: bold;
 }

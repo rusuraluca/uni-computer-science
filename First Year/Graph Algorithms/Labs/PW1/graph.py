@@ -159,7 +159,7 @@ def read_graph_from_file(filename):
         if len(line) == 1:
             graph.dictionary_in[int(line[0])] = []
             graph.dictionary_out[int(line[0])] = []
-        else:
+        elif len(line) == 3:
             graph.dictionary_in[int(line[1])].append(int(line[0]))
             graph.dictionary_out[int(line[0])].append(int(line[1]))
             graph.dictionary_cost[(int(line[0]), int(line[1]))] = int(line[2])
