@@ -20,11 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="928b79b5-e935-421d-8791-8539c2e009ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../First Year/Graph Algorithms/Labs/PW1/cpp/Graph.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../First Year/Graph Algorithms/Labs/PW1/cpp/Graph.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Graph Algorithms/Labs/PW1/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/Graph Algorithms/Labs/PW1/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Graph Algorithms/Labs/PW1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/Graph Algorithms/Labs/PW1/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../First Year/Graph Algorithms/Labs/PW1/output1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/Graph Algorithms/Labs/PW1/output1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
@@ -75,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678774804783</updated>
       <workItem from="1678774806175" duration="2125000" />
-      <workItem from="1679209212436" duration="6049000" />
+      <workItem from="1679209212436" duration="10647000" />
     </task>
     <servers />
   </component>
@@ -95,10 +90,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1679389280795">
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1679419807801">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050/-602.-1667.3008.1667@0.0.1680.1050" timestamp="1679389280795" />
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1679419807801" />
     <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1679380577114">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
