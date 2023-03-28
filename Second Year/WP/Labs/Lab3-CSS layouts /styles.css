@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-family: "CNN,Helvetica Neue", sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: black;
+    color: #E6E6E6;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    overflow: ;
+    font-weight: lighter;
+}
+
+.left-side {
+    float: left;
+    padding: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.right-side {
+    float: right;
+    padding: 13%;
+    display: flex;
+    align-items: center;
+}
+
+#icon-menu {
+    height: 30px;
+    cursor: pointer;
+    padding-right: 15px;
+}
+
+#icon-title {
+    height: 40px;
+    cursor: pointer;
+}
+
+.categories {
+    margin: 0 0 0 25px;
+    cursor: pointer;
+}
+
+.log-in-button {
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.first-line {
+    color: #262626;
+    position: sticky;
+    display: inline-flex;
+    align-items: center;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.first-headline {
+    color: #cc0000;
+}
+
+.top-stories::after {
+    color: #d9d9d9;
+    padding: 0 10px;
+    content: "|";
+}
+
+.news {
+    padding: 0 17%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 41%;
+    padding-right: 2%;
+}
+
+.column1 {
+    flex: 29%;
+    padding-right: 2%;
+}
+
+#headline {
+    text-align: center;
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.headline2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.headline3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.article-img {
+    height: auto;
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+}
+
+.p {
+    font-weight: 200;
+}
+
+.p::after {
+    clear: both;
+    content: "";
+    display: table;
+    color: #262626;
+}
+
+.underline_link {
+    color: #262626;
+    font-size: .93333rem;
+    line-height: 1.28571;
+    text-decoration: underline;
+    text-decoration-color: #d9d9d9;
+    cursor: pointer;
+}
+
+
+.link {
+    font-size: .93333rem;
+    font-weight: lighter;
+}

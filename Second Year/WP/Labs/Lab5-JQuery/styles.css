@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    cursor: pointer;
+}
+
+.ascending:before {
+    /* is used to insert a upward-pointing triangle */
+    content: '\25B2';
+}
+
+.descending:before {
+    /* is used to insert a downward-pointing triangle */
+    content: '\25BC';
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbab1cc3-9d97-4027-bfae-58d82c52e42f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab4-Javascript /index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4-Javascript /remove-links.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab5-JQuery/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab5-JQuery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab5-JQuery/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab5-JQuery/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/.idea/Lab1 - HTML.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/Lab Homework/images/a1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/Lab Homework/images/a2.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/Lab Homework/images/a2.2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/Lab Homework/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/Lab Homework/meditation_music.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/Lab Homework/paintings.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/Lab Work/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/Lab Work/lab1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1 - HTML/Lab Work/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/.idea/Lab2 - CSS simple.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/1+14/images/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/1+14/images/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/1+14/images/img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/1+14/images/img4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/1+14/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/1+14/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/11+24/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/11+24/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/Lab Work/Problems.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2 - CSS simple/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /.idea/Lab3 -CSS layouts .iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /images/reference.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /style1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3 -CSS layouts /styles.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2Nd6LRNXBiBoUJ8ikqQEazDznRm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbab1cc3-9d97-4027-bfae-58d82c52e42f" name="Default Changelist" comment="" />
+      <created>1679981556367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679981556367</updated>
+      <workItem from="1679981557916" duration="3023000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1679984392665">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1679984392665" />
+  </component>
+</project>
