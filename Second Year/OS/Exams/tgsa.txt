@@ -1,0 +1,50 @@
+grep -> print the lines that start with digit and end with a non-digit char
+
+grep '^[0-9].*[^\\d]' inputgrep.txt
+grep '^[0-9].*[^[:digit:]]$' inputgrep.txt
+
+
+input:
+0nshbd
+1ncnbue
+ndhhe
+nshebe
+1jdue9
+3ndhybe
+
+returns
+0nshbd
+1ncnbue
+3ndhybe
+
+
+sed -> replace all groups of at least 2 consecutive spaces with a single space
+sed -E 's/[[:space:]]{2,}/ /g' inputsed.txt
+
+input:
+An        example of    input
+         data here
+and       also
+here
+
+returns:
+An example of input
+ data here
+and also
+here
+
+
+awk -> maximum number from each line of a file
+display the number and the maximum
+the file will contain only numbers separated by comma.
+awk -F, '{max=$1; for(i=1;i<=NF;i++) if($i>max) max=$i; print NR ": " max}' inputawk.txt
+
+input:
+1, 2, 3, 4, 5
+6, 9, 8
+10, 7, 5
+
+returns:
+1:  5
+2:  9
+3: 10

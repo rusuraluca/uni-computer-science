@@ -133,17 +133,21 @@ class TripleDictGraph:
 
 def write_graph_to_file(graph, file):
     file = open(file, "w")
-    first_line = str(graph.number_of_vertices) + ' ' + str(graph.number_of_edges) + '\n'
-    file.write(first_line)
-    if len(graph.dictionary_cost) == 0 and len(graph.dictionary_in) == 0:
-        raise ValueError("There is nothing that can be written!")
-    for edge in graph.dictionary_cost.keys():
-        new_line = "{} {} {}\n".format(edge[0], edge[1], graph.dictionary_cost[edge])
-        file.write(new_line)
-    for vertex in graph.dictionary_in.keys():
-        if len(graph.dictionary_in[vertex]) == 0 and len(graph.dictionary_out[vertex]) == 0:
-            new_line = "{}\n".format(vertex)
+    if graph.number_of_vertices > 0 and graph.number_of_edges:
+        first_line = str(graph.number_of_vertices) + ' ' + str(graph.number_of_edges) + '\n'
+        file.write(first_line)
+        if len(graph.dictionary_cost) == 0 and len(graph.dictionary_in) == 0:
+            raise ValueError("There is nothing that can be written!")
+        for edge in graph.dictionary_cost.keys():
+            new_line = "{} {} {}\n".format(edge[0], edge[1], graph.dictionary_cost[edge])
             file.write(new_line)
+        for vertex in graph.dictionary_in.keys():
+            if len(graph.dictionary_in[vertex]) == 0 and len(graph.dictionary_out[vertex]) == 0:
+                new_line = "{}\n".format(vertex)
+                file.write(new_line)
+    else:
+        first_line = 'We cannot create this graph' + '\n'
+        file.write(first_line)
     file.close()
 
 

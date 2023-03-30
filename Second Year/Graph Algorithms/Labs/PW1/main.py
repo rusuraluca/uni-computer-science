@@ -75,7 +75,7 @@ class UI:
         vertex = int(input("Enter the vertex: "))
         line = str(vertex) + " :"
         if vertex not in self._graphs[self._current].parse_vertices():
-            raise ValueError("!")
+            raise ValueError("Cannot list outbound of this vertex, it does not exist!")
         for y in self._graphs[self._current].parse_outbound(vertex):
             line = line + " " + "({}, {})".format(str(vertex), str(y))
         print(line)
@@ -90,6 +90,8 @@ class UI:
     def list_inbound(self):
         vertex = int(input("Enter the vertex: "))
         line = str(vertex) + " :"
+        if vertex not in self._graphs[self._current].parse_vertices():
+            raise ValueError("Cannot list inbound of this vertex, it does not exist!")
         for y in self._graphs[self._current].parse_inbound(vertex):
             line = line + " " + "({}, {})".format(str(y), str(vertex))
         print(line)
