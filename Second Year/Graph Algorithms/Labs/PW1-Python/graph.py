@@ -32,6 +32,18 @@ class TripleDictGraph:
     def number_of_edges(self):
         return self._number_of_edges
 
+    def set_number_of_vertices(self, vertices):
+        self._number_of_vertices = vertices
+
+    def set_dictionary_cost(self, dictionary_cost):
+        self._dictionary_cost = dictionary_cost
+
+    def set_dictionary_in(self, dictionary_in):
+        self._dictionary_in = dictionary_in
+
+    def set_dictionary_out(self, dictionary_out):
+        self._dictionary_out = dictionary_out
+
     def parse_vertices(self):
         vertices = list(self._dictionary_in.keys())
         for v in vertices:
@@ -133,7 +145,7 @@ class TripleDictGraph:
 
 def write_graph_to_file(graph, file):
     file = open(file, "w")
-    if graph.number_of_vertices > 0 and graph.number_of_edges:
+    if graph.number_of_vertices and graph.number_of_edges:
         first_line = str(graph.number_of_vertices) + ' ' + str(graph.number_of_edges) + '\n'
         file.write(first_line)
         if len(graph.dictionary_cost) == 0 and len(graph.dictionary_in) == 0:
@@ -148,6 +160,20 @@ def write_graph_to_file(graph, file):
     else:
         first_line = 'We cannot create this graph' + '\n'
         file.write(first_line)
+    file.close()
+
+
+def write_modified_graph_to_file(graph, file):
+    file = open(file, "w")
+    if len(graph.dictionary_cost) == 0 and len(graph.dictionary_in) == 0:
+        raise ValueError("There is nothing that can be written!")
+    for edge in graph.dictionary_cost.keys():
+        new_line = "{} {} {}\n".format(edge[0], edge[1], graph.dictionary_cost[edge])
+        file.write(new_line)
+    for vertex in graph.dictionary_in.keys():
+        if len(graph.dictionary_in[vertex]) == 0 and len(graph.dictionary_out[vertex]) == 0:
+            new_line = "{}\n".format(vertex)
+            file.write(new_line)
     file.close()
 
 
@@ -168,5 +194,37 @@ def read_graph_from_file(filename):
             graph.dictionary_out[int(line[0])].append(int(line[1]))
             graph.dictionary_cost[(int(line[0]), int(line[1]))] = int(line[2])
         line = file.readline().strip()
+    file.close()
+    return graph
+
+
+def read_modified_graph_from_file(filename):
+    file = open(filename, "r")
+    line = file.readline().strip()
+    dictionary_in = {}
+    dictionary_out = {}
+    dictionary_cost = {}
+    vertices, edges = 0, 0
+    while len(line) > 0:
+        line = line.split(' ')
+        if len(line) == 1:
+            dictionary_in[int(line[0])] = []
+            dictionary_out[int(line[0])] = []
+        elif len(line) == 3:
+            dictionary_in[int(line[0])] = []
+            dictionary_out[int(line[0])] = []
+            dictionary_in[int(line[1])] = []
+            dictionary_out[int(line[1])] = []
+            edges += 1
+            dictionary_in[int(line[1])].append(int(line[0]))
+            dictionary_out[int(line[0])].append(int(line[1]))
+            dictionary_cost[(int(line[0]), int(line[1]))] = int(line[2])
+        line = file.readline().strip()
+    for key in dictionary_in.keys():
+        vertices += 1
+    graph = TripleDictGraph(int(vertices), int(edges))
+    graph.set_dictionary_cost(dictionary_cost)
+    graph.set_dictionary_in(dictionary_in)
+    graph.set_dictionary_out(dictionary_out)
     file.close()
     return graph

@@ -1,6 +1,6 @@
 from random import randint
 
-from graph import TripleDictGraph, write_graph_to_file, read_graph_from_file
+from graph import TripleDictGraph, write_graph_to_file, read_graph_from_file, write_modified_graph_to_file, read_modified_graph_from_file
 
 
 class UI:
@@ -18,15 +18,17 @@ class UI:
     def create_random_graph_ui(self):
         vertices = int(input("Enter the number of vertices: "))
         edges = int(input("Enter the number of edges: "))
-        graph = self.generate_random(vertices, edges)
+        if edges > vertices * vertices:
+            graph = TripleDictGraph(0, 0)
+            raise ValueError("Too many edges!")
+        else:
+            graph = self.generate_random(vertices, edges)
         if self._current is None:
             self._current = 0
         self._graphs.append(graph)
         self._current = len(self._graphs) - 1
 
     def generate_random(self, vertices, edges):
-        if edges > vertices * vertices:
-            raise ValueError("Too many edges!")
         graph = TripleDictGraph(vertices, 0)
         i = 0
         while i < edges:
@@ -49,6 +51,19 @@ class UI:
         current_graph = self._graphs[self._current]
         output_file = "output" + str(self._current) + ".txt"
         write_graph_to_file(current_graph, output_file)
+
+    def read_modified_graph_from_file_ui(self):
+        filename = input("Enter the name of the file: ")
+        if self._current is None:
+            self._current = 0
+        graph = read_modified_graph_from_file(filename)
+        self._graphs.append(graph)
+        self._current = len(self._graphs) - 1
+
+    def write_modified_graph_to_file_ui(self):
+        current_graph = self._graphs[self._current]
+        output_file = "output" + str(self._current) + ".txt"
+        write_modified_graph_to_file(current_graph, output_file)
 
     def switch_graph_ui(self):
         print("You are on the graph number: {}".format(self._current))
@@ -206,7 +221,9 @@ class UI:
               "19. Check if there is an edge between two given vertices.\n"
               "20. Make a copy of the graph.\n"
               "21. Add an empty graph.\n"
-              "22. Parse all the vertices.")
+              "22. Parse all the vertices.\n"
+              "23. Read the modified graph from a text file.\n"
+              "24. Write the modified graph in a text file..")
 
     def start(self):
         print("Welcome!")
@@ -234,7 +251,10 @@ class UI:
                         "19": self.check_if_edge_ui,
                         "20": self.copy_current_graph_ui,
                         "21": self.add_empty_graph,
-                        "22": self.parse_all_vertices}
+                        "22": self.parse_all_vertices,
+                        "23": self.read_modified_graph_from_file_ui,
+                        "24": self.write_modified_graph_to_file_ui,
+                        }
         while not done:
             try:
                 self.print_menu()

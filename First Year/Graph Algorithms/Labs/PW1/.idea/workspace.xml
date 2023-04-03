@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39601c8e-dc26-4a54-a9a1-839a4f90120b" name="Default Changelist" comment="" />
+    <list default="true" id="39601c8e-dc26-4a54-a9a1-839a4f90120b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../OOP/Frequency_Analysis_Cracking_Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OOP/Frequency_Analysis_Cracking_Caesar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/Labs/laboratory1-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OOP/Labs/laboratory1-rusuraluca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OOP/Labs/laboratory4-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OOP/Labs/laboratory4-rusuraluca" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +100,7 @@
       <workItem from="1678108959748" duration="830000" />
       <workItem from="1679305860415" duration="5960000" />
       <workItem from="1680155640312" duration="1626000" />
+      <workItem from="1680441155466" duration="9000" />
     </task>
     <servers />
   </component>

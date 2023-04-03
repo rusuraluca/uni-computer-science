@@ -5,10 +5,4 @@
 #ifndef PW1_C_GRAPH_H
 #define PW1_C_GRAPH_H
 
-
-class graph {
-
-};
-
-
 #endif //PW1_C_GRAPH_H
