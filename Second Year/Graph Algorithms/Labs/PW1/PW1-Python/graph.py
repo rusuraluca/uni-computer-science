@@ -73,13 +73,20 @@ class TripleDictGraph:
     def remove_vertex(self, x):
         if x not in self._dictionary_in.keys() and x not in self._dictionary_out.keys():
             return False
-        self._dictionary_in.pop(x)
-        self._dictionary_out.pop(x)
-        for key in self._dictionary_in.keys():
+
+        keys = self._dictionary_out[x]
+        for key in keys:
             if x in self._dictionary_in[key]:
                 self._dictionary_in[key].remove(x)
-            elif x in self._dictionary_out[key]:
+
+        keys = self._dictionary_in[x]
+        for key in keys:
+            if x in self._dictionary_out[key]:
                 self._dictionary_out[key].remove(x)
+
+        self._dictionary_in.pop(x)
+        self._dictionary_out.pop(x)
+
         keys = list(self._dictionary_cost.keys())
         for key in keys:
             if key[0] == x or key[1] == x:

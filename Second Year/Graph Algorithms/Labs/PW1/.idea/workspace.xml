@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a791e91-0496-4c50-b3af-2b5d2e96bbb3" name="Default Changelist" comment="" />
+    <list default="true" id="8a791e91-0496-4c50-b3af-2b5d2e96bbb3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Frequency_Analysis_Cracking_Caesar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680495428837</updated>
       <workItem from="1680495430033" duration="25000" />
+      <workItem from="1680519381605" duration="74000" />
     </task>
     <servers />
   </component>
@@ -66,5 +72,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

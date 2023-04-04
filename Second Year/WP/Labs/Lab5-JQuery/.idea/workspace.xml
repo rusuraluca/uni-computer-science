@@ -24,9 +24,15 @@
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory1-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3-CSS layouts /.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3-CSS layouts /.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3-CSS layouts /styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3-CSS layouts /styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4-Javascript /.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4-Javascript /.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/PW1-Python/.idea/PW1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/PW1-Python/.idea/PW1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/PW1-Python/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/PW1-Python/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/PW1-Python/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/PW1-Python/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/PW1-Python/output0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/PW1-Python/output0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/PW1-Python/output1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Graph Algorithms/Labs/PW1/PW1-Python/output1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,6 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1679981556367</updated>
       <workItem from="1679981557916" duration="3023000" />
+      <workItem from="1680542156918" duration="2452000" />
+      <workItem from="1680579441904" duration="780000" />
     </task>
     <servers />
   </component>
@@ -78,6 +87,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1679984392665">
