@@ -8,7 +8,7 @@ $(document).ready(function() {
 
         // takes a comparison function as a parameter, which is used to determine the order in which the elements should be sorted
         rows.sort(function(a, b) {
-            // variables are used to store the text content of the cells within the a and b rows at the specified column index
+            // store the text content of the cells within the a and b rows at the specified column index
             var aValue = $('td:eq(' + columnIndex + ')', a).text();
             var bValue = $('td:eq(' + columnIndex + ')', b).text();
 
