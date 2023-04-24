@@ -1,5 +1,5 @@
 import copy
-
+from collections import deque
 
 class TripleDictGraph:
     def __init__(self, number_of_vertices, number_of_edges):
@@ -148,6 +148,98 @@ class TripleDictGraph:
 
     def make_copy(self):
         return copy.deepcopy(self)
+
+    def find_lowest_length_path(self, start_vertex, end_vertex):
+        """
+        Finds the lowest length path between start_vertex and end_vertex using backward breadth-first search from the
+        end_vertex.
+
+        :param start_vertex: The starting vertex.
+        :param end_vertex: The ending vertex.
+        :return: The lowest length path as a list of vertices, or None if there is no path.
+        """
+        # check if start_vertex and end_vertex are valid vertices
+        if start_vertex not in self._dictionary_in.keys() or end_vertex not in self._dictionary_in.keys():
+            return (-1, -1)
+
+        # perform backward BFS from the end_vertex
+        queue = deque([(end_vertex, [end_vertex], 0)])
+        visited = set()
+
+        while queue:
+            vertex, path, length = queue.popleft()
+
+            if vertex in visited:
+                continue
+
+            visited.add(vertex)
+
+            for parent in self._dictionary_in[vertex]:
+
+                if vertex == start_vertex:
+                    # found a path from start_vertex to end_vertex
+                    return list(reversed(path)), length
+
+                queue.append((parent, path + [parent], length + 1))
+
+        # there is no path from start_vertex to end_vertex
+        return (0, 0)
+
+    def find_lowest_length_path2(self, start_vertex, end_vertex):
+        """
+        Finds the lowest length path between start_vertex and end_vertex using backward breadth-first search from the
+        end_vertex.
+
+        :param start_vertex: The starting vertex.
+        :param end_vertex: The ending vertex.
+        :return: The lowest length path as a list of vertices, or None if there is no path.
+        """
+        # check if start_vertex and end_vertex are valid vertices
+        if start_vertex not in self._dictionary_in.keys() or end_vertex not in self._dictionary_in.keys():
+            return (-1, -1)
+
+        # perform backward BFS from the end_vertex
+        queue = deque([end_vertex])
+        visited = set()
+
+        # stores the distance from end_vertex to each visited vertex
+        dist_dictionary = {}
+        dist_dictionary[end_vertex] = 0
+        # stores the next vertex in the path for each visited vertex
+        next_dictionary = {}
+
+        while queue:
+            vertex = queue.popleft()
+
+            if vertex in visited:
+                continue
+
+            visited.add(vertex)
+
+            for parent in self._dictionary_in[vertex]:
+
+                if vertex == start_vertex:
+                    # found a path from start_vertex to end_vertex
+                    path = []
+                    next_vertex = start_vertex
+                    path.append(next_vertex)
+                    while next_vertex != end_vertex:
+                        next_vertex = next_dictionary[next_vertex]
+                        path.append(next_vertex)
+
+                    return path, dist_dictionary[start_vertex]
+
+                queue.append(parent)
+                # update dist_dictionary and next_dictionary for the visited vertex
+                # store the value in a temporary variable
+                dist = dist_dictionary[vertex] + 1
+                dist_dictionary[parent] = dist
+                next_dictionary[parent] = vertex
+
+        queue.clear()
+
+        # end_vertex was not visited, indicating no path was found
+        return (0, 0)
 
 
 def write_graph_to_file(graph, file):

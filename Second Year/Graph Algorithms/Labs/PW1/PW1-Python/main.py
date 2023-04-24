@@ -193,6 +193,36 @@ class UI:
         else:
             print("({}, {}) is not an edge!".format(vertex_x, vertex_y))
 
+    def find_lowest_length_path_ui(self):
+        start_vertex = int(input("Enter start vertex = "))
+        end_vertex = int(input("Enter end vertex = "))
+        if start_vertex < 0 or end_vertex < 0 or (start_vertex == end_vertex):
+            print("Vertices are not valid!")
+        else:
+            path, len_path = self._graphs[self._current].find_lowest_length_path(start_vertex, end_vertex)
+            if path == -1 and len_path == -1:
+                print("Vertices don't exist in the graph!")
+            elif path == 0 and len_path == 0:
+                print("There is no path from vertex {} to vertex {}".format(start_vertex, end_vertex))
+            else:
+                print("Lowest length path from vertex {} to vertex {}: {} and has length {}".format(start_vertex, end_vertex, path, len_path))
+
+    def find_lowest_length_path2_ui(self):
+        start_vertex = int(input("Enter start vertex = "))
+        end_vertex = int(input("Enter end vertex = "))
+        if start_vertex < 0 or end_vertex < 0 or (start_vertex == end_vertex):
+            print("Vertices are not valid!")
+        else:
+            path, len_path = self._graphs[self._current].find_lowest_length_path2(start_vertex, end_vertex)
+            if path == -1 and len_path == -1:
+                print("Vertices don't exist in the graph!")
+            elif path == 0 and len_path == 0:
+                print("There is no path from vertex {} to vertex {}".format(start_vertex, end_vertex))
+            else:
+                print("Lowest length path from vertex {} to vertex {}: {} and has length {}".format(start_vertex,
+                                                                                                    end_vertex, path,
+                                                                                                    len_path))
+
     def copy_current_graph_ui(self):
         copy = self._graphs[self._current].make_copy()
         self._graphs.append(copy)
@@ -223,7 +253,9 @@ class UI:
               "21. Add an empty graph.\n"
               "22. Parse all the vertices.\n"
               "23. Read the modified graph from a text file.\n"
-              "24. Write the modified graph in a text file..")
+              "24. Write the modified graph in a text file.\n"
+              "25. Find the lowest length path between two given vertices.\n"
+              "26. Find the lowest length path between two given vertices V2.\n")
 
     def start(self):
         print("Welcome!")
@@ -254,6 +286,8 @@ class UI:
                         "22": self.parse_all_vertices,
                         "23": self.read_modified_graph_from_file_ui,
                         "24": self.write_modified_graph_to_file_ui,
+                        "25": self.find_lowest_length_path_ui,
+                        "26": self.find_lowest_length_path2_ui,
                         }
         while not done:
             try:
