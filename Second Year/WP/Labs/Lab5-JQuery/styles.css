@@ -12,15 +12,3 @@ th, td {
 th {
     cursor: pointer;
 }
-
-.ascending:before {
-    /* is used to insert a upward-pointing triangle */
-    content: '\25B2';
-
-}
-
-.descending:before {
-    /* is used to insert a downward-pointing triangle */
-    content: '\25BC';
-    justify-content: right;
-}
