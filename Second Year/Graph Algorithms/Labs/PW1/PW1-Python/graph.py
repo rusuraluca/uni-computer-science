@@ -241,6 +241,43 @@ class TripleDictGraph:
         # end_vertex was not visited, indicating no path was found
         return (0, 0)
 
+    def find_lowest_cost_walk(self, start_vertex, end_vertex):
+        # Step 1: Initialize distances to infinity for all vertices except the start vertex,
+        # which is set to 0.
+        distances = {v: float('inf') for v in self.parse_vertices()}
+        distances[start_vertex] = 0
+
+        # Step 2: Relax edges repeatedly V-1 times
+        for _ in range(self.number_of_vertices - 1):
+            for u in self.parse_vertices():
+                for v in self.parse_outbound(u):
+                    # Relax edge (u, v)
+                    cost = self.find_if_edge(u, v)
+                    if distances[u] + cost < distances[v]:
+                        distances[v] = distances[u] + cost
+
+        # Step 3: Check for negative cost cycles
+        for u in self.parse_vertices():
+            for v in self.parse_outbound(u):
+                # Relax edge (u, v) one more time
+                cost = self.find_if_edge(u, v)
+                if distances[u] + cost < distances[v]:
+                    print("Negative cost cycle detected from vertex", u)
+                    return None
+
+        # Step 4: Construct the minimum cost path from start_vertex to end_vertex
+        path = [end_vertex]
+        current_vertex = end_vertex
+        while current_vertex != start_vertex:
+            for v in self.parse_inbound(current_vertex):
+                if distances[v] + self.find_if_edge(v, current_vertex) == distances[current_vertex]:
+                    path.append(v)
+                    current_vertex = v
+                    break
+        path.reverse()
+
+        return path, distances[end_vertex]
+
 
 def write_graph_to_file(graph, file):
     file = open(file, "w")

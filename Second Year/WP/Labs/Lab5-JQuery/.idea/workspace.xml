@@ -25,8 +25,6 @@
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory3-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../First Year/OOP/Labs/laboratory4-rusuraluca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <workItem from="1679981557916" duration="3023000" />
       <workItem from="1680542156918" duration="2452000" />
       <workItem from="1680579441904" duration="2142000" />
-      <workItem from="1682399784461" duration="1173000" />
+      <workItem from="1682399784461" duration="1600000" />
     </task>
     <servers />
   </component>
