@@ -1,4 +1,6 @@
 import copy
+import math
+import heapq
 from collections import deque
 
 class TripleDictGraph:
@@ -241,7 +243,7 @@ class TripleDictGraph:
         # end_vertex was not visited, indicating no path was found
         return (0, 0)
 
-    def find_lowest_cost_walk(self, start_vertex, end_vertex):
+    def find_lowest_cost_walk2(self, start_vertex, end_vertex):
         # Step 1: Initialize distances to infinity for all vertices except the start vertex,
         # which is set to 0.
         distances = {v: float('inf') for v in self.parse_vertices()}
@@ -277,6 +279,45 @@ class TripleDictGraph:
         path.reverse()
 
         return path, distances[end_vertex]
+    
+    def bellman_ford(self, start_vertex):
+        distance = {v: math.inf for v in self.parse_vertices()}
+        predecessor = {v: None for v in self.parse_vertices()}
+        distance[start_vertex] = 0
+
+        priority_queue = [(0, start_vertex)]  # Initialize the priority queue with the start vertex and its distance
+
+        while priority_queue:
+            dist_u, u = heapq.heappop(priority_queue)
+
+            if dist_u > distance[u]:
+                continue
+
+            for v in self.parse_outbound(u):
+                new_dist_v = distance[u] + self.find_if_edge(u, v)
+                if new_dist_v < distance[v]:
+                    distance[v] = new_dist_v
+                    predecessor[v] = u
+                    heapq.heappush(priority_queue, (new_dist_v, v))
+
+        return distance, predecessor
+
+    def find_lowest_cost_walk(self, start_vertex, end_vertex):
+        distance, predecessor = self.bellman_ford(start_vertex)
+
+        if distance is None:
+            return None, None
+
+        path = []
+        current_vertex = end_vertex
+        while current_vertex is not None:
+            path.append(current_vertex)
+            current_vertex = predecessor[current_vertex]
+
+        if distance[end_vertex] == math.inf:
+            return None, 0
+
+        return list(reversed(path)), distance[end_vertex]
 
 
 def write_graph_to_file(graph, file):

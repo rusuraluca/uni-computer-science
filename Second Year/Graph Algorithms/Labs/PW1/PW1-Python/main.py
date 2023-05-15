@@ -220,8 +220,26 @@ class UI:
                 print("There is no path from vertex {} to vertex {}".format(start_vertex, end_vertex))
             else:
                 print("Lowest length path from vertex {} to vertex {}: {} and has length {}".format(start_vertex,
-                                                                                                    end_vertex, path,
+                                                                                                    end_vertex,
+                                                                                                    path,
                                                                                                     len_path))
+
+    def find_lowest_cost_path_ui(self):
+        start_vertex = int(input("Enter start vertex = "))
+        end_vertex = int(input("Enter end vertex = "))
+        if start_vertex < 0 or end_vertex < 0 or (start_vertex == end_vertex):
+            print("Vertices are not valid!")
+        else:
+            path, cost = self._graphs[self._current].find_lowest_cost_walk(start_vertex, end_vertex)
+            if path is None and cost is None:
+                print("Negative cost cycle detected")
+            elif path is None and cost == 0:
+                print("No path exists between the vertices")
+            else:
+                print("Lowest cost path from vertex {} to vertex {}: {} and has cost {}".format(start_vertex,
+                                                                                                end_vertex,
+                                                                                                path,
+                                                                                                cost))
 
     def copy_current_graph_ui(self):
         copy = self._graphs[self._current].make_copy()
@@ -255,7 +273,9 @@ class UI:
               "23. Read the modified graph from a text file.\n"
               "24. Write the modified graph in a text file.\n"
               "25. Find the lowest length path between two given vertices.\n"
-              "26. Find the lowest length path between two given vertices V2.\n")
+              "26. Find the lowest length path between two given vertices V2.\n"
+              "27. Finds a lowest cost walk between the given vertices, or prints a message if there are negative cost cycles accessible from the starting vertex.\n"
+              )
 
     def start(self):
         print("Welcome!")
@@ -288,6 +308,7 @@ class UI:
                         "24": self.write_modified_graph_to_file_ui,
                         "25": self.find_lowest_length_path_ui,
                         "26": self.find_lowest_length_path2_ui,
+                        "27": self.find_lowest_cost_path_ui,
                         }
         while not done:
             try:
