@@ -1,0 +1,19 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { NgbNav, NgbNavContent, NgbNavItem, NgbNavLink } from './nav';
+import { NgbNavOutlet, NgbNavPane } from './nav-outlet';
+import * as i0 from "@angular/core";
+export { NgbNav, NgbNavContent, NgbNavItem, NgbNavLink } from './nav';
+export { NgbNavOutlet, NgbNavPane } from './nav-outlet';
+export { NgbNavConfig } from './nav-config';
+const NGB_NAV_DIRECTIVES = [NgbNavContent, NgbNav, NgbNavItem, NgbNavLink, NgbNavOutlet, NgbNavPane];
+export class NgbNavModule {
+}
+NgbNavModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.0.3", ngImport: i0, type: NgbNavModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+NgbNavModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "13.0.3", ngImport: i0, type: NgbNavModule, declarations: [NgbNavContent, NgbNav, NgbNavItem, NgbNavLink, NgbNavOutlet, NgbNavPane], imports: [CommonModule], exports: [NgbNavContent, NgbNav, NgbNavItem, NgbNavLink, NgbNavOutlet, NgbNavPane] });
+NgbNavModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "13.0.3", ngImport: i0, type: NgbNavModule, imports: [[CommonModule]] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.0.3", ngImport: i0, type: NgbNavModule, decorators: [{
+            type: NgModule,
+            args: [{ declarations: NGB_NAV_DIRECTIVES, exports: NGB_NAV_DIRECTIVES, imports: [CommonModule] }]
+        }] });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmF2Lm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9uYXYvbmF2Lm1vZHVsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUMsUUFBUSxFQUFDLE1BQU0sZUFBZSxDQUFDO0FBQ3ZDLE9BQU8sRUFBQyxZQUFZLEVBQUMsTUFBTSxpQkFBaUIsQ0FBQztBQUU3QyxPQUFPLEVBQUMsTUFBTSxFQUFFLGFBQWEsRUFBRSxVQUFVLEVBQUUsVUFBVSxFQUFDLE1BQU0sT0FBTyxDQUFDO0FBQ3BFLE9BQU8sRUFBQyxZQUFZLEVBQUUsVUFBVSxFQUFDLE1BQU0sY0FBYyxDQUFDOztBQUV0RCxPQUFPLEVBQUMsTUFBTSxFQUFFLGFBQWEsRUFBd0IsVUFBVSxFQUFFLFVBQVUsRUFBb0IsTUFBTSxPQUFPLENBQUM7QUFDN0csT0FBTyxFQUFDLFlBQVksRUFBRSxVQUFVLEVBQUMsTUFBTSxjQUFjLENBQUM7QUFDdEQsT0FBTyxFQUFDLFlBQVksRUFBQyxNQUFNLGNBQWMsQ0FBQztBQUUxQyxNQUFNLGtCQUFrQixHQUFHLENBQUMsYUFBYSxFQUFFLE1BQU0sRUFBRSxVQUFVLEVBQUUsVUFBVSxFQUFFLFlBQVksRUFBRSxVQUFVLENBQUMsQ0FBQztBQUdyRyxNQUFNLE9BQU8sWUFBWTs7eUdBQVosWUFBWTswR0FBWixZQUFZLGlCQUhHLGFBQWEsRUFBRSxNQUFNLEVBQUUsVUFBVSxFQUFFLFVBQVUsRUFBRSxZQUFZLEVBQUUsVUFBVSxhQUVmLFlBQVksYUFGcEUsYUFBYSxFQUFFLE1BQU0sRUFBRSxVQUFVLEVBQUUsVUFBVSxFQUFFLFlBQVksRUFBRSxVQUFVOzBHQUd0RixZQUFZLFlBRDBELENBQUMsWUFBWSxDQUFDOzJGQUNwRixZQUFZO2tCQUR4QixRQUFRO21CQUFDLEVBQUMsWUFBWSxFQUFFLGtCQUFrQixFQUFFLE9BQU8sRUFBRSxrQkFBa0IsRUFBRSxPQUFPLEVBQUUsQ0FBQyxZQUFZLENBQUMsRUFBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7TmdNb2R1bGV9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHtDb21tb25Nb2R1bGV9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5cbmltcG9ydCB7TmdiTmF2LCBOZ2JOYXZDb250ZW50LCBOZ2JOYXZJdGVtLCBOZ2JOYXZMaW5rfSBmcm9tICcuL25hdic7XG5pbXBvcnQge05nYk5hdk91dGxldCwgTmdiTmF2UGFuZX0gZnJvbSAnLi9uYXYtb3V0bGV0JztcblxuZXhwb3J0IHtOZ2JOYXYsIE5nYk5hdkNvbnRlbnQsIE5nYk5hdkNvbnRlbnRDb250ZXh0LCBOZ2JOYXZJdGVtLCBOZ2JOYXZMaW5rLCBOZ2JOYXZDaGFuZ2VFdmVudH0gZnJvbSAnLi9uYXYnO1xuZXhwb3J0IHtOZ2JOYXZPdXRsZXQsIE5nYk5hdlBhbmV9IGZyb20gJy4vbmF2LW91dGxldCc7XG5leHBvcnQge05nYk5hdkNvbmZpZ30gZnJvbSAnLi9uYXYtY29uZmlnJztcblxuY29uc3QgTkdCX05BVl9ESVJFQ1RJVkVTID0gW05nYk5hdkNvbnRlbnQsIE5nYk5hdiwgTmdiTmF2SXRlbSwgTmdiTmF2TGluaywgTmdiTmF2T3V0bGV0LCBOZ2JOYXZQYW5lXTtcblxuQE5nTW9kdWxlKHtkZWNsYXJhdGlvbnM6IE5HQl9OQVZfRElSRUNUSVZFUywgZXhwb3J0czogTkdCX05BVl9ESVJFQ1RJVkVTLCBpbXBvcnRzOiBbQ29tbW9uTW9kdWxlXX0pXG5leHBvcnQgY2xhc3MgTmdiTmF2TW9kdWxlIHtcbn1cbiJdfQ==

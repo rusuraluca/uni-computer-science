@@ -1,0 +1,21 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { NgbAccordion, NgbPanel, NgbPanelTitle, NgbPanelContent, NgbPanelHeader, NgbPanelToggle, NgbRefDirective } from './accordion';
+import * as i0 from "@angular/core";
+export { NgbAccordion, NgbPanel, NgbPanelTitle, NgbPanelContent, NgbPanelHeader, NgbPanelToggle } from './accordion';
+export { NgbAccordionConfig } from './accordion-config';
+const NGB_ACCORDION_DIRECTIVES = [NgbAccordion, NgbPanel, NgbPanelTitle, NgbPanelContent, NgbPanelHeader, NgbPanelToggle];
+export class NgbAccordionModule {
+}
+NgbAccordionModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.0.3", ngImport: i0, type: NgbAccordionModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+NgbAccordionModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "13.0.3", ngImport: i0, type: NgbAccordionModule, declarations: [NgbRefDirective, NgbAccordion, NgbPanel, NgbPanelTitle, NgbPanelContent, NgbPanelHeader, NgbPanelToggle], imports: [CommonModule], exports: [NgbAccordion, NgbPanel, NgbPanelTitle, NgbPanelContent, NgbPanelHeader, NgbPanelToggle] });
+NgbAccordionModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "13.0.3", ngImport: i0, type: NgbAccordionModule, imports: [[CommonModule]] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.0.3", ngImport: i0, type: NgbAccordionModule, decorators: [{
+            type: NgModule,
+            args: [{
+                    declarations: [NgbRefDirective, ...NGB_ACCORDION_DIRECTIVES],
+                    exports: NGB_ACCORDION_DIRECTIVES,
+                    imports: [CommonModule]
+                }]
+        }] });
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYWNjb3JkaW9uLm1vZHVsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9hY2NvcmRpb24vYWNjb3JkaW9uLm1vZHVsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUMsUUFBUSxFQUFDLE1BQU0sZUFBZSxDQUFDO0FBQ3ZDLE9BQU8sRUFBQyxZQUFZLEVBQUMsTUFBTSxpQkFBaUIsQ0FBQztBQUU3QyxPQUFPLEVBQ0wsWUFBWSxFQUNaLFFBQVEsRUFDUixhQUFhLEVBQ2IsZUFBZSxFQUNmLGNBQWMsRUFDZCxjQUFjLEVBQ2QsZUFBZSxFQUNoQixNQUFNLGFBQWEsQ0FBQzs7QUFFckIsT0FBTyxFQUNMLFlBQVksRUFDWixRQUFRLEVBQ1IsYUFBYSxFQUNiLGVBQWUsRUFFZixjQUFjLEVBRWQsY0FBYyxFQUNmLE1BQU0sYUFBYSxDQUFDO0FBQ3JCLE9BQU8sRUFBQyxrQkFBa0IsRUFBQyxNQUFNLG9CQUFvQixDQUFDO0FBRXRELE1BQU0sd0JBQXdCLEdBQzFCLENBQUMsWUFBWSxFQUFFLFFBQVEsRUFBRSxhQUFhLEVBQUUsZUFBZSxFQUFFLGNBQWMsRUFBRSxjQUFjLENBQUMsQ0FBQztBQU83RixNQUFNLE9BQU8sa0JBQWtCOzsrR0FBbEIsa0JBQWtCO2dIQUFsQixrQkFBa0IsaUJBSmQsZUFBZSxFQUgzQixZQUFZLEVBQUUsUUFBUSxFQUFFLGFBQWEsRUFBRSxlQUFlLEVBQUUsY0FBYyxFQUFFLGNBQWMsYUFLL0UsWUFBWSxhQUxuQixZQUFZLEVBQUUsUUFBUSxFQUFFLGFBQWEsRUFBRSxlQUFlLEVBQUUsY0FBYyxFQUFFLGNBQWM7Z0hBTzlFLGtCQUFrQixZQUZwQixDQUFDLFlBQVksQ0FBQzsyRkFFWixrQkFBa0I7a0JBTDlCLFFBQVE7bUJBQUM7b0JBQ1IsWUFBWSxFQUFFLENBQUMsZUFBZSxFQUFFLEdBQUcsd0JBQXdCLENBQUM7b0JBQzVELE9BQU8sRUFBRSx3QkFBd0I7b0JBQ2pDLE9BQU8sRUFBRSxDQUFDLFlBQVksQ0FBQztpQkFDeEIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge05nTW9kdWxlfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7Q29tbW9uTW9kdWxlfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xuXG5pbXBvcnQge1xuICBOZ2JBY2NvcmRpb24sXG4gIE5nYlBhbmVsLFxuICBOZ2JQYW5lbFRpdGxlLFxuICBOZ2JQYW5lbENvbnRlbnQsXG4gIE5nYlBhbmVsSGVhZGVyLFxuICBOZ2JQYW5lbFRvZ2dsZSxcbiAgTmdiUmVmRGlyZWN0aXZlXG59IGZyb20gJy4vYWNjb3JkaW9uJztcblxuZXhwb3J0IHtcbiAgTmdiQWNjb3JkaW9uLFxuICBOZ2JQYW5lbCxcbiAgTmdiUGFuZWxUaXRsZSxcbiAgTmdiUGFuZWxDb250ZW50LFxuICBOZ2JQYW5lbENoYW5nZUV2ZW50LFxuICBOZ2JQYW5lbEhlYWRlcixcbiAgTmdiUGFuZWxIZWFkZXJDb250ZXh0LFxuICBOZ2JQYW5lbFRvZ2dsZVxufSBmcm9tICcuL2FjY29yZGlvbic7XG5leHBvcnQge05nYkFjY29yZGlvbkNvbmZpZ30gZnJvbSAnLi9hY2NvcmRpb24tY29uZmlnJztcblxuY29uc3QgTkdCX0FDQ09SRElPTl9ESVJFQ1RJVkVTID1cbiAgICBbTmdiQWNjb3JkaW9uLCBOZ2JQYW5lbCwgTmdiUGFuZWxUaXRsZSwgTmdiUGFuZWxDb250ZW50LCBOZ2JQYW5lbEhlYWRlciwgTmdiUGFuZWxUb2dnbGVdO1xuXG5ATmdNb2R1bGUoe1xuICBkZWNsYXJhdGlvbnM6IFtOZ2JSZWZEaXJlY3RpdmUsIC4uLk5HQl9BQ0NPUkRJT05fRElSRUNUSVZFU10sXG4gIGV4cG9ydHM6IE5HQl9BQ0NPUkRJT05fRElSRUNUSVZFUyxcbiAgaW1wb3J0czogW0NvbW1vbk1vZHVsZV1cbn0pXG5leHBvcnQgY2xhc3MgTmdiQWNjb3JkaW9uTW9kdWxlIHtcbn1cbiJdfQ==

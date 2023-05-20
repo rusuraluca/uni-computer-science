@@ -1,0 +1,36 @@
+import * as i0 from "@angular/core";
+import * as i1 from "./datepicker";
+import * as i2 from "./datepicker-navigation";
+import * as i3 from "./datepicker-navigation-select";
+import * as i4 from "./datepicker-day-view";
+import * as i5 from "./datepicker-input";
+import * as i6 from "@angular/common";
+import * as i7 from "@angular/forms";
+export { NgbDatepicker, NgbDatepickerContent, NgbDatepickerNavigateEvent, NgbDatepickerState } from './datepicker';
+export { NgbInputDatepicker } from './datepicker-input';
+export { NgbCalendar, NgbPeriod, NgbCalendarGregorian } from './ngb-calendar';
+export { NgbCalendarIslamicCivil } from './hijri/ngb-calendar-islamic-civil';
+export { NgbCalendarIslamicUmalqura } from './hijri/ngb-calendar-islamic-umalqura';
+export { NgbCalendarPersian } from './jalali/ngb-calendar-persian';
+export { NgbCalendarHebrew } from './hebrew/ngb-calendar-hebrew';
+export { NgbDatepickerI18nHebrew } from './hebrew/datepicker-i18n-hebrew';
+export { NgbCalendarBuddhist } from './buddhist/ngb-calendar-buddhist';
+export { NgbDatepickerMonth } from './datepicker';
+export { NgbDatepickerDayView } from './datepicker-day-view';
+export { NgbDatepickerNavigation } from './datepicker-navigation';
+export { NgbDatepickerNavigationSelect } from './datepicker-navigation-select';
+export { NgbDatepickerConfig } from './datepicker-config';
+export { NgbInputDatepickerConfig } from './datepicker-input-config';
+export { NgbDatepickerI18n, NgbDatepickerI18nDefault } from './datepicker-i18n';
+export { NgbDateStruct } from './ngb-date-struct';
+export { NgbDate } from './ngb-date';
+export { NgbDateAdapter } from './adapters/ngb-date-adapter';
+export { NgbDateNativeAdapter } from './adapters/ngb-date-native-adapter';
+export { NgbDateNativeUTCAdapter } from './adapters/ngb-date-native-utc-adapter';
+export { NgbDateParserFormatter } from './ngb-date-parser-formatter';
+export { NgbDatepickerKeyboardService } from './datepicker-keyboard-service';
+export declare class NgbDatepickerModule {
+    static ɵfac: i0.ɵɵFactoryDeclaration<NgbDatepickerModule, never>;
+    static ɵmod: i0.ɵɵNgModuleDeclaration<NgbDatepickerModule, [typeof i1.NgbDatepicker, typeof i1.NgbDatepickerContent, typeof i1.NgbDatepickerMonth, typeof i2.NgbDatepickerNavigation, typeof i3.NgbDatepickerNavigationSelect, typeof i4.NgbDatepickerDayView, typeof i5.NgbInputDatepicker], [typeof i6.CommonModule, typeof i7.FormsModule], [typeof i1.NgbDatepicker, typeof i1.NgbDatepickerContent, typeof i5.NgbInputDatepicker, typeof i1.NgbDatepickerMonth]>;
+    static ɵinj: i0.ɵɵInjectorDeclaration<NgbDatepickerModule>;
+}
