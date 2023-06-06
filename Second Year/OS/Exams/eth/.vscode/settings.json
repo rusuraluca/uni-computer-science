@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "pthread.h": "c",
+        "complex": "c",
+        "format": "c",
+        "__bit_reference": "c",
+        "__node_handle": "c",
+        "bitset": "c",
+        "deque": "c",
+        "__memory": "c",
+        "limits": "c",
+        "optional": "c",
+        "ratio": "c",
+        "system_error": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "vector": "c",
+        "chrono": "c",
+        "random": "c",
+        "charconv": "c",
+        "array": "c",
+        "functional": "c",
+        "utility": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c"
+    }
+}

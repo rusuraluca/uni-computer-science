@@ -244,8 +244,15 @@ class TripleDictGraph:
         return (0, 0)
 
     def find_lowest_cost_walk2(self, start_vertex, end_vertex):
-        # Step 1: Initialize distances to infinity for all vertices except the start vertex,
-        # which is set to 0.
+        """
+        Finds the lowest cost walk between two vertices in a graph using Ford's algorithm.
+
+        :param start_vertex: The starting vertex.
+        :param end_vertex: The ending vertex.
+        :return: A tuple containing the lowest cost path as a list of vertices and the total cost.
+                 If there are negative cost cycles accessible from the starting vertex, returns None.
+        """
+        # Step 1: Initialize distances to infinity for all vertices except the start vertex, which is set to 0.
         distances = {v: float('inf') for v in self.parse_vertices()}
         distances[start_vertex] = 0
 
@@ -265,7 +272,7 @@ class TripleDictGraph:
                 cost = self.find_if_edge(u, v)
                 if distances[u] + cost < distances[v]:
                     print("Negative cost cycle detected from vertex", u)
-                    return None
+                    return None, None
 
         # Step 4: Construct the minimum cost path from start_vertex to end_vertex
         path = [end_vertex]
@@ -279,8 +286,16 @@ class TripleDictGraph:
         path.reverse()
 
         return path, distances[end_vertex]
-    
+
     def bellman_ford(self, start_vertex):
+        """
+        Applies the Bellman-Ford algorithm to find the lowest cost paths from a starting vertex to all other vertices.
+
+        :param start_vertex: The starting vertex.
+        :return: A tuple containing dictionaries representing the distances and predecessors.
+                 The distances dictionary maps each vertex to its minimum distance from the start vertex.
+                 The predecessors dictionary maps each vertex to its predecessor in the lowest cost path.
+        """
         distance = {v: math.inf for v in self.parse_vertices()}
         predecessor = {v: None for v in self.parse_vertices()}
         distance[start_vertex] = 0
@@ -303,6 +318,14 @@ class TripleDictGraph:
         return distance, predecessor
 
     def find_lowest_cost_walk(self, start_vertex, end_vertex):
+        """
+        Finds the lowest cost walk between two vertices in a graph using Bellman-Ford algorithm.
+
+        :param start_vertex: The starting vertex.
+        :param end_vertex: The ending vertex.
+        :return: A tuple containing the lowest cost path as a list of vertices and the total cost.
+                 If there are negative cost cycles accessible from the starting vertex, returns None.
+        """
         distance, predecessor = self.bellman_ford(start_vertex)
 
         if distance is None:
@@ -318,6 +341,124 @@ class TripleDictGraph:
             return None, 0
 
         return list(reversed(path)), distance[end_vertex]
+
+
+
+
+
+
+
+
+
+
+    def is_dag_topological_sort(self):
+        """
+        Verifies if the graph is a Directed Acyclic Graph (DAG) and performs a topological sorting of the activities
+        using Tarjan's algorithm based on depth-first traversal.
+
+        :return: A tuple containing a boolean value indicating whether the graph is a DAG, and a list of all possible
+                 topological orders. If the graph is not a DAG, the list of topological orders will be empty.
+        """
+        visited = set()
+        stack = set()
+        result = []
+        topological_order = []
+
+        def dfs(vertex):
+            visited.add(vertex)
+            stack.add(vertex)
+
+            for neighbor in self._dictionary_out[vertex]:
+                if neighbor not in visited:
+                    if dfs(neighbor):
+                        return True
+                elif neighbor in stack:
+                    return True
+
+            stack.remove(vertex)
+            result.append(vertex)
+            return False
+
+        for vertex in range(self._number_of_vertices):
+            if vertex not in visited:
+                if dfs(vertex):
+                    return False, []
+
+                result.reverse()
+                topological_order.append(result)
+                result = []
+
+        return True, topological_order
+
+
+
+
+
+    def topological_order(self, start_vertex):
+        """
+        Retrieves the topological order of the activities in the graph starting from the given start vertex.
+
+        :param start_vertex: The starting vertex.
+        :return: A list representing the topological order of activities.
+                 If the graph is not a DAG, returns an empty list.
+        """
+        is_dag, topological_orders = self.is_dag_topological_sort()
+        if not is_dag:
+            return []
+
+        for order in topological_orders:
+            if start_vertex in order:
+                return order
+
+        return []
+
+
+
+
+
+
+    def find_highest_cost_path(self, start_vertex, end_vertex):
+        """
+        Finds the highest cost path between two given vertices in a graph, assuming the graph is a DAG.
+
+        :param start_vertex: The starting vertex.
+        :param end_vertex: The ending vertex.
+        :return: A tuple containing the highest cost path as a list of vertices and the total cost.
+                 If there is no path between the vertices, returns an empty list and a cost of float('-inf').
+        """
+        if start_vertex == end_vertex:
+            return [start_vertex], 0
+
+        distances = {v: float('-inf') for v in range(self._number_of_vertices)}
+        distances[start_vertex] = 0
+        previous = {}
+
+        # Calculate highest cost path
+        for vertex in self.topological_order(start_vertex):
+            if vertex == end_vertex:
+                break
+
+            if distances[vertex] == float('-inf'):
+                continue
+
+            for neighbor in self._dictionary_out[vertex]:
+                new_distance = distances[vertex] + self._dictionary_cost[(vertex, neighbor)]
+                if new_distance > distances[neighbor]:
+                    distances[neighbor] = new_distance
+                    previous[neighbor] = vertex
+
+        if distances[end_vertex] == float('-inf'):
+            return [], float('-inf')
+
+        # Construct path
+        path = []
+        current_vertex = end_vertex
+        while current_vertex != start_vertex:
+            path.insert(0, current_vertex)
+            current_vertex = previous[current_vertex]
+        path.insert(0, start_vertex)
+
+        return path, distances[end_vertex]
 
 
 def write_graph_to_file(graph, file):
