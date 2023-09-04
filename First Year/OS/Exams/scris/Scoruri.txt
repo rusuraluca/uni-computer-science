@@ -1,0 +1,16 @@
+{
+        scor[$1 FS $2]++;
+        if (scor[$2 FS $1] != 0)
+        {
+                scor[$1 FS $2] = 2;
+                scor[$2 FS $1] = 2;
+        }
+}
+END {
+        for (var in scor)
+        {
+
+                if (scor[var] == 1)
+                        print var
+        }
+}

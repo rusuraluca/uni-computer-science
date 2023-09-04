@@ -1,0 +1,19 @@
+
+<h2>Login</h2>
+<div class="login-form" [formGroup]="loginForm" >
+    <p>
+        <label>username</label>
+        <input type="text" name="username" formControlName="username"/>
+    </p>
+    <p>
+        <label>password</label>
+        <input type="password" name="password" formControlName="password"/>
+    </p>
+    <p>
+        <button type="button" class="login-button" (click)="login()">Submit</button>
+    </p>
+</div>
+<div class="error">
+    <p *ngIf="loginForm.errors"> Username and password are required</p>
+    <p *ngIf="serverError">Username or password invalid</p>
+</div>

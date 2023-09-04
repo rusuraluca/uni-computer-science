@@ -1,0 +1,20 @@
+.login-form {
+    display: table;
+}
+
+.login-form p {
+    display: table-row;
+}
+
+.login-form p label, input {
+    display: table-cell;
+    margin-left: 10px;
+}
+
+.login-form button {
+    margin-top: 5px;
+}
+
+.error {
+    color:red;
+}
