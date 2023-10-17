@@ -1,7 +1,6 @@
-# Bachelor's Computer Science
-# @Babes-Bolyai University (BBU)
+# Bachelor's in [Computer Science]() @Babes-Bolyai University (BBU) 🇷🇴
 
-## 📓 [Notebooks](https://invented-oviraptor-ff0.notion.site/Academics-31d1380a10204a3fb054fab4480c45b9)
+## 📓 [All notebooks](https://invented-oviraptor-ff0.notion.site/Academics-31d1380a10204a3fb054fab4480c45b9)
 
 
 ## 1️⃣ Semester
