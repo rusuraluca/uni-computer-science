@@ -1,0 +1,12 @@
+### Goal
+Create two threads, a producer and a consumer, with the producer feeding the consumer.
+
+### Requirement: 
+
+Compute the scalar product of two vectors.
+
+Create two threads. 
+- The first thread (producer) will compute the products of pairs of elements - one from each vector - and will feed the second thread. 
+- The second thread (consumer) will sum up the products computed by the first one. The consumer will be cleared to use each product as soon as it is computed by the producer thread.
+
+The two threads will be synchronized with a condition variable and a mutex. 
