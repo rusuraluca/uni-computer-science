@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{60D59505-FEBC-46F5-A5EB-12AC41539B9A}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="pdp_lab4/TasksMechanism.cs">
+    <Files>
+      <File FileName="pdp_lab4/Program.cs" Line="40" Column="22" />
+      <File FileName="pdp_lab4/Program2.cs" Line="17" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pdp_lab4" expanded="True">
+            <Node name="pdp_lab4" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.pdp__lab4 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

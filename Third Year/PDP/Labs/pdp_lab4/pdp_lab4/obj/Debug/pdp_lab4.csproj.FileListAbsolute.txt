@@ -1,0 +1,6 @@
+/Users/rusuraluca/Desktop/uni-computer-science/Third Year/PDP/Labs/pdp_lab4/pdp_lab4/bin/Debug/pdp_lab4.exe
+/Users/rusuraluca/Desktop/uni-computer-science/Third Year/PDP/Labs/pdp_lab4/pdp_lab4/bin/Debug/pdp_lab4.pdb
+/Users/rusuraluca/Desktop/uni-computer-science/Third Year/PDP/Labs/pdp_lab4/pdp_lab4/obj/Debug/pdp_lab4.csproj.AssemblyReference.cache
+/Users/rusuraluca/Desktop/uni-computer-science/Third Year/PDP/Labs/pdp_lab4/pdp_lab4/obj/Debug/pdp_lab4.csproj.CoreCompileInputs.cache
+/Users/rusuraluca/Desktop/uni-computer-science/Third Year/PDP/Labs/pdp_lab4/pdp_lab4/obj/Debug/pdp_lab4.exe
+/Users/rusuraluca/Desktop/uni-computer-science/Third Year/PDP/Labs/pdp_lab4/pdp_lab4/obj/Debug/pdp_lab4.pdb
