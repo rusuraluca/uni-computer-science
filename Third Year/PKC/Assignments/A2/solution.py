@@ -56,15 +56,3 @@ for i in range(1, 21):
     print(sqrt(no))
     print (f'ANS = {ans}')
     print('-----------')
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
