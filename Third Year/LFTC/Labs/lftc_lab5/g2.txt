@@ -1,0 +1,31 @@
+N = start decl_list decl var_decl const_decl type type_const array_decl stmt_list stmt simple_stmt assign_stmt expression term factor io_stmt string_exp struct_stmt if_stmt temp_elif_stmt else_stmt else_stmt elif_stmt while_stmt condition relation
+E = + - * / < <= = >= > == % ! != # [ ] { } # “ ” ‘ ’ ; ( ) int bool string collection if elif else constant True False r w loop identifier boolean integer E
+S = start
+P =
+start -> E | decl_list start | stmt_list start
+decl_list -> decl | decl decl_list
+decl -> var_decl | const_decl
+var_decl -> # type identifier = expression ; | # type identifier ;
+const_decl -> constant # type identifier = expression ;
+type -> type_const | array_decl
+type_const -> int | string | bool
+array_decl -> [ type_const ]
+stmt_list -> stmt | stmt stmt_list
+stmt -> simple_stmt | struct_stmt
+simple_stmt -> assign_stmt | io_stmt
+assign_stmt -> identifier = expression ;
+expression -> term + expression | term - expression | term
+term -> factor * term | factor / term | factor % term | factor
+factor -> ( expression ) | identifier | integer
+io_stmt -> r ( identifier ) ; | w ( string_exp ) ;
+string_exp -> string | identifier
+struct_stmt -> if_stmt | while_stmt
+if_stmt -> if condition { stmt_list } temp_elif_stmt | if condition { stmt_list } temp_elif_stmt else_stmt
+temp_elif_stmt -> E | temp_elif_stmt elif_stmt
+else_stmt -> else { stmt_list }
+elif_stmt -> elif condition { stmt_list }
+while_stmt -> loop condition { stmt_list }
+condition -> expression relation expression
+relation -> < | <= | = | >= | > | !=
+
+

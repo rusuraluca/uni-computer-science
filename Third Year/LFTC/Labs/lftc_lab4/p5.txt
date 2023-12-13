@@ -1,0 +1,9 @@
+collection _a int[20];
+int _minim = _a[0];
+int _id = 20;
+while (_id > 0) do {
+	if (_a[_id] < _minim) do {
+		_minim = _a[_id];
+	}
+}
+w(_minim);

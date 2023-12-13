@@ -1,0 +1,2 @@
+3number =.+ number;
+print(3number);

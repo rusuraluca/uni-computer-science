@@ -1,0 +1,13 @@
+int _n; 
+r(_n);
+
+int _sum = 0;
+
+while ( _n != 0) do {
+    int _x; 
+    r(_x); 
+    _sum = _sum + _x; 
+    _n = _n - 1;
+}
+
+w(_sum);

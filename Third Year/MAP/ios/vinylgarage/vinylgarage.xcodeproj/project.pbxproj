@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00C67562AD5864E005C99F1 /* vinylgarageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00C67552AD5864E005C99F1 /* vinylgarageApp.swift */; };
+		A00C67582AD5864E005C99F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00C67572AD5864E005C99F1 /* ContentView.swift */; };
+		A00C675A2AD5864F005C99F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00C67592AD5864F005C99F1 /* Assets.xcassets */; };
+		A00C675D2AD5864F005C99F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00C675C2AD5864F005C99F1 /* Preview Assets.xcassets */; };
+		A00C67672AD5864F005C99F1 /* vinylgarageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00C67662AD5864F005C99F1 /* vinylgarageTests.swift */; };
+		A00C67712AD5864F005C99F1 /* vinylgarageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00C67702AD5864F005C99F1 /* vinylgarageUITests.swift */; };
+		A00C67732AD5864F005C99F1 /* vinylgarageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00C67722AD5864F005C99F1 /* vinylgarageUITestsLaunchTests.swift */; };
+		A00C67812AD58711005C99F1 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00C67802AD58711005C99F1 /* Record.swift */; };
+		A00C67862AD58D72005C99F1 /* CreateRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00C67852AD58D72005C99F1 /* CreateRecordView.swift */; };
+		A066E0C62AD5BB10005C0F7E /* UpdateRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066E0C52AD5BB10005C0F7E /* UpdateRecordView.swift */; };
+		A066E0C82AD5CD25005C0F7E /* ReadRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066E0C72AD5CD25005C0F7E /* ReadRecordView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00C67632AD5864F005C99F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00C674A2AD5864E005C99F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00C67512AD5864E005C99F1;
+			remoteInfo = vinylgarage;
+		};
+		A00C676D2AD5864F005C99F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00C674A2AD5864E005C99F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00C67512AD5864E005C99F1;
+			remoteInfo = vinylgarage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00C67522AD5864E005C99F1 /* vinylgarage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vinylgarage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00C67552AD5864E005C99F1 /* vinylgarageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vinylgarageApp.swift; sourceTree = "<group>"; };
+		A00C67572AD5864E005C99F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A00C67592AD5864F005C99F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00C675C2AD5864F005C99F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A00C67622AD5864F005C99F1 /* vinylgarageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vinylgarageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00C67662AD5864F005C99F1 /* vinylgarageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vinylgarageTests.swift; sourceTree = "<group>"; };
+		A00C676C2AD5864F005C99F1 /* vinylgarageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vinylgarageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00C67702AD5864F005C99F1 /* vinylgarageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vinylgarageUITests.swift; sourceTree = "<group>"; };
+		A00C67722AD5864F005C99F1 /* vinylgarageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vinylgarageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A00C67802AD58711005C99F1 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		A00C67852AD58D72005C99F1 /* CreateRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRecordView.swift; sourceTree = "<group>"; };
+		A066E0C52AD5BB10005C0F7E /* UpdateRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateRecordView.swift; sourceTree = "<group>"; };
+		A066E0C72AD5CD25005C0F7E /* ReadRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadRecordView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00C674F2AD5864E005C99F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C675F2AD5864F005C99F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C67692AD5864F005C99F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00C67492AD5864E005C99F1 = {
+			isa = PBXGroup;
+			children = (
+				A00C67542AD5864E005C99F1 /* vinylgarage */,
+				A00C67652AD5864F005C99F1 /* vinylgarageTests */,
+				A00C676F2AD5864F005C99F1 /* vinylgarageUITests */,
+				A00C67532AD5864E005C99F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00C67532AD5864E005C99F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00C67522AD5864E005C99F1 /* vinylgarage.app */,
+				A00C67622AD5864F005C99F1 /* vinylgarageTests.xctest */,
+				A00C676C2AD5864F005C99F1 /* vinylgarageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00C67542AD5864E005C99F1 /* vinylgarage */ = {
+			isa = PBXGroup;
+			children = (
+				A00C67552AD5864E005C99F1 /* vinylgarageApp.swift */,
+				A00C67822AD58B8A005C99F1 /* View */,
+				A00C677F2AD586FB005C99F1 /* Model */,
+				A00C67592AD5864F005C99F1 /* Assets.xcassets */,
+				A00C675B2AD5864F005C99F1 /* Preview Content */,
+			);
+			path = vinylgarage;
+			sourceTree = "<group>";
+		};
+		A00C675B2AD5864F005C99F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A00C675C2AD5864F005C99F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A00C67652AD5864F005C99F1 /* vinylgarageTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00C67662AD5864F005C99F1 /* vinylgarageTests.swift */,
+			);
+			path = vinylgarageTests;
+			sourceTree = "<group>";
+		};
+		A00C676F2AD5864F005C99F1 /* vinylgarageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A00C67702AD5864F005C99F1 /* vinylgarageUITests.swift */,
+				A00C67722AD5864F005C99F1 /* vinylgarageUITestsLaunchTests.swift */,
+			);
+			path = vinylgarageUITests;
+			sourceTree = "<group>";
+		};
+		A00C677F2AD586FB005C99F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A00C67802AD58711005C99F1 /* Record.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A00C67822AD58B8A005C99F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A00C67572AD5864E005C99F1 /* ContentView.swift */,
+				A00C67852AD58D72005C99F1 /* CreateRecordView.swift */,
+				A066E0C52AD5BB10005C0F7E /* UpdateRecordView.swift */,
+				A066E0C72AD5CD25005C0F7E /* ReadRecordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00C67512AD5864E005C99F1 /* vinylgarage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00C67762AD5864F005C99F1 /* Build configuration list for PBXNativeTarget "vinylgarage" */;
+			buildPhases = (
+				A00C674E2AD5864E005C99F1 /* Sources */,
+				A00C674F2AD5864E005C99F1 /* Frameworks */,
+				A00C67502AD5864E005C99F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vinylgarage;
+			productName = vinylgarage;
+			productReference = A00C67522AD5864E005C99F1 /* vinylgarage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00C67612AD5864F005C99F1 /* vinylgarageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00C67792AD5864F005C99F1 /* Build configuration list for PBXNativeTarget "vinylgarageTests" */;
+			buildPhases = (
+				A00C675E2AD5864F005C99F1 /* Sources */,
+				A00C675F2AD5864F005C99F1 /* Frameworks */,
+				A00C67602AD5864F005C99F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00C67642AD5864F005C99F1 /* PBXTargetDependency */,
+			);
+			name = vinylgarageTests;
+			productName = vinylgarageTests;
+			productReference = A00C67622AD5864F005C99F1 /* vinylgarageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00C676B2AD5864F005C99F1 /* vinylgarageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00C677C2AD5864F005C99F1 /* Build configuration list for PBXNativeTarget "vinylgarageUITests" */;
+			buildPhases = (
+				A00C67682AD5864F005C99F1 /* Sources */,
+				A00C67692AD5864F005C99F1 /* Frameworks */,
+				A00C676A2AD5864F005C99F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00C676E2AD5864F005C99F1 /* PBXTargetDependency */,
+			);
+			name = vinylgarageUITests;
+			productName = vinylgarageUITests;
+			productReference = A00C676C2AD5864F005C99F1 /* vinylgarageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00C674A2AD5864E005C99F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A00C67512AD5864E005C99F1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A00C67612AD5864F005C99F1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A00C67512AD5864E005C99F1;
+					};
+					A00C676B2AD5864F005C99F1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A00C67512AD5864E005C99F1;
+					};
+				};
+			};
+			buildConfigurationList = A00C674D2AD5864E005C99F1 /* Build configuration list for PBXProject "vinylgarage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00C67492AD5864E005C99F1;
+			productRefGroup = A00C67532AD5864E005C99F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00C67512AD5864E005C99F1 /* vinylgarage */,
+				A00C67612AD5864F005C99F1 /* vinylgarageTests */,
+				A00C676B2AD5864F005C99F1 /* vinylgarageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00C67502AD5864E005C99F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00C675D2AD5864F005C99F1 /* Preview Assets.xcassets in Resources */,
+				A00C675A2AD5864F005C99F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C67602AD5864F005C99F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C676A2AD5864F005C99F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00C674E2AD5864E005C99F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A066E0C62AD5BB10005C0F7E /* UpdateRecordView.swift in Sources */,
+				A066E0C82AD5CD25005C0F7E /* ReadRecordView.swift in Sources */,
+				A00C67582AD5864E005C99F1 /* ContentView.swift in Sources */,
+				A00C67562AD5864E005C99F1 /* vinylgarageApp.swift in Sources */,
+				A00C67812AD58711005C99F1 /* Record.swift in Sources */,
+				A00C67862AD58D72005C99F1 /* CreateRecordView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C675E2AD5864F005C99F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00C67672AD5864F005C99F1 /* vinylgarageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00C67682AD5864F005C99F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00C67732AD5864F005C99F1 /* vinylgarageUITestsLaunchTests.swift in Sources */,
+				A00C67712AD5864F005C99F1 /* vinylgarageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00C67642AD5864F005C99F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00C67512AD5864E005C99F1 /* vinylgarage */;
+			targetProxy = A00C67632AD5864F005C99F1 /* PBXContainerItemProxy */;
+		};
+		A00C676E2AD5864F005C99F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00C67512AD5864E005C99F1 /* vinylgarage */;
+			targetProxy = A00C676D2AD5864F005C99F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A00C67742AD5864F005C99F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00C67752AD5864F005C99F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00C67772AD5864F005C99F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vinylgarage/Preview Content\"";
+				DEVELOPMENT_TEAM = V4N92K8ZSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ralucarusu.vinylgarage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00C67782AD5864F005C99F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vinylgarage/Preview Content\"";
+				DEVELOPMENT_TEAM = V4N92K8ZSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ralucarusu.vinylgarage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00C677A2AD5864F005C99F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4N92K8ZSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ralucarusu.vinylgarageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vinylgarage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vinylgarage";
+			};
+			name = Debug;
+		};
+		A00C677B2AD5864F005C99F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4N92K8ZSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ralucarusu.vinylgarageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vinylgarage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vinylgarage";
+			};
+			name = Release;
+		};
+		A00C677D2AD5864F005C99F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4N92K8ZSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ralucarusu.vinylgarageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vinylgarage;
+			};
+			name = Debug;
+		};
+		A00C677E2AD5864F005C99F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V4N92K8ZSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ralucarusu.vinylgarageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vinylgarage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00C674D2AD5864E005C99F1 /* Build configuration list for PBXProject "vinylgarage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00C67742AD5864F005C99F1 /* Debug */,
+				A00C67752AD5864F005C99F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00C67762AD5864F005C99F1 /* Build configuration list for PBXNativeTarget "vinylgarage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00C67772AD5864F005C99F1 /* Debug */,
+				A00C67782AD5864F005C99F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00C67792AD5864F005C99F1 /* Build configuration list for PBXNativeTarget "vinylgarageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00C677A2AD5864F005C99F1 /* Debug */,
+				A00C677B2AD5864F005C99F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00C677C2AD5864F005C99F1 /* Build configuration list for PBXNativeTarget "vinylgarageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00C677D2AD5864F005C99F1 /* Debug */,
+				A00C677E2AD5864F005C99F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00C674A2AD5864E005C99F1 /* Project object */;
+}

@@ -1,0 +1,6 @@
+string _unu="a bc";
+string _doi = "ab";
+char _trei = 'a';
+w(_unu);
+w(_doi);
+w(_trei);

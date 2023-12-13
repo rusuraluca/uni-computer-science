@@ -1,0 +1,14 @@
+int _a; 
+int _b;
+r(_a); 
+r(_b);
+
+while (_a != _b) do { 
+    if (_a > _b) do {
+        _a = _a - _b;
+    } else do {
+        _b = _b - _a; 
+    }
+}
+
+w(_a);
