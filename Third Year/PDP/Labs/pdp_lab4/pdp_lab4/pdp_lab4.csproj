@@ -42,7 +42,7 @@
     <ItemGroup>
         <Compile Include="DirectCallbacks.cs" />
         <Compile Include="TasksMechanism.cs" />
-        <Compile Include="AsyncTasksMechanism.cs" />
+        <Compile Include="AsyncAwaitMechansism.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>

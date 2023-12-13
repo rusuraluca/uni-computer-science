@@ -9,70 +9,80 @@ namespace pdp_lab4
 {
     public static class TasksMechanism
     {
+        
         public static async Task Main()
         {
             var entry = await Dns.GetHostEntryAsync(State.Host);
             var socket = new Socket(SocketType.Stream, ProtocolType.Tcp);
             var endpoint = new IPEndPoint(entry.AddressList[0], State.Port);
+            var state = new State(socket);
+            
 
-            var connectTask = ConnectAsync(socket, endpoint);
-            await connectTask;
+            using (socket)
+            {
+                Task<Socket> future = ConnectTask(socket, endpoint);
+                future.ContinueWith((Task<Socket> f) => OnNewConnection(socket, f));
+                state.ReceiveDone.WaitOne();
 
-            var sendTask = SendAsync(socket, $"GET /documente-utile/ HTTP/1.1\r\nHost: {State.Host}\r\n\r\n");
-            await sendTask;
+            }
 
-            var receiveTask = ReceiveAsync(socket);
-            await receiveTask;
-
+            state.Socket.Close();
             socket.Close();
         }
+        
+        private static void OnNewConnection(Socket socket, Task<Socket> f) {
+            Socket conn = f.Result;
+            Console.WriteLine("Connection opened");
+            Task<Socket> future = SendTask(socket, $"GET /documente-utile/ HTTP/1.1\r\nHost: {State.Host}\r\n\r\n");
+            future.ContinueWith((Task<Socket> f2) => ReceiveTask(socket));
+        }
 
-        private static Task ConnectAsync(Socket socket, EndPoint endpoint)
+        private static Task<Socket> ConnectTask(Socket socket, EndPoint endpoint)
         {
-            var tcs = new TaskCompletionSource<bool>();
+            var promise = new TaskCompletionSource<Socket>();
             socket.BeginConnect(endpoint, ar =>
             {
                 try
                 {
                     socket.EndConnect(ar);
-                    tcs.SetResult(true);
+                    promise.SetResult(socket);
                 }
                 catch (Exception ex)
                 {
-                    tcs.SetException(ex);
+                    promise.SetException(ex);
                 }
             }, null);
-            return tcs.Task;
+            return promise.Task;
         }
 
-        private static Task SendAsync(Socket socket, string requestText)
+        private static Task<Socket> SendTask(Socket socket, string requestText)
         {
-            var tcs = new TaskCompletionSource<bool>();
+            var promise = new TaskCompletionSource<Socket>();
             var requestBytes = Encoding.UTF8.GetBytes(requestText);
             socket.BeginSend(requestBytes, 0, requestBytes.Length, SocketFlags.None, ar =>
             {
                 try
                 {
                     socket.EndSend(ar);
-                    tcs.SetResult(true);
+                    promise.SetResult(socket);
                 }
                 catch (Exception ex)
                 {
-                    tcs.SetException(ex);
+                    promise.SetException(ex);
                 }
             }, null);
-            return tcs.Task;
+            return promise.Task;
         }
 
-        private static Task ReceiveAsync(Socket socket)
+        private static Task<Socket> ReceiveTask(Socket socket)
         {
-            var tcs = new TaskCompletionSource<bool>();
+            var promise = new TaskCompletionSource<Socket>();
             var state = new State(socket);
-            Receive(socket, state, tcs);
-            return tcs.Task;
+            Receive(socket, state, promise);
+            return promise.Task;
         }
 
-        private static void Receive(Socket socket, State state, TaskCompletionSource<bool> tcs)
+        private static void Receive(Socket socket, State state, TaskCompletionSource<Socket> promise)
         {
             socket.BeginReceive(state.Buffer, 0, State.BufferLength, SocketFlags.None, ar =>
             {
@@ -83,17 +93,17 @@ namespace pdp_lab4
                     {
                         var responseText = Encoding.UTF8.GetString(state.Buffer, 0, bytesReceived);
                         state.Content.Append(responseText);
-                        Receive(socket, state, tcs);
+                        Receive(socket, state, promise);
                     }
                     else
                     {
                         Console.WriteLine(state.Content.ToString());
-                        tcs.SetResult(true);
+                        promise.SetResult(socket);
                     }
                 }
                 catch (Exception ex)
                 {
-                    tcs.SetException(ex);
+                    promise.SetException(ex);
                 }
             }, null);
         }
