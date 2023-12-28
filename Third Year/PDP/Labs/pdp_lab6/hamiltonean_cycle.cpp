@@ -5,7 +5,7 @@
 
 using namespace std;
 
-const int max_n = 35;
+const int max_n = 500;
 const int NO_THREADS = 4000;
 int n, m;
 vector<int> g[max_n];
@@ -39,10 +39,9 @@ inline bool is_edge(const int x, const int y) {
     return false;
 }
 
-
-inline bool find_cycle_bitwise(int node, vector<int> &sol, int x) {
+inline bool find_cycle(int node, vector<int> &sol, vector<bool> &visited) {
     sol.push_back(node);
-    x = x | (1 << node); // mark node as visited
+    visited[node] = true; // mark node as visited
     if(sol.size() == n) {
         return is_edge(sol.back(), sol[0]);
     }
@@ -56,9 +55,9 @@ inline bool find_cycle_bitwise(int node, vector<int> &sol, int x) {
         thread t1([&](){
             for(int i = 0; i < g[node].size(); i += 2) {
                 vector<int> aux(a);
-                if (x & (1 << g[node][i])) // skip already visited nodes
+                if (visited[g[node][i]]) // skip already visited nodes
                     continue;
-                if(find_cycle_bitwise(g[node][i], aux, x)) {
+                if(find_cycle(g[node][i], aux, visited)) {
                     sol1 = 1;
                     a = aux;
                     return;
@@ -69,9 +68,9 @@ inline bool find_cycle_bitwise(int node, vector<int> &sol, int x) {
         thread t2([&](){
             for(int i = 0; i < g[node].size(); i += 2) {
                 vector<int> bux(b);
-                if (x & (1 << g[node][i])) // skip already visited nodes
+                if (visited[g[node][i]]) // skip already visited nodes
                     continue;
-                if(find_cycle_bitwise(g[node][i], bux, x)) {
+                if(find_cycle(g[node][i], bux, visited)) {
                     sol2 = 1;
                     b = bux;
                     return;
@@ -94,9 +93,9 @@ inline bool find_cycle_bitwise(int node, vector<int> &sol, int x) {
         mtx.unlock();
         for(int i = 0; i < g[node].size(); ++i) {
             vector<int> aux(a);
-            if (x & (1 << g[node][i]))
+            if (visited[g[node][i]])
                 continue;
-            if(find_cycle_bitwise(g[node][i], aux, x)) {
+            if(find_cycle(g[node][i], aux, visited)) {
                 sol = aux;
                 return 1;
             }
@@ -111,8 +110,9 @@ int main(int argc, char *argv[]) {
     clock_t t;
     t = clock();
     vector<int> sol;
-    if(find_cycle_bitwise(1, sol, 0)) {
-        cerr << "Found a hamiltonian cycle using bit op in " << (float)(clock() - t)/CLOCKS_PER_SEC << " seconds.\n";
+    vector<bool> visited(n, false);
+    if(find_cycle(1, sol, visited)) {
+        cerr << "Found a hamiltonian cycle using boolean array in " << (float)(clock() - t)/CLOCKS_PER_SEC << " seconds.\n";
         write_cycle(argv[2], sol);
     } else {
         cerr << "No hamiltonian cycle found in " << (float)(clock() - t)/CLOCKS_PER_SEC << " seconds.\n";

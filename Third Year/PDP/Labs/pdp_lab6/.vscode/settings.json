@@ -3,5 +3,6 @@
         "thread": "cpp",
         "vector": "cpp",
         "iostream": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
