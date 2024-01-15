@@ -9,14 +9,14 @@ g++ -O2 -std=c++11 -pthread -Dhome -Wall karasuba_parallel.cpp -o karasuba_2.o
 
 echo ""
 
-for i in `ls tests/*.in`
+for i in `ls tests/*k.in`
 do
     echo "Running test $i"
     head -n1 $i
     ./naive_1.o $i
-    ./naive_2.o $i
-    ./karasuba_1.o $i
-    ./karasuba_2.o $i
+    #./naive_2.o $i
+    #./karasuba_1.o $i
+    #./karasuba_2.o $i
     echo ""
 done
 

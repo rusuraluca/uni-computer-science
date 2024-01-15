@@ -29,6 +29,7 @@ void solve(string filename){
     for (int i = 0; i < n; ++i){
         for (int j = 0; j < n; ++j){
             sol[i + j] += a[i] * b[j];
+            cout << sol[i + j] << endl;
         }
     }
 

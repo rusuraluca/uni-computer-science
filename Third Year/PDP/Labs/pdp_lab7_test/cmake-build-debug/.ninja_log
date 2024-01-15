@@ -1,0 +1,4 @@
+# ninja log v5
+0	550	1705058536629306558	CMakeFiles/pdp_lab7test.dir/mpi_naive.cpp.o	5653840bc08f886e
+0	552	1705058536629363849	CMakeFiles/pdp_lab7test.dir/mpi_karasuba.cpp.o	fbf77d7cd119ea36
+552	698	1705058536776881125	pdp_lab7test	569a2291e27edc3f
