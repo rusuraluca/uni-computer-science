@@ -1,0 +1,28 @@
+{
+  "name": "exam2023",
+  "version": "1.0.0",
+  "description": "Exam 2023",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-convert": "^2.0.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^10.1.1",
+    "phaser": "^3.55.2",
+    "ws": "^8.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/register": "^7.16.9"
+  }
+}
