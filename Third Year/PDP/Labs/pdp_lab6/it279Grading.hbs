@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Program Review Comments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* basic style */
+    div.feedback {
+      font-family: Helvetica;
+      background: #1E1E1E;
+      color: white;
+    }
+
+    h1.feedback {
+      font-size: 24px!important;
+    }
+
+    h2.feedback {
+      font-size: 20px!important;
+      color: rgb(70, 221, 0)!important;
+      padding-left: 10px!important;
+    }
+
+    h3.feedback {
+      font-size: 16px!important;
+      padding-left: 15px!important;
+      margin-bottom: 5px!important;
+    }
+
+    p.feedback {
+      white-space: pre-wrap!important;
+      margin: 0!important;
+    }
+
+    pre.feedback {
+      margin: 0!important;
+      background-color: transparent;
+      border: 0px;
+    }
+
+    code.feedback {
+      border: 1px solid #999!important;
+      display: block!important;
+      white-space: pre-wrap!important;
+      color: #ffcc60!important;
+    }
+
+    /* links in headlines */
+    a.feedback {
+      color: #f04eff!important;
+      text-decoration: none!important;
+    }
+
+    /* table style */
+    table.review-table {
+      font-size: 14px!important;
+      margin-left: 20px!important;
+    }
+
+    table.review-table .caption {
+      font-weight: bold!important;
+      vertical-align: top!important;
+    }
+
+    table.review-table td.feedback {
+      width: 120px!important
+    }
+
+    .bigger-text {
+      font-size: 18px!important
+    }
+  </style>
+</head>
+<body>
+  <div class="feedback">
+    <h1 class="main-headline feedback">Program Review Comments</h1>
+    <table class="review-table">
+      <tr class="row-category bigger-text">
+        <td class="caption feedback">Overall Feedback</td>
+        <td class="text">___</td>
+      </tr>
+      <tr class="row-category bigger-text">
+        <td class="caption feedback">Test Cases</td>
+        <td class="text">___</td>
+      </tr>
+      <tr class="row-category bigger-text">
+        <td class="caption feedback">Grade</td>
+        <td class="text grade">____</td>
+      </tr>
+      <tr class="row-category">
+        <td class="caption bigger-text feedback">Comments</td>
+        <td class="text">Below is feedback regarding your program, both things that factored into your grade and general recommendations for improvement or positive notes. Please let me (Dr. Califf) know if you have questions, comments, or concerns.</td>
+      </tr>
+    </table>
+    {{#each this as |item|}}
+    <section class="file-section">
+      <h2 class="file-section-headline feedback">{{item.group}}</h2>
+      {{#each item.lines as |line|}}
+      <h3 class="lines-headline feedback">
+        <a href="{{line.url}}" class="feedback">Position: {{line.lines}}</a>
+      </h3>
+      <table class="review-table">
+        {{#if line.category}}
+        <tr class="row-category bigger-text feedback">
+          <td class="caption feedback">Category</td>
+          <td class="text">{{line.category}}</td>
+        </tr>
+        {{/if}}
+        {{#if line.comment}}
+        <tr class="row-description bigger-text feedback">
+          <td class="caption feedback">Description</td>
+          <td class="text">
+            <p>{{line.comment}}</p>
+          </td>
+        </tr>
+        {{/if}}
+        {{#if line.additional}}
+        <tr class="row-additional bigger-text feedback">
+          <td class="caption">Additional Info</td>
+          <td class="text">{{line.additional}}</td>
+        </tr>
+        {{/if}}
+        {{#if line.code}}
+        <tr class="row-code">
+          <td class="caption bigger-text feedback">Code</td>
+          <td class="text">
+            <pre class="feedback"><code id="code-block-{{@../index}}-{{@index}}" class="feedback">{{codeBlock line.code}}</code></pre>
+          </td>
+        </tr>
+        {{/if}}
+      </table>
+      {{/each}}
+    </section>
+    {{/each}}
+  </div>
+</body>
+</html>

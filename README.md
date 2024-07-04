@@ -6,22 +6,23 @@
 ## 1️⃣ Semester
 * [Programming Fundamentals](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Programming%20Fundamentals)
 * [Computational Logic](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Computational%20Logic)
-* [Computer Systems Architecture](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Computer%Systems%20Architecture)
+* [Computer Systems Architecture](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Computer%20Systems%20Architecture)
 * [Algebra 1](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Algebra%201)
 * [Calculus 1](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Calculus%201)
 * [Analytic Geometry](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Analytic%20Geometry)
 * [Math Logic and Set Theory](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Math%20Logic%20and%20Set%20Theory)
 
 
+
 ## 2️⃣ Semester
 * [Data Structures & Algorithms](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/DSA)
-* [Graph Theory](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Graph%20Algorithms)
+* [Graph Theory](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Graph%20Algorithms/Labs)
 * [Object-Oriented Programming](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/OOP)
 * [Operating Systems](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/OS)
 * [Algebra 2](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Algebra%202)
 * [Calculus 2](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/%20Calculus%202)
 * [Affine Geometry](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/Affine%20Geometry)
-* [Dynamical Systems](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/DS)
+* [Dynamical Systems](https://github.com/rusuraluca/uni-computer-science/tree/main/First%20Year/DS/Labs)
 
 
 ## 3️⃣ Semester
@@ -38,7 +39,7 @@
 * [SDI](https://github.com/rusuraluca/stockie)
 * [Database Management Systems]()
 * [Software Engineering]()
-  
+
 
 ## 5️⃣ Semester
 * [Formal languages and compiler design](https://github.com/rusuraluca/uni-computer-science/tree/main/Third%20Year/LFTC)

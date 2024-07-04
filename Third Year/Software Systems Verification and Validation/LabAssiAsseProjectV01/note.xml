@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entitati>
+    <nota IDStudent="1" IDTema="1">
+        <Nota>10.0</Nota>
+        <SaptamanaPredare>7</SaptamanaPredare>
+        <Feedback>done</Feedback>
+    </nota>
+    <nota IDStudent="1" IDTema="2">
+        <Nota>7.5</Nota>
+        <SaptamanaPredare>9</SaptamanaPredare>
+        <Feedback>done</Feedback>
+    </nota>
+</Entitati>

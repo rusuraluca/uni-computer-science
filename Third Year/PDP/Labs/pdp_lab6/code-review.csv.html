@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Program Review Comments</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* basic style */
+    div.feedback {
+      font-family: Helvetica;
+      background: #1E1E1E;
+      color: white;
+    }
+
+    h1.feedback {
+      font-size: 24px!important;
+    }
+
+    h2.feedback {
+      font-size: 20px!important;
+      color: rgb(70, 221, 0)!important;
+      padding-left: 10px!important;
+    }
+
+    h3.feedback {
+      font-size: 16px!important;
+      padding-left: 15px!important;
+      margin-bottom: 5px!important;
+    }
+
+    p.feedback {
+      white-space: pre-wrap!important;
+      margin: 0!important;
+    }
+
+    pre.feedback {
+      margin: 0!important;
+      background-color: transparent;
+      border: 0px;
+    }
+
+    code.feedback {
+      border: 1px solid #999!important;
+      display: block!important;
+      white-space: pre-wrap!important;
+      color: #ffcc60!important;
+    }
+
+    /* links in headlines */
+    a.feedback {
+      color: #f04eff!important;
+      text-decoration: none!important;
+    }
+
+    /* table style */
+    table.review-table {
+      font-size: 14px!important;
+      margin-left: 20px!important;
+    }
+
+    table.review-table .caption {
+      font-weight: bold!important;
+      vertical-align: top!important;
+    }
+
+    table.review-table td.feedback {
+      width: 120px!important
+    }
+
+    .bigger-text {
+      font-size: 18px!important
+    }
+  </style>
+</head>
+<body>
+  <div class="feedback">
+    <h1 class="main-headline feedback">Program Review Comments</h1>
+    <table class="review-table">
+      <tr class="row-category bigger-text">
+        <td class="caption feedback">Overall Feedback</td>
+        <td class="text">___</td>
+      </tr>
+      <tr class="row-category bigger-text">
+        <td class="caption feedback">Test Cases</td>
+        <td class="text">___</td>
+      </tr>
+      <tr class="row-category bigger-text">
+        <td class="caption feedback">Grade</td>
+        <td class="text grade">____</td>
+      </tr>
+      <tr class="row-category">
+        <td class="caption bigger-text feedback">Comments</td>
+        <td class="text">Below is feedback regarding your program, both things that factored into your grade and general recommendations for improvement or positive notes. Please let me (Dr. Califf) know if you have questions, comments, or concerns.</td>
+      </tr>
+    </table>
+    <section class="file-section">
+      <h2 class="file-section-headline feedback">/hamiltonean_cyle_bits.cpp</h2>
+      <h3 class="lines-headline feedback">
+        <a href="" class="feedback">Position: 42:0-105:1</a>
+      </h3>
+      <table class="review-table">
+        <tr class="row-category bigger-text feedback">
+          <td class="caption feedback">Category</td>
+          <td class="text">Best Practices</td>
+        </tr>
+        <tr class="row-description bigger-text feedback">
+          <td class="caption feedback">Description</td>
+          <td class="text">
+            <p>The implementation uses threading to potentially speed up the search for a Hamiltonian cycle by dividing the work among two threads. However, there are several concerns regarding thread safety and resource management:
+
+- The global variable **T** is accessed and modified by multiple threads without proper synchronization mechanisms (other than **mtx.lock()** and **mtx.unlock()**), which could lead to race conditions. Consider using **std::atomic&lt;int&gt;** for **T** or applying more granular locking strategies.
+- Thread exceptions are not handled. If a thread throws an exception, it will lead to **std::terminate()** being called, as the exception is not caught. Consider wrapping the thread&#x27;s entry function in a try-catch block or using **std::async** which can propagate exceptions back to the main thread.
+- There&#x27;s a fixed limit of **NO_THREADS**, but there&#x27;s no dynamic scaling based on the actual hardware capabilities. Utilizing **std::thread::hardware_concurrency()** might provide a more flexible way to determine the number of threads that can be run simultaneously.</p>
+          </td>
+        </tr>
+        <tr class="row-additional bigger-text feedback">
+          <td class="caption">Additional Info</td>
+          <td class="text">std::async, std::atomic&lt;int&gt;, std::thread::hardware_concurrency()</td>
+        </tr>
+      </table>
+      <h3 class="lines-headline feedback">
+        <a href="" class="feedback">Position: 44:4-44:21</a>
+      </h3>
+      <table class="review-table">
+        <tr class="row-category bigger-text feedback">
+          <td class="caption feedback">Category</td>
+          <td class="text">Reliability</td>
+        </tr>
+        <tr class="row-description bigger-text feedback">
+          <td class="caption feedback">Description</td>
+          <td class="text">
+            <p>The use of bitwise operations for marking visited nodes (x |&#x3D; (1 &lt;&lt; node)) is limited by the size of an int or long long, which restricts the maximum number of nodes (n) the algorithm can handle correctly. For graphs with more than 64 nodes (assuming long long is used), this method will fail. Consider using a std::vector&lt;bool&gt; or a bitset for larger graphs.</p>
+          </td>
+        </tr>
+        <tr class="row-additional bigger-text feedback">
+          <td class="caption">Additional Info</td>
+          <td class="text">std::vector&lt;bool&gt;</td>
+        </tr>
+      </table>
+    </section>
+  </div>
+</body>
+</html>

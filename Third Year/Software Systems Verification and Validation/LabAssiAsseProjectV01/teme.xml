@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Teme>
+    <tema ID="1">
+        <Descriere>File</Descriere>
+        <Deadline>7</Deadline>
+        <Startline>6</Startline>
+    </tema>
+    <tema ID="2">
+        <Descriere>XML</Descriere>
+        <Deadline>8</Deadline>
+        <Startline>7</Startline>
+    </tema>
+    <tema ID="3">
+        <Descriere>gui</Descriere>
+        <Deadline>9</Deadline>
+        <Startline>7</Startline>
+    </tema>
+</Teme>
