@@ -56,3 +56,7 @@
 * [Design Patterns](https://www.notion.so/Design-Patterns-35388db6ae0b4096a048e9d29fab2a25)
 * [Numerical Calculus]()
 * [Network and System Admin](https://github.com/rusuraluca/uni-computer-science/tree/main/Third%20Year/System%20Administration)
+* 
+
+## Final Exam Prep 
+* [Theory + Solved Exercises](https://www.notion.so/Final-Exam-1ea5a41938784b87b4eee94d38ebec31)
